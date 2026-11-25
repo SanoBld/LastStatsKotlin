@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,TypographyEllipsis,TypographyDashes,PluralsCandidate,ImpliedQuantity,StringFormatInvalid,StringFormatMatches,Typos">
+    <string name="period7day">أسبوع</string>
+    <string name="period1month">شهر</string>
+    <string name="period3month">3 أشهر</string>
+    <string name="period6month">6 أشهر</string>
+    <string name="period12month">سنة</string>
+    <string name="period_overall">كل الأوقات</string>
+    <string name="nav_dashboard">الرئيسية</string>
+    <string name="nav_search">بحث</string>
+    <string name="nav_rankings">الترتيب</string>
+    <string name="nav_charts">الرسوم البيانية</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="cache_title">التخزين</string>
+    <string name="cache_usage">الاستخدام</string>
+    <string name="cache_limit">حد التخزين</string>
+    <string name="cache_limit_hint">عند بلوغ الحد، تُحذف الصور الأقل استخدامًا تلقائيًا.</string>
+    <string name="cache_clear_section">مسح</string>
+    <string name="cache_images">الصور</string>
+    <string name="cache_images_subtitle">أغلفة الفنانين والألبومات والمقاطع</string>
+    <string name="cache_api_data">بيانات API</string>
+    <string name="cache_api_data_subtitle">أفضل الفنانين والألبومات والمقاطع الأخيرة…</string>
+    <string name="cache_scrobbles">سجل التشغيل</string>
+    <string name="cache_clear_btn">مسح</string>
+    <string name="cache_confirm_scrobbles_title">مسح سجل التشغيل؟</string>
+    <string name="cache_confirm_scrobbles_body">سيُحذف السجل بالكامل ويُعاد تنزيله عند التشغيل التالي.</string>
+    <string name="cache_confirm_all_title">مسح كل التخزين المؤقت؟</string>
+    <string name="cache_confirm_all_body">ستُحذف الصور وبيانات API وسجل التشغيل بالكامل.</string>
+    <string name="cache_delete">حذف</string>
+    <string name="common_artists">الفنانون</string>
+    <string name="common_albums">الألبومات</string>
+    <string name="common_tracks">المقاطع</string>
+    <string name="common_no_results">لا توجد نتائج</string>
+    <string name="common_retry">إعادة المحاولة</string>
+    <string name="common_cancel">إلغاء</string>
+    <string name="common_apply">تطبيق</string>
+    <string name="common_plays">مرات التشغيل</string>
+    <string name="common_listeners">مستمعون</string>
+    <string name="common_now_playing_badge">مباشر</string>
+    <string name="common_now_playing_long">قيد الاستماع الآن</string>
+    <string name="common_recent_tracks">المقاطع الأخيرة</string>
+    <string name="common_no_recent_tracks">لا توجد مقاطع حديثة</string>
+    <string name="common_top_artists">أفضل الفنانين</string>
+    <string name="rankings_title">الترتيب</string>
+    <string name="rankings_podium">منصة التتويج</string>
+    <string name="rankings_continued">بقية الترتيب</string>
+    <string name="rankings_all_years">كل السنوات</string>
+    <string name="charts_title">الرسوم البيانية</string>
+    <string name="charts_monthly">التشغيلات (12 شهرًا)</string>
+    <string name="charts_artist_dist">أفضل الفنانين (التوزيع)</string>
+    <string name="charts_mainstream_title">المشهور مقابل الجواهر الخفية</string>
+    <string name="charts_mainstream_subtitle">الشعبية العالمية لفنانيك المفضلين.</string>
+    <string name="charts_compute">احسب</string>
+    <string name="charts_recompute">إعادة الحساب</string>
+    <string name="charts_gem">جوهرة خفية</string>
+    <string name="charts_mainstream">مشهور</string>
+    <string name="history_title">السجل</string>
+    <string name="history_subtitle">استماعك، يومًا بيوم</string>
+    <string name="history_today">اليوم</string>
+    <string name="history_select_date">اختر تاريخًا</string>
+    <string name="history_chronological">زمني</string>
+    <string name="history_list">قائمة</string>
+    <string name="history_stats">إحصائيات</string>
+    <string name="history_no_tracks">لا استماع في هذا اليوم</string>
+    <string name="history_top_artists">أفضل الفنانين</string>
+    <string name="history_top_albums">أفضل الألبومات</string>
+    <string name="history_top_tracks">أفضل المقاطع</string>
+    <string name="history_hour_tracks">مقطع</string>
+    <string name="search_title">بحث</string>
+    <string name="search_profiles">الملفات الشخصية</string>
+    <string name="search_hint_bar">فنان أو ألبوم أو مقطع أو ملف شخصي…</string>
+    <string name="search_hint_artists">ابحث عن فنان</string>
+    <string name="search_hint_albums">ابحث عن ألبوم</string>
+    <string name="search_hint_tracks">ابحث عن أغنية</string>
+    <string name="search_type_prompt">اكتب في شريط البحث أعلاه</string>
+    <string name="search_all">الكل</string>
+    <string name="search_folders">المجلدات</string>
+    <string name="search_folders_hint">أنشئ مجلدًا لحفظ المقاطع أو الألبومات أو الفنانين.</string>
+    <string name="per_day">يوميًا</string>
+    <string name="activity_days">أيام النشاط</string>
+    <string name="dash_stats">إحصائيات</string>
+    <string name="dash_top_tracks">أفضل المقاطع</string>
+    <string name="dash_friends">الأصدقاء</string>
+    <string name="dash_refresh">تحديث</string>
+    <string name="dash_refresh_friends">تحديث الأصدقاء</string>
+    <string name="dash_scrobbles">تشغيلات</string>
+    <string name="dash_scrobbles_per_day">يوميًا</string>
+    <string name="dash_days_active">أيام النشاط</string>
+    <string name="dash_last_track">آخر تشغيل</string>
+    <string name="dash_artist1">الفنان رقم 1</string>
+    <string name="dash_album1">الألبوم رقم 1</string>
+    <string name="dash_track1">المقطع رقم 1</string>
+    <string name="dash_no_friends">لم يُعثر على أصدقاء</string>
+    <string name="dash_reset_cache">إعادة تعيين التخزين المؤقت</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_theme">السمة</string>
+    <string name="settings_theme_auto">تلقائي</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_accent_color">لون التمييز</string>
+    <string name="settings_accent_auto">تلقائي</string>
+    <string name="settings_custom_color">مخصص</string>
+    <string name="settings_custom_color_edit">تعديل</string>
+    <string name="settings_dynamic_color">لون ديناميكي</string>
+    <string name="settings_day_night_accent">لون النهار/الليل</string>
+    <string name="settings_day_night_accent_toggle">ألوان مختلفة للنهار والليل</string>
+    <string name="settings_day_night_accent_toggle_sub">يستخدم لون تمييز مختلف للسمة الداكنة.</string>
+    <string name="settings_day_night_accent_dark">اللون (السمة الداكنة)</string>
+    <string name="settings_day_night_use_hours">استخدام ساعات محددة</string>
+    <string name="settings_day_night_use_hours_sub">يغيّر اللون حسب الوقت بدلاً من السمة النشطة.</string>
+    <string name="settings_day_night_day_start">يبدأ النهار في</string>
+    <string name="settings_day_night_night_start">يبدأ الليل في</string>
+    <string name="settings_material_you">Material You</string>
+    <string name="settings_material_you_sub">يستخدم ألوان خلفية Android (Android 12 أو أحدث)</string>
+    <string name="settings_music_color">لون من الموسيقى</string>
+    <string name="settings_music_color_sub">يستخرج لون التمييز من غلاف المقطوعة قيد التشغيل</string>
+    <string name="settings_music_color_note">يستبدل اللون السائد في غلاف الألبوم الحالي لون التمييز.</string>
+    <string name="settings_music_color_locked">عطّل Material You أولًا</string>
+    <string name="settings_startup_page">صفحة البدء</string>
+    <string name="settings_startup_tab">التبويب عند التشغيل</string>
+    <string name="settings_dashboard_section">الرئيسية</string>
+    <string name="settings_header_image">صورة الرأس</string>
+    <string name="settings_header_image_sub">يُعرض الغلاف المختار كخلفية للشاشة الرئيسية.</string>
+    <string name="settings_header_source">المصدر</string>
+    <string name="settings_header_period">الفترة</string>
+    <string name="settings_header_animation">الانتقال</string>
+    <string name="settings_header_animation_sub">الحركة عند تغيّر الغلاف.</string>
+    <string name="settings_header_blur">التمويه</string>
+    <string name="settings_header_blur_none">بلا</string>
+    <string name="settings_header_custom_url">رابط الصورة</string>
+    <string name="settings_header_custom_url_hint">https://example.com/image.jpg</string>
+    <string name="settings_header_custom_url_sub">الصق الرابط المباشر لصورة (jpg، png، webp…).</string>
+    <string name="settings_header_apply">تطبيق</string>
+    <string name="settings_header_fallback">الصورة الافتراضية</string>
+    <string name="settings_header_fallback_sub">الصورة التي تظهر في الترويسة عندما لا تُشغَّل أي موسيقى.</string>
+    <string name="settings_header_fallback_url_label">رابط الصورة الافتراضية</string>
+    <string name="settings_visible_sections">الأقسام الظاهرة</string>
+    <string name="settings_now_playing_section">قيد التشغيل الآن</string>
+    <string name="settings_stats_section">إحصائيات</string>
+    <string name="settings_top_artists_section">أفضل الفنانين</string>
+    <string name="settings_top_tracks_section">أفضل المقاطع</string>
+    <string name="settings_friends_section">الأصدقاء</string>
+    <string name="settings_account">الحساب</string>
+    <string name="settings_logout">تسجيل الخروج</string>
+    <string name="settings_logout_title">تسجيل الخروج؟</string>
+    <string name="settings_logout_content">سيتم حذف بيانات اعتمادك.</string>
+    <string name="settings_logout_confirm">تسجيل الخروج</string>
+    <string name="settings_backup">النسخ الاحتياطي والاستعادة</string>
+    <string name="settings_export">تصدير الإعدادات</string>
+    <string name="settings_export_sub">ينسخ إعداداتك بصيغة JSON إلى الحافظة لحفظها أو مشاركتها</string>
+    <string name="settings_import">استعادة نسخة احتياطية</string>
+    <string name="settings_import_sub">يستعيد إعداداتك من ملف JSON صدّرته سابقًا</string>
+    <string name="settings_backup_info">يشمل: السمة، الألوان، مفتاح API، اسم المستخدم، الرأس، المفضلة. متوافق بين الإصدارات.</string>
+    <string name="settings_updates">التحديثات</string>
+    <string name="settings_auto_update">فحص تلقائي</string>
+    <string name="settings_auto_update_sub">يتحقق من وجود إصدار جديد في الخلفية مرة واحدة يوميًا.</string>
+    <string name="settings_check_now">فحص الآن</string>
+    <string name="settings_up_to_date">محدّث</string>
+    <string name="settings_check_failed">تعذّر التحقق من التحديثات. تحقّق من اتصالك بالإنترنت وحاول مرة أخرى.</string>
+    <string name="settings_download">تنزيل</string>
+    <string name="settings_view_release">عرض</string>
+    <string name="settings_about">حول</string>
+    <string name="settings_version">الإصدار</string>
+    <string name="settings_web_version">إصدار الويب</string>
+    <string name="settings_web_version_sub">sanobld.github.io/LastStats</string>
+    <string name="settings_source_code">الكود المصدري</string>
+    <string name="settings_source_code_sub">github.com/SanoBld/LastStats-App</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_about_project_desc">LastStats مشروع شخصي مفتوح المصدر. قد يحتوي على أخطاء.</string>
+    <string name="settings_about_support">ادعم المشروع</string>
+    <string name="settings_about_support_sub">⭐ اترك نجمة على GitHub</string>
+    <string name="settings_faq">الأسئلة الشائعة</string>
+    <string name="header_now_playing">قيد التشغيل الآن</string>
+    <string name="header_top_track">المقطع رقم 1</string>
+    <string name="header_top_album">الألبوم رقم 1</string>
+    <string name="header_top_artist">الفنان رقم 1</string>
+    <string name="header_custom_image">صورة مخصصة</string>
+    <string name="header_theme_color">لون السمة</string>
+    <string name="header_anim_none">بلا</string>
+    <string name="header_anim_fade">تلاشي</string>
+    <string name="header_anim_slide">انزلاق</string>
+    <string name="header_anim_zoom">تكبير</string>
+    <string name="header_period_week">أسبوع</string>
+    <string name="header_period_month">شهر</string>
+    <string name="header_period_all_time">كل الأوقات</string>
+    <string name="color_picker_title">لون مخصص</string>
+    <string name="color_picker_hue">درجة اللون</string>
+    <string name="color_picker_saturation">التشبع</string>
+    <string name="color_picker_brightness">السطوع</string>
+    <string name="color_picker_quick_colors">ألوان سريعة</string>
+    <string name="color_picker_invalid">تنسيق غير صالح</string>
+    <string name="color_custom_tooltip">مخصص</string>
+    <string name="export_title">تصدير الإعدادات</string>
+    <string name="export_filename">اسم الملف</string>
+    <string name="export_json_content">محتوى JSON</string>
+    <string name="export_info">انسخ JSON هذا، الصقه في ملف نصي وسمّه بامتداد .json</string>
+    <string name="export_copy">نسخ JSON</string>
+    <string name="export_copied">تم النسخ!</string>
+    <string name="import_title">استعادة نسخة احتياطية</string>
+    <string name="import_hint_label">الصق نسخة LastStats الاحتياطية هنا.</string>
+    <string name="import_empty">لا يوجد ما يمكن استيراده: الحقل فارغ. الصق ملف JSON الذي صدّرته من LastStats.</string>
+    <string name="import_invalid_json">JSON غير صالح.</string>
+    <string name="import_unknown_file">ملف غير معروف.</string>
+    <string name="import_invalid_format">تنسيق غير صالح.</string>
+    <string name="import_success">تمت استعادة الإعدادات بنجاح ✓</string>
+    <string name="import_restore">استعادة</string>
+    <string name="setup_import_json">استيراد JSON</string>
+    <string name="setup_import_hint_label">الصق محتوى ملف JSON أدناه.</string>
+    <string name="setup_import_note">{ \"username\": \"…\", \"api_key\": \"…\" }</string>
+    <string name="setup_import_format">{ \"username\": \"...\", \"api_key\": \"...\" }</string>
+    <string name="setup_invalid_fields">JSON غير صالح: الحقلان \"username\" أو \"api_key\" مفقودان.</string>
+    <string name="detail_tracklist">المقاطع</string>
+    <string name="detail_album_label">الألبوم</string>
+    <string name="detail_duration">المدة</string>
+    <string name="detail_top_tracks">المقاطع الشائعة</string>
+    <string name="detail_top_albums">الألبومات الشائعة</string>
+    <string name="detail_bio_read_more">قراءة المزيد</string>
+    <string name="detail_bio_read_less">عرض أقل</string>
+    <string name="detail_user_plays">استماعاتك</string>
+    <string name="detail_global_plays">إجمالي مرات التشغيل</string>
+    <string name="detail_user_rank">الترتيب</string>
+    <string name="detail_user_rank_na">غير متاح</string>
+    <string name="detail_global_listeners">مستمعون</string>
+    <string name="detail_period">الفترة</string>
+    <string name="detail_biography">السيرة الذاتية</string>
+    <string name="detail_global_listeners_label">المستمعون</string>
+    <string name="detail_translate">ترجمة</string>
+    <string name="detail_show_original">عرض النص الأصلي</string>
+    <string name="detail_lyrics">كلمات الأغنية</string>
+    <string name="detail_lyrics_not_found">كلمات الأغنية غير متوفرة</string>
+    <string name="detail_copy_lyrics">نسخ الكلمات</string>
+    <string name="detail_lyrics_copied">تم نسخ الكلمات</string>
+    <string name="detail_shoutbox">صندوق تعليقات Last.fm</string>
+    <string name="detail_shoutbox_reply">الرد</string>
+    <string name="dash_per_week">أسبوعيًا</string>
+    <string name="onboard_skip">تخطي</string>
+    <string name="onboard_next">التالي</string>
+    <string name="onboard_finish">إنهاء</string>
+    <string name="onboard_back">رجوع</string>
+    <string name="onboard_appearance_title">خصّص أسلوبك</string>
+    <string name="onboard_appearance_sub">اختر السمة الفاتحة أو الداكنة، ولون التمييز، وخيارات العرض.</string>
+    <string name="onboard_notif_title">ابقَ على اطلاع</string>
+    <string name="onboard_notif_sub">اختر الإشعارات التي تريد استلامها، وهل يجب أن يهتز الهاتف.</string>
+    <string name="onboard_fav_title">ملفاتك المفضلة</string>
+    <string name="onboard_fav_add">إضافة</string>
+    <string name="onboard_fav_empty">لا توجد مفضلة بعد</string>
+    <string name="onboard_fav_no_results">لم يُعثر على ملف شخصي</string>
+    <string name="onboard_fav_no_friends">لا يوجد أصدقاء في هذا الحساب</string>
+    <string name="onboard_fav_selected">المفضلة المختارة</string>
+    <string name="onboard_dash_title">شاشتك الرئيسية</string>
+    <string name="onboard_dash_sub">اختر الأقسام التي تريد عرضها في الشاشة الرئيسية. يمكنك تغييرها لاحقًا من الإعدادات.</string>
+    <string name="onboard_startup_title">شاشة البدء</string>
+    <string name="onboard_startup_sub">اختر علامة التبويب التي تُفتح أولًا عند تشغيل التطبيق.</string>
+    <string name="onboard_platform_title">على ماذا تستمع للموسيقى؟</string>
+    <string name="onboard_platform_sub">أخبرنا أين تستمع إلى الموسيقى. سيعرض التطبيق الروابط المفيدة فقط في صفحات الأغاني والفنانين والألبومات.</string>
+    <string name="platform_lastfm">Last.fm</string>
+    <string name="platform_spotify">Spotify</string>
+    <string name="platform_yt_music">YouTube Music</string>
+    <string name="platform_other">أخرى / عرض الكل</string>
+    <string name="settings_music_platform">منصة الموسيقى</string>
+    <string name="settings_music_platform_sub">يعرض في صفحات الفنان والألبوم والمقطوعة روابط خدمة الموسيقى التي اخترتها فقط</string>
+    <string name="settings_show_all_platform_links">عرض الكل دائمًا</string>
+    <string name="onboard_updates_title">التحديثات</string>
+    <string name="onboard_updates_sub">يتحقق التطبيق تلقائيًا مما إذا كان هناك إصدار جديد متاح.</string>
+    <string name="onboard_preview">معاينة</string>
+    <string name="onboard_preview_button">زر</string>
+    <string name="onboard_preview_outline">الزر الرئيسي</string>
+    <string name="onboard_preview_text">نص تجريبي</string>
+    <string name="onboard_preview_bubble">فقاعة</string>
+    <string name="onboard_display">العرض</string>
+    <string name="onboard_oled_title">أسود OLED حقيقي</string>
+    <string name="onboard_oled_sub">تصبح الخلفية سوداء تمامًا في الوضع الداكن، مما يوفر البطارية على شاشات OLED.</string>
+    <string name="onboard_artwork_color_title">لون من الغلاف</string>
+    <string name="onboard_artwork_color_sub">يتكيّف لون التمييز في التطبيق تلقائيًا مع غلاف الأغنية التي يجري تشغيلها حاليًا.</string>
+    <string name="onboard_news_title">إشعارات الأخبار</string>
+    <string name="onboard_news_sub">يصلك إشعار عند إضافة ميزة جديدة أو إصلاح مشكلة.</string>
+    <string name="onboard_news_badge_title">نقطة الأخبار</string>
+    <string name="onboard_news_badge_sub">تظهر نقطة على الجرس في الشاشة الرئيسية عندما يوجد شيء جديد للقراءة.</string>
+    <string name="onboard_haptic_title">الاستجابة اللمسية</string>
+    <string name="onboard_haptic_sub">يهتز الهاتف اهتزازًا خفيفًا عند لمس الأزرار والعناصر المهمة.</string>
+    <string name="onboard_recaps">الملخصات</string>
+    <string name="onboard_daily_recap_title">الملخص اليومي</string>
+    <string name="onboard_daily_recap_sub">احصل كل يوم على ملخص لما استمعت إليه.</string>
+    <string name="onboard_weekly_recap_title">الملخص الأسبوعي</string>
+    <string name="onboard_weekly_recap_sub">احصل كل أسبوع على قائمة بأكثر الفنانين والألبومات والأغاني التي استمعت إليها.</string>
+    <string name="onboard_milestones_section">محطات التشغيل</string>
+    <string name="onboard_milestones_title">المحطات</string>
+    <string name="onboard_milestones_sub">يصلك إشعار تهنئة عندما يصل عدد مرات الاستماع إلى رقم مستدير.</string>
+    <string name="onboard_grand_milestones_title">المحطات الكبرى</string>
+    <string name="onboard_grand_milestones_sub">يظهر احتفال خاص عندما تصل إلى عدد كبير جدًا من مرات الاستماع.</string>
+    <string name="onboard_dynamic_color_sub">يستخدم التطبيق ألوان خلفية الشاشة. هذا الخيار متاح بدءًا من Android 12.</string>
+    <string name="onboard_beta_title">تحديثات تجريبية</string>
+    <string name="onboard_beta_sub">احصل على النسخ التجريبية قبل الجميع. قد تحتوي على أخطاء.</string>
+    <string name="notif_detail_title">إشعار</string>
+    <string name="notif_detail_open_link">فتح الرابط</string>
+    <string name="settings_checking_updates">جارٍ التحقق من التحديثات…</string>
+    <string name="settings_tap_to_download">اضغط للتنزيل</string>
+    <string name="detail_looking_for_preview">جارٍ البحث عن معاينة…</string>
+    <string name="detail_preview30_sec">معاينة · 30 ثانية</string>
+    <string name="setup_analyse_profile">تحليل ملف شخصي</string>
+    <string name="setup_connecting">جارٍ الاتصال…</string>
+    <string name="setup_start_analysis">بدء التحليل</string>
+    <string name="setup_or">أو</string>
+    <string name="setup_username_label">اسم مستخدم Last.fm</string>
+    <string name="setup_api_key_label">مفتاح Last.fm API</string>
+    <string name="setup_api_key_hint">مفتاح سداسي عشري من 32 حرفًا</string>
+    <string name="setup_api_key_privacy_note">يُحفظ مفتاحك على هذا الجهاز فقط ولا يُرسل أبدًا إلى أي طرف ثالث.</string>
+    <string name="setup_remember_me">تذكرني</string>
+    <string name="setup_get_api_key">احصل على مفتاح API مجانًا</string>
+    <string name="setup_welcome_banner">مرحبًا بك في LastStats!</string>
+    <string name="setup_one_time_import_note">استيراد لمرة واحدة، عمليات التشغيل القادمة ستكون فورية.</string>
+    <string name="dash_tap_to_download">اضغط للتنزيل.</string>
+    <string name="dash_week_label">هذا الأسبوع</string>
+    <string name="dash_month_label">هذا الشهر</string>
+    <string name="dash_year_label">هذه السنة</string>
+    <string name="dash_top_artist_label">أفضل فنان</string>
+    <string name="dash_top_track_label">أفضل مقطع</string>
+    <string name="dash_scrobbles_label">التشغيلات</string>
+    <string name="news_type_features">ميزات</string>
+    <string name="news_type_fixes">إصلاحات</string>
+    <string name="news_type_updates">تحديثات</string>
+    <string name="news_type_alerts">تنبيهات</string>
+    <string name="news_type_info">معلومات</string>
+    <string name="news_whats_new">ما الجديد</string>
+    <string name="news_filters">الفلاتر</string>
+    <string name="news_all">الكل</string>
+    <string name="news_any_date">أي تاريخ</string>
+    <string name="news_no_news_yet">لا توجد أخبار بعد</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_cache">التخزين المؤقت</string>
+    <string name="settings_card_appearance_sub">السمة، التمييز، التخطيط، Material You</string>
+    <string name="settings_card_dashboard_sub">صورة الرأس، الأقسام الظاهرة، بطاقات الإحصائيات</string>
+    <string name="settings_card_startup_sub">التبويب المعروض عند تشغيل التطبيق</string>
+    <string name="settings_card_notifications_sub">المحطات، الملخصات اليومية والأسبوعية</string>
+    <string name="settings_sync">المزامنة</string>
+    <string name="settings_card_sync_sub">مزامنة تلقائية للتشغيلات في الخلفية</string>
+    <string name="settings_card_cache_sub">السجل، الصور، بيانات API</string>
+    <string name="settings_card_backup_sub">تصدير واستعادة إعداداتك</string>
+    <string name="settings_card_updates_sub">التحقق من الإصدارات الجديدة</string>
+    <string name="settings_card_about_sub">الإصدار، الكود المصدري، الاعتمادات</string>
+    <string name="settings_card_faq_sub">التشغيل، المنصات، المصدر المفتوح</string>
+    <string name="settings_restart_notice">تتطلب بعض الإعدادات إعادة تشغيل التطبيق لتصبح فعّالة بالكامل.</string>
+    <string name="sync_page_title">مزامنة التشغيلات</string>
+    <string name="sync_auto_title">المزامنة التلقائية</string>
+    <string name="sync_auto_subtitle">تزامن سجلك في الخلفية على فترات منتظمة</string>
+    <string name="sync_frequency_label">التكرار</string>
+    <string name="sync_frequency_daily">مرة واحدة يوميًا</string>
+    <string name="sync_manual_title">المزامنة اليدوية</string>
+    <string name="sync_now_button">مزامنة الآن</string>
+    <string name="sync_in_progress">جارٍ المزامنة…</string>
+    <string name="sync_last_sync_label">آخر مزامنة</string>
+    <string name="sync_never_label">أبدًا</string>
+    <string name="sync_total_scrobbles_label">التشغيلات المخزنة</string>
+    <string name="sync_up_to_date_msg">السجل محدّث: لا توجد scrobbles جديدة للتنزيل</string>
+    <string name="sync_notif_note">يظهر إشعار بالتقدم أثناء المزامنة الكاملة.</string>
+    <string name="pc_mode_layout">التخطيط</string>
+    <string name="pc_mode_nav_layout">تخطيط التنقل</string>
+    <string name="pc_mode_auto">تلقائي</string>
+    <string name="pc_mode_side_rail">الشريط الجانبي</string>
+    <string name="pc_mode_bottom_bar">الشريط السفلي</string>
+    <string name="pc_mode_hint_auto">الشريط الجانبي على الشاشات العريضة (≥ 720 dp)، والشريط السفلي على الشاشات الضيقة.</string>
+    <string name="pc_mode_hint_on">استخدام الشريط الجانبي للتنقل دائمًا، بغض النظر عن حجم الشاشة.</string>
+    <string name="pc_mode_hint_off">استخدام الشريط السفلي للتنقل دائمًا، بغض النظر عن حجم الشاشة.</string>
+    <string name="about_app_info">معلومات التطبيق</string>
+    <string name="about_scrobble_downloader">أداة تنزيل التشغيلات</string>
+    <string name="about_scrobble_downloader_sub">نزّل سجل scrobbles بالكامل واحفظه في ملف</string>
+    <string name="about_powered_by">مدعوم بواسطة</string>
+    <string name="about_image_disclaimer">تُجلب صور الفنانين والألبومات والمقاطع تلقائيًا من هذه المصادر وقد تكون أحيانًا غير صحيحة أو لا تطابق المحتوى الفعلي.</string>
+    <string name="about_footer">صُنع بـ ❤️ · غير مرتبط بـ Last.fm</string>
+    <string name="updates_current_version">الإصدار الحالي</string>
+    <string name="updates_beta_title">التحديثات التجريبية</string>
+    <string name="updates_beta_sub">وصول مبكر إلى الإصدارات التجريبية</string>
+    <string name="backup_whats_included">ما الذي يتضمنه</string>
+    <string name="backup_download_file">يُنزّل ملف .json</string>
+    <string name="backup_choose_file">اختر ملف نسخة احتياطية</string>
+    <string name="backup_file_saved">تم حفظ النسخة الاحتياطية</string>
+    <string name="backup_file_save_failed">تعذّر حفظ ملف النسخة الاحتياطية. تأكّد من وجود مساحة كافية ومن أن التطبيق يستطيع الكتابة في المجلد، ثم حاول مجددًا.</string>
+    <string name="setup_restore_backup">استعادة نسخة احتياطية</string>
+    <string name="setup_restore_backup_sub">استعد حسابك وإعداداتك من ملف نسخة احتياطية بصيغة .json.</string>
+    <string name="backup_restore_keys_title">استعادة مفاتيح API</string>
+    <string name="backup_restore_keys_desc">اختر مفاتيح Last.fm التي تريد استعادتها من هذه النسخة الاحتياطية.</string>
+    <string name="backup_restore_api_key_label">مفتاح API</string>
+    <string name="backup_restore_secret_key_label">المفتاح السري</string>
+    <string name="backup_include_folders_label">تضمين المجلدات</string>
+    <string name="backup_include_folders_desc">يشمل مجلدات المقاطع الخاصة بك ومحتواها.</string>
+    <string name="backup_include_keys_desc">تضمين المفاتيح في الملف المُصدَّر</string>
+    <string name="backup_include_themes_label">تصدير السمات</string>
+    <string name="backup_include_themes_desc">يتيح لك مشاركة المظهر فقط (الألوان، النمط) مع شخص آخر.</string>
+    <string name="backup_auto_title">النسخ الاحتياطي التلقائي</string>
+    <string name="backup_auto_enable_label">تفعيل النسخ الاحتياطي التلقائي</string>
+    <string name="backup_auto_enable_desc">يحفظ نسخة احتياطية تلقائيًا حسب الفاصل الزمني المحدد أدناه.</string>
+    <string name="backup_auto_freq_label">التكرار</string>
+    <string name="backup_auto_freq_daily">كل يوم</string>
+    <string name="backup_auto_freq_weekly">كل أسبوع</string>
+    <string name="backup_auto_freq_monthly">كل شهر</string>
+    <string name="backup_auto_freq_yearly">كل سنة</string>
+    <string name="backup_auto_folder_label">مجلد النسخ الاحتياطي</string>
+    <string name="backup_auto_folder_default">المجلد الافتراضي للتطبيق</string>
+    <string name="backup_include_scrobbles_label">تضمين كامل السجل</string>
+    <string name="backup_include_scrobbles_desc">يضيف كل المقاطع التي استمعت إليها منذ البداية (قد يكون كبير الحجم).</string>
+    <string name="backup_scrobbles_slow_warning">قد يستغرق هذا بعض الوقت وهو أبطأ من النسخة الاحتياطية العادية.</string>
+    <string name="backup_scrobbles_error_title">خطأ في السجل</string>
+    <string name="backup_scrobbles_error_desc">يبدو أن بعض سنوات السجل تالفة في هذا الملف. ماذا تريد أن تفعل؟</string>
+    <string name="backup_scrobbles_keep_anyway">المتابعة على أي حال</string>
+    <string name="backup_scrobbles_cancel">إلغاء السجل</string>
+    <string name="backup_scrobbles_skip_refetch">تخطي وإعادة التحميل عبر الإنترنت</string>
+    <string name="settings_crash_log">سجل الأخطاء</string>
+    <string name="backup_crash_log_desc">يسجل الأخطاء التي يواجهها التطبيق، مفيد للإبلاغ عن مشكلة.</string>
+    <string name="backup_crash_log_share">مشاركة السجل</string>
+    <string name="backup_crash_log_clear">مسح السجل</string>
+    <string name="backup_crash_log_empty">لا توجد أخطاء مسجلة</string>
+    <string name="backup_crash_log_cleared">تم مسح السجل</string>
+    <string name="backup_crash_log_clear_confirm">مسح سجل الأخطاء؟</string>
+    <string name="faq_section_label">الأسئلة الشائعة</string>
+    <string name="backup_overwrite_warning">ستؤدي استعادة نسخة احتياطية إلى استبدال إعداداتك الحالية.</string>
+    <string name="faq_open_source_badge">LastStats مشروع مجاني ومفتوح المصدر صنعه SanoBld بـ ❤️.</string>
+    <string name="cache_unlimited">غير محدود</string>
+    <string name="cache_total_used">إجمالي المستخدم</string>
+    <string name="cache_scrobbles_short">التشغيلات</string>
+    <string name="restart_hint_features">قد تتطلب بعض الميزات إعادة تشغيل التطبيق لتصبح فعّالة.</string>
+    <string name="reorder_cards_title">إعادة ترتيب البطاقات</string>
+    <string name="common_save">حفظ</string>
+    <string name="dash_fallback_when_no_music">عند عدم تشغيل أي موسيقى</string>
+    <string name="dash_fallback_choose_display">اختر ما يُعرض كخلفية بدلًا من ذلك</string>
+    <string name="dash_fallback_period_label">فترة المركز الأول المعروض</string>
+    <string name="fallback_period1_week">أسبوع واحد</string>
+    <string name="fallback_period1_month">شهر واحد</string>
+    <string name="fallback_period_all_time">كل الأوقات</string>
+    <string name="fallback_type_nothing">لا شيء</string>
+    <string name="fallback_type_top_track">أفضل مقطع</string>
+    <string name="fallback_type_top_album">أفضل ألبوم</string>
+    <string name="fallback_type_top_artist">أفضل فنان</string>
+    <string name="fallback_type_custom_image">صورة مخصصة</string>
+    <string name="fallback_will_show_custom_url">سيُعرض: رابط صورة مخصصة</string>
+    <string name="dash_animation_blur_section">الحركة والتمويه</string>
+    <string name="dash_music_animation_title">خلفية موسيقى متحركة</string>
+    <string name="dash_music_animation_sub">عند تشغيل الموسيقى تتحول صورة الرأس إلى خلفية حيّة: ضبابية وألوان منسابة وتنفّس هادئ.</string>
+    <string name="dash_music_animation_info">الضبابية تلقائية في هذا الوضع (المنزلق بلا تأثير). إذا كان غلاف الفيديو مفعّلاً فسيُعرض فوقها وتتوقف الخلفية مؤقتاً.</string>
+    <string name="settings_top_albums_section">أفضل الألبومات</string>
+    <string name="dash_recent_plays_label">التشغيلات الأخيرة</string>
+    <string name="dash_stat_cards_section_label">بطاقات الإحصائيات</string>
+    <string name="dash_stat_cards_heading">بطاقات الإحصائيات</string>
+    <string name="dash_stat_cards_sub">اختر ورتّب البطاقات المعروضة في قسم الإحصائيات.</string>
+    <string name="settings_dashboard_chart_section">رسم لوحة التحكم البياني</string>
+    <string name="dash_chart_calendar_label">تقويم الاستماع</string>
+    <string name="dash_chart_monthly_label">أعمدة شهرية</string>
+    <string name="settings_display_name_section">اسم مخصص</string>
+    <string name="settings_display_name_label">كيف نناديك؟</string>
+    <string name="settings_display_name_hint">مثال: Noham — اتركه فارغًا لاستخدام اسم الحساب</string>
+    <string name="news_search_hint">البحث في الأخبار…</string>
+    <string name="about_open_source_libs">مكتبات مفتوحة المصدر</string>
+    <string name="about_open_source_libs_sub">جميع حزم Flutter المستخدمة لبناء التطبيق.</string>
+    <string name="about_license_section">الرخصة</string>
+    <string name="about_license_text">هذا المشروع منشور بموجب رخصة GNU GPL v3: يمكنك استخدامه وتعديله وإعادة توزيعه بحرية، بشرط أن تبقى الأعمال المشتقة مفتوحة المصدر بالرخصة نفسها مع ذكر اسمي.</string>
+    <string name="about_license_link">عرض الرخصة الكاملة</string>
+    <string name="language_ai_note">تم إنشاء الترجمات بواسطة الذكاء الاصطناعي وقد تحتوي على أخطاء.</string>
+    <string name="about_ai_dev_note">استُخدم الذكاء الاصطناعي أيضًا في تطوير هذا التطبيق.</string>
+    <string name="notif_work_manager_info">تعمل الإشعارات في الخلفية عبر WorkManager. لا حاجة لفتح التطبيق. يلزم اتصال بالإنترنت.</string>
+    <string name="notif_interval_title">كل X من التشغيلات</string>
+    <string name="notif_interval_subtitle">احصل على إشعار كلما أضفت عددًا محددًا من scrobbles</string>
+    <string name="notif_recaps_section">ملخصات الاستماع</string>
+    <string name="notif_daily_recap_subtitle">عدد التشغيلات + أفضل فنان لليوم</string>
+    <string name="notif_weekly_recap_subtitle">عدد التشغيلات + أفضل فنان للأسبوع</string>
+    <string name="notif_news_section">الأخبار</string>
+    <string name="notif_sync_section">المزامنة</string>
+    <string name="notif_sync_title">إشعارات المزامنة</string>
+    <string name="notif_sync_subtitle">تنبيه عند انتهاء مزامنة السجل</string>
+    <string name="notif_sync_detail_title">تفاصيل التقدم</string>
+    <string name="notif_sync_detail_subtitle">عرض التقدم المباشر (السنة الحالية، العداد) أثناء المزامنة</string>
+    <string name="notif_news_subtitle">تلقَّ إشعارات حول الميزات الجديدة والإصلاحات والإعلانات</string>
+    <string name="notif_badge_on_dashboard">شارة على الشاشة الرئيسية</string>
+    <string name="notif_badge_subtitle">يعرض نقطة على جرس الأخبار عند وجود إعلانات لم تقرأها</string>
+    <string name="notif_test_label">اختبار</string>
+    <string name="notif_permission_disabled_title">الإشعارات معطّلة</string>
+    <string name="notif_permission_disabled_body">اسمح بالإشعارات في إعدادات النظام ليتمكن LastStats من إرسال الملخصات والإنجازات والأخبار إليك.</string>
+    <string name="notif_grant_permission">منح الإذن</string>
+    <string name="notif_threshold_intro">ستتلقى إشعارًا خاصًا عند كل محطة من هذه المحطات:</string>
+    <string name="notif_interval_description">ستتلقى إشعارًا كلما وصلت إلى X من scrobbles الجديدة</string>
+    <string name="notif_custom_value_label">قيمة مخصصة</string>
+    <string name="notif_time_notify_at">الإشعار في الساعة</string>
+    <string name="notif_day_of_week">يوم الأسبوع</string>
+    <string name="notif_send_test">إرسال إشعار تجريبي</string>
+    <string name="notif_sent_check_bar">تحقق من شريط الإشعارات!</string>
+    <string name="notif_make_sure_works">تحقّق من أن الإشعارات تعمل بشكل صحيح على هاتفك.</string>
+    <string name="notif_sent_bang">تم الإرسال!</string>
+    <string name="notif_send_button">إرسال</string>
+    <string name="ap_visual_style">النمط المرئي</string>
+    <string name="ap_style_default">افتراضي</string>
+    <string name="ap_nothing_accent_label">التمييز</string>
+    <string name="ap_nothing_classic">كلاسيكي</string>
+    <string name="ap_red_only_desc">أحمر فقط</string>
+    <string name="ap_nothing_mixed">مختلط</string>
+    <string name="ap_red_yellow_desc">لمسات حمراء وصفراء</string>
+    <string name="ap_nothing_active_banner">نمط Nothing OS مفعّل. التمييز واللون الديناميكي ولون الموسيقى معطّلة.</string>
+    <string name="ap_nothing_oled_inherent">الوضع الداكن في Nothing هو أسود OLED بطبيعته. مفتاح OLED غير ضروري.</string>
+    <string name="ap_oled_title">سمة الأسود OLED</string>
+    <string name="ap_oled_built_into_nothing">مدمج في الوضع الداكن لـ Nothing</string>
+    <string name="ap_oled_pure_black">خلفيات سوداء نقية عند تفعيل الوضع الداكن</string>
+    <string name="ap_custom_color_tooltip">لون مخصص</string>
+    <string name="ap_color_when_nothing_plays">اللون عند عدم تشغيل أي شيء</string>
+    <string name="ap_color_when_nothing_plays_sub">التمييز المستخدم طالما لا يُسجَّل أي مقطع</string>
+    <string name="ap_keep_last_artwork_title">الاحتفاظ بآخر لون غلاف</string>
+    <string name="ap_keep_last_artwork_sub">الاحتفاظ بآخر لون غلاف بدلًا من إعادة الضبط عند عدم تشغيل أي شيء</string>
+    <string name="ap_detail_pages_section">صفحات التفاصيل</string>
+    <string name="ap_artwork_color_theme">سمة لون الغلاف</string>
+    <string name="ap_artwork_color_theme_sub">تُكيّف صفحات التفاصيل ألوانها مع اللون السائد في الغلاف</string>
+    <string name="ap_nav_bar_section">شريط التنقل</string>
+    <string name="ap_show_tab_labels">إظهار تسميات التبويبات</string>
+    <string name="ap_show_tab_labels_sub">عرض أسماء التبويبات أسفل الأيقونات في الشريط السفلي</string>
+    <string name="ap_interactions_section">التفاعلات</string>
+    <string name="ap_haptic_feedback_sub">اهتزازات عند اللمس والاختيار والإيماءات</string>
+    <string name="acct_remove_title">إزالة الحساب؟</string>
+    <string name="acct_remove_action">إزالة</string>
+    <string name="acct_already_added_or_full">هذا الحساب مضاف بالفعل أو القائمة ممتلئة.</string>
+    <string name="acct_logout_all_body">ستتم إزالة كل الحسابات. ستعود إلى شاشة الإعداد.</string>
+    <string name="acct_active">نشط</string>
+    <string name="acct_tap_switch_to_activate">اضغط \"تبديل\" للتفعيل</string>
+    <string name="acct_switch">تبديل</string>
+    <string name="acct_add_an_account">إضافة حساب</string>
+    <string name="acct_api_key_info">يمكن لكل حساب استخدام مفتاح API مختلف أو نفس المفتاح. يمكنك إيجاد مفتاح API الخاص بك على last.fm/api/accounts.</string>
+    <string name="acct_lastfm_profile_section">ملف Last.fm الشخصي</string>
+    <string name="acct_view_on_lastfm">عرض على Last.fm</string>
+    <string name="acct_danger_zone">منطقة الخطر</string>
+    <string name="acct_logout_all_sub">إزالة كل الحسابات والعودة إلى شاشة الإعداد.</string>
+    <string name="acct_username_required">اسم المستخدم مطلوب.</string>
+    <string name="acct_api_key_required">مفتاح API مطلوب.</string>
+    <string name="acct_username_label">اسم مستخدم Last.fm</string>
+    <string name="acct_same_api_key">نفس مفتاح API الخاص بالحساب النشط</string>
+    <string name="acct_api_key_label">مفتاح API</string>
+    <string name="acct_add">إضافة</string>
+    <string name="language_change_note">تتغير اللغة فورًا في كامل التطبيق.</string>
+    <string name="dash_total_scrobbles_label">إجمالي التشغيلات</string>
+    <string name="dash_member_since_label">عضو منذ</string>
+    <string name="dash_country_label">الدولة</string>
+    <string name="dash_artist_week_label">الفنان رقم 1 (الأسبوع)</string>
+    <string name="dash_album_week_label">الألبوم رقم 1 (الأسبوع)</string>
+    <string name="dash_track_week_label">المقطع رقم 1 (الأسبوع)</string>
+    <string name="dash_unique_artists_label">فنانون فريدون</string>
+    <string name="dash_unique_tracks_label">مقاطع فريدة</string>
+    <string name="dash_unique_albums_label">ألبومات فريدة</string>
+    <string name="dash_this_week_label">هذا الأسبوع</string>
+    <string name="dash_day_unit_short">ي</string>
+    <string name="setup_enable_favorites">تفعيل المفضلة (اختياري)</string>
+    <string name="setup_favorites_explain">يتيح المفتاح السري للتطبيق إضافة أغنية إلى المفضلة أو إزالتها مباشرةً في حسابك على Last.fm.</string>
+    <string name="setup_secret_key_label">المفتاح السري لـ Last.fm</string>
+    <string name="fav_connect_invalid_secret">يجب أن يتكون المفتاح السري من 32 حرفًا.</string>
+    <string name="fav_connect_dialog_title">تفويض المفضلة</string>
+    <string name="fav_connect_dialog_body">فوّض التطبيق في صفحة Last.fm المفتوحة في المتصفح، ثم عد إلى هنا للتأكيد.</string>
+    <string name="fav_connect_dialog_confirm">لقد قمت بالتفويض</string>
+    <string name="fav_connect_success">تم تفعيل المفضلة بنجاح!</string>
+    <string name="fav_connect_error">تعذّر تفعيل المفضلة. تأكّد من صحة المفتاح السري ومن أنك منحت LastStats الإذن على Last.fm، ثم حاول مجددًا.</string>
+    <string name="acct_api_keys_section">مفاتيح API</string>
+    <string name="acct_secret_key_label">المفتاح السري</string>
+    <string name="acct_secret_key_not_set">غير محدد</string>
+    <string name="acct_favorites_explain">المفتاح السري يتيح إضافة أو إزالة المقطوعات من المفضلة مباشرة على Last.fm.</string>
+    <string name="acct_connect_favorites">تفعيل المفضلة</string>
+    <string name="acct_disconnect_favorites">إلغاء تفعيل المفضلة</string>
+    <string name="settings_favorites_section">المفضلة</string>
+    <string name="settings_favorites_section_sub">يعرض عدد المفضلة في الإحصائيات</string>
+    <string name="settings_favorites_needs_key">أضف المفتاح السري في الحساب للتفعيل</string>
+    <string name="fav_section_title">المفضلة</string>
+    <string name="common_see_more">عرض المزيد</string>
+    <string name="fav_page_title">مفضلتي</string>
+    <string name="fav_search_hint">ابحث عن مقطوعة أو فنان</string>
+    <string name="fav_empty">لا توجد مفضلات بعد. اضغط على القلب في أي مقطوعة لإضافتها.</string>
+    <string name="settings_loved_badge_title">شارة قلب مميّزة بشكل خفيف</string>
+    <string name="settings_loved_badge_sub">تعرض قلبًا صغيرًا على المقطوعات المفضلة في الاستماع الأخير والسجل والبحث</string>
+    <string name="fav_sort_recent">الأحدث</string>
+    <string name="fav_sort_oldest">الأقدم</string>
+    <string name="fav_sort_artist_az">الفنان أ-ي</string>
+    <string name="fav_sort_title_az">العنوان أ-ي</string>
+    <string name="fav_folder_sort_custom">يدوي</string>
+    <string name="fav_folders_all">الكل</string>
+    <string name="fav_folder_new">مجلد جديد</string>
+    <string name="fav_folder_name_placeholder">اسم المجلد</string>
+    <string name="fav_folder_custom_emoji_title">اختر رمزًا تعبيريًا</string>
+    <string name="fav_folder_custom_emoji_helper">رمز تعبيري واحد فقط، بلا نص.</string>
+    <string name="fav_folder_desc_placeholder">الوصف (اختياري)</string>
+    <string name="fav_folder_recently_played">استُمع إليها مؤخرًا</string>
+    <string name="fav_folder_create">إنشاء</string>
+    <string name="fav_folder_edit">تعديل المجلد</string>
+    <string name="fav_folder_delete">حذف</string>
+    <string name="fav_folder_delete_confirm">حذف هذا المجلد؟ لن يتم تصنيف المقاطع فيه بعد الآن.</string>
+    <string name="fav_folder_assign_title">إضافة إلى مجلد</string>
+    <string name="fav_folder_emoji">الرموز التعبيرية</string>
+    <string name="fav_folder_color">اللون</string>
+    <string name="fav_folder_save">حفظ</string>
+    <string name="fav_folder_empty">هذا المجلد فارغ. اضغط مطولًا على القلب في أي مقطوعة لإضافتها هنا.</string>
+    <string name="rankings_whole_year">طوال العام</string>
+    <string name="charts_export_generated_on">أُنشئ في</string>
+    <string name="faq_q1">هل يقوم LastStats بتسجيل استماعي (scrobble) لموسيقاي؟</string>
+    <string name="faq_q3">هل يعمل التطبيق على macOS أو منصات أخرى؟</string>
+    <string name="faq_a3">يتم تطوير واختبار LastStats على أندرويد. الأداء على المنصات الأخرى (macOS، Windows، Linux...) غير متحقق منه، قد تحدث أخطاء أو سلوك غير متوقع.</string>
+    <string name="faq_q4">هل LastStats مفتوح المصدر؟</string>
+    <string name="faq_a4">نعم! الكود المصدري متاح بحرية على GitHub. المشروع مستقل، صُنع بشغف من قبل SanoBld. لا تتردد في المساهمة أو الإبلاغ عن الأخطاء أو ترك نجمة ⭐.</string>
+    <string name="faq_q5">أين يتم تخزين بياناتي؟</string>
+    <string name="faq_q6">كيف أُفعّل المفضلة؟</string>
+    <string name="faq_a6">مع Last.fm، افتحوا الإعدادات &gt; الحساب وأدخلوا المفتاح السري (يوجد بجوار مفتاح API في last.fm/api/accounts). ومع ListenBrainz لا حاجة إلى إضافة أي شيء: يكفي الرمز. وبعد الاتصال يمكنكم إضافة المقاطع إلى المفضلة مباشرة من التطبيق.</string>
+    <string name="faq_q7">ما هو الـ\'scrobble\'؟</string>
+    <string name="faq_q8">كيف يعمل نظام المستويات والإنجازات؟</string>
+    <string name="faq_a8">يرتفع مستوى حسابك مع إجمالي الـscrobbles (لا يوجد مستوى أقصى). تظهر البطاقات أيضًا إطارًا (برونزي → متعدد الألوان) حسب عدد مرات الاستماع لذلك الفنان/المقطوعة/الألبوم. يكل شيأ يُحسب تلقائيًا من الإحصائيات المخزّنة محليًا بالفعل، بدون أي طلبات شبكة إضافية.</string>
+    <string name="faq_q9">كيف يعمل وضع توفير الطاقة؟</string>
+    <string name="faq_a9">يقلّل وضع توفير الطاقة نشاط التطبيق للحفاظ على البطارية: يتم إيقاف تأثير الإزاحة عند إمالة الجهاز، ويُحدّ معدل تحديث الشاشة بحوالي 60 هرتز، وتصبح التحديثات في الخلفية أقل تكرارًا، وتتوقف الأغلفة المتحركة ولمعان الشارات مؤقتًا. تحتفظ الصور وعمليات التصدير وبطاقات المشاركة بجودتها الكاملة.\n\nيمكنك إبقاؤه مفعّلًا دائمًا، أو جعله يتبع وضع توفير الطاقة في هاتفك، أو تفعيله عند انخفاض البطارية عن مستوى تختاره. ستجده في الإعدادات &gt; توفير البطارية.</string>
+    <string name="faq_q10">كيف أنسخ بياناتي احتياطيًا أو أستعيدها؟</string>
+    <string name="faq_a10">افتحوا الإعدادات &gt; النسخ الاحتياطي. يمكنكم تصدير ملف نسخة احتياطية (مع مفتاح Last.fm أو رمز ListenBrainz أو بدونهما) ثم استيراده لاحقًا أو على جهاز آخر.</string>
+    <string name="faq_q11">هل يعمل التطبيق دون اتصال بالإنترنت؟</string>
+    <string name="faq_a11">نعم، إلى حد ما. تبقى الإحصائيات المحمّلة مسبقًا متاحة دون اتصال بفضل التخزين المؤقت المحلي، لكن الاتصال ضروري لجلب تشغيلات جديدة.</string>
+    <string name="faq_q12">هل يمكنني تغيير الحساب أو الخدمة؟</string>
+    <string name="faq_a12">نعم. من الإعدادات &gt; الحساب سجّلوا الخروج ثم سجّلوا الدخول باسم مستخدم آخر، أو اختاروا الخدمة الأخرى (Last.fm أو ListenBrainz) في شاشة تسجيل الدخول. تُعاد تهيئة الذاكرة المؤقتة المحلية تلقائيًا حتى لا تختلط البيانات.</string>
+    <string name="faq_q13">كيف أضبط الإشعارات؟</string>
+    <string name="faq_a13">من الإعدادات &gt; الإشعارات يمكنك تفعيل تنبيه عند اكتمال المزامنة، واختيار عدد مرات ظهور التنبيهات، أو إيقاف الإشعارات تمامًا.</string>
+    <string name="faq_q14">الصور مفقودة أو تحمّل بلا نهاية. ماذا أفعل؟</string>
+    <string name="faq_a14">امسح الذاكرة المؤقتة داخل التطبيق (الإعدادات &gt; الذاكرة المؤقتة) ثم في أندرويد (الإعدادات &gt; التطبيقات &gt; LastStats &gt; التخزين &gt; مسح الذاكرة المؤقتة). إذا بقيت الصور مفقودة، انسخ بياناتك احتياطيًا (الإعدادات &gt; النسخ الاحتياطي) ثم احذف التطبيق وأعد تثبيته واستعد النسخة.</string>
+    <string name="settings_platform_disabled_by_show_all">معطّل: يتم عرض جميع الروابط بالفعل.</string>
+    <string name="common_in_development">قيد التطوير</string>
+    <string name="common_see_less">عرض أقل</string>
+    <string name="common_share">مشاركة</string>
+    <string name="news_custom_date">تاريخ مخصص</string>
+    <string name="about_shortcuts">اختصارات لوحة المفاتيح</string>
+    <string name="about_shortcuts_sub">متاحة على الكمبيوتر / الشاشة الكبيرة</string>
+    <string name="shortcut_switch_tabs">التبديل بين الأقسام</string>
+    <string name="shortcut_search">بحث</string>
+    <string name="shortcut_close">إغلاق الصفحة</string>
+    <string name="shortcut_refresh">تحديث</string>
+    <string name="about_discord">انضم إلى Discord</string>
+    <string name="about_discord_sub">دردشة واقتراحات وإعلانات مباشرة</string>
+    <string name="week_abbrev">أ</string>
+    <string name="achv_title">الإنجازات</string>
+    <string name="achv_cat_listening">الاستماع</string>
+    <string name="achv_cat_artists">الفنانون</string>
+    <string name="achv_cat_albums">الألبومات</string>
+    <string name="achv_cat_loyalty">الولاء</string>
+    <string name="achv_desc_listening">إجمالي التشغيلات لكل الفنانين.</string>
+    <string name="achv_desc_artists">عدد الفنانين المختلفين الذين استمعت إليهم مرة واحدة على الأقل.</string>
+    <string name="achv_desc_albums">عدد الألبومات المختلفة التي استمعت إليها مرة واحدة على الأقل.</string>
+    <string name="achv_cat_tracks">المقاطع</string>
+    <string name="achv_desc_tracks">عدد المقاطع المختلفة التي استمعت إليها.</string>
+    <string name="achv_cat_pace">الوتيرة</string>
+    <string name="achv_desc_pace">متوسط التشغيلات أسبوعياً.</string>
+    <string name="achv_cat_streak">التتابع</string>
+    <string name="achv_desc_streak">أطول سلسلة أيام متتالية بها استماع واحد على الأقل.</string>
+    <string name="achv_cat_marathon">الماراثون</string>
+    <string name="achv_desc_marathon">أكبر عدد من الاستماعات في يوم واحد.</string>
+    <string name="achv_cat_social">اجتماعي</string>
+    <string name="achv_desc_social">عدد الأصدقاء أو الملفات الشخصية المضافة.</string>
+    <string name="achv_cat_comparisons">المقارنات</string>
+    <string name="achv_desc_comparisons">عدد مقارنات الذوق الموسيقي التي تم إجراؤها.</string>
+    <string name="achv_unlocked_badge">مفتوح</string>
+    <string name="achv_locked_badge">مقفل</string>
+    <string name="dash_recap">ملخص</string>
+    <string name="recap_day">اليوم</string>
+    <string name="recap_week">هذا الأسبوع</string>
+    <string name="recap_month">هذا الشهر</string>
+    <string name="recap_scrobbles">عمليات استماع</string>
+    <string name="recap_artists">الفنانون</string>
+    <string name="recap_tracks">المقاطع</string>
+    <string name="recap_top_artist">أفضل فنان</string>
+    <string name="recap_top_track">أفضل مقطع</string>
+    <string name="recap_top_album">أفضل ألبوم</string>
+    <string name="recap_avg_day">المعدل/يوم</string>
+    <string name="recap_no_data">لا توجد عمليات استماع لهذه الفترة.</string>
+    <string name="recap_see_full">عرض الملخص الكامل</string>
+    <string name="recap_top10">أفضل 10</string>
+    <string name="discover_smart_title">الفلتر الأنسب أولاً</string>
+    <string name="discover_smart_sub">حسب الوقت واليوم وما تستخدمه أكثر</string>
+    <string name="discover_for_you">لك</string>
+    <string name="discover_global_trends">الاتجاهات العالمية</string>
+    <string name="discover_src_foryou">مزيجك</string>
+    <string name="discover_src_onthisday">في مثل هذا اليوم</string>
+    <string name="discover_src_fresh">هذا الشهر</string>
+    <string name="discover_src_genre">أنواعك الموسيقية</string>
+    <string name="discover_src_deeper">جواهر مخفية</string>
+    <string name="discover_src_forgotten">منسيّة</string>
+    <string name="discover_src_albums">ألبومات</string>
+    <string name="discover_src_country">بلدك</string>
+    <string name="discover_tracks">المقطوعات</string>
+    <string name="discover_artists">الفنانون</string>
+    <string name="discover_week">أسبوع</string>
+    <string name="discover_month">شهر</string>
+    <string name="discover_year">سنة</string>
+    <string name="discover_nothing">لا يوجد شيء لعرضه الآن</string>
+    <string name="dash_reorder_sections">تغيير ترتيب الأقسام</string>
+    <string name="dash_infinite_title">تمرير لا نهائي</string>
+    <string name="dash_infinite_sub">يتكرر قسم الاكتشاف ويواصل اقتراح المزيد</string>
+    <string name="dash_discover_title">اكتشف</string>
+    <string name="dash_discover_sub">أفكار موسيقية للتصفح بالسحب</string>
+    <string name="dash_sort_button">ترتيب</string>
+    <string name="dash_sort_done">تم</string>
+    <string name="dash_sort_hint">اسحب لتغيير الترتيب</string>
+    <string name="dash_sort_smart_note">الترتيب الذكي مفعّل، لذا قد يتغير هذا الترتيب حسب الوقت.</string>
+    <string name="dash_separate_row">في صف خاص به</string>
+    <string name="ap_shape_single">شكل واحد فقط</string>
+    <string name="mv_source">مصدر الفيديو</string>
+    <string name="mv_src_auto">تلقائي (Apple Music ثم YouTube)</string>
+    <string name="mv_src_apple">Apple Music فقط</string>
+    <string name="mv_src_yt">YouTube فقط (المقاطع)</string>
+    <string name="mv_quality_t">جودة الفيديو</string>
+    <string name="mv_q_auto">تلقائي</string>
+    <string name="mv_q_low">توفير (360p)</string>
+    <string name="mv_types_t">عرض الفيديو لـ</string>
+    <string name="mv_tracks">المقاطع</string>
+    <string name="mv_albums">الألبومات</string>
+    <string name="mv_artists">الفنانون</string>
+    <string name="mv_mode_t">الوضع</string>
+    <string name="mv_mode_best">موصى به</string>
+    <string name="mv_mode_saver">توفير</string>
+    <string name="mv_mode_max">أعلى جودة</string>
+    <string name="mv_mode_custom">مخصص</string>
+    <string name="mv_src_yt_first">YouTube ثم Apple Music</string>
+    <string name="api_title">API</string>
+    <string name="api_card_sub">الخدمات المستخدمة والحصص والاستهلاك</string>
+    <string name="api_sum_today">طلبات اليوم</string>
+    <string name="api_sum_errors">أخطاء</string>
+    <string name="api_sum_limited">مقيّدة</string>
+    <string name="api_intro">العدادات خاصة بهذا الجهاز فقط. يطبّق المزوّدون حدودهم لكل عنوان IP، لذا تُحتسب التطبيقات الأخرى على الشبكة نفسها أيضًا. يبطئ التطبيق الطلبات أو يتخطاها تلقائيًا للبقاء ضمن هذه الحدود.</string>
+    <string name="api_cat_listening">بيانات الاستماع</string>
+    <string name="api_cat_metadata">بيانات الموسيقى الوصفية</string>
+    <string name="api_cat_artwork">الأغلفة</string>
+    <string name="api_cat_lyrics">الكلمات</string>
+    <string name="api_cat_translate">الترجمة</string>
+    <string name="api_cat_updates">التحديثات والأخبار</string>
+    <string name="api_cat_other">تنزيلات الصور</string>
+    <string name="api_status_idle">لم تُستخدم بعد</string>
+    <string name="api_status_ok">جيد</string>
+    <string name="api_status_near">قريب من الحد</string>
+    <string name="api_status_paused">متوقف مؤقتًا</string>
+    <string name="api_provider_limit">حد المزوّد</string>
+    <string name="api_no_limit">غير منشور</string>
+    <string name="api_app_ceiling">سقف التطبيق</string>
+    <string name="api_win_second">ثانية</string>
+    <string name="api_win_minute">دقيقة</string>
+    <string name="api_win_hour">ساعة</string>
+    <string name="api_window_usage">النافذة الحالية</string>
+    <string name="api_remaining">المتبقي</string>
+    <string name="api_today">اليوم</string>
+    <string name="api_last_hour">آخر ساعة</string>
+    <string name="api_total">الإجمالي</string>
+    <string name="api_rate_limited">ردود تجاوز الحد</string>
+    <string name="api_skipped">تخطاها التطبيق</string>
+    <string name="api_last_call">آخر استدعاء</string>
+    <string name="api_never">أبدًا</string>
+    <string name="api_no_key">لا يحتاج مفتاح API</string>
+    <string name="api_shared_key">مفتاح اختبار عام مشترك (الخطة المجانية)</string>
+    <string name="api_unofficial">نقطة وصول غير رسمية: لا حصة مضمونة وقد تتغير أو تُحظر دون إشعار.</string>
+    <string name="api_key_in_use">المفتاح المستخدم</string>
+    <string name="api_own_key">مفتاح Last.fm الخاص بك</string>
+    <string name="api_backup_on">المفتاح الاحتياطي: مفعّل</string>
+    <string name="api_backup_off">المفتاح الاحتياطي: معطّل</string>
+    <string name="api_per_key">الطلبات لكل مفتاح (اليوم / الإجمالي)</string>
+    <string name="api_lastfm_note">لا ينشر Last.fm رقمًا: يرد بالخطأ 29 عندما يرسل عنوان IP طلبات كثيرة، وتمنع شروطه التحايل على ذلك. المعتاد نحو 5 طلبات في الثانية لكل IP، ويبقى التطبيق دون 4.</string>
+    <string name="api_reset">إعادة ضبط العدادات</string>
+    <string name="api_limiter">تحديد الطلبات</string>
+    <string name="api_limiter_sub">يبطئ الطلبات للبقاء ضمن حدود واجهات API. إيقاف = أسرع بدون انتظار.</string>
+    <string name="api_reset_body">ستُعاد جميع عدادات الطلبات إلى الصفر.</string>
+    <string name="api_reset_done">تمت إعادة الضبط</string>
+    <string name="cache_scrobbles_subtitle">سجل استماعك الكامل الذي تم تنزيله من Last.fm</string>
+    <string name="cache_scrobbles_subtitle_lb">سجل استماعك الكامل الذي تم تنزيله من ListenBrainz</string>
+    <string name="search_hint_profiles">ابحث عن مستخدم Last.fm</string>
+    <string name="search_hint_profiles_lb">ابحث عن مستخدم ListenBrainz</string>
+    <string name="dash_reset_cache_confirm">ستُحذف كل بيانات التشغيل المخزنة محليًا ويُعاد تنزيلها من Last.fm.</string>
+    <string name="dash_reset_cache_confirm_lb">ستُحذف كل بيانات التشغيل المخزنة محليًا ويُعاد تنزيلها من ListenBrainz.</string>
+    <string name="dash_friends_activity">نشاط أصدقائك على Last.fm</string>
+    <string name="dash_friends_activity_lb">نشاط أصدقائك على ListenBrainz</string>
+    <string name="settings_friends_section_sub">نشاط أصدقائك على Last.fm</string>
+    <string name="settings_friends_section_sub_lb">نشاط أصدقائك على ListenBrainz</string>
+    <string name="settings_connected_profile">ملف Last.fm المتصل</string>
+    <string name="settings_connected_profile_lb">ملف ListenBrainz المتصل</string>
+    <string name="onboard_fav_sub">أضف أصدقاءك على Last.fm للوصول إلى ملفاتهم الشخصية بسرعة من داخل التطبيق.</string>
+    <string name="onboard_fav_sub_lb">أضف أصدقاءك على ListenBrainz للوصول إلى ملفاتهم الشخصية بسرعة من داخل التطبيق.</string>
+    <string name="onboard_fav_hint">اسم مستخدم Last.fm</string>
+    <string name="onboard_fav_hint_lb">اسم مستخدم ListenBrainz</string>
+    <string name="onboard_fav_search_hint">ابحث عن ملف Last.fm…</string>
+    <string name="onboard_fav_search_hint_lb">ابحث عن ملف ListenBrainz…</string>
+    <string name="onboard_fav_friends_title">أصدقاؤك على Last.fm</string>
+    <string name="onboard_fav_friends_title_lb">أصدقاؤك على ListenBrainz</string>
+    <string name="settings_show_all_platform_links_sub">تجاهل الفلتر وعرض كل رابط (Last.fm، Spotify، YT Music، الويب)</string>
+    <string name="settings_show_all_platform_links_sub_lb">تجاهل الفلتر وعرض كل رابط (ListenBrainz، Spotify، YT Music، الويب)</string>
+    <string name="setup_tagline">إحصائياتك على Last.fm، بحلة جديدة.</string>
+    <string name="setup_tagline_lb">إحصائياتك على ListenBrainz، بحلة جديدة.</string>
+    <string name="settings_card_account_sub">ملف Last.fm المتصل، تسجيل الخروج</string>
+    <string name="settings_card_account_sub_lb">ملف ListenBrainz المتصل، تسجيل الخروج</string>
+    <string name="about_tagline">رفيقك لإحصائيات Last.fm</string>
+    <string name="about_tagline_lb">رفيقك لإحصائيات ListenBrainz</string>
+    <string name="faq_a1">لا. LastStats هو تطبيق لعرض البيانات: يعرض السكروبلات المسجلة بالفعل في حسابك على Last.fm، لكنه لا يسجل أي شيء بنفسه.\n\nلتسجيل موسيقاك تلقائياً، استخدم تطبيقًا مخصصًا مثل Pano Scrobbler (متوفر على أندرويد).</string>
+    <string name="faq_a1_lb">لا. LastStats هو تطبيق لعرض البيانات: يعرض السكروبلات المسجلة بالفعل في حسابك على ListenBrainz، لكنه لا يسجل أي شيء بنفسه.\n\nلتسجيل موسيقاك تلقائياً، استخدم تطبيقًا مخصصًا مثل Pano Scrobbler (متوفر على أندرويد).</string>
+    <string name="faq_a5">على جهازك فقط. لا يمتلك LastStats أي خادم: يتم تخزين السكروبلات مؤقتًا محليًا للوصول السريع، وتبقى بيانات اعتماد Last.fm مخزّنة محليًا أيضًا. لا يتم إرسال أي شيء إلى أي جهة سوى واجهة برمجة تطبيقات Last.fm الرسمية.</string>
+    <string name="faq_a5_lb">على جهازك فقط. لا يمتلك LastStats أي خادم: يتم تخزين السكروبلات مؤقتًا محليًا للوصول السريع، وتبقى بيانات اعتماد ListenBrainz مخزّنة محليًا أيضًا. لا يتم إرسال أي شيء إلى أي جهة سوى واجهة برمجة تطبيقات ListenBrainz الرسمية.</string>
+    <string name="faq_a7">الـscrobble هو مقطوعة يتم تسجيلها كمشغولة في حسابك على Last.fm — إنه المصطلح الرسمي لـ Last.fm لـ استماع واحد محتسب. جميع إحصائياتك (أفضل الفنانين، الإحصائيات...) مبنية عليه.</string>
+    <string name="faq_a7_lb">الـscrobble هو مقطوعة يتم تسجيلها كمشغولة في حسابك على ListenBrainz — إنه المصطلح الرسمي لـ ListenBrainz لـ استماع واحد محتسب. جميع إحصائياتك (أفضل الفنانين، الإحصائيات...) مبنية عليه.</string>
+    <string name="achv_desc_loyalty">مدة وجود حساب Last.fm.</string>
+    <string name="achv_desc_loyalty_lb">مدة وجود حساب ListenBrainz.</string>
+    <string name="api_storage_title">بيانات Last.fm المخزّنة</string>
+    <string name="api_storage_title_lb">بيانات ListenBrainz المخزّنة</string>
+    <string name="api_storage_over">تجاوزت حد 100 ميغابايت في شروط واجهة Last.fm. امسح سجل الاستماع من التخزين للامتثال.</string>
+    <string name="api_storage_over_lb">تجاوزت حد 100 ميغابايت في شروط واجهة ListenBrainz. امسح سجل الاستماع من التخزين للامتثال.</string>
+    <string name="backup_auto_next_label">النسخة القادمة: %1$s</string>
+    <string name="backup_exported_on">نسخة احتياطية بتاريخ %1$s</string>
+    <string name="global_listeners">%1$s مستمع حول العالم</string>
+    <string name="history_scrobbles">%1$s تشغيلة</string>
+    <string name="history_artists_count">%1$s فنان</string>
+    <string name="history_albums_count">%1$s ألبوم</string>
+    <string name="day_label">%1$s، %3$s %2$s %5$s</string>
+    <string-array name="day_label_weekdays"><item>الاثنين</item><item>الثلاثاء</item><item>الأربعاء</item><item>الخميس</item><item>الجمعة</item><item>السبت</item><item>الأحد</item></string-array>
+    <string-array name="day_label_months"><item>يناير</item><item>فبراير</item><item>مارس</item><item>أبريل</item><item>مايو</item><item>يونيو</item><item>يوليو</item><item>أغسطس</item><item>سبتمبر</item><item>أكتوبر</item><item>نوفمبر</item><item>ديسمبر</item></string-array>
+    <string name="member_since">عضو منذ %1$s</string>
+    <string name="settings_update_available">الإصدار v%1$s متاح</string>
+    <string name="settings_update_banner">تحديث v%1$s</string>
+    <string name="setup_welcome">مرحبًا، %1$s!</string>
+    <string name="setup_scrobbles_to_import">%1$s تشغيلة للاستيراد</string>
+    <string name="dash_update_title_a">تحديث تجريبي: v%1$s</string>
+    <string name="dash_update_title_b">تحديث جديد: v%1$s</string>
+    <string name="news_items_count_a">%1$s عنصر</string>
+    <string name="news_items_count_b">%1$s عنصر</string>
+    <string name="sync_frequency_hours">كل %1$s ساعة</string>
+    <string name="sync_new_scrobbles_found_a">لا توجد تشغيلات جديدة</string>
+    <string name="sync_new_scrobbles_found_b">تم العثور على %1$s تشغيلة جديدة</string>
+    <string name="updates_published_on">نُشر في %1$s</string>
+    <string name="fallback_will_show">سيُعرض: %1$s</string>
+    <string name="acct_remove_body">إزالة @%1$s من حساباتك؟</string>
+    <string name="acct_added_success">تمت إضافة @%1$s بنجاح.</string>
+    <string name="acct_my_accounts">حساباتي (%1$s/%2$s)</string>
+    <string name="acct_slots_remaining">متبقٍ %1$s مكان</string>
+    <string name="acct_max_reached">تم الوصول إلى الحد الأقصى وهو %1$s حسابات.</string>
+    <string name="achv_unlocked">%1$s / %2$s مفتوح</string>
+    <string name="discover_like">مثل %1$s</string>
+    <string name="dash_filters_of">فلاتر «%1$s»</string>
+    <string name="api_limit_per">%1$s طلبات / %2$s</string>
+    <string name="api_win_seconds">%1$s ثانية</string>
+    <string name="api_resets_in">إعادة الضبط خلال %1$s</string>
+    <string name="api_paused_for">متوقف %1$s بعد رد بتجاوز الحد</string>
+    <string name="api_builtin_key">المفتاح المدمج %1$s من %2$s</string>
+    <string name="api_storage_value">%1$s من %2$s المسموح</string>
+    <string-array name="months"><item></item><item>ينا</item><item>فبر</item><item>مار</item><item>أبر</item><item>ماي</item><item>يون</item><item>يول</item><item>أغس</item><item>سبت</item><item>أكت</item><item>نوف</item><item>ديس</item></string-array>
+    <string-array name="weekdays_short"><item>اث</item><item>ثل</item><item>أرب</item><item>خم</item><item>جم</item><item>سبت</item><item>أحد</item></string-array>
+    <string-array name="weekdays_narrow"><item>ن</item><item>ث</item><item>ر</item><item>خ</item><item>ج</item><item>س</item><item>ح</item></string-array>
+    <string-array name="notif_threshold_messages"><item>أول 1000 تشغيلة لك. الرحلة تبدأ. 🎵</item><item>وصلت إلى خمس خانات! 🎉</item><item>أنت مدمن موسيقى حقيقي. 🔥</item><item>مليون تشغيلة. هذا أسطوري. 🎸</item></string-array>
+    <string name="tx_st_notif_on" formatted="false">الإشعارات مفعّلة</string>
+    <string name="tx_st_notif_off" formatted="false">الإشعارات غير مفعّلة</string>
+    <string name="tx_st_notif_count" formatted="false">{n} أنواع مفعّلة</string>
+    <string name="tx_st_notif_perm" formatted="false">مطلوب إذن من النظام</string>
+    <string name="tx_st_notif_none" formatted="false">لم يتم اختيار أي نوع من الإشعارات</string>
+    <string name="tx_st_sync_on" formatted="false">المزامنة التلقائية مفعّلة</string>
+    <string name="tx_st_sync_off" formatted="false">المزامنة التلقائية غير مفعّلة</string>
+    <string name="tx_st_sync_on_s" formatted="false">تتحدّث بياناتك تلقائيًا.</string>
+    <string name="tx_st_sync_off_s" formatted="false">تتحدّث البيانات عند الطلب فقط.</string>
+    <string name="tx_st_bkp_on" formatted="false">النسخ الاحتياطي التلقائي مفعّل</string>
+    <string name="tx_st_bkp_off" formatted="false">النسخ الاحتياطي التلقائي غير مفعّل</string>
+    <string name="tx_st_bkp_on_s" formatted="false">يتم نسخ إعداداتك احتياطيًا تلقائيًا.</string>
+    <string name="tx_st_bkp_off_s" formatted="false">فعّلها لكي لا تفقد إعداداتك أبدًا.</string>
+    <string name="tx_st_bkp_next" formatted="false">النسخة التالية: {d}</string>
+    <string name="tx_cmp_breakdown" formatted="false">ما يجمعكما</string>
+    <string name="tx_cmp_by_artists" formatted="false">الفنانون</string>
+    <string name="tx_cmp_by_genres" formatted="false">الأنواع</string>
+    <string name="tx_cmp_by_tracks" formatted="false">المقاطع</string>
+    <string name="tx_cmp_by_albums" formatted="false">الألبومات</string>
+    <string name="tx_eco_on" formatted="false">توفير الطاقة مفعّل</string>
+    <string name="tx_eco_off" formatted="false">توفير الطاقة غير مفعّل</string>
+    <string name="tx_eco_why_manual" formatted="false">مفعّل دائمًا بإعداد منك</string>
+    <string name="tx_eco_why_system" formatted="false">وضع توفير البطارية في جهازك مفعّل</string>
+    <string name="tx_eco_why_battery" formatted="false">مستوى البطارية {n}%</string>
+    <string name="tx_eco_off_hint" formatted="false">اختر أدناه متى يتم التفعيل</string>
+    <string name="tx_eco_trig" formatted="false">متى يتم التفعيل</string>
+    <string name="tx_eco_sys_t" formatted="false">عند تفعيل توفير البطارية في الجهاز</string>
+    <string name="tx_eco_sys_s" formatted="false">يتبع وضع توفير الطاقة المدمج في هاتفك ويتوقف معه.</string>
+    <string name="tx_eco_sys_na" formatted="false">غير متاح على هذا الجهاز (لم يتم اكتشاف وضع توفير بطارية للنظام).</string>
+    <string name="tx_eco_chg" formatted="false">ما الذي يتغيّر</string>
+    <string name="tx_eco_chg1" formatted="false">يتم تعطيل تأثير المنظور عند الإمالة</string>
+    <string name="tx_eco_chg2" formatted="false">يُحدّ معدل تحديث الشاشة بحوالي 60 هرتز</string>
+    <string name="tx_eco_chg3" formatted="false">تصبح التحديثات في الخلفية أقل تكرارًا</string>
+    <string name="tx_eco_chg4" formatted="false">يتم إيقاف الأغلفة المتحركة ولمعان الشارات مؤقتًا</string>
+    <string name="tx_eco_chg_note" formatted="false">كل شيء آخر يبقى بجودته الكاملة: الصور والتصدير وبطاقات المشاركة.</string>
+    <string name="tx_lib_section" formatted="false">المكتبة</string>
+    <string name="tx_lib_merge_t" formatted="false">دمج نسخ الأغنية نفسها</string>
+    <string name="tx_lib_merge_s" formatted="false">النسخ المعاد إتقانها والأغاني المنفردة و(feat. …) والإصدارات الفاخرة تُحتسب كأغنية أو ألبوم واحد وتُجمع مرات التشغيل. تبقى الريمكسات والنسخ الحية والموسيقية منفصلة.</string>
+    <string name="tx_lib_split_t" formatted="false">فصل التعاونات</string>
+    <string name="tx_lib_split_s" formatted="false">يُحتسب «Gims &amp; Damso» لكل من Gims وDamso بدلاً من أن يكون فناناً مستقلاً. تبقى الفرق مثل «Simon &amp; Garfunkel» كما هي.</string>
+    <string name="tx_lib_step_t" formatted="false">مكتبتك</string>
+    <string name="tx_lib_step_s" formatted="false">اختر كيف يجمع التطبيق مرات استماعك. يمكنك تغيير ذلك في أي وقت من الإعدادات.</string>
+    <string name="tx_bk_dash_t" formatted="false">لوحة المعلومات والبدء</string>
+    <string name="tx_bk_dash_s" formatted="false">الأقسام والترويسة وبطاقات الإحصاءات والاكتشاف وعلامة البدء</string>
+    <string name="tx_bk_notif_t" formatted="false">الإشعارات</string>
+    <string name="tx_bk_notif_s" formatted="false">الملخصات والمعالم والأخبار والشارات</string>
+    <string name="tx_bk_lib_t" formatted="false">خيارات المكتبة</string>
+    <string name="tx_bk_lib_s" formatted="false">دمج النسخ وفصل التعاونات</string>
+    <string name="tx_bk_prof_t" formatted="false">الملفات المفضلة</string>
+    <string name="tx_bk_prof_s" formatted="false">ملفات Last.fm التي أضفتها إلى المفضلة</string>
+    <string name="tx_about_legal_t" formatted="false">المعلومات القانونية</string>
+    <string name="tx_about_legal_site_t" formatted="false">الإشعار القانوني والخصوصية</string>
+    <string name="tx_about_legal_site_s" formatted="false">الناشر والبيانات المعالَجة والخدمات الخارجية وحقوقك</string>
+    <string name="tx_about_licenses_t" formatted="false">تراخيص المصادر المفتوحة</string>
+    <string name="tx_about_licenses_s" formatted="false">Flutter وجميع الحزم المستخدمة</string>
+    <string name="tx_about_legal_editor" formatted="false">نشر التطبيق Sano Bld، مطوّر مستقل. تواصل معنا عبر Discord أو issues على GitHub.</string>
+    <string name="tx_about_legal_privacy" formatted="false">تبقى بياناتك على جهازك ولا نحتفظ بأي نسخة منها. يتصل التطبيق مباشرة بالخدمات المذكورة هنا، وتتلقى كل خدمة على الأقل عنوان IP الخاص بك والطلب (مثل اسم فنان). تُستخدم الكاميرا فقط لمسح رموز QR. التطبيق غير موجّه للأطفال دون 15 عامًا دون موافقة أحد الوالدين.</string>
+    <string name="tx_about_legal_marks" formatted="false">LastStats مشروع مستقل وغير تابع لـ Last.fm وSpotify وYouTube وApple وDeezer وTheAudioDB وMusicBrainz وWikipedia وGitHub ولا معتمد منها. الأسماء والشعارات ملك لأصحابها، وكذلك الأغلفة والبيانات الوصفية. نصوص Wikipedia مرخّصة بموجب CC BY-SA.</string>
+    <string name="tx_about_readme_t" formatted="false">README ونشاط المشروع</string>
+    <string name="tx_about_readme_s" formatted="false">اقرأ README وآخر الالتزامات وسير العمل والإصدار والتنزيلات</string>
+    <string name="tx_fold_show" formatted="false">عرض ({n})</string>
+    <string name="tx_fold_hide" formatted="false">طيّ</string>
+    <string name="tx_readme_sub" formatted="false">المشروع ونشاطه</string>
+    <string name="tx_readme_version" formatted="false">الإصدار</string>
+    <string name="tx_readme_downloads" formatted="false">التنزيلات</string>
+    <string name="tx_readme_stars" formatted="false">النجوم</string>
+    <string name="tx_readme_license" formatted="false">الترخيص</string>
+    <string name="tx_readme_commits" formatted="false">آخر الالتزامات</string>
+    <string name="tx_readme_workflows" formatted="false">آخر عمليات سير العمل</string>
+    <string name="tx_readme_retry" formatted="false">إعادة المحاولة</string>
+    <string name="tx_readme_github" formatted="false">فتح على GitHub</string>
+    <string name="tx_readme_failed" formatted="false">تعذّر التحميل (لا اتصال أو تم بلوغ حد GitHub).</string>
+    <string name="tx_ago_min" formatted="false">منذ {n} د</string>
+    <string name="tx_ago_h" formatted="false">منذ {n} س</string>
+    <string name="tx_ago_d" formatted="false">منذ {n} ي</string>
+    <string name="tx_load_restored" formatted="false">تمت استعادة {n} سكروبل</string>
+    <string name="tx_load_ready" formatted="false">جاهز للاستيراد</string>
+    <string name="tx_load_connecting" formatted="false">جارٍ الاتصال بـ Last.fm…</string>
+    <string name="tx_load_done" formatted="false">اكتمل الاستيراد</string>
+    <string name="tx_txt_sec" formatted="false">النص</string>
+    <string name="tx_txt_size" formatted="false">حجم النص</string>
+    <string name="tx_txt_font" formatted="false">الخط</string>
+    <string name="tx_txt_font_def" formatted="false">الافتراضي (أندرويد)</string>
+    <string name="tx_font_import" formatted="false">استيراد خط</string>
+    <string name="tx_font_import_s" formatted="false">ملف ‏.ttf أو ‏.otf (بحد أقصى 3 ميغابايت)</string>
+    <string name="tx_font_remove" formatted="false">إزالة الخط المستورد</string>
+    <string name="tx_font_bad" formatted="false">لا يمكن استخدام هذا الخط: الملف غير صالح أو يتجاوز 3 ميغابايت</string>
+    <string name="tx_qs_l8_t" formatted="false">الخط</string>
+    <string name="tx_art_popular" formatted="false">الأشهر</string>
+    <string name="tx_art_recent" formatted="false">الأحدث</string>
+    <string name="tx_bio_src_wiki" formatted="false">المصدر: ويكيبيديا</string>
+    <string name="tx_bio_src_wiki_orig" formatted="false">النص الأصلي · ويكيبيديا</string>
+    <string name="tx_dash_motion_t" formatted="false">غلاف متحرك في لوحة التحكم</string>
+    <string name="tx_dash_motion_s" formatted="false">يشغّل فيديو المقطع الحالي على بطاقة التشغيل وفي الترويسة. يتطلب أغلفة الفيديو.</string>
+    <string name="tx_onb_cov_t" formatted="false">الأغلفة والصور والرسوم المتحركة</string>
+    <string name="tx_onb_cov_s" formatted="false">اختر شكل الصور وطريقة عرض الأغلفة ونمط الرسوم المتحركة.</string>
+    <string name="tx_onb_sync_t" formatted="false">المزامنة والبطارية</string>
+    <string name="tx_onb_sync_s" formatted="false">أبقِ إحصاءاتك محدّثة دون استهلاك الكثير من بطارية هاتفك.</string>
+    <string name="tx_onb_autosync_t" formatted="false">المزامنة التلقائية</string>
+    <string name="tx_onb_autosync_s" formatted="false">يتحقق التطبيق بانتظام في الخلفية مما إذا كانت لديك مرات استماع جديدة.</string>
+    <string name="tx_onb_freq" formatted="false">وتيرة التحقق</string>
+    <string name="tx_onb_every_h" formatted="false">كل {h} ساعة</string>
+    <string name="tx_onb_every_1h" formatted="false">كل ساعة</string>
+    <string name="tx_load_backup_note" formatted="false">تم العثور على نسخة احتياطية: سيتم فحص السكروبلات الأحدث فقط.</string>
+    <string name="tx_dash_nowplay" formatted="false">قيد التشغيل</string>
+    <string name="tx_dash_stats" formatted="false">الإحصاءات</string>
+    <string name="tx_dash_recent" formatted="false">التشغيل الأخير</string>
+    <string name="tx_dash_discover" formatted="false">اكتشف</string>
+    <string name="tx_dash_friends" formatted="false">الأصدقاء</string>
+    <string name="tx_dash_chart" formatted="false">مخطط لوحة المعلومات</string>
+    <string name="tx_dash_calendar" formatted="false">التقويم</string>
+    <string name="tx_dash_monthly" formatted="false">شهري</string>
+    <string name="tx_cache_video_t" formatted="false">الأغلفة المتحركة في الذاكرة</string>
+    <string name="tx_cache_video_s" formatted="false">ذاكرة الفيديو المستخدمة: {mem} · {players} مشغّل نشط · {links} رابط في الذاكرة</string>
+    <string name="tx_cache_video_short" formatted="false">أغلفة متحركة</string>
+    <string name="tx_cache_video_cleared" formatted="false">تم تحرير فيديوهات الأغلفة المتحركة من الذاكرة</string>
+    <string name="tx_cache_memory_section" formatted="false">الذاكرة</string>
+    <string name="tx_cache_storage_section" formatted="false">التخزين</string>
+    <string name="tx_lvl" formatted="false">المستوى {n}</string>
+    <string name="tx_lvl_history" formatted="false">سجل المستويات</string>
+    <string name="tx_set_mblur_t" formatted="false">ضبابية الحركة</string>
+    <string name="tx_menu_copied" formatted="false">تم النسخ</string>
+    <string name="tx_menu_select" formatted="false">تحديد</string>
+    <string name="tx_sel_count" formatted="false">تم تحديد {n}</string>
+    <string name="tx_sel_remove" formatted="false">إزالة من المفضلة</string>
+    <string name="tx_sel_cancel" formatted="false">إلغاء</string>
+    <string name="tx_menu_add_folder" formatted="false">إضافة إلى مجلد</string>
+    <string name="tx_menu_copy_title" formatted="false">نسخ العنوان</string>
+    <string name="tx_menu_copy_both" formatted="false">نسخ الفنان – العنوان</string>
+    <string name="tx_set_mblur_s" formatted="false">ضبابية ناعمة أثناء انتقالات الصفحات وظهور العناصر</string>
+    <string name="tx_ui_widget_bg" formatted="false">خلفية الودجت</string>
+    <string name="tx_ui_widget_bg_d" formatted="false">الملصق يستخدم أشكال السمة؛ الموحّد أسود أو أبيض حسب الفاتح/الداكن؛ بلا خلفية شفافة</string>
+    <string name="tx_ui_widget_bg_poster" formatted="false">ملصق</string>
+    <string name="tx_ui_widget_bg_plain" formatted="false">موحّد</string>
+    <string name="tx_ui_widget_bg_none" formatted="false">بلا</string>
+    <string name="tx_about_insp_podium" formatted="false">إلهام: ضبابية ناعمة في انتقالات الدخول / الخروج</string>
+    <string name="tx_about_insp_metrolist" formatted="false">إلهام: انزلاق + تلاشٍ بين التبويبات (Material 3)</string>
+    <string name="tx_about_insp_m3skill" formatted="false">إرشادات الحركة: المنحنيات، النوابض، المحور المشترك</string>
+    <string name="tx_ui_beta" formatted="false">تجريبي</string>
+    <string name="tx_ui_nothing_red_sub" formatted="false">أحمر #FF2020</string>
+    <string name="tx_ui_nothing_yellow_sub" formatted="false">+ أصفر #FFC700</string>
+    <string name="tx_set_living_t" formatted="false">أغلفة حية</string>
+    <string name="tx_set_living_s" formatted="false">تتحرك الصور بسلاسة مع تأثير خفيف من التكبير والعمق.</string>
+    <string name="tx_set_motion_t" formatted="false">أغلفة فيديو</string>
+    <string name="tx_set_motion_s" formatted="false">يشغّل الغلاف المتحرك بالفيديو عندما يكون متوفرًا للأغنية.</string>
+    <string name="tx_set_achv_t" formatted="false">الإنجازات والمستويات</string>
+    <string name="tx_set_achv_s" formatted="false">تابع أهدافك وشاراتك ومستوى حسابك.</string>
+    <string name="tx_cache_img_limit_t" formatted="false">حد ذاكرة الصور المؤقتة</string>
+    <string name="tx_cache_img_limit_s" formatted="false">الأغلفة وصور الفنانين والصور الرمزية. تُحذف الأقدم أولاً.</string>
+    <string name="tx_cache_vid_limit_t" formatted="false">حد ذاكرة الفيديو المؤقتة</string>
+    <string name="tx_cache_vid_limit_s" formatted="false">أغلفة متحركة محفوظة على الجهاز لتشغيلها دون اتصال (Android).</string>
+    <string name="tx_cache_video_off" formatted="false">متوقف</string>
+    <string name="tx_cache_vid_disk_t" formatted="false">الأغلفة المتحركة المحفوظة على الجهاز</string>
+    <string name="tx_cache_vid_disk_s" formatted="false">{size} · أغلفة متحركة محفوظة</string>
+    <string name="tx_ap_harmony_title" formatted="false">نمط الألوان</string>
+    <string name="tx_ap_harmony_mono" formatted="false">أحادي اللون</string>
+    <string name="tx_ap_harmony_mono_sub" formatted="false">درجة لونية واحدة بشدّات مختلفة. تبقى الأسطح المحايدة بسيطة</string>
+    <string name="tx_ap_harmony_tinted" formatted="false">مُلوَّن</string>
+    <string name="tx_ap_harmony_tinted_sub" formatted="false">درجة لونية واحدة، وحتى الألوان المحايدة (الخلفيات والحدود والنصوص) تأخذ لمسة خفيفة. لا رمادي محايد</string>
+    <string name="tx_ap_harmony_classic" formatted="false">كلاسيكي</string>
+    <string name="tx_ap_harmony_classic_sub" formatted="false">Material You القياسي مع عدة درجات متكاملة</string>
+    <string name="tx_ap_harmony_vivid" formatted="false">زاهٍ</string>
+    <string name="tx_ap_harmony_vivid_sub" formatted="false">درجة لونية واحدة، أكثر تشبّعاً وكثافة</string>
+    <string name="tx_ap_harmony_soft" formatted="false">هادئ</string>
+    <string name="tx_ap_harmony_soft_sub" formatted="false">درجة لونية واحدة، أكثر خفوتاً وأقرب إلى الرمادي</string>
+    <string name="tx_gr_night1" formatted="false">ما زلت مستيقظاً يا {name}؟</string>
+    <string name="tx_gr_night2" formatted="false">ليلة مع الموسيقى يا {name}</string>
+    <string name="tx_gr_night3" formatted="false">الليالي أجمل مع الموسيقى يا {name}</string>
+    <string name="tx_gr_morning1" formatted="false">صباح الخير يا {name}</string>
+    <string name="tx_gr_morning2" formatted="false">صباح النشاط يا {name}</string>
+    <string name="tx_gr_morning3" formatted="false">بداية يوم رائعة يا {name}</string>
+    <string name="tx_gr_afternoon1" formatted="false">مساء الخير يا {name}</string>
+    <string name="tx_gr_afternoon2" formatted="false">سعيد برؤيتك مجدداً يا {name}</string>
+    <string name="tx_gr_afternoon3" formatted="false">لقد عدت يا {name}</string>
+    <string name="tx_gr_evening1" formatted="false">مساء الخير يا {name}</string>
+    <string name="tx_gr_evening2" formatted="false">أمسية سعيدة يا {name}</string>
+    <string name="tx_gr_evening3" formatted="false">لقد عدت يا {name}</string>
+    <string name="tx_gr_weekend1" formatted="false">عطلة أسبوع سعيدة يا {name}</string>
+    <string name="tx_gr_weekend2" formatted="false">استمتع بعطلة الأسبوع يا {name}</string>
+    <string name="tx_gr_playing1" formatted="false">في قلب الاستماع يا {name}</string>
+    <string name="tx_gr_playing2" formatted="false">اختيار رائع يا {name}</string>
+    <string name="tx_gr_playing3" formatted="false">الصوت رائع يا {name}</string>
+    <string name="tx_gr_heavy1" formatted="false">ما زلت عاشقاً للموسيقى يا {name}</string>
+    <string name="tx_gr_heavy2" formatted="false">السكروبلات لا تتوقف يا {name}</string>
+    <string name="tx_gr_birthday1" formatted="false">عيد سنوي سعيد لحسابك يا {name}!</string>
+    <string name="tx_gr_birthday2" formatted="false">مرّ {years} سنة معاً يا {name}!</string>
+    <string name="tx_gr_catchup1" formatted="false">{friend} يقترب منك يا {name}!</string>
+    <string name="tx_gr_catchup2" formatted="false">انتبه، {friend} خلفك مباشرة يا {name}</string>
+    <string name="tx_gr_christmas1" formatted="false">عيد ميلاد مجيد يا {name}!</string>
+    <string name="tx_gr_christmas2" formatted="false">أعياد سعيدة يا {name}</string>
+    <string name="tx_gr_newyear1" formatted="false">سنة جديدة سعيدة يا {name}!</string>
+    <string name="tx_gr_newyear2" formatted="false">سنة مليئة بالموسيقى يا {name}!</string>
+    <string name="tx_gr_easter1" formatted="false">فصح مجيد يا {name}!</string>
+    <string name="tx_gr_easter2" formatted="false">فصح سعيد يا {name}</string>
+    <string name="tx_gr_spring1" formatted="false">حلّ الربيع يا {name}</string>
+    <string name="tx_gr_spring2" formatted="false">قائمة تشغيل ربيعية يا {name}؟</string>
+    <string name="tx_gr_summer1" formatted="false">أجواء الصيف يا {name}</string>
+    <string name="tx_gr_summer2" formatted="false">استمتع بالشمس يا {name}</string>
+    <string name="tx_gr_autumn1" formatted="false">أجواء الخريف يا {name}</string>
+    <string name="tx_gr_autumn2" formatted="false">تتساقط الأوراق وتبقى الموسيقى يا {name}</string>
+    <string name="tx_gr_winter1" formatted="false">شتاء مع الموسيقى يا {name}</string>
+    <string name="tx_gr_winter2" formatted="false">تدفّأ بالموسيقى يا {name}</string>
+    <string name="tx_hdr_pick_t" formatted="false">اختر صورة من الجهاز</string>
+    <string name="tx_hdr_pick_s" formatted="false">تُحفظ داخل التطبيق وتُستخدم بدل الرابط</string>
+    <string name="tx_hdr_pick_set" formatted="false">صورة الجهاز قيد الاستخدام (تحل محل الرابط)</string>
+    <string name="tx_hdr_remove_t" formatted="false">إزالة صورة الجهاز</string>
+    <string name="tx_hdr_too_big" formatted="false">الصورة كبيرة جداً (الحد الأقصى 4 ميغابايت)</string>
+    <string name="tx_hdr_invalid" formatted="false">صورة غير صالحة</string>
+    <string name="tx_cache_confirm_t" formatted="false">هل تريد مسح هذه الذاكرة المؤقتة؟</string>
+    <string name="tx_cache_confirm_b" formatted="false">سيتم حذف {name}. لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="tx_cache_api_limit_t" formatted="false">حد بيانات API</string>
+    <string name="tx_cache_api_limit_s" formatted="false">الحجم الأقصى لبيانات API المخزنة. تُحذف الأقدم أولاً.</string>
+    <string name="tx_key_internal_use" formatted="false">استخدام مفتاح التطبيق الداخلي</string>
+    <string name="tx_key_internal_help" formatted="false">خيار احتياطي: هذا المفتاح مشترك بين المستخدمين وقد يبلغ حدوده أو يتوقف عن العمل، وقد تتعطل بعض الميزات. فضّل مفتاحك الخاص متى أمكن.</string>
+    <string name="tx_key_internal_active" formatted="false">مفتاح التطبيق الداخلي</string>
+    <string name="tx_key_fallback_title" formatted="false">المفتاح الداخلي كاحتياطي</string>
+    <string name="tx_key_fallback_sub" formatted="false">يُستخدم مفتاحك أولًا. وإذا رفضه Last.fm، يعيد التطبيق المحاولة تلقائيًا بالمفتاح الداخلي.</string>
+    <string name="tx_key_use_own" formatted="false">استخدام مفتاح API الخاص بي</string>
+    <string name="tx_key_change_title" formatted="false">تغيير مفتاح API</string>
+    <string name="tx_key_change_sub" formatted="false">استبدل مفتاحك بمفتاح آخر، أو انتقل إلى المفتاح الداخلي للتطبيق.</string>
+    <string name="tx_key_change_sub_internal" formatted="false">أنت تستخدم المفتاح المشترك للتطبيق. أضف مفتاحك الخاص حتى لا تعتمد على حدود المستخدمين الآخرين.</string>
+    <string name="tx_key_change_intro" formatted="false">أدخل مفتاح API جديدًا لهذا الحساب، أو ارجع إلى المفتاح الداخلي للتطبيق. لن يتغيّر اسم المستخدم ولا إحصاءاتك.</string>
+    <string name="tx_key_change_intro_internal" formatted="false">يستخدم هذا الحساب حاليًا المفتاح الداخلي للتطبيق. الصق مفتاح API الخاص بك من Last.fm في الحقل أدناه لاستبداله. لن يتغيّر اسم المستخدم ولا إحصاءاتك.</string>
+    <string name="tx_key_change_hint" formatted="false">يتكوّن مفتاح API من 32 حرفًا. يمكنك إنشاؤه أو العثور عليه في last.fm/api/accounts.</string>
+    <string name="tx_key_change_invalid_len" formatted="false">يجب أن يتكوّن مفتاح API من 32 حرفًا بالضبط. تأكد من أنك نسخته كاملًا.</string>
+    <string name="tx_key_change_same" formatted="false">هذا الحساب يستخدم هذا المفتاح بالفعل. أدخل مفتاحًا مختلفًا.</string>
+    <string name="tx_key_change_check_failed" formatted="false">لم يقبل Last.fm هذا المفتاح. تحقق من صحته ومن اتصالك بالإنترنت ثم حاول مرة أخرى.</string>
+    <string name="tx_key_change_favorites_warn" formatted="false">سيتم إلغاء الاتصال بالمفضلة لأنه مرتبط بالمفتاح القديم. يمكنك إعادة ربطه لاحقًا باستخدام مفتاحك السري.</string>
+    <string name="tx_key_change_apply" formatted="false">تطبيق</string>
+    <string name="tx_key_change_success" formatted="false">تم تحديث مفتاح API.</string>
+    <string name="tx_key_internal_fav_note" formatted="false">تحتاج المفضلة إلى مفتاح API الخاص بك والمفتاح السري من Last.fm. أضف مفتاحك أعلاه لتتمكن من تفعيلها.</string>
+    <string name="tx_faq_q15" formatted="false">هل يمكنني تغيير مفتاح API بعد تسجيل الدخول؟</string>
+    <string name="tx_faq_a15" formatted="false">نعم. انتقل إلى الإعدادات &gt; الحساب ثم اضغط على «تغيير مفتاح API». يمكنك استبدال مفتاحك بمفتاح آخر، أو إضافة مفتاحك الخاص إذا كنت قد اخترت المفتاح الداخلي في البداية. تبقى إحصاءاتك كما هي، ويلزم فقط إعادة إعداد الاتصال بالمفضلة.</string>
+    <string name="tx_nothing_wip_badge" formatted="false">قيد التحسين</string>
+    <string name="tx_nothing_wip_msg" formatted="false">نمط Nothing OS قيد التحسين حاليًا، لذلك لا يتوفر في الوقت الحالي. قد يتم تفعيله في إصدار قادم.</string>
+    <string name="tx_ui_play_preview" formatted="false">تشغيل المعاينة</string>
+    <string name="tx_ntf_test_title" formatted="false">🔔 إشعار تجريبي</string>
+    <string name="tx_ntf_test_body" formatted="false">إشعارات LastStats تعمل!</string>
+    <string name="tx_ui_not_enough_data_yet_sy" formatted="false">لا توجد بيانات كافية بعد — زامن سجلك الكامل من الإعدادات.</string>
+    <string name="tx_ui_level" formatted="false">المستوى {level}</string>
+    <string name="tx_ui_fetching" formatted="false">جارٍ جلب {currentYea}… ({yearIndex}/{totalYears})</string>
+    <string name="tx_ui_which_chart" formatted="false">أي رسم بياني؟</string>
+    <string name="tx_ui_which_period" formatted="false">أي فترة؟</string>
+    <string name="tx_ui_all_time" formatted="false">كل الأوقات</string>
+    <string name="tx_ui_exporting" formatted="false">جارٍ التصدير…</string>
+    <string name="tx_ui_chart_not_available_fo" formatted="false">هذا الرسم البياني غير متاح للفترة المحددة</string>
+    <string name="tx_ui_could_not_generate_the" formatted="false">تعذّر إنشاء الصورة. حاول مرة أخرى.</string>
+    <string name="tx_ui_error" formatted="false">حدث خطأ ما</string>
+    <string name="tx_ui_loading_history" formatted="false">جارٍ تحميل السجل{yearLabel}… {pct}%</string>
+    <string name="tx_ui_charts_will_be_more_ac" formatted="false">ستكون الرسوم أدق بعد اكتمال التحميل.</string>
+    <string name="tx_ui_load_the_full_history_" formatted="false">حمّل السجل الكامل للوصول إلى كل السنوات.</string>
+    <string name="tx_ui_load" formatted="false">تحميل</string>
+    <string name="tx_ui_based_on_scrobbles_all" formatted="false">استنادًا إلى {v_hourlyCou} سجل استماع (كل السنوات)</string>
+    <string name="tx_ui_all_available_years" formatted="false">كل السنوات المتاحة</string>
+    <string name="tx_ui_based_on_scrobbles_fro" formatted="false">استنادًا إلى {v_hourlyCou} سجل استماع من {v_selectedY}</string>
+    <string name="tx_ui_based_on_recent_scrobb" formatted="false">استنادًا إلى آخر {v_hourlyCou} سجل استماع</string>
+    <string name="tx_ui_analysing_your_last_20" formatted="false">تحليل آخر ~200 سجل استماع</string>
+    <string name="tx_ui_all_time_loading" formatted="false">كل الأوقات (بيانات {v_selectedY} قيد التحميل)</string>
+    <string name="tx_ui_all_time_2" formatted="false">كل الأوقات</string>
+    <string name="tx_ui_export_a_chart" formatted="false">تصدير رسم بياني</string>
+    <string name="tx_ui_scrobble_progression" formatted="false">تطور السجلات</string>
+    <string name="tx_ui_your_musical_genres" formatted="false">أنواعك الموسيقية</string>
+    <string name="tx_ui_based_on_your_top_arti" formatted="false">استنادًا إلى أفضل فنانيك (كل الأوقات)</string>
+    <string name="tx_ui_listening_habits" formatted="false">عادات الاستماع</string>
+    <string name="tx_ui_album_distribution" formatted="false">التوزيع حسب الألبوم</string>
+    <string name="tx_ui_listening_calendar" formatted="false">تقويم الاستماع</string>
+    <string name="tx_ui_daily_activity_to" formatted="false">النشاط اليومي — من {first} إلى {last}</string>
+    <string name="tx_ui_daily_activity_all_yea" formatted="false">النشاط اليومي — كل السنوات</string>
+    <string name="tx_ui_daily_activity" formatted="false">النشاط اليومي — {v_selectedY}</string>
+    <string name="tx_ui_load_history_to_see" formatted="false">حمّل السجل لعرض {v_selectedY}</string>
+    <string name="tx_ui_daily_activity_last_12" formatted="false">النشاط اليومي — آخر 12 شهرًا</string>
+    <string name="tx_ui_all_years" formatted="false">كل السنوات</string>
+    <string name="tx_ui_listening_streaks" formatted="false">سلاسل الاستماع</string>
+    <string name="tx_ui_total" formatted="false">المجموع</string>
+    <string name="tx_ui_avg_mo" formatted="false">المتوسط/شهر</string>
+    <string name="tx_ui_best_month" formatted="false">أفضل شهر</string>
+    <string name="tx_ui_hourly_distribution" formatted="false">التوزيع بالساعة</string>
+    <string name="tx_ui_activity_by_day_of_wee" formatted="false">النشاط حسب يوم الأسبوع</string>
+    <string name="tx_ui_current_streak" formatted="false">السلسلة الحالية</string>
+    <string name="tx_ui_d" formatted="false">ي</string>
+    <string name="tx_ui_best_streak" formatted="false">أفضل سلسلة</string>
+    <string name="tx_ui_best_streak_started_on" formatted="false">بدأت أفضل سلسلة في {bestStart}</string>
+    <string name="tx_ui_no_data_for_this_perio" formatted="false">لا توجد بيانات لهذه الفترة</string>
+    <string name="tx_ui_load_history_to_displa" formatted="false">حمّل السجل لعرض {what}</string>
+    <string name="tx_ui_less" formatted="false">أقل</string>
+    <string name="tx_ui_more" formatted="false">أكثر</string>
+    <string name="tx_ui_scan_a_profile" formatted="false">مسح ملف شخصي</string>
+    <string name="tx_ui_lvl" formatted="false">م. {level}</string>
+    <string name="tx_ui_qr_code" formatted="false">رمز QR؟</string>
+    <string name="tx_ui_add_a_qr_code_to_the_s" formatted="false">هل تريد إضافة رمز QR إلى الصورة المشاركة ليتمكن من يراها من مسح ملفك الشخصي؟</string>
+    <string name="tx_ui_no_qr" formatted="false">بدون QR</string>
+    <string name="tx_ui_to_the_app" formatted="false">إلى التطبيق</string>
+    <string name="tx_ui_to_last_fm" formatted="false">إلى Last.fm</string>
+    <string name="tx_ui_compare_music_taste" formatted="false">مقارنة الأذواق الموسيقية</string>
+    <string name="tx_ui_syncing_full_library" formatted="false">جارٍ مزامنة البيانات…</string>
+    <string name="tx_ui_see_more" formatted="false">عرض المزيد</string>
+    <string name="tx_ui_no_achievements_unlock" formatted="false">لم تفتح أي إنجاز بعد. واصل الاستماع لتحصل على أول إنجاز!</string>
+    <string name="tx_ui_no_animated_cover_for_" formatted="false">لا يوجد غلاف متحرك لهذا الألبوم</string>
+    <string name="tx_ui_source" formatted="false">المصدر: {source}</string>
+    <string name="tx_ui_view_on_last_fm" formatted="false">عرض على Last.fm</string>
+    <string name="tx_ui_original_text_last_fm_" formatted="false">النص الأصلي: Last.fm — الترجمة: ترجمة جوجل</string>
+    <string name="tx_ui_source_last_fm" formatted="false">المصدر: Last.fm</string>
+    <string name="tx_ui_dark" formatted="false">داكن</string>
+    <string name="tx_ui_light" formatted="false">فاتح</string>
+    <string name="tx_ui_system" formatted="false">النظام</string>
+    <string name="tx_ui_colored_widgets" formatted="false">ودجات ملونة</string>
+    <string name="tx_ui_tint_home_screen_widge" formatted="false">يلوّن الودجات بلون التمييز</string>
+    <string name="tx_ui_search_settings" formatted="false">ابحث عن إعداد…</string>
+    <string name="tx_ui_no_settings_found" formatted="false">لا توجد إعدادات تطابق بحثك</string>
+    <string name="tx_ui_all" formatted="false">الكل</string>
+    <string name="tx_ui_battery_saver" formatted="false">توفير البطارية</string>
+    <string name="tx_ui_save_battery_fewer_eff" formatted="false">وفّر البطارية بتأثيرات أقل</string>
+    <string name="tx_ui_musical_soulmates" formatted="false">توأم الروح الموسيقي</string>
+    <string name="tx_ui_great_compatibility" formatted="false">توافق رائع</string>
+    <string name="tx_ui_some_common_ground" formatted="false">بعض القواسم المشتركة</string>
+    <string name="tx_ui_fairly_different_taste" formatted="false">أذواق مختلفة إلى حد ما</string>
+    <string name="tx_ui_worlds_apart_musically" formatted="false">عالمان موسيقيان متضادان</string>
+    <string name="tx_ui_this_is_your_own_profi" formatted="false">هذا ملفك الشخصي!</string>
+    <string name="tx_ui_artists_from_your_hist" formatted="false">{uniqueArti} فنانًا من سجلك · مكتبة {targetUser} الكاملة</string>
+    <string name="tx_ui_artists_from_your_hist_2" formatted="false">{uniqueArti} فنانًا من سجلك · أفضل 200 لدى {targetUser}</string>
+    <string name="tx_ui_full_library_api" formatted="false">المكتبة الكاملة (API)</string>
+    <string name="tx_ui_top_200_artists_tracks" formatted="false">أفضل 200 فنان وأغنية (API)</string>
+    <string name="tx_ui_could_not_work_out_the" formatted="false">تعذّر حساب التوافق.</string>
+    <string name="tx_ui_music_compatibility" formatted="false">التوافق الموسيقي</string>
+    <string name="tx_ui_analyzing_musical_tast" formatted="false">جارٍ تحليل الأذواق الموسيقية…</string>
+    <string name="tx_ui_artist" formatted="false">{v_totalArti} فنان</string>
+    <string name="tx_ui_track" formatted="false">{v_totalTrac} أغنية</string>
+    <string name="tx_ui_album" formatted="false">{v_totalAlbu} ألبوم</string>
+    <string name="tx_ui_shared_tracks" formatted="false">أغانٍ مشتركة</string>
+    <string name="tx_ui_shared_artists" formatted="false">فنانون مشتركون</string>
+    <string name="tx_ui_no_shared_artists_foun" formatted="false">لم يتم العثور على فنانين مشتركين.</string>
+    <string name="tx_ui_shared_albums" formatted="false">ألبومات مشتركة</string>
+    <string name="tx_ui_play_count_unavailable" formatted="false">عدد مرات التشغيل غير متاح لأحدكما.</string>
+    <string name="tx_ui_you_listen_to_this_x_m" formatted="false">تستمع إلى هذا أكثر من {theirUsern} بمقدار {x} مرة.</string>
+    <string name="tx_ui_listens_to_this_x_more" formatted="false">{theirUsern} يستمع إلى هذا أكثر منك بمقدار {x} مرة.</string>
+    <string name="tx_ui_you_both_listen_to_thi" formatted="false">كلاكما يستمع إلى هذا بنفس القدر تقريبًا.</string>
+    <string name="tx_ui_plays" formatted="false">{plays} تشغيل</string>
+    <string name="tx_ui_compatibility" formatted="false">التوافق</string>
+    <string name="tx_ui_you_both_love" formatted="false">كلاكما يحب</string>
+    <string name="tx_ui_shared_top_artist" formatted="false">الفنان المفضل المشترك</string>
+    <string name="tx_ui_achievements" formatted="false">الإنجازات</string>
+    <string name="tx_ui_qr_not_recognized_not_" formatted="false">لم يتم التعرف على رمز QR — ليس ملفًا شخصيًا في LastStats/Last.fm</string>
+    <string name="tx_ui_scan_a_profile_s_qr_co" formatted="false">امسح رمز QR لملف شخصي</string>
+    <string name="tx_ui_favorites" formatted="false">المفضلة</string>
+    <string name="tx_ui_advanced_youtube_music" formatted="false">عميل متقدم لتطبيق يوتيوب ميوزك.</string>
+    <string name="tx_ui_syncs_the_glyphs_of_no" formatted="false">يزامن مصابيح Glyph في هواتف Nothing مع الموسيقى.</string>
+    <string name="tx_ui_sources" formatted="false">المصادر</string>
+    <string name="tx_ui_official_flutter_docs_" formatted="false">وثائق Flutter الرسمية.</string>
+    <string name="tx_ui_official_material_3_gu" formatted="false">دليل Material 3 الرسمي لتطوير Flutter.</string>
+    <string name="tx_ui_flutter_api_reference_" formatted="false">مرجع Flutter API لسمة Material 3.</string>
+    <string name="tx_ui_official_flutter_packa" formatted="false">حزمة Flutter الرسمية للتخطيطات المتكيفة.</string>
+    <string name="tx_ui_android_widgets" formatted="false">ودجات أندرويد</string>
+    <string name="tx_ui_applies_the_accent_col" formatted="false">يطبّق لون التمييز على خلفية أدوات الشاشة الرئيسية. عند الإيقاف: أبيض أو أسود خالص.</string>
+    <string name="tx_ui_turns_off_tilt_paralla" formatted="false">يعطّل تأثير المنظور عند إمالة الجهاز، ويحدّ من معدل تحديث الشاشة، ويبطّئ التحديثات في الخلفية — وكل شيء آخر يبقى بجودته الكاملة (الصور والتصدير وبطاقات المشاركة).</string>
+    <string name="tx_ui_always_on" formatted="false">مفعّل دائمًا</string>
+    <string name="tx_ui_force_eco_mode_on_rega" formatted="false">يفرض تفعيل وضع التوفير بغض النظر عن مستوى البطارية.</string>
+    <string name="tx_ui_auto_activate" formatted="false">تفعيل تلقائي</string>
+    <string name="tx_ui_turn_on_below_a_batter" formatted="false">تفعيل وضع توفير الطاقة عند انخفاض البطارية</string>
+    <string name="tx_ui_switches_on_by_itself_" formatted="false">يعمل وضع توفير الطاقة تلقائيًا عندما ينخفض مستوى البطارية. يمكنك اختيار المستوى بالتحديد لاحقًا من الإعدادات.</string>
+    <string name="tx_ui_threshold" formatted="false">الحد</string>
+    <string name="tx_ui_choose_the_tab_display" formatted="false">اختر علامة التبويب التي تظهر عند تشغيل التطبيق.</string>
+    <string name="tx_ui_the_selected_tab_will_" formatted="false">ستظهر علامة التبويب المحددة عند التشغيل القادم للتطبيق.</string>
+    <string name="tx_ui_friends_sync" formatted="false">مزامنة الأصدقاء</string>
+    <string name="tx_ui_sync_frequency" formatted="false">وتيرة المزامنة</string>
+    <string name="tx_ui_daily" formatted="false">يوميًا</string>
+    <string name="tx_ui_resync_everyone" formatted="false">إعادة مزامنة الجميع</string>
+    <string name="tx_ui_version_history" formatted="false">سجل الإصدارات</string>
+    <string name="tx_ui_could_not_load_release" formatted="false">تعذّر تحميل سجل الإصدارات. تحقّق من اتصالك وحاول مرة أخرى.</string>
+    <string name="tx_ui_installed_dev_build_un" formatted="false">المثبّتة: نسخة تطوير (الإصدار غير معروف)</string>
+    <string name="tx_ui_installed" formatted="false">المثبّتة: {displayVer}</string>
+    <string name="tx_ui_search_a_version_or_ch" formatted="false">ابحث عن إصدار أو سجل تغييرات…</string>
+    <string name="tx_ui_official" formatted="false">رسمي</string>
+    <string name="tx_ui_no_release_matches_you" formatted="false">لا يوجد إصدار مطابق لبحثك.</string>
+    <string name="tx_ui_latest" formatted="false">الأحدث</string>
+    <string name="tx_ui_installed_2" formatted="false">مثبّتة</string>
+    <string name="tx_ui_no_description" formatted="false">لا يوجد وصف لهذا الإصدار.</string>
+    <string name="tx_ui_download" formatted="false">تنزيل</string>
+    <string name="tx_ui_view_release" formatted="false">عرض الإصدار</string>
+    <string name="tx_ui_details" formatted="false">التفاصيل</string>
+    <string name="tx_ui_all_past_releases_chan" formatted="false">جميع الإصدارات السابقة وسجلات التغييرات والتنزيلات</string>
+    <string name="tx_ui_please_fill_both_field" formatted="false">املأ الحقلين للمتابعة.</string>
+    <string name="tx_svc_title" formatted="false">اختر خدمتك</string>
+    <string name="tx_svc_sub" formatted="false">يقرأ LastStats استماعاتك من إحدى هاتين الخدمتين.</string>
+    <string name="tx_svc_lfm_s" formatted="false">سجل Last.fm الخاص بك. تنبيه: واجهة Last.fm البرمجية أصبحت مدفوعة، ومفتاح API يتطلب Last.fm Pro اعتبارًا من 1 ديسمبر 2026.</string>
+    <string name="tx_svc_lfm_paid" formatted="false">واجهة مدفوعة</string>
+    <string name="tx_svc_lb_s" formatted="false">مجاني ومفتوح المصدر (MetaBrainz). تسجيل دخول بسيط برمز المستخدم الخاص بك.</string>
+    <string name="tx_svc_free" formatted="false">مجاني</string>
+    <string name="tx_svc_back" formatted="false">تغيير الخدمة</string>
+    <string name="tx_svc_lfm_note" formatted="false">اعتبارًا من 1 ديسمبر 2026، يتطلب مفتاح API الخاص بـ Last.fm اشتراك Last.fm Pro (لصاحب المفتاح). لا يتغير حسابك ولا سجلك.</string>
+    <string name="tx_svc_lfm_pro" formatted="false">عرض Last.fm Pro</string>
+    <string name="tx_lb_title" formatted="false">تسجيل الدخول إلى ListenBrainz</string>
+    <string name="tx_lb_steps" formatted="false">1. أنشئ حسابًا مجانيًا في ListenBrainz أو سجّل الدخول. 2. افتح إعدادات ListenBrainz. 3. انسخ رمز المستخدم والصقه هنا.</string>
+    <string name="tx_lb_token" formatted="false">رمز المستخدم</string>
+    <string name="tx_lb_create" formatted="false">إنشاء حساب ListenBrainz</string>
+    <string name="tx_lb_get_token" formatted="false">الحصول على رمزي</string>
+    <string name="tx_lb_docs" formatted="false">مساعدة API</string>
+    <string name="tx_lb_connect" formatted="false">اتصال</string>
+    <string name="tx_lb_invalid" formatted="false">الرمز غير صالح. تحقق منه في إعدادات ListenBrainz.</string>
+    <string name="tx_lb_neterr" formatted="false">تعذر الوصول إلى ListenBrainz. يرجى التحقق من اتصالك بالإنترنت.</string>
+    <string name="tx_lb_ok" formatted="false">تم الاتصال بـ ListenBrainz ({name}).</string>
+    <string name="tx_lb_empty" formatted="false">الصق رمزك للمتابعة.</string>
+    <string name="tx_sw_title" formatted="false">تم العثور على بيانات محلية</string>
+    <string name="tx_sw_body" formatted="false">يحتوي التطبيق بالفعل على {n} استماعًا محفوظًا محليًا. ماذا نفعل مع الخدمة الجديدة؟</string>
+    <string name="tx_sw_transfer" formatted="false">نقل</string>
+    <string name="tx_sw_transfer_s" formatted="false">يرسل هذه الاستماعات إلى ListenBrainz ويحتفظ بها في التطبيق.</string>
+    <string name="tx_sw_merge" formatted="false">دمج</string>
+    <string name="tx_sw_merge_s" formatted="false">يحتفظ بالبيانات القديمة ويضيف بيانات الخدمة الجديدة. عند التعارض تكون الأولوية لـ Last.fm.</string>
+    <string name="tx_sw_fresh" formatted="false">البدء من الصفر</string>
+    <string name="tx_sw_fresh_s" formatted="false">يحذف البيانات المحلية ويعيد التحميل من الخدمة الجديدة.</string>
+    <string name="tx_sw_ok" formatted="false">حسنًا</string>
+    <string name="tx_sw_sending" formatted="false">جارٍ إرسال الاستماعات… {done} / {total}</string>
+    <string name="tx_sw_merging" formatted="false">جارٍ الدمج… {year}</string>
+    <string name="tx_sw_fail" formatted="false">فشل النقل. تم الاحتفاظ ببياناتك المحلية.</string>
+    <string name="tx_lfm_create" formatted="false">إنشاء حساب Last.fm</string>
+    <string name="tx_conn_lb_desc" formatted="false">تُقرأ استماعاتك من ListenBrainz باستخدام رمز المستخدم. لا تُرسل أي طلبات إلى Last.fm.</string>
+    <string name="tx_acct_lb_token" formatted="false">رمز ListenBrainz</string>
+    <string name="tx_acct_lb_info" formatted="false">يوجد الرمز في إعدادات ListenBrainz. أبقِه سرًّا: فهو يمنح الوصول إلى حسابك.</string>
+    <string name="tx_acct_lb_profile" formatted="false">ملف ListenBrainz</string>
+    <string name="tx_acct_lb_view" formatted="false">عرض على ListenBrainz</string>
+    <string name="tx_acct_switch" formatted="false">تغيير الخدمة</string>
+    <string name="tx_acct_switch_s" formatted="false">التبديل من Last.fm إلى ListenBrainz أو العكس</string>
+    <string name="tx_ui_api_key_must_be_32_cha" formatted="false">يجب أن يتكون مفتاح API من 32 حرفًا بالضبط.</string>
+    <string name="tx_ui_profile_not_found" formatted="false">لم يتم العثور على الملف الشخصي. تحقّق من اسم المستخدم وحاول مرة أخرى.</string>
+    <string name="tx_ui_chart_monthly" formatted="false">أعمدة شهرية</string>
+    <string name="tx_ui_chart_cumul" formatted="false">التطور</string>
+    <string name="tx_ui_chart_genres" formatted="false">الأنواع الموسيقية</string>
+    <string name="tx_ui_chart_habits" formatted="false">عادات الاستماع</string>
+    <string name="tx_ui_chart_artists" formatted="false">توزيع الفنانين</string>
+    <string name="tx_ui_chart_albums" formatted="false">توزيع الألبومات</string>
+    <string name="tx_ui_chart_calendar" formatted="false">تقويم الاستماع</string>
+    <string name="tx_ui_chart_streaks" formatted="false">سلاسل الاستماع</string>
+    <string name="tx_ui_band_night" formatted="false">ليل</string>
+    <string name="tx_ui_band_morning" formatted="false">صباح</string>
+    <string name="tx_ui_band_afternoon" formatted="false">ظهر</string>
+    <string name="tx_ui_band_evening" formatted="false">مساء</string>
+    <string name="tx_qs_t1_t" formatted="false">وضع OLED</string>
+    <string name="tx_qs_t1_s" formatted="false">خلفية سوداء نقية توفّر الطاقة على شاشات OLED</string>
+    <string name="tx_qs_t2_t" formatted="false">وضع توفير الطاقة</string>
+    <string name="tx_qs_t2_s" formatted="false">رسوم متحركة وتحديثات خلفية أقل لتوفير البطارية</string>
+    <string name="tx_qs_t3_t" formatted="false">إشعارات الأخبار</string>
+    <string name="tx_qs_t3_s" formatted="false">تنبيهات بالميزات الجديدة والإصلاحات والإعلانات</string>
+    <string name="tx_qs_t4_t" formatted="false">الاستجابة اللمسية</string>
+    <string name="tx_qs_t4_s" formatted="false">اهتزازات قصيرة عند اللمس أو التحديد أو السحب</string>
+    <string name="tx_qs_t5_t" formatted="false">الإنجازات</string>
+    <string name="tx_qs_t5_s" formatted="false">يعرض الإنجازات المفتوحة ومستواك</string>
+    <string name="tx_qs_l1_t" formatted="false">لون التمييز</string>
+    <string name="tx_qs_l2_t" formatted="false">المظهر</string>
+    <string name="tx_qs_l3_t" formatted="false">اللغة</string>
+    <string name="tx_qs_l4_t" formatted="false">منصة الموسيقى</string>
+    <string name="tx_qs_l5_t" formatted="false">الحساب</string>
+    <string name="tx_qs_l6_t" formatted="false">المزامنة</string>
+    <string name="tx_qs_l7_t" formatted="false">الذاكرة المؤقتة</string>
+    <string name="tx_img_src_lastfm" formatted="false">المصدر: Last.fm</string>
+    <string name="tx_img_src_ytmusic" formatted="false">المصدر: YouTube Music</string>
+    <string name="tx_img_src_itunes" formatted="false">المصدر: iTunes</string>
+    <string name="tx_img_src_deezer" formatted="false">المصدر: Deezer</string>
+    <string name="tx_img_src_audiodb" formatted="false">المصدر: TheAudioDB</string>
+    <string name="tx_img_src_musicbrainz" formatted="false">المصدر: MusicBrainz</string>
+    <string name="tx_img_src_wikipedia" formatted="false">المصدر: ويكيبيديا</string>
+    <string name="tx_ds_type_artist" formatted="false">فنان</string>
+    <string name="tx_ds_type_album" formatted="false">ألبوم</string>
+    <string name="tx_ds_type_track" formatted="false">أغنية</string>
+    <string name="tx_pf_1" formatted="false">👤 ملف المستخدم</string>
+    <string name="tx_pf_2" formatted="false">🎤 أفضل الفنانين — الكل</string>
+    <string name="tx_pf_3" formatted="false">💿 أفضل الألبومات — الكل</string>
+    <string name="tx_pf_4" formatted="false">🎵 أفضل الأغاني — الكل</string>
+    <string name="tx_pf_5" formatted="false">⏱️ الاستماعات الأخيرة</string>
+    <string name="tx_pf_6" formatted="false">🗓️ هذا الأسبوع</string>
+    <string name="tx_pf_7" formatted="false">📅 هذا الشهر</string>
+    <string name="tx_pf_8" formatted="false">📅 آخر 3 أشهر</string>
+    <string name="tx_pf_9" formatted="false">📅 آخر 6 أشهر</string>
+    <string name="tx_pf_10" formatted="false">📅 آخر 12 شهرًا</string>
+    <string name="tx_pf_11" formatted="false">📊 السجل الشهري</string>
+    <string name="tx_pf_12" formatted="false">❤️ الأغاني المفضلة</string>
+    <string name="tx_pf_13" formatted="false">🗓️ أفضل الفنانين — الأسبوع</string>
+    <string name="tx_pf_14" formatted="false">🗓️ الألبومات والأغاني — الأسبوع</string>
+    <string name="tx_ds_tier_next" formatted="false">{n} / {next} للمستوى التالي</string>
+    <string name="tx_ds_tier_max" formatted="false">تم بلوغ المستوى الأقصى 🎉</string>
+    <string name="tx_ds_tier_first" formatted="false">استمع إلى هذه الأغنية لفتح أول مستوى (من {n} استماعات).</string>
+    <string name="tx_sl_import" formatted="false">جارٍ استيراد بياناتك</string>
+    <string name="tx_sl_done" formatted="false">تم الاستيراد!</string>
+    <string name="tx_sl_connect" formatted="false">جارٍ الاتصال بـ Last.fm…</string>
+    <string name="tx_sec_chart" formatted="false">الرسم البياني / التقويم</string>
+    <string name="tx_stat_avg_day" formatted="false">المتوسط / يوم</string>
+    <string name="tx_stat_avg_week" formatted="false">المتوسط / أسبوع</string>
+    <string name="tx_stat_days_active" formatted="false">الأيام النشطة</string>
+    <string name="tx_stat_scrobbles_week" formatted="false">التشغيلات (أسبوع)</string>
+    <string name="tx_accent_purple" formatted="false">بنفسجي</string>
+    <string name="tx_accent_blue" formatted="false">أزرق</string>
+    <string name="tx_accent_green" formatted="false">أخضر</string>
+    <string name="tx_accent_red" formatted="false">أحمر</string>
+    <string name="tx_accent_orange" formatted="false">برتقالي</string>
+    <string name="tx_accent_pink" formatted="false">وردي</string>
+    <string name="tx_accent_teal" formatted="false">تركوازي</string>
+    <string name="tx_accent_neutral" formatted="false">محايد</string>
+    <string name="tx_shape_title" formatted="false">أشكال الصور</string>
+    <string name="tx_shape_covers" formatted="false">الأغلفة والفنانون والألبومات</string>
+    <string name="tx_shape_mix" formatted="false">مزيج</string>
+    <string name="tx_shape_square" formatted="false">مربع</string>
+    <string name="tx_shape_circle" formatted="false">دائرة</string>
+    <string name="tx_shape_pick_one" formatted="false">أو اختر شكلًا واحدًا</string>
+    <string name="tx_friend_listening" formatted="false">يستمع الآن</string>
+    <string name="tx_friend_offline" formatted="false">غير متصل</string>
+    <string name="tx_tier_none" formatted="false">لا يوجد مستوى</string>
+    <string name="tx_src_title" formatted="false">المصادر</string>
+    <string name="tx_src_scrobbles_meta" formatted="false">التشغيلات والبيانات الوصفية</string>
+    <string name="tx_src_artwork" formatted="false">الغلاف</string>
+    <string name="tx_src_audio_preview" formatted="false">معاينة صوتية</string>
+    <string name="tx_src_video_artwork" formatted="false">غلاف فيديو</string>
+    <string name="tx_tip_love" formatted="false">إضافة إلى المفضلة</string>
+    <string name="tx_rail_expand" formatted="false">توسيع الشريط الجانبي</string>
+    <string name="tx_rail_collapse" formatted="false">طي الشريط الجانبي</string>
+    <string name="tx_a11y_loading" formatted="false">جارٍ التحميل</string>
+    <string name="tx_bk_pick_folder" formatted="false">اختر مجلد النسخ الاحتياطي التلقائي</string>
+    <string name="tx_bk_save_title" formatted="false">حفظ نسخة LastStats الاحتياطية</string>
+    <string name="tx_bk_pick_file" formatted="false">اختر ملف نسخة LastStats الاحتياطية</string>
+    <string name="tx_nch_milestone_d" formatted="false">ينبهك عند بلوغ إنجاز في عدد التشغيلات</string>
+    <string name="tx_nch_grand_d" formatted="false">تنبيهات خاصة للإنجازات الكبيرة (1K، 10K، 100K، 1M…)</string>
+    <string name="tx_nch_recap_d" formatted="false">ملخصات الاستماع اليومية والأسبوعية</string>
+    <string name="tx_nch_update_d" formatted="false">ينبهك عند توفر إصدار جديد من LastStats</string>
+    <string name="tx_nch_news_d" formatted="false">الميزات الجديدة والإصلاحات والإعلانات حول LastStats</string>
+    <string name="tx_nch_sync_d" formatted="false">تقدم مزامنة سجل التشغيلات الكامل</string>
+    <string name="tx_ntf_grand_1000000" formatted="false">مليون تشغيل. إنجاز أسطوري. 🎸</string>
+    <string name="tx_ntf_grand_500000" formatted="false">نصف مليون تشغيل. أنت لا تتوقف أبدًا. 🎧</string>
+    <string name="tx_ntf_grand_250000" formatted="false">{n} تشغيل — الموسيقى لا تنتهي. 🎶</string>
+    <string name="tx_ntf_grand_100000" formatted="false">{n} تشغيل! أنت عاشق حقيقي للموسيقى. 🔥</string>
+    <string name="tx_ntf_grand_50000" formatted="false">{n} تشغيل. إنجاز مذهل حقًا. 🎵</string>
+    <string name="tx_ntf_grand_25000" formatted="false">{n} تشغيل وما زلت في أوج حماسك!</string>
+    <string name="tx_ntf_grand_10000" formatted="false">{n} تشغيل — وصلت إلى خمس خانات! 🎉</string>
+    <string name="tx_ntf_grand_5000" formatted="false">{n} تشغيل والعدّ مستمر!</string>
+    <string name="tx_ntf_grand_1000" formatted="false">أول {n} تشغيل لك. تبدأ الرحلة. 🎵</string>
+    <string name="tx_ntf_update_title" formatted="false">LastStats {v} متاح</string>
+    <string name="tx_ntf_update_body" formatted="false">إصدار جديد جاهز للتنزيل.</string>
+    <string name="tx_ntf_milestone_title" formatted="false">🎵 إنجاز: {n} تشغيل</string>
+    <string name="tx_ntf_milestone_body" formatted="false">لقد بلغت للتو {n} تشغيل على Last.fm 🎶</string>
+    <string name="tx_ntf_daily_title" formatted="false">📊 ملخص اليوم · {d}</string>
+    <string name="tx_ntf_weekly_title" formatted="false">📅 ملخص الأسبوع · {w}</string>
+    <string name="tx_ntf_year_title" formatted="false">👀 ملخصك لعام {y} جاهز</string>
+    <string name="tx_ntf_year_body" formatted="false">اكتشف عامك {y} في الموسيقى: الفنانون والأغاني والألبومات والمزيد.</string>
+    <string name="tx_ntf_recap_body" formatted="false">{n} تشغيل · الأعلى: {a}</string>
+    <string name="tx_ntf_n_today" formatted="false">{n} تشغيل اليوم</string>
+    <string name="tx_ntf_n_week" formatted="false">{n} تشغيل هذا الأسبوع</string>
+    <string name="tx_ntf_top_artist" formatted="false">أكثر فنان: {a}</string>
+    <string name="tx_ntf_update_avail" formatted="false">🆕 تحديث متاح</string>
+    <string name="tx_ntf_update_ready" formatted="false">LastStats {v} جاهز — اضغط للعرض.</string>
+    <string name="tx_ntf_sync_title" formatted="false">🔄 جارٍ مزامنة التشغيلات…</string>
+    <string name="tx_ntf_sync_done" formatted="false">✅ تمت مزامنة التشغيلات</string>
+    <string name="tx_ntf_sync_new" formatted="false">تمت إضافة {n} تشغيل جديد.</string>
+    <string name="tx_ntf_grand_t" formatted="false">{v} تشغيل!</string>
+    <string name="tx_ntf_year" formatted="false">سنة {y}</string>
+    <string name="tx_ntf_week" formatted="false">الأسبوع {w}</string>
+    <string name="tx_reorder" formatted="false">إعادة الترتيب</string>
+    <string name="tx_sp_login_t" formatted="false">تسجيل الدخول إلى Spotify</string>
+    <string name="tx_sp_login_hint" formatted="false">سجّلوا الدخول باستخدام بريدكم الإلكتروني وكلمة مرور Spotify. تُغلق النافذة تلقائيًا عند اكتمال الدخول.</string>
+    <string name="tx_sp_risk_note" formatted="false">تنبيه: تعتمد هذه الميزة على استدعاءات غير رسمية لـ Spotify وليس على واجهة برمجة رسمية. قد تغيّرها Spotify أو تحظرها في أي وقت، وقد تتوقف عن العمل، وقد يخالف استخدامها شروط استخدام Spotify، مما قد يؤدي إلى فرض قيود على حسابك في Spotify. استخدمها على مسؤوليتك الخاصة.</string>
+    <string name="tx_sp_perf_note" formatted="false">الأداء: يشغّل البحث عن Canvas مشغّل ويب مخفيًا في الخلفية ويجري طلبات شبكة إضافية. قد يستهلك ذلك مزيدًا من البطارية والبيانات والذاكرة ويبطّئ التطبيق قليلًا. أزل Spotify من هذه القائمة إذا لاحظت ذلك.</string>
+    <string name="tx_sp_t" formatted="false">Spotify (Canvas)</string>
+    <string name="tx_sp_on" formatted="false">متصل</string>
+    <string name="tx_sp_off" formatted="false">غير متصل</string>
+    <string name="tx_sp_off_s" formatted="false">لقد سجّلت الخروج من Spotify. سجّل الدخول مجددًا للحصول على أغلفة Canvas المتحركة.</string>
+    <string name="tx_mv_ytdash_t" formatted="false">في لوحة التحكم أيضًا</string>
+    <string name="tx_mv_ytdash_s" formatted="false">استخدام YouTube للغلاف المتحرك خلف ملفك الشخصي في لوحة التحكم (معطّل افتراضيًا)</string>
+    <string name="tx_yr_title" formatted="false">ملخص العام</string>
+    <string name="tx_yr_loading" formatted="false">ملخصك في الطريق، لا تذهب بعيدًا…</string>
+    <string name="tx_yr_error" formatted="false">عذرًا، تعذّر تحميل السكروبلات. تحقق من الاتصال.</string>
+    <string name="tx_yr_retry" formatted="false">إعادة المحاولة</string>
+    <string name="tx_yr_empty" formatted="false">لا توجد سكروبلات في {year}… سنة راحة؟</string>
+    <string name="tx_yr_intro_h" formatted="false">عامك {year} في الموسيقى</string>
+    <string name="tx_yr_scrobbles" formatted="false">سكروبل</string>
+    <string name="tx_yr_total_intro" formatted="false">هذا العام استمعت إلى ما لا يقل عن:</string>
+    <string name="tx_yr_hours" formatted="false">أي ما يقارب {h} ساعة من الموسيقى. أذناك تستحقان ميدالية! (تقدير)</string>
+    <string name="tx_yr_top_artist" formatted="false">فنانك المفضل</string>
+    <string name="tx_yr_top_artists" formatted="false">أفضل الفنانين</string>
+    <string name="tx_yr_top_tracks" formatted="false">أفضل الأغاني</string>
+    <string name="tx_yr_top_albums" formatted="false">أفضل الألبومات</string>
+    <string name="tx_yr_plays" formatted="false">{n} مرة تشغيل</string>
+    <string name="tx_yr_months_h" formatted="false">عامك شهرًا بشهر</string>
+    <string name="tx_yr_months" formatted="false">يناير,فبراير,مارس,أبريل,مايو,يونيو,يوليو,أغسطس,سبتمبر,أكتوبر,نوفمبر,ديسمبر</string>
+    <string name="tx_yr_best_month" formatted="false">كان أنشط أشهرك {m} بعدد {n} سكروبل. سخن الجو!</string>
+    <string name="tx_yr_best_day" formatted="false">أكثر أيامك نشاطًا {d} بعدد {n} سكروبل. السماعات كادت تشتعل!</string>
+    <string name="tx_yr_when_h" formatted="false">متى تستمع</string>
+    <string name="tx_yr_p_night" formatted="false">تستمع غالبًا في الليل: بومة ليل بامتياز</string>
+    <string name="tx_yr_p_morning" formatted="false">تستمع غالبًا في الصباح: قهوة وقائمة تشغيل، ثنائي لا يُهزم</string>
+    <string name="tx_yr_p_day" formatted="false">تستمع غالبًا خلال النهار: موسيقى تصويرية لأيامك</string>
+    <string name="tx_yr_p_evening" formatted="false">تستمع غالبًا في المساء: الأجواء هي أسلوبك</string>
+    <string name="tx_yr_peak" formatted="false">ذروة استماعك عند الساعة {h}:00 تقريبًا، ويومك المفضل هو {d}.</string>
+    <string name="tx_yr_streak_h" formatted="false">انتظامك كأنك مترونوم</string>
+    <string name="tx_yr_streak" formatted="false">أيام</string>
+    <string name="tx_yr_style" formatted="false">تخصيص</string>
+    <string name="tx_yr_flame_h" formatted="false">أغنية سلسلتك</string>
+    <string name="tx_yr_flame_s" formatted="false">مرات التشغيل خلال سلسلتك لمدة {n} يومًا</string>
+    <string name="tx_yr_day_h" formatted="false">رقمك القياسي مع أغنية واحدة</string>
+    <string name="tx_yr_day_s" formatted="false">في يوم واحد، بتاريخ {d}. يا له من شغف!</string>
+    <string name="tx_yr_active" formatted="false">استمعت إلى الموسيقى في {n} يومًا من أصل {t}. وبقية الأيام؟ صمت مريب…</string>
+    <string name="tx_yr_disc_h" formatted="false">اكتشافات</string>
+    <string name="tx_yr_new" formatted="false">فنانًا اكتشفتهم هذا العام. فضولي!</string>
+    <string name="tx_yr_unique" formatted="false">استمعت في المجموع إلى {a} فنانًا و{t} أغنية مختلفة. يا له من تنوّع!</string>
+    <string name="tx_yr_card_hours" formatted="false">ساعات (تقدير)</string>
+    <string name="tx_yr_card_streak" formatted="false">أيام متتالية</string>
+    <string name="tx_yr_friends_h" formatted="false">أنت مقابل أصدقائك</string>
+    <string name="tx_yr_rank" formatted="false">ترتيبك {r} من {n}</string>
+    <string name="tx_yr_you" formatted="false">أنت</string>
+    <string name="tx_yr_twin_h" formatted="false">توأمك الموسيقي</string>
+    <string name="tx_yr_twin_s" formatted="false">بينكما {n} من الفنانين المفضلين المشتركين. العقول الكبيرة تتفق!</string>
+    <string name="tx_yr_top_track" formatted="false">أغنيتك الأولى</string>
+    <string name="tx_yr_top_album" formatted="false">ألبومك المفضل</string>
+    <string name="tx_yr_line_h" formatted="false">عامك بالتراكم</string>
+    <string name="tx_yr_cal_h" formatted="false">عامك في تقويم</string>
+    <string name="tx_yr_share_h" formatted="false">أين تذهب مرات تشغيلك</string>
+    <string name="tx_yr_share_err" formatted="false">عذرًا، تعذّر إنشاء الصورة. حاول مجددًا.</string>
+    <string name="tx_yr_share_profile" formatted="false">استخدام صورة ملفي الشخصي كخلفية</string>
+    <string name="tx_yr_months_full" formatted="false">يناير,فبراير,مارس,أبريل,مايو,يونيو,يوليو,أغسطس,سبتمبر,أكتوبر,نوفمبر,ديسمبر</string>
+    <string name="tx_yr_months_gen" formatted="false">يناير,فبراير,مارس,أبريل,مايو,يونيو,يوليو,أغسطس,سبتمبر,أكتوبر,نوفمبر,ديسمبر</string>
+    <string name="tx_yr_day_fmt" formatted="false">{d} {m}</string>
+    <string name="tx_yr_weekdays_full" formatted="false">الاثنين,الثلاثاء,الأربعاء,الخميس,الجمعة,السبت,الأحد</string>
+    <string name="tx_sp_need" formatted="false">يحتاج Spotify إلى تسجيل الدخول: الملف الشخصي &gt; صفحة الاتصال.</string>
+    <string name="tx_conn_title" formatted="false">الاتصالات</string>
+    <string name="tx_conn_btn_t" formatted="false">صفحة الاتصال</string>
+    <string name="tx_conn_btn_s" formatted="false">Last.fm وSpotify ومفاتيح API</string>
+    <string name="tx_conn_sp_desc" formatted="false">يُستخدم لأغلفة الفيديو (Canvas). يلزم حساب Spotify.</string>
+    <string name="tx_conn_connect" formatted="false">اتصال</string>
+    <string name="tx_conn_disconnect" formatted="false">قطع الاتصال</string>
+    <string name="tx_conn_keys" formatted="false">مفاتيح API</string>
+    <string name="tx_conn_manage" formatted="false">إدارة الحساب</string>
+    <string name="tx_conn_test" formatted="false">اختبار Spotify</string>
+    <string name="tx_conn_testing" formatted="false">جارٍ الاختبار…</string>
+    <string name="tx_conn_q_note" formatted="false">لـ Spotify Canvas جودة واحدة. إعدادات الجودة تخص Apple Music وYouTube فقط.</string>
+    <string name="tx_conn_lfm_desc" formatted="false">يُقرأ سجلّ Last.fm الخاص بكم بمفتاح API الخاص بكم (يتطلب Last.fm Pro اعتبارًا من 1 ديسمبر 2026).</string>
+    <string name="tx_conn_lfm_web" formatted="false">تسجيل الدخول عبر Last.fm</string>
+    <string name="tx_lfm_login_t" formatted="false">تسجيل الدخول إلى Last.fm</string>
+    <string name="tx_lfm_login_hint" formatted="false">سجّلوا الدخول في موقع Last.fm. سيتعرّف التطبيق على اسم المستخدم ثم تُغلق النافذة.</string>
+    <string name="tx_lfm_web_sub" formatted="false">لا حاجة إلى مفتاح API: يستخدم التطبيق مفتاحه المدمج.</string>
+    <string name="tx_lfm_manual_hint" formatted="false">تعذّر العثور على اسم المستخدم تلقائيًا. أدخلوه أدناه بعد تسجيل الدخول.</string>
+    <string name="tx_lfm_manual_label" formatted="false">اسم المستخدم</string>
+    <string name="tx_rec" formatted="false">موصى به</string>
+    <string name="tx_not_rec" formatted="false">غير موصى به</string>
+    <string name="tx_sm_title" formatted="false">طريقة الاتصال</string>
+    <string name="tx_sm_key_t" formatted="false">مفتاح API الخاص بي</string>
+    <string name="tx_sm_key_s" formatted="false">لديك حد استخدام خاص بك، وتتوفر المفضلة.</string>
+    <string name="tx_sm_builtin_t" formatted="false">المفتاح المدمج</string>
+    <string name="tx_sm_builtin_s" formatted="false">يلزم اسم المستخدم فقط. حد الاستخدام مشترك مع المستخدمين الآخرين.</string>
+    <string name="tx_wl_title" formatted="false">مرحبًا</string>
+    <string name="tx_wl_sub" formatted="false">أدخلوا اسم مستخدم Last.fm ومفتاح API الخاص بكم.</string>
+    <string name="tx_sr_from_recent" formatted="false">من عمليات بحثك الأخيرة</string>
+    <string name="tx_sr_recent" formatted="false">عمليات البحث الأخيرة</string>
+    <string name="tx_sr_suggestions" formatted="false">اقتراحات</string>
+    <string name="tx_sr_recommended" formatted="false">موصى به</string>
+    <string name="tx_sr_best" formatted="false">أفضل النتائج</string>
+    <string name="tx_cx_best_month" formatted="false">أفضل شهر</string>
+    <string name="tx_cx_active_days" formatted="false">الأيام النشطة</string>
+    <string name="tx_cx_peak_hour" formatted="false">ساعة الذروة</string>
+    <string name="tx_cx_top_artist" formatted="false">الفنان الأول</string>
+    <string name="tx_cx_top_artists" formatted="false">أفضل الفنانين</string>
+    <string name="tx_cx_by_month" formatted="false">شهريًا</string>
+    <string name="tx_cx_cumulative" formatted="false">تراكمي</string>
+    <string name="tx_cx_clock" formatted="false">ساعة الاستماع</string>
+    <string name="tx_cx_others" formatted="false">أخرى</string>
+    <string name="tx_cx_artist_distribution" formatted="false">التوزيع حسب الفنان</string>
+    <string name="tx_cx_daypart" formatted="false">أوقات اليوم</string>
+    <string name="tx_cx_night" formatted="false">ليل</string>
+    <string name="tx_cx_morning" formatted="false">صباحًا</string>
+    <string name="tx_cx_afternoon" formatted="false">بعد الظهر</string>
+    <string name="tx_cx_evening" formatted="false">مساءً</string>
+    <string name="tx_cx_intensity" formatted="false">شدة الأيام</string>
+    <string name="tx_cx_days" formatted="false">أيام</string>
+    <string name="tx_cx_busiest" formatted="false">أكثر الأيام نشاطًا</string>
+    <string name="tx_cx_weekend" formatted="false">أيام الأسبوع والعطلة</string>
+    <string name="tx_up_title" formatted="false">تحديث</string>
+    <string name="tx_up_downloading" formatted="false">جارٍ التنزيل…</string>
+    <string name="tx_up_perm_title" formatted="false">الإذن مطلوب</string>
+    <string name="tx_up_perm_body" formatted="false">اسمح بالتثبيت من LastStats في إعدادات أندرويد، ثم عد إلى هنا واضغط إعادة المحاولة.</string>
+    <string name="tx_up_installing" formatted="false">جارٍ فتح التثبيت…</string>
+    <string name="tx_up_restart" formatted="false">سيُغلق LastStats ثم يُعاد تشغيله.</string>
+    <string name="tx_up_failed" formatted="false">فشل التنزيل</string>
+    <string name="tx_up_failed_body" formatted="false">افتح الرابط في المتصفح لتثبيت التحديث.</string>
+    <string name="tx_up_retry" formatted="false">إعادة المحاولة</string>
+    <string name="tx_up_browser" formatted="false">فتح في المتصفح</string>
+    <string name="tx_up_close" formatted="false">إغلاق</string>
+    <string name="tx_up_saved" formatted="false">تم الحفظ في التنزيلات</string>
+    <string name="tx_up_background" formatted="false">المتابعة في الخلفية</string>
+    <string name="tx_ntf_dl_section" formatted="false">التنزيلات</string>
+    <string name="tx_ntf_dl_title" formatted="false">إشعارات التنزيل</string>
+    <string name="tx_ntf_dl_sub" formatted="false">شريط تقدم أثناء التنزيل حتى في الخلفية</string>
+    <string name="tx_ntf_dl_ready" formatted="false">اكتمل التنزيل</string>
+    <string name="tx_ntf_dl_failed" formatted="false">فشل التنزيل</string>
+    <string name="tx_ntf_act_read" formatted="false">وضع علامة مقروء</string>
+    <string name="tx_ntf_act_read_all" formatted="false">وضع علامة مقروء على الكل</string>
+    <string name="tx_ntf_act_install" formatted="false">تثبيت</string>
+    <string name="tx_ntf_dl_install_hint" formatted="false">اضغط لتثبيت التحديث</string>
+    <string name="tx_up_open_downloads" formatted="false">فتح التنزيلات</string>
+    <string name="tx_ic_title" formatted="false">أيقونة التطبيق</string>
+    <string name="tx_ic_note" formatted="false">تتغير الأيقونة عند مغادرة التطبيق في قائمة التطبيقات. على الشاشة الرئيسية أعد وضع التطبيق أو أضف اختصارًا بالزر أدناه.</string>
+    <string name="tx_ic_default" formatted="false">كلاسيكي</string>
+    <string name="tx_ic_white" formatted="false">فاتح</string>
+    <string name="tx_ic_nothing_black" formatted="false">Nothing داكن</string>
+    <string name="tx_ic_nothing_white" formatted="false">Nothing فاتح</string>
+    <string name="tx_ic_blue" formatted="false">أزرق</string>
+    <string name="tx_ic_red" formatted="false">أحمر</string>
+    <string name="tx_ic_pin" formatted="false">إضافة إلى الشاشة الرئيسية</string>
+    <string name="tx_lbl_step1_t" formatted="false">افتح صفحة الرمز</string>
+    <string name="tx_lbl_step1_s" formatted="false">سجّل الدخول إلى ListenBrainz ثم انسخ «رمز المستخدم».</string>
+    <string name="tx_lbl_open" formatted="false">فتح ListenBrainz</string>
+    <string name="tx_lbl_step2_t" formatted="false">الصق الرمز</string>
+    <string name="tx_lbl_paste" formatted="false">لصق</string>
+    <string name="tx_lbl_detected" formatted="false">تم العثور على رمز في الحافظة</string>
+    <string name="tx_lbl_use" formatted="false">استخدام</string>
+    <string name="tx_lbl_format_ok" formatted="false">صيغة الرمز صحيحة</string>
+    <string name="tx_lbl_format_bad" formatted="false">يبدو الرمز هكذا: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</string>
+    <string name="tx_lbl_err_format" formatted="false">هذا ليس رمزًا. لا تكتب اسم المستخدم: انسخ «رمز المستخدم» من إعدادات ListenBrainz.</string>
+    <string name="tx_lbl_err_invalid" formatted="false">رفض ListenBrainz هذا الرمز. تأكد أنه كامل أو انسخ رمزًا جديدًا.</string>
+    <string name="tx_lbl_err_rate" formatted="false">يطلب ListenBrainz الانتظار قليلًا. حاول مجددًا بعد ثوانٍ.</string>
+    <string name="tx_lbl_err_server" formatted="false">خادم ListenBrainz لا يستجيب بشكل صحيح. حاول مجددًا بعد قليل.</string>
+    <string name="tx_lbl_err_net" formatted="false">تعذّر الاتصال بـ ListenBrainz. تحقق من اتصالك.</string>
+    <string name="tx_lbl_err_after" formatted="false">تم قبول الدخول لكن فتح التطبيق فشل: {e}</string>
+    <string name="tx_lbl_options" formatted="false">خيارات</string>
+    <string name="tx_lbl_why" formatted="false">يسرّع الرمز قراءة سجلك ويتيح إضافة المقاطع إلى المفضلة.</string>
+    <string name="tx_lbl_connected" formatted="false">تم تسجيل الدخول باسم {u}</string>
+    <string name="tx_svc_recommended" formatted="false">موصى به</string>
+    <string name="tx_lfm_seg_key" formatted="false">مفتاحي</string>
+    <string name="tx_lfm_seg_builtin" formatted="false">المفتاح المدمج</string>
+    <string name="tx_lfm_seg_web" formatted="false">الموقع</string>
+    <string name="tx_acct_lb_change" formatted="false">تغيير الرمز</string>
+    <string name="tx_acct_lb_change_s" formatted="false">الصق رمز ListenBrainz جديدًا</string>
+    <string name="tx_acct_lb_changed" formatted="false">تم تحديث الرمز</string>
+    <string name="tx_bk_keys_desc_lb" formatted="false">اختر بيانات دخول ListenBrainz التي تريد استعادتها من هذه النسخة.</string>
+    <string name="tx_lbl_restore_bad" formatted="false">لا تحتوي هذه النسخة على بيانات دخول صالحة.</string>
+    <string name="tx_lbl_restored" formatted="false">تمت استعادة النسخة</string>
+    <string name="tx_lbl_step3_t" formatted="false">تسجيل الدخول</string>
+    <string name="tx_lbl_api_lb" formatted="false">يستخدم رمز ListenBrainz الخاص بك. الحد: طلب واحد في الثانية، يُدار تلقائيًا.</string>
+    <string name="tx_lbl_key_needed" formatted="false">المفاتيح العامة معطّلة: أضف مفتاح Last.fm API الخاص بك من الإعدادات › الاتصالات.</string>
+    <string name="tx_api_img_sec" formatted="false">مصادر الصور</string>
+    <string name="tx_api_img_sub" formatted="false">اسحب للترتيب. يُستخدم أول مصدر مفعّل يجد صورة.</string>
+    <string name="tx_api_vid_sec" formatted="false">مصادر الفيديو</string>
+    <string name="tx_api_img_clear" formatted="false">مسح ذاكرة الصور المؤقتة (لتطبيق الترتيب الجديد)</string>
+    <string name="tx_api_img_cleared" formatted="false">تم مسح ذاكرة الصور المؤقتة</string>
+    <string name="tx_api_help" formatted="false">«طلبات اليوم»: عدد الاستدعاءات المرسلة إلى الخدمات منذ منتصف الليل. «الأخطاء»: استدعاءات فاشلة (الخدمة متوقفة أو الوصول مرفوض أو لا توجد شبكة). «المحدودة»: ردود «طلبات كثيرة جدًا» من خدمة ما، فتُوقَف مؤقتًا لفترة قصيرة.</string>
+    <string name="tx_err_bad_response" formatted="false">أعاد الخادم ردًا غير صالح. قد تكون الخدمة غير متاحة أو قيد الصيانة. يرجى المحاولة مرة أخرى بعد قليل.</string>
+    <string name="tx_dash_offline_cache" formatted="false">تعذر الاتصال بالخادم. يتم عرض البيانات المحفوظة على هذا الجهاز.</string>
+    <string name="tx_news_btn" formatted="false">الأخبار</string>
+    <string name="tx_news_btn_sub" formatted="false">الأعطال وأعمال الصيانة والإعلانات</string>
+    <string name="tx_news_load_failed" formatted="false">تعذر تحميل الأخبار. يرجى التحقق من اتصالك بالإنترنت ثم المحاولة مرة أخرى.</string>
+    <string name="tx_news_retry" formatted="false">إعادة المحاولة</string>
+    <string name="tx_faq_lfm_h" formatted="false">الأسئلة الشائعة حول Last.fm</string>
+    <string name="tx_faq_lb_h" formatted="false">الأسئلة الشائعة حول ListenBrainz</string>
+    <string name="tx_ap_cov_section" formatted="false">الأغلفة والإنجازات</string>
+    <string name="tx_faq_lfm_q1" formatted="false">كيف أحصل على مفتاح API من Last.fm؟</string>
+    <string name="tx_faq_lfm_a1" formatted="false">سجّلوا الدخول إلى Last.fm، وافتحوا last.fm/api/account/create، وأدخلوا اسم التطبيق ووصفًا قصيرًا (يمكن ترك عنوان الاستدعاء فارغًا)، ثم انسخوا «مفتاح API» الظاهر في last.fm/api/accounts. أدخلوه في LastStats مع اسم مستخدم Last.fm الخاص بكم. المفتاح ملك لكم: لا يملك LastStats أي مفتاح مشترك.</string>
+    <string name="tx_faq_lfm_q2" formatted="false">ماذا يتغير في 1 ديسمبر 2026؟</string>
+    <string name="tx_faq_lfm_a2" formatted="false">أعلنت Last.fm أنه اعتبارًا من 1 ديسمبر 2026 لن يعمل مفتاح API إلا ما دام حساب Last.fm المالك له مشتركًا في Last.fm Pro. ستتوقف المفاتيح التابعة لحسابات مجانية عن العمل في ذلك التاريخ. وحده مالك المفتاح عليه الدفع: لا يتغير سجل الاستماع ولا حسابكم. إن كنتم لا ترغبون في الاشتراك، يمكنكم استخدام ListenBrainz وهو مجاني.</string>
+    <string name="tx_faq_lfm_q3" formatted="false">ماذا يحدث إذا توقف مفتاحي عن العمل؟</string>
+    <string name="tx_faq_lfm_a3" formatted="false">يواصل LastStats عرض البيانات المحفوظة على جهازكم، لكن لا يمكن تحميل بيانات جديدة وتظهر رسالة خطأ. اشتركوا في Last.fm Pro (أو أدخلوا مفتاحًا يملكه حساب Pro) ليعمل كل شيء من جديد، أو انتقلوا إلى ListenBrainz من الإعدادات &gt; الحساب.</string>
+    <string name="tx_faq_lfm_q4" formatted="false">كيف تصل مقاطعي المسموعة إلى Last.fm؟</string>
+    <string name="tx_faq_lfm_a4" formatted="false">يكتفي LastStats بعرض عمليات الـ scrobble الخاصة بكم ولا يسجّل أيًّا منها. استخدموا تطبيق scrobble أو مشغّلًا يدعم Last.fm (مثل Pano Scrobbler على أندرويد) وسجّلوا الدخول فيه إلى حسابكم على Last.fm.</string>
+    <string name="tx_faq_lfm_q5" formatted="false">لماذا لا تظهر آخر عمليات الـ scrobble لدي؟</string>
+    <string name="tx_faq_lfm_a5" formatted="false">تحققوا أولًا من أن تطبيق الـ scrobble يعمل: يجب أن يظهر المقطع في ملفكم الشخصي على last.fm. ثم اسحبوا الشاشة للأسفل لتحديث LastStats. تحدّ Last.fm من عدد الطلبات التي يمكن لأي تطبيق إرسالها، لذلك يباعد LastStats بين طلباته: قد يستغرق السجل الكبير جدًا بعض الوقت في أول مزامنة.</string>
+    <string name="tx_faq_lb_q1" formatted="false">أين أجد رمز المستخدم الخاص بي في ListenBrainz؟</string>
+    <string name="tx_faq_lb_a1" formatted="false">سجّلوا الدخول إلى listenbrainz.org وافتحوا listenbrainz.org/settings/ وانسخوا «User token». احتفظوا به سرًّا: فهو يعرّف بكم. في LastStats أدخلوا اسم مستخدم ListenBrainz (وهو اسم مستخدم MusicBrainz) والرمز. يبقى الرمز على جهازكم فقط.</string>
+    <string name="tx_faq_lb_q2" formatted="false">هل ListenBrainz مجاني؟</string>
+    <string name="tx_faq_lb_a2" formatted="false">نعم. ListenBrainz مشروع مفتوح المصدر تابع لمؤسسة MetaBrainz غير الربحية، واستخدامه مجاني. يحتاج LastStats إلى رمز المستخدم فقط: لا حاجة إلى إنشاء مفتاح API. مقاطعكم المسموعة بيانات عامة منشورة برخصة CC0.</string>
+    <string name="tx_faq_lb_q3" formatted="false">لماذا إحصائياتي فارغة أو غير موجودة؟</string>
+    <string name="tx_faq_lb_a3" formatted="false">يحسب ListenBrainz الإحصائيات على خوادمه الخاصة، لذا قد تتأخر في الحساب الجديد أو بعد استيراد كبير أو عند ازدحام الخدمة. في هذه الحالة تردّ الواجهة ببساطة بأن لا شيء جاهز بعد. تظهر مقاطعكم المسموعة أولًا ثم تلحق بها الإحصائيات. يرجى المحاولة مرة أخرى بعد قليل.</string>
+    <string name="tx_faq_lb_q4" formatted="false">كيف أنقل سجل Last.fm الخاص بي إلى ListenBrainz؟</string>
+    <string name="tx_faq_lb_a4" formatted="false">سجّلوا الدخول إلى listenbrainz.org (يلزم حساب MusicBrainz) وافتحوا listenbrainz.org/import-data/ لاستيراد مقاطعكم المسموعة من Last.fm. عندما يستورد كثيرون في الوقت نفسه قد يستغرق الأمر بعض الوقت. وعند تغيير الخدمة يعرض عليكم LastStats أيضًا نقل عمليات الـ scrobble المحفوظة على جهازكم.</string>
+    <string name="tx_faq_lb_q5" formatted="false">كيف أرسل مقاطعي المسموعة إلى ListenBrainz؟</string>
+    <string name="tx_faq_lb_a5" formatted="false">يكتفي LastStats بعرض مقاطعكم المسموعة. لتسجيلها، استخدموا مشغّلًا أو تطبيق scrobble متوافقًا مع ListenBrainz وسجّلوا الدخول برمزكم؛ وتجدون قائمة التطبيقات المدعومة على listenbrainz.org. تذكّروا أن مقاطعكم المسموعة عامة.</string>
+    <string name="tx_yr_ctx_month" formatted="false">المقطع الأكثر استماعًا ({m})</string>
+    <string name="tx_yr_ctx_peak" formatted="false">المقطع الأكثر استماعًا في هذه الساعات</string>
+    <string name="tx_yr_ctx_artist" formatted="false">المقطع الأكثر استماعًا لـ {a}</string>
+    <string name="tx_yr_ctx_disc" formatted="false">المقطع الأكثر استماعًا ضمن اكتشافاتكم</string>
+    <string name="tx_yr_bg_full" formatted="false">صورة بملء الشاشة</string>
+    <string name="tx_yr_bg_band" formatted="false">صورة في شريط علوي</string>
+    <string name="tx_yr_bg_none" formatted="false">بدون صورة</string>
+    <string name="tx_yr_sum_cover" formatted="false">صورة المركز الأول</string>
+    <string name="tx_yr_sum_profile" formatted="false">الملف الشخصي</string>
+    <string name="tx_yr_sum_none" formatted="false">بدون</string>
+</resources>

@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,TypographyEllipsis,TypographyDashes,PluralsCandidate,ImpliedQuantity,StringFormatInvalid,StringFormatMatches,Typos">
+    <string name="period7day">週間</string>
+    <string name="period1month">月間</string>
+    <string name="period3month">3ヶ月</string>
+    <string name="period6month">6ヶ月</string>
+    <string name="period12month">年間</string>
+    <string name="period_overall">全期間</string>
+    <string name="nav_dashboard">ダッシュボード</string>
+    <string name="nav_search">検索</string>
+    <string name="nav_rankings">ランキング</string>
+    <string name="nav_charts">チャート</string>
+    <string name="nav_history">履歴</string>
+    <string name="nav_settings">設定</string>
+    <string name="cache_title">ストレージ</string>
+    <string name="cache_usage">使用量</string>
+    <string name="cache_limit">ストレージ上限</string>
+    <string name="cache_limit_hint">上限に達すると、最も使われていない画像が自動的に削除されます。</string>
+    <string name="cache_clear_section">消去</string>
+    <string name="cache_images">画像</string>
+    <string name="cache_images_subtitle">アーティスト・アルバム・トラックのアートワーク</string>
+    <string name="cache_api_data">APIデータ</string>
+    <string name="cache_api_data_subtitle">トップアーティスト、アルバム、最近のトラックなど</string>
+    <string name="cache_scrobbles">スクロブル履歴</string>
+    <string name="cache_clear_btn">消去</string>
+    <string name="cache_confirm_scrobbles_title">スクロブル履歴を消去しますか？</string>
+    <string name="cache_confirm_scrobbles_body">履歴全体が削除され、次回起動時に再ダウンロードされます。</string>
+    <string name="cache_confirm_all_title">すべてのキャッシュを消去しますか？</string>
+    <string name="cache_confirm_all_body">画像、APIデータ、スクロブル履歴がすべて削除されます。</string>
+    <string name="cache_delete">削除</string>
+    <string name="common_artists">アーティスト</string>
+    <string name="common_albums">アルバム</string>
+    <string name="common_tracks">トラック</string>
+    <string name="common_no_results">結果がありません</string>
+    <string name="common_retry">再試行</string>
+    <string name="common_cancel">キャンセル</string>
+    <string name="common_apply">適用</string>
+    <string name="common_plays">再生回数</string>
+    <string name="common_listeners">リスナー</string>
+    <string name="common_now_playing_badge">再生中</string>
+    <string name="common_now_playing_long">再生中</string>
+    <string name="common_recent_tracks">最近のトラック</string>
+    <string name="common_no_recent_tracks">最近のトラックはありません</string>
+    <string name="common_top_artists">トップアーティスト</string>
+    <string name="rankings_title">ランキング</string>
+    <string name="rankings_podium">表彰台</string>
+    <string name="rankings_continued">ランキングの続き</string>
+    <string name="rankings_all_years">全期間</string>
+    <string name="charts_title">チャート</string>
+    <string name="charts_monthly">スクロブル数（過去12ヶ月）</string>
+    <string name="charts_artist_dist">トップアーティストの内訳</string>
+    <string name="charts_mainstream_title">メジャー系 vs 発掘アーティスト</string>
+    <string name="charts_mainstream_subtitle">お気に入りアーティストの世界的な人気度。</string>
+    <string name="charts_compute">計算</string>
+    <string name="charts_recompute">再計算</string>
+    <string name="charts_gem">隠れた名アーティスト</string>
+    <string name="charts_mainstream">メジャー系</string>
+    <string name="history_title">履歴</string>
+    <string name="history_subtitle">日ごとの再生履歴</string>
+    <string name="history_today">今日</string>
+    <string name="history_select_date">日付を選択</string>
+    <string name="history_chronological">時系列</string>
+    <string name="history_list">リスト</string>
+    <string name="history_stats">統計</string>
+    <string name="history_no_tracks">この日は再生履歴がありません</string>
+    <string name="history_top_artists">トップアーティスト</string>
+    <string name="history_top_albums">トップアルバム</string>
+    <string name="history_top_tracks">トップトラック</string>
+    <string name="history_hour_tracks">曲</string>
+    <string name="search_title">検索</string>
+    <string name="search_profiles">プロフィール</string>
+    <string name="search_hint_bar">アーティスト、アルバム、トラック、プロフィールを検索…</string>
+    <string name="search_hint_artists">アーティストを検索</string>
+    <string name="search_hint_albums">アルバムを検索</string>
+    <string name="search_hint_tracks">曲を検索</string>
+    <string name="search_type_prompt">上の検索バーに入力してください</string>
+    <string name="search_all">すべて</string>
+    <string name="search_folders">フォルダ</string>
+    <string name="search_folders_hint">フォルダを作成して曲・アルバム・アーティストを保存</string>
+    <string name="per_day">1日あたり</string>
+    <string name="activity_days">アクティブ日数</string>
+    <string name="dash_stats">統計</string>
+    <string name="dash_top_tracks">トップトラック</string>
+    <string name="dash_friends">フレンド</string>
+    <string name="dash_refresh">更新</string>
+    <string name="dash_refresh_friends">フレンドを更新</string>
+    <string name="dash_scrobbles">スクロブル数</string>
+    <string name="dash_scrobbles_per_day">1日あたり</string>
+    <string name="dash_days_active">アクティブ日数</string>
+    <string name="dash_last_track">最後に再生した曲</string>
+    <string name="dash_artist1">アーティスト1位</string>
+    <string name="dash_album1">アルバム1位</string>
+    <string name="dash_track1">トラック1位</string>
+    <string name="dash_no_friends">フレンドが見つかりません</string>
+    <string name="dash_reset_cache">キャッシュをリセット</string>
+    <string name="settings_title">設定</string>
+    <string name="settings_appearance">外観</string>
+    <string name="settings_theme">テーマ</string>
+    <string name="settings_theme_auto">自動</string>
+    <string name="settings_theme_light">ライト</string>
+    <string name="settings_theme_dark">ダーク</string>
+    <string name="settings_accent_color">アクセントカラー</string>
+    <string name="settings_accent_auto">自動</string>
+    <string name="settings_custom_color">カスタム</string>
+    <string name="settings_custom_color_edit">編集</string>
+    <string name="settings_dynamic_color">ダイナミックカラー</string>
+    <string name="settings_day_night_accent">昼夜のアクセントカラー</string>
+    <string name="settings_day_night_accent_toggle">昼と夜で別の色を使う</string>
+    <string name="settings_day_night_accent_toggle_sub">ダークテーマに別のアクセントカラーを使用します。</string>
+    <string name="settings_day_night_accent_dark">色（ダークテーマ）</string>
+    <string name="settings_day_night_use_hours">指定した時間を使う</string>
+    <string name="settings_day_night_use_hours_sub">現在のテーマではなく時刻で色を切り替えます。</string>
+    <string name="settings_day_night_day_start">昼の開始時刻</string>
+    <string name="settings_day_night_night_start">夜の開始時刻</string>
+    <string name="settings_material_you">Material You</string>
+    <string name="settings_material_you_sub">Android の壁紙の色を使用します（Android 12 以降）</string>
+    <string name="settings_music_color">楽曲から色を取得</string>
+    <string name="settings_music_color_sub">再生中の曲のジャケットからアクセントカラーを取得します</string>
+    <string name="settings_music_color_note">再生中のアルバムアートの主要色がアクセントカラーになります。</string>
+    <string name="settings_music_color_locked">先にMaterial Youを無効にしてください</string>
+    <string name="settings_startup_page">起動ページ</string>
+    <string name="settings_startup_tab">起動時のタブ</string>
+    <string name="settings_dashboard_section">ダッシュボード</string>
+    <string name="settings_header_image">ヘッダー画像</string>
+    <string name="settings_header_image_sub">選択したアートワークがホーム画面の背景として表示されます。</string>
+    <string name="settings_header_source">ソース</string>
+    <string name="settings_header_period">期間</string>
+    <string name="settings_header_animation">トランジション</string>
+    <string name="settings_header_animation_sub">アートワークが切り替わる際のアニメーション。</string>
+    <string name="settings_header_blur">ぼかし</string>
+    <string name="settings_header_blur_none">なし</string>
+    <string name="settings_header_custom_url">画像URL</string>
+    <string name="settings_header_custom_url_hint">https://example.com/image.jpg</string>
+    <string name="settings_header_custom_url_sub">画像の直接URLを貼り付けてください（jpg、png、webpなど）。</string>
+    <string name="settings_header_apply">適用</string>
+    <string name="settings_header_fallback">デフォルト画像</string>
+    <string name="settings_header_fallback_sub">音楽が再生されていないときにヘッダーに表示する画像です。</string>
+    <string name="settings_header_fallback_url_label">デフォルト画像URL</string>
+    <string name="settings_visible_sections">表示するセクション</string>
+    <string name="settings_now_playing_section">再生中</string>
+    <string name="settings_stats_section">統計</string>
+    <string name="settings_top_artists_section">トップアーティスト</string>
+    <string name="settings_top_tracks_section">トップトラック</string>
+    <string name="settings_friends_section">フレンド</string>
+    <string name="settings_account">アカウント</string>
+    <string name="settings_logout">サインアウト</string>
+    <string name="settings_logout_title">サインアウトしますか？</string>
+    <string name="settings_logout_content">認証情報は削除されます。</string>
+    <string name="settings_logout_confirm">サインアウト</string>
+    <string name="settings_backup">バックアップと復元</string>
+    <string name="settings_export">設定をエクスポート</string>
+    <string name="settings_export_sub">設定を JSON 形式でクリップボードにコピーします。保存や共有に使えます</string>
+    <string name="settings_import">バックアップを復元</string>
+    <string name="settings_import_sub">以前にエクスポートした JSON から設定を復元します</string>
+    <string name="settings_backup_info">含まれる内容：テーマ、色、APIキー、ユーザー名、ヘッダー、お気に入り。バージョン間で互換性があります。</string>
+    <string name="settings_updates">アップデート</string>
+    <string name="settings_auto_update">自動チェック</string>
+    <string name="settings_auto_update_sub">1日1回、バックグラウンドで新しいバージョンを確認します。</string>
+    <string name="settings_check_now">今すぐ確認</string>
+    <string name="settings_up_to_date">最新です</string>
+    <string name="settings_check_failed">アップデートを確認できませんでした。インターネット接続を確認して、もう一度お試しください。</string>
+    <string name="settings_download">ダウンロード</string>
+    <string name="settings_view_release">表示</string>
+    <string name="settings_about">アプリ情報</string>
+    <string name="settings_version">バージョン</string>
+    <string name="settings_web_version">Web版</string>
+    <string name="settings_web_version_sub">sanobld.github.io/LastStats</string>
+    <string name="settings_source_code">ソースコード</string>
+    <string name="settings_source_code_sub">github.com/SanoBld/LastStats-App</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_about_project_desc">LastStatsは個人のオープンソースプロジェクトです。不具合が含まれる場合があります。</string>
+    <string name="settings_about_support">プロジェクトを応援する</string>
+    <string name="settings_about_support_sub">⭐ GitHubでスターを付ける</string>
+    <string name="settings_faq">よくある質問</string>
+    <string name="header_now_playing">再生中</string>
+    <string name="header_top_track">トラック1位</string>
+    <string name="header_top_album">アルバム1位</string>
+    <string name="header_top_artist">アーティスト1位</string>
+    <string name="header_custom_image">カスタム画像</string>
+    <string name="header_theme_color">テーマカラー</string>
+    <string name="header_anim_none">なし</string>
+    <string name="header_anim_fade">フェード</string>
+    <string name="header_anim_slide">スライド</string>
+    <string name="header_anim_zoom">ズーム</string>
+    <string name="header_period_week">週間</string>
+    <string name="header_period_month">月間</string>
+    <string name="header_period_all_time">全期間</string>
+    <string name="color_picker_title">カスタムカラー</string>
+    <string name="color_picker_hue">色相</string>
+    <string name="color_picker_saturation">彩度</string>
+    <string name="color_picker_brightness">明度</string>
+    <string name="color_picker_quick_colors">クイックカラー</string>
+    <string name="color_picker_invalid">無効な形式です</string>
+    <string name="color_custom_tooltip">カスタム</string>
+    <string name="export_title">設定をエクスポート</string>
+    <string name="export_filename">ファイル名</string>
+    <string name="export_json_content">JSONの内容</string>
+    <string name="export_info">このJSONをコピーし、テキストファイルに貼り付けて.jsonという名前で保存してください</string>
+    <string name="export_copy">JSONをコピー</string>
+    <string name="export_copied">コピーしました！</string>
+    <string name="import_title">バックアップを復元</string>
+    <string name="import_hint_label">LastStatsのバックアップをここに貼り付けてください。</string>
+    <string name="import_empty">インポートするデータがありません。入力欄が空です。LastStats でエクスポートした JSON を貼り付けてください。</string>
+    <string name="import_invalid_json">無効なJSONです。</string>
+    <string name="import_unknown_file">認識できないファイルです。</string>
+    <string name="import_invalid_format">無効な形式です。</string>
+    <string name="import_success">設定が正常に復元されました ✓</string>
+    <string name="import_restore">復元</string>
+    <string name="setup_import_json">JSONをインポート</string>
+    <string name="setup_import_hint_label">JSONファイルの内容を下に貼り付けてください。</string>
+    <string name="setup_import_note">{ \"username\": \"…\", \"api_key\": \"…\" }</string>
+    <string name="setup_import_format">{ \"username\": \"...\", \"api_key\": \"...\" }</string>
+    <string name="setup_invalid_fields">無効なJSONです：\"username\"または\"api_key\"フィールドがありません。</string>
+    <string name="detail_tracklist">トラック</string>
+    <string name="detail_album_label">アルバム</string>
+    <string name="detail_duration">再生時間</string>
+    <string name="detail_top_tracks">人気のトラック</string>
+    <string name="detail_top_albums">人気のアルバム</string>
+    <string name="detail_bio_read_more">続きを読む</string>
+    <string name="detail_bio_read_less">閉じる</string>
+    <string name="detail_user_plays">あなたの再生回数</string>
+    <string name="detail_global_plays">総再生回数</string>
+    <string name="detail_user_rank">順位</string>
+    <string name="detail_user_rank_na">該当なし</string>
+    <string name="detail_global_listeners">リスナー</string>
+    <string name="detail_period">期間</string>
+    <string name="detail_biography">バイオグラフィー</string>
+    <string name="detail_global_listeners_label">リスナー数</string>
+    <string name="detail_translate">翻訳</string>
+    <string name="detail_show_original">原文を表示</string>
+    <string name="detail_lyrics">歌詞</string>
+    <string name="detail_lyrics_not_found">歌詞が見つかりません</string>
+    <string name="detail_copy_lyrics">歌詞をコピー</string>
+    <string name="detail_lyrics_copied">歌詞をコピーしました</string>
+    <string name="detail_shoutbox">Last.fmのシャウトボックス</string>
+    <string name="detail_shoutbox_reply">返信</string>
+    <string name="dash_per_week">週あたり</string>
+    <string name="onboard_skip">スキップ</string>
+    <string name="onboard_next">次へ</string>
+    <string name="onboard_finish">完了</string>
+    <string name="onboard_back">戻る</string>
+    <string name="onboard_appearance_title">スタイルをカスタマイズ</string>
+    <string name="onboard_appearance_sub">ライトテーマまたはダークテーマ、アクセントカラー、表示オプションを選択してください。</string>
+    <string name="onboard_notif_title">最新情報をチェック</string>
+    <string name="onboard_notif_sub">受け取る通知の種類と、端末を振動させるかどうかを選択してください。</string>
+    <string name="onboard_fav_title">お気に入りのプロフィール</string>
+    <string name="onboard_fav_add">追加</string>
+    <string name="onboard_fav_empty">お気に入りはまだありません</string>
+    <string name="onboard_fav_no_results">プロフィールが見つかりません</string>
+    <string name="onboard_fav_no_friends">このアカウントにはフレンドがいません</string>
+    <string name="onboard_fav_selected">選択中のお気に入り</string>
+    <string name="onboard_dash_title">あなたのダッシュボード</string>
+    <string name="onboard_dash_sub">ホーム画面に表示するセクションを選択してください。後から設定で変更できます。</string>
+    <string name="onboard_startup_title">起動画面</string>
+    <string name="onboard_startup_sub">アプリを起動したときに最初に開くタブを選択してください。</string>
+    <string name="onboard_platform_title">何で音楽を聴いていますか？</string>
+    <string name="onboard_platform_sub">音楽を聴いている場所を教えてください。曲、アーティスト、アルバムのページには、役に立つリンクだけが表示されます。</string>
+    <string name="platform_lastfm">Last.fm</string>
+    <string name="platform_spotify">Spotify</string>
+    <string name="platform_yt_music">YouTube Music</string>
+    <string name="platform_other">その他 / すべて表示</string>
+    <string name="settings_music_platform">音楽プラットフォーム</string>
+    <string name="settings_music_platform_sub">アーティスト、アルバム、曲のページには、選んだ音楽サービスのリンクだけを表示します</string>
+    <string name="settings_show_all_platform_links">常にすべて表示</string>
+    <string name="onboard_updates_title">アップデート</string>
+    <string name="onboard_updates_sub">新しいバージョンが公開されているかどうかを自動で確認します。</string>
+    <string name="onboard_preview">プレビュー</string>
+    <string name="onboard_preview_button">ボタン</string>
+    <string name="onboard_preview_outline">メインボタン</string>
+    <string name="onboard_preview_text">サンプルテキスト</string>
+    <string name="onboard_preview_bubble">吹き出し</string>
+    <string name="onboard_display">表示</string>
+    <string name="onboard_oled_title">OLED純黒</string>
+    <string name="onboard_oled_sub">ダークモードで背景が完全な黒になり、OLED 画面ではバッテリーの節約になります。</string>
+    <string name="onboard_artwork_color_title">アートワークから色を取得</string>
+    <string name="onboard_artwork_color_sub">アプリのアクセントカラーが、再生中の曲のジャケットに合わせて自動的に変わります。</string>
+    <string name="onboard_news_title">お知らせ通知</string>
+    <string name="onboard_news_sub">新機能が追加されたときや不具合が修正されたときに通知します。</string>
+    <string name="onboard_news_badge_title">お知らせバッジ</string>
+    <string name="onboard_news_badge_sub">読んでいない新しいお知らせがあると、ホーム画面のベルにバッジが表示されます。</string>
+    <string name="onboard_haptic_title">触覚フィードバック</string>
+    <string name="onboard_haptic_sub">ボタンや重要な項目をタップすると、端末が軽く振動します。</string>
+    <string name="onboard_recaps">まとめ</string>
+    <string name="onboard_daily_recap_title">デイリーまとめ</string>
+    <string name="onboard_daily_recap_sub">毎日、その日に聴いた内容のまとめを受け取ります。</string>
+    <string name="onboard_weekly_recap_title">ウィークリーまとめ</string>
+    <string name="onboard_weekly_recap_sub">毎週、よく聴いたアーティスト、アルバム、曲のランキングを受け取ります。</string>
+    <string name="onboard_milestones_section">スクロブルの節目</string>
+    <string name="onboard_milestones_title">マイルストーン</string>
+    <string name="onboard_milestones_sub">再生回数がキリのいい数字に達すると、お祝いの通知が届きます。</string>
+    <string name="onboard_grand_milestones_title">大きな節目</string>
+    <string name="onboard_grand_milestones_sub">再生回数がとても大きな節目に達すると、特別なお祝いが表示されます。</string>
+    <string name="onboard_dynamic_color_sub">壁紙の色をアプリに反映します。この機能は Android 12 以降で利用できます。</string>
+    <string name="onboard_beta_title">ベータアップデート</string>
+    <string name="onboard_beta_sub">テスト版を誰よりも早く受け取れます。不具合が含まれている場合があります。</string>
+    <string name="notif_detail_title">通知</string>
+    <string name="notif_detail_open_link">リンクを開く</string>
+    <string name="settings_checking_updates">アップデートを確認中…</string>
+    <string name="settings_tap_to_download">タップしてダウンロード</string>
+    <string name="detail_looking_for_preview">プレビューを検索中…</string>
+    <string name="detail_preview30_sec">プレビュー・30秒</string>
+    <string name="setup_analyse_profile">プロフィールを分析</string>
+    <string name="setup_connecting">接続中…</string>
+    <string name="setup_start_analysis">分析を開始</string>
+    <string name="setup_or">または</string>
+    <string name="setup_username_label">Last.fmユーザー名</string>
+    <string name="setup_api_key_label">Last.fm APIキー</string>
+    <string name="setup_api_key_hint">32文字の16進数キー</string>
+    <string name="setup_api_key_privacy_note">キーはこの端末にのみ保存され、第三者に送信されることはありません。</string>
+    <string name="setup_remember_me">ログイン情報を保存</string>
+    <string name="setup_get_api_key">無料でAPIキーを取得</string>
+    <string name="setup_welcome_banner">LastStatsへようこそ！</string>
+    <string name="setup_one_time_import_note">初回のみのインポートです。次回以降の起動は瞬時に完了します。</string>
+    <string name="dash_tap_to_download">タップしてダウンロード。</string>
+    <string name="dash_week_label">今週</string>
+    <string name="dash_month_label">今月</string>
+    <string name="dash_year_label">今年</string>
+    <string name="dash_top_artist_label">トップアーティスト</string>
+    <string name="dash_top_track_label">トップトラック</string>
+    <string name="dash_scrobbles_label">スクロブル数</string>
+    <string name="news_type_features">新機能</string>
+    <string name="news_type_fixes">修正</string>
+    <string name="news_type_updates">アップデート</string>
+    <string name="news_type_alerts">お知らせ</string>
+    <string name="news_type_info">情報</string>
+    <string name="news_whats_new">新着情報</string>
+    <string name="news_filters">フィルター</string>
+    <string name="news_all">すべて</string>
+    <string name="news_any_date">すべての日付</string>
+    <string name="news_no_news_yet">まだニュースはありません</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_cache">キャッシュ</string>
+    <string name="settings_card_appearance_sub">テーマ、アクセント、レイアウト、Material You</string>
+    <string name="settings_card_dashboard_sub">ヘッダー画像、表示セクション、統計カード</string>
+    <string name="settings_card_startup_sub">アプリ起動時に表示するタブ</string>
+    <string name="settings_card_notifications_sub">マイルストーン、デイリー・ウィークリーまとめ</string>
+    <string name="settings_sync">同期</string>
+    <string name="settings_card_sync_sub">バックグラウンドでのスクロブル自動同期</string>
+    <string name="settings_card_cache_sub">履歴、画像、APIデータ</string>
+    <string name="settings_card_backup_sub">設定のエクスポートと復元</string>
+    <string name="settings_card_updates_sub">新しいバージョンを確認</string>
+    <string name="settings_card_about_sub">バージョン、ソースコード、クレジット</string>
+    <string name="settings_card_faq_sub">スクロブリング、プラットフォーム、オープンソース</string>
+    <string name="settings_restart_notice">一部の設定は、完全に反映させるためにアプリの再起動が必要です。</string>
+    <string name="sync_page_title">スクロブル同期</string>
+    <string name="sync_auto_title">自動同期</string>
+    <string name="sync_auto_subtitle">一定間隔でバックグラウンドで履歴を同期します</string>
+    <string name="sync_frequency_label">頻度</string>
+    <string name="sync_frequency_daily">1日1回</string>
+    <string name="sync_manual_title">手動同期</string>
+    <string name="sync_now_button">今すぐ同期</string>
+    <string name="sync_in_progress">同期中…</string>
+    <string name="sync_last_sync_label">前回の同期</string>
+    <string name="sync_never_label">なし</string>
+    <string name="sync_total_scrobbles_label">キャッシュ済みスクロブル数</string>
+    <string name="sync_up_to_date_msg">履歴は最新です。ダウンロードする新しいスクロブルはありません</string>
+    <string name="sync_notif_note">完全同期中は進捗通知が表示されます。</string>
+    <string name="pc_mode_layout">レイアウト</string>
+    <string name="pc_mode_nav_layout">ナビゲーションレイアウト</string>
+    <string name="pc_mode_auto">自動</string>
+    <string name="pc_mode_side_rail">サイドレール</string>
+    <string name="pc_mode_bottom_bar">ボトムバー</string>
+    <string name="pc_mode_hint_auto">広い画面（720dp以上）ではサイドレール、狭い画面ではボトムバーを使用します。</string>
+    <string name="pc_mode_hint_on">画面サイズにかかわらず、常にサイドナビゲーションレールを使用します。</string>
+    <string name="pc_mode_hint_off">画面サイズにかかわらず、常にボトムナビゲーションバーを使用します。</string>
+    <string name="about_app_info">アプリ情報</string>
+    <string name="about_scrobble_downloader">スクロブルダウンローダー</string>
+    <string name="about_scrobble_downloader_sub">すべてのスクロブル履歴をダウンロードして、ファイルとして保存します</string>
+    <string name="about_powered_by">提供元</string>
+    <string name="about_image_disclaimer">アーティスト、アルバム、トラックの画像はこれらのソースから自動的に取得されており、実際の内容と一致しない場合があります。</string>
+    <string name="about_footer">❤️を込めて制作 · Last.fmとは提携していません</string>
+    <string name="updates_current_version">現在のバージョン</string>
+    <string name="updates_beta_title">ベータアップデート</string>
+    <string name="updates_beta_sub">先行リリース版への早期アクセス</string>
+    <string name="backup_whats_included">含まれる内容</string>
+    <string name="backup_download_file">.jsonファイルをダウンロードします</string>
+    <string name="backup_choose_file">バックアップファイルを選択</string>
+    <string name="backup_file_saved">バックアップを保存しました</string>
+    <string name="backup_file_save_failed">バックアップファイルを保存できませんでした。空き容量と、アプリがフォルダに書き込めるかを確認して、もう一度お試しください。</string>
+    <string name="setup_restore_backup">バックアップを復元</string>
+    <string name="setup_restore_backup_sub">JSON 形式のバックアップファイルから、アカウントと設定を復元します。</string>
+    <string name="backup_restore_keys_title">APIキーを復元</string>
+    <string name="backup_restore_keys_desc">このバックアップから復元するLast.fmのキーを選んでください。</string>
+    <string name="backup_restore_api_key_label">APIキー</string>
+    <string name="backup_restore_secret_key_label">シークレットキー</string>
+    <string name="backup_include_folders_label">フォルダを含める</string>
+    <string name="backup_include_folders_desc">曲のフォルダとその中身を含めます</string>
+    <string name="backup_include_keys_desc">エクスポートするファイルにキーを含める</string>
+    <string name="backup_include_themes_label">テーマをエクスポート</string>
+    <string name="backup_include_themes_desc">見た目(色やスタイル)だけを他の人と共有できます。</string>
+    <string name="backup_auto_title">自動バックアップ</string>
+    <string name="backup_auto_enable_label">自動バックアップを有効にする</string>
+    <string name="backup_auto_enable_desc">下で選んだ間隔で自動的にバックアップを保存します。</string>
+    <string name="backup_auto_freq_label">頻度</string>
+    <string name="backup_auto_freq_daily">毎日</string>
+    <string name="backup_auto_freq_weekly">毎週</string>
+    <string name="backup_auto_freq_monthly">毎月</string>
+    <string name="backup_auto_freq_yearly">毎年</string>
+    <string name="backup_auto_folder_label">バックアップフォルダ</string>
+    <string name="backup_auto_folder_default">アプリの既定フォルダ</string>
+    <string name="backup_include_scrobbles_label">履歴をすべて含める</string>
+    <string name="backup_include_scrobbles_desc">これまで再生したすべての曲を追加します(容量が大きくなる場合があります)。</string>
+    <string name="backup_scrobbles_slow_warning">時間がかかる場合があり、通常のバックアップより遅くなります。</string>
+    <string name="backup_scrobbles_error_title">履歴にエラーがあります</string>
+    <string name="backup_scrobbles_error_desc">このファイル内の履歴の一部の年が壊れているようです。どうしますか?</string>
+    <string name="backup_scrobbles_keep_anyway">そのまま続ける</string>
+    <string name="backup_scrobbles_cancel">履歴をキャンセル</string>
+    <string name="backup_scrobbles_skip_refetch">スキップしてオンラインで再取得</string>
+    <string name="settings_crash_log">エラーログ</string>
+    <string name="backup_crash_log_desc">アプリで発生したエラーを記録します。不具合報告に役立ちます。</string>
+    <string name="backup_crash_log_share">ログを共有</string>
+    <string name="backup_crash_log_clear">ログを消去</string>
+    <string name="backup_crash_log_empty">記録されたエラーはありません</string>
+    <string name="backup_crash_log_cleared">ログを消去しました</string>
+    <string name="backup_crash_log_clear_confirm">エラーログを消去しますか？</string>
+    <string name="faq_section_label">よくある質問</string>
+    <string name="backup_overwrite_warning">バックアップを復元すると、現在の設定は上書きされます。</string>
+    <string name="faq_open_source_badge">LastStatsはSanoBldが❤️を込めて作った無料のオープンソースプロジェクトです。</string>
+    <string name="cache_unlimited">無制限</string>
+    <string name="cache_total_used">使用合計</string>
+    <string name="cache_scrobbles_short">スクロブル</string>
+    <string name="restart_hint_features">一部の機能は、反映のためにアプリの再起動が必要な場合があります。</string>
+    <string name="reorder_cards_title">カードを並べ替え</string>
+    <string name="common_save">保存</string>
+    <string name="dash_fallback_when_no_music">音楽が再生されていないとき</string>
+    <string name="dash_fallback_choose_display">代わりに背景として表示する内容を選択してください</string>
+    <string name="dash_fallback_period_label">表示する1位の期間</string>
+    <string name="fallback_period1_week">1週間</string>
+    <string name="fallback_period1_month">1ヶ月</string>
+    <string name="fallback_period_all_time">全期間</string>
+    <string name="fallback_type_nothing">なし</string>
+    <string name="fallback_type_top_track">トップトラック</string>
+    <string name="fallback_type_top_album">トップアルバム</string>
+    <string name="fallback_type_top_artist">トップアーティスト</string>
+    <string name="fallback_type_custom_image">カスタム画像</string>
+    <string name="fallback_will_show_custom_url">表示内容：カスタム画像URL</string>
+    <string name="dash_animation_blur_section">アニメーションとぼかし</string>
+    <string name="dash_music_animation_title">音楽アニメーション背景</string>
+    <string name="dash_music_animation_sub">音楽の再生中、ヘッダー画像がぼかし・流れる色・やわらかな呼吸感を持つ動く背景になります。</string>
+    <string name="dash_music_animation_info">このモードではぼかしは自動です（スライダーは無効）。動画カバーが有効な場合は動画が上に表示され、背景は一時停止します。</string>
+    <string name="settings_top_albums_section">トップアルバム</string>
+    <string name="dash_recent_plays_label">最近の再生</string>
+    <string name="dash_stat_cards_section_label">統計カード</string>
+    <string name="dash_stat_cards_heading">統計カード</string>
+    <string name="dash_stat_cards_sub">統計ブロックに表示するカードを選択・並べ替えます。</string>
+    <string name="settings_dashboard_chart_section">ダッシュボードのグラフ</string>
+    <string name="dash_chart_calendar_label">再生カレンダー</string>
+    <string name="dash_chart_monthly_label">月別バー</string>
+    <string name="settings_display_name_section">表示名</string>
+    <string name="settings_display_name_label">何と呼べばいい？</string>
+    <string name="settings_display_name_hint">例: Noham — 空欄の場合はアカウント名を使用します</string>
+    <string name="news_search_hint">お知らせを検索…</string>
+    <string name="about_open_source_libs">オープンソースライブラリ</string>
+    <string name="about_open_source_libs_sub">このアプリの構築に使用したすべての Flutter パッケージ。</string>
+    <string name="about_license_section">ライセンス</string>
+    <string name="about_license_text">このプロジェクトは GNU GPL v3 ライセンスの下で公開されています。派生物が同じライセンスでオープンソースのままであり、私の名前を記載する限り、自由に使用、改変、再配布できます。</string>
+    <string name="about_license_link">ライセンス全文を見る</string>
+    <string name="language_ai_note">翻訳は AI によって生成されており、不正確な場合があります。</string>
+    <string name="about_ai_dev_note">このアプリの開発にも AI が使用されています。</string>
+    <string name="notif_work_manager_info">通知はWorkManagerによりバックグラウンドで動作します。アプリを開いておく必要はありません。インターネット接続が必要です。</string>
+    <string name="notif_interval_title">スクロブルX回ごと</string>
+    <string name="notif_interval_subtitle">指定した数のスクロブルが増えるたびに通知します</string>
+    <string name="notif_recaps_section">リスニングまとめ</string>
+    <string name="notif_daily_recap_subtitle">その日のスクロブル数とトップアーティスト</string>
+    <string name="notif_weekly_recap_subtitle">その週のスクロブル数とトップアーティスト</string>
+    <string name="notif_news_section">お知らせ</string>
+    <string name="notif_sync_section">同期</string>
+    <string name="notif_sync_title">同期通知</string>
+    <string name="notif_sync_subtitle">履歴の同期が完了したときに通知します</string>
+    <string name="notif_sync_detail_title">進捗の詳細</string>
+    <string name="notif_sync_detail_subtitle">同期中にライブ進捗（現在の年、カウンター）を表示します</string>
+    <string name="notif_news_subtitle">新機能、修正、お知らせについて通知を受け取ります</string>
+    <string name="notif_badge_on_dashboard">ダッシュボードのバッジ</string>
+    <string name="notif_badge_subtitle">未読のお知らせがあるとき、ニュースのベルアイコンにバッジを表示します</string>
+    <string name="notif_test_label">テスト</string>
+    <string name="notif_permission_disabled_title">通知が無効です</string>
+    <string name="notif_permission_disabled_body">システム設定で通知を許可すると、LastStats からまとめや節目、お知らせを受け取れます。</string>
+    <string name="notif_grant_permission">権限を許可</string>
+    <string name="notif_threshold_intro">次の節目ごとに特別な通知を受け取ります：</string>
+    <string name="notif_interval_description">新しいスクロブルが X 件たまるたびに通知されます</string>
+    <string name="notif_custom_value_label">カスタム値</string>
+    <string name="notif_time_notify_at">通知時刻</string>
+    <string name="notif_day_of_week">曜日</string>
+    <string name="notif_send_test">テスト通知を送信</string>
+    <string name="notif_sent_check_bar">通知バーを確認してください！</string>
+    <string name="notif_make_sure_works">お使いの端末で通知が正しく届くか確認できます。</string>
+    <string name="notif_sent_bang">送信しました！</string>
+    <string name="notif_send_button">送信</string>
+    <string name="ap_visual_style">ビジュアルスタイル</string>
+    <string name="ap_style_default">デフォルト</string>
+    <string name="ap_nothing_accent_label">アクセント</string>
+    <string name="ap_nothing_classic">クラシック</string>
+    <string name="ap_red_only_desc">レッドのみ</string>
+    <string name="ap_nothing_mixed">ミックス</string>
+    <string name="ap_red_yellow_desc">レッド＋イエローのアクセント</string>
+    <string name="ap_nothing_active_banner">Nothing OSスタイルが有効です。アクセント、ダイナミックカラー、音楽から色を取得する機能は無効になります。</string>
+    <string name="ap_nothing_oled_inherent">Nothingのダークモードは元々OLED純黒です。OLEDのトグルは不要です。</string>
+    <string name="ap_oled_title">OLED純黒テーマ</string>
+    <string name="ap_oled_built_into_nothing">Nothingダークモードに組み込み済み</string>
+    <string name="ap_oled_pure_black">ダークモード時に完全な黒背景を使用</string>
+    <string name="ap_custom_color_tooltip">カスタムカラー</string>
+    <string name="ap_color_when_nothing_plays">何も再生していないときの色</string>
+    <string name="ap_color_when_nothing_plays_sub">曲がスクロブルされていないときに使用するアクセント</string>
+    <string name="ap_keep_last_artwork_title">最後のアートワークカラーを保持</string>
+    <string name="ap_keep_last_artwork_sub">何も再生していないときにリセットせず最後のアートワークカラーを保持します</string>
+    <string name="ap_detail_pages_section">詳細ページ</string>
+    <string name="ap_artwork_color_theme">アートワークカラーテーマ</string>
+    <string name="ap_artwork_color_theme_sub">詳細ページの色がアートワークの主要色に合わせて変化します</string>
+    <string name="ap_nav_bar_section">ナビゲーションバー</string>
+    <string name="ap_show_tab_labels">タブラベルを表示</string>
+    <string name="ap_show_tab_labels_sub">ボトムバーのアイコンの下にタブ名を表示します</string>
+    <string name="ap_interactions_section">操作</string>
+    <string name="ap_haptic_feedback_sub">タップ、選択、ジェスチャー時の振動</string>
+    <string name="acct_remove_title">アカウントを削除しますか？</string>
+    <string name="acct_remove_action">削除</string>
+    <string name="acct_already_added_or_full">このアカウントはすでに追加されているか、リストが上限に達しています。</string>
+    <string name="acct_logout_all_body">すべてのアカウントが削除されます。セットアップ画面に戻ります。</string>
+    <string name="acct_active">有効</string>
+    <string name="acct_tap_switch_to_activate">「切り替え」をタップして有効化</string>
+    <string name="acct_switch">切り替え</string>
+    <string name="acct_add_an_account">アカウントを追加</string>
+    <string name="acct_api_key_info">各アカウントは異なるAPIキーまたは同じAPIキーを使用できます。APIキーはlast.fm/api/accountsで確認できます。</string>
+    <string name="acct_lastfm_profile_section">Last.fmプロフィール</string>
+    <string name="acct_view_on_lastfm">Last.fmで表示</string>
+    <string name="acct_danger_zone">危険な操作</string>
+    <string name="acct_logout_all_sub">すべてのアカウントを削除してセットアップ画面に戻ります。</string>
+    <string name="acct_username_required">ユーザー名は必須です。</string>
+    <string name="acct_api_key_required">APIキーは必須です。</string>
+    <string name="acct_username_label">Last.fmユーザー名</string>
+    <string name="acct_same_api_key">有効なアカウントと同じAPIキーを使用</string>
+    <string name="acct_api_key_label">APIキー</string>
+    <string name="acct_add">追加</string>
+    <string name="language_change_note">言語はアプリ全体で即座に変更されます。</string>
+    <string name="dash_total_scrobbles_label">総スクロブル数</string>
+    <string name="dash_member_since_label">登録日</string>
+    <string name="dash_country_label">国</string>
+    <string name="dash_artist_week_label">アーティスト1位（週間）</string>
+    <string name="dash_album_week_label">アルバム1位（週間）</string>
+    <string name="dash_track_week_label">トラック1位（週間）</string>
+    <string name="dash_unique_artists_label">ユニークアーティスト数</string>
+    <string name="dash_unique_tracks_label">ユニークトラック数</string>
+    <string name="dash_unique_albums_label">ユニークアルバム数</string>
+    <string name="dash_this_week_label">今週</string>
+    <string name="dash_day_unit_short">日</string>
+    <string name="setup_enable_favorites">お気に入りを有効にする（任意）</string>
+    <string name="setup_favorites_explain">シークレットキーを使うと、アプリから直接 Last.fm のアカウントで曲をお気に入りに追加したり、削除したりできます。</string>
+    <string name="setup_secret_key_label">Last.fm シークレットキー</string>
+    <string name="fav_connect_invalid_secret">シークレットキーは32文字である必要があります。</string>
+    <string name="fav_connect_dialog_title">お気に入り機能を許可</string>
+    <string name="fav_connect_dialog_body">ブラウザで開いたLast.fmのページでアプリを許可してから、ここに戻って確認してください。</string>
+    <string name="fav_connect_dialog_confirm">許可しました</string>
+    <string name="fav_connect_success">お気に入り機能が有効になりました！</string>
+    <string name="fav_connect_error">お気に入りを有効にできませんでした。シークレットキーが正しいこと、Last.fm で LastStats を許可したことを確認して、もう一度お試しください。</string>
+    <string name="acct_api_keys_section">APIキー</string>
+    <string name="acct_secret_key_label">シークレットキー</string>
+    <string name="acct_secret_key_not_set">未設定</string>
+    <string name="acct_favorites_explain">シークレットキーを使うと、Last.fm上で直接曲をお気に入り登録・解除できます。</string>
+    <string name="acct_connect_favorites">お気に入りを有効にする</string>
+    <string name="acct_disconnect_favorites">お気に入りを無効にする</string>
+    <string name="settings_favorites_section">お気に入り</string>
+    <string name="settings_favorites_section_sub">統計にお気に入りの数を表示します</string>
+    <string name="settings_favorites_needs_key">有効にするにはアカウントでシークレットキーを追加してください</string>
+    <string name="fav_section_title">お気に入り</string>
+    <string name="common_see_more">もっと見る</string>
+    <string name="fav_page_title">マイお気に入り</string>
+    <string name="fav_search_hint">曲名やアーティストを検索</string>
+    <string name="fav_empty">お気に入りはまだありません。曲のハートをタップして追加しましょう。</string>
+    <string name="settings_loved_badge_title">控えめなハートバッジ</string>
+    <string name="settings_loved_badge_sub">最近の再生履歴、履歴、検索でお気に入りの曲に小さなハートを表示します</string>
+    <string name="fav_sort_recent">最近</string>
+    <string name="fav_sort_oldest">古い順</string>
+    <string name="fav_sort_artist_az">アーティスト A-Z</string>
+    <string name="fav_sort_title_az">タイトル A-Z</string>
+    <string name="fav_folder_sort_custom">手動</string>
+    <string name="fav_folders_all">すべて</string>
+    <string name="fav_folder_new">新しいフォルダ</string>
+    <string name="fav_folder_name_placeholder">フォルダ名</string>
+    <string name="fav_folder_custom_emoji_title">絵文字を選ぶ</string>
+    <string name="fav_folder_custom_emoji_helper">絵文字は1つだけ、テキストは不可</string>
+    <string name="fav_folder_desc_placeholder">説明（任意）</string>
+    <string name="fav_folder_recently_played">最近再生した曲</string>
+    <string name="fav_folder_create">作成</string>
+    <string name="fav_folder_edit">フォルダを編集</string>
+    <string name="fav_folder_delete">削除</string>
+    <string name="fav_folder_delete_confirm">このフォルダを削除しますか？曲は整理されなくなります。</string>
+    <string name="fav_folder_assign_title">フォルダに追加</string>
+    <string name="fav_folder_emoji">絵文字</string>
+    <string name="fav_folder_color">色</string>
+    <string name="fav_folder_save">保存</string>
+    <string name="fav_folder_empty">このフォルダは空です。曲のハートを長押しすると、ここに追加できます。</string>
+    <string name="rankings_whole_year">通年</string>
+    <string name="charts_export_generated_on">生成日</string>
+    <string name="faq_q1">LastStatsは自分の音楽をスクロブリングしますか？</string>
+    <string name="faq_q3">macOSや他のプラットフォームでも動作しますか？</string>
+    <string name="faq_a3">LastStatsはAndroidで開発・テストされています。他のプラットフォーム（macOS、Windows、Linuxなど）での動作は検証されておらず、不具合や予期しない動作が発生する可能性があります。</string>
+    <string name="faq_q4">LastStatsはオープンソースですか？</string>
+    <string name="faq_a4">はい！ソースコードはGitHubで自由に公開されています。このプロジェクトはSanoBldが情熱を持って開発した独立プロジェクトです。ひ売貢献したり、不具合を報告したり、⭐を付けてください。</string>
+    <string name="faq_q5">データはどこに保存されますか？</string>
+    <string name="faq_q6">お気に入りを有効にするには？</string>
+    <string name="faq_a6">Last.fm の場合は「設定」&gt;「アカウント」でシークレットキーを入力します（last.fm/api/accounts の API キーの隣にあります）。ListenBrainz の場合は追加で必要なものはなく、トークンだけで使えます。接続後は、アプリから直接お気に入りに曲を追加できます。</string>
+    <string name="faq_q7">「scrobble（スクロブル）」とは？</string>
+    <string name="faq_q8">レベルと実績の仕組みは？</string>
+    <string name="faq_a8">アカウントレベルは総 scrobble 数に応じて上がり、上限はありません。カードにはそのアーティスト/楽曲/アルバムの再生回数に応じた枚枚(ブロンズ→虚彩)が付きます。すべてローカルにキャッシュ済みの統計から自動計算され、追加の通信は発生しません。</string>
+    <string name="faq_q9">省電力モードはどのように機能しますか？</string>
+    <string name="faq_a9">省電力モードでは、バッテリーを節約するためにアプリの動作を抑えます。傾きによるパララックス効果をオフにし、画面のリフレッシュレートを約 60 Hz に制限し、バックグラウンド更新の頻度を下げ、動くカバーやバッジの輝きを一時停止します。画像、エクスポート、シェアカードは通常の品質のままです。\n\n常にオンにするほか、端末の省電力モードに合わせたり、指定したバッテリー残量を下回ったときに自動でオンにしたりできます。設定 &gt; バッテリーセーバー から変更できます。</string>
+    <string name="faq_q10">データのバックアップや復元はどうすればいいですか？</string>
+    <string name="faq_a10">「設定」&gt;「バックアップ」を開きます。バックアップファイルを書き出し（Last.fm のキーまたは ListenBrainz のトークンを含める／含めないを選べます）、後で、または別の端末で読み込めます。</string>
+    <string name="faq_q11">オフラインでも使えますか？</string>
+    <string name="faq_a11">ある程度は可能です。読み込み済みの統計はローカルキャッシュのおかげでオフラインでも見られますが、新しいスクロブルの取得には通信が必要です。</string>
+    <string name="faq_q12">アカウントやサービスを切り替えられますか？</string>
+    <string name="faq_a12">はい。「設定」&gt;「アカウント」でログアウトし、別のユーザー名で再ログインするか、ログイン画面でもう一方のサービス（Last.fm または ListenBrainz）を選んでください。データが混ざらないよう、ローカルキャッシュは自動的にリセットされます。</string>
+    <string name="faq_q13">通知はどう設定しますか？</string>
+    <string name="faq_a13">設定 &gt; 通知から、同期が終わったときの通知をオンにしたり、通知の頻度を選んだり、通知をすべてオフにしたりできます。</string>
+    <string name="faq_q14">画像が表示されない／読み込みが終わらない場合は？</string>
+    <string name="faq_a14">アプリ内のキャッシュを消去し（設定 &gt; キャッシュ）、次に Android 側でも消去してください（設定 &gt; アプリ &gt; LastStats &gt; ストレージ &gt; キャッシュを消去）。それでも表示されない場合は、データをバックアップ（設定 &gt; バックアップ）し、アプリを再インストールして復元してください。</string>
+    <string name="settings_platform_disabled_by_show_all">無効：すでにすべてのリンクが表示されています。</string>
+    <string name="common_in_development">開発中</string>
+    <string name="common_see_less">閉じる</string>
+    <string name="common_share">共有</string>
+    <string name="news_custom_date">カスタム日付</string>
+    <string name="about_shortcuts">キーボードショートカット</string>
+    <string name="about_shortcuts_sub">PC・大画面で利用可能</string>
+    <string name="shortcut_switch_tabs">タブを切り替え</string>
+    <string name="shortcut_search">検索</string>
+    <string name="shortcut_close">シートを閉じる</string>
+    <string name="shortcut_refresh">更新</string>
+    <string name="about_discord">Discordに参加</string>
+    <string name="about_discord_sub">チャット、提案、ライブ告知</string>
+    <string name="week_abbrev">週</string>
+    <string name="achv_title">実績</string>
+    <string name="achv_cat_listening">リスニング</string>
+    <string name="achv_cat_artists">アーティスト</string>
+    <string name="achv_cat_albums">アルバム</string>
+    <string name="achv_cat_loyalty">継続</string>
+    <string name="achv_desc_listening">全アーティスト合計のスクロブル数。</string>
+    <string name="achv_desc_artists">一度でも聴いたことのある異なるアーティストの数。</string>
+    <string name="achv_desc_albums">一度でも聴いたことのある異なるアルバムの数。</string>
+    <string name="achv_cat_tracks">楽曲</string>
+    <string name="achv_desc_tracks">再生した異なる楽曲の数。</string>
+    <string name="achv_cat_pace">ペース</string>
+    <string name="achv_desc_pace">週あたりの平均スクロブル数。</string>
+    <string name="achv_cat_streak">連続記録</string>
+    <string name="achv_desc_streak">1日1回以上再生した連続日数の最長記録。</string>
+    <string name="achv_cat_marathon">マラソン</string>
+    <string name="achv_desc_marathon">1日の最多再生回数。</string>
+    <string name="achv_cat_social">ソーシャル</string>
+    <string name="achv_desc_social">追加した友達またはプロフィールの数。</string>
+    <string name="achv_cat_comparisons">比較</string>
+    <string name="achv_desc_comparisons">行った音楽の好み比較の回数。</string>
+    <string name="achv_unlocked_badge">解除済み</string>
+    <string name="achv_locked_badge">ロック中</string>
+    <string name="dash_recap">振り返り</string>
+    <string name="recap_day">今日</string>
+    <string name="recap_week">今週</string>
+    <string name="recap_month">今月</string>
+    <string name="recap_scrobbles">再生数</string>
+    <string name="recap_artists">アーティスト</string>
+    <string name="recap_tracks">曲</string>
+    <string name="recap_top_artist">トップアーティスト</string>
+    <string name="recap_top_track">トップ曲</string>
+    <string name="recap_top_album">トップアルバム</string>
+    <string name="recap_avg_day">1日平均</string>
+    <string name="recap_no_data">この期間の再生履歴はありません。</string>
+    <string name="recap_see_full">振り返りを見る</string>
+    <string name="recap_top10">トップ10</string>
+    <string name="discover_smart_title">いちばん役立つフィルターを先頭に</string>
+    <string name="discover_smart_sub">時間帯や曜日、よく使うものに合わせて並べます</string>
+    <string name="discover_for_you">あなたへ</string>
+    <string name="discover_global_trends">世界のトレンド</string>
+    <string name="discover_src_foryou">あなたのミックス</string>
+    <string name="discover_src_onthisday">この日に</string>
+    <string name="discover_src_fresh">今月</string>
+    <string name="discover_src_genre">あなたのジャンル</string>
+    <string name="discover_src_deeper">隠れた名曲</string>
+    <string name="discover_src_forgotten">忘れていた曲</string>
+    <string name="discover_src_albums">アルバム</string>
+    <string name="discover_src_country">あなたの国</string>
+    <string name="discover_tracks">トラック</string>
+    <string name="discover_artists">アーティスト</string>
+    <string name="discover_week">週</string>
+    <string name="discover_month">月</string>
+    <string name="discover_year">年</string>
+    <string name="discover_nothing">まだ表示するものがありません</string>
+    <string name="dash_reorder_sections">セクションの順番を変える</string>
+    <string name="dash_infinite_title">無限スクロール</string>
+    <string name="dash_infinite_sub">「発見」がループして、提案が途切れません</string>
+    <string name="dash_discover_title">発見</string>
+    <string name="dash_discover_sub">スワイプで音楽のアイデアをチェック</string>
+    <string name="dash_sort_button">並べ替え</string>
+    <string name="dash_sort_done">完了</string>
+    <string name="dash_sort_hint">ドラッグで順番を変更</string>
+    <string name="dash_sort_smart_note">スマート順序がオンなので、状況によってこの順番が変わることがあります。</string>
+    <string name="dash_separate_row">専用の行に表示</string>
+    <string name="ap_shape_single">1つの形だけ</string>
+    <string name="mv_source">動画ソース</string>
+    <string name="mv_src_auto">自動（Apple Music、次に YouTube）</string>
+    <string name="mv_src_apple">Apple Music のみ</string>
+    <string name="mv_src_yt">YouTube のみ（曲）</string>
+    <string name="mv_quality_t">動画の画質</string>
+    <string name="mv_q_auto">自動</string>
+    <string name="mv_q_low">節約 (360p)</string>
+    <string name="mv_types_t">動画を表示する対象</string>
+    <string name="mv_tracks">曲</string>
+    <string name="mv_albums">アルバム</string>
+    <string name="mv_artists">アーティスト</string>
+    <string name="mv_mode_t">モード</string>
+    <string name="mv_mode_best">おすすめ</string>
+    <string name="mv_mode_saver">節約</string>
+    <string name="mv_mode_max">最高画質</string>
+    <string name="mv_mode_custom">カスタム</string>
+    <string name="mv_src_yt_first">YouTube、次に Apple Music</string>
+    <string name="api_title">API</string>
+    <string name="api_card_sub">使用中のサービス、クォータ、消費量</string>
+    <string name="api_sum_today">今日のリクエスト</string>
+    <string name="api_sum_errors">エラー</string>
+    <string name="api_sum_limited">制限あり</string>
+    <string name="api_intro">カウンターはこの端末のみが対象です。提供元は IP アドレス単位で制限をかけるため、同じネットワーク上の他のアプリも含まれます。アプリは制限内に収まるよう、自動的に間隔を空けたりリクエストを省略します。</string>
+    <string name="api_cat_listening">再生データ</string>
+    <string name="api_cat_metadata">音楽メタデータ</string>
+    <string name="api_cat_artwork">アートワーク</string>
+    <string name="api_cat_lyrics">歌詞</string>
+    <string name="api_cat_translate">翻訳</string>
+    <string name="api_cat_updates">アップデートとニュース</string>
+    <string name="api_cat_other">画像のダウンロード</string>
+    <string name="api_status_idle">未使用</string>
+    <string name="api_status_ok">OK</string>
+    <string name="api_status_near">上限に近い</string>
+    <string name="api_status_paused">一時停止中</string>
+    <string name="api_provider_limit">提供元の制限</string>
+    <string name="api_no_limit">公開なし</string>
+    <string name="api_app_ceiling">アプリの上限</string>
+    <string name="api_win_second">秒</string>
+    <string name="api_win_minute">分</string>
+    <string name="api_win_hour">時間</string>
+    <string name="api_window_usage">現在のウィンドウ</string>
+    <string name="api_remaining">残り</string>
+    <string name="api_today">今日</string>
+    <string name="api_last_hour">直近1時間</string>
+    <string name="api_total">合計</string>
+    <string name="api_rate_limited">制限応答</string>
+    <string name="api_skipped">アプリがスキップ</string>
+    <string name="api_last_call">最後の呼び出し</string>
+    <string name="api_never">なし</string>
+    <string name="api_no_key">API キー不要</string>
+    <string name="api_shared_key">共有の公開テストキー(無料枠)</string>
+    <string name="api_unofficial">非公式エンドポイント:クォータは保証されず、予告なく変更・ブロックされる場合があります。</string>
+    <string name="api_key_in_use">使用中のキー</string>
+    <string name="api_own_key">自分の Last.fm キー</string>
+    <string name="api_backup_on">予備キー:オン</string>
+    <string name="api_backup_off">予備キー:オフ</string>
+    <string name="api_per_key">キーごとのリクエスト(今日 / 合計)</string>
+    <string name="api_lastfm_note">Last.fm は数値を公開していません。IP からのリクエストが多すぎるとエラー 29 を返し、規約で回避も禁止されています。目安は IP あたり毎秒約 5 リクエストで、アプリは 4 未満に抑えます。</string>
+    <string name="api_reset">カウンターをリセット</string>
+    <string name="api_limiter">リクエストを制限</string>
+    <string name="api_limiter_sub">API の上限を超えないようにリクエストを遅くします。オフ = 待ち時間なしで高速。</string>
+    <string name="api_reset_body">すべてのリクエストカウンターが 0 に戻ります。</string>
+    <string name="api_reset_done">カウンターをリセットしました</string>
+    <string name="cache_scrobbles_subtitle">Last.fm からダウンロードした再生履歴のすべて</string>
+    <string name="cache_scrobbles_subtitle_lb">ListenBrainz からダウンロードした再生履歴のすべて</string>
+    <string name="search_hint_profiles">Last.fmユーザーを検索</string>
+    <string name="search_hint_profiles_lb">ListenBrainzユーザーを検索</string>
+    <string name="dash_reset_cache_confirm">ローカルに保存されたスクロブルデータがすべて削除され、Last.fmから再ダウンロードされます。</string>
+    <string name="dash_reset_cache_confirm_lb">ローカルに保存されたスクロブルデータがすべて削除され、ListenBrainzから再ダウンロードされます。</string>
+    <string name="dash_friends_activity">Last.fmフレンドのアクティビティ</string>
+    <string name="dash_friends_activity_lb">ListenBrainzフレンドのアクティビティ</string>
+    <string name="settings_friends_section_sub">Last.fmフレンドのアクティビティ</string>
+    <string name="settings_friends_section_sub_lb">ListenBrainzフレンドのアクティビティ</string>
+    <string name="settings_connected_profile">連携中のLast.fmプロフィール</string>
+    <string name="settings_connected_profile_lb">連携中のListenBrainzプロフィール</string>
+    <string name="onboard_fav_sub">Last.fm の友達を追加すると、アプリからすぐにそのプロフィールを開けます。</string>
+    <string name="onboard_fav_sub_lb">ListenBrainz の友達を追加すると、アプリからすぐにそのプロフィールを開けます。</string>
+    <string name="onboard_fav_hint">Last.fmユーザー名</string>
+    <string name="onboard_fav_hint_lb">ListenBrainzユーザー名</string>
+    <string name="onboard_fav_search_hint">Last.fmプロフィールを検索…</string>
+    <string name="onboard_fav_search_hint_lb">ListenBrainzプロフィールを検索…</string>
+    <string name="onboard_fav_friends_title">あなたのLast.fmフレンド</string>
+    <string name="onboard_fav_friends_title_lb">あなたのListenBrainzフレンド</string>
+    <string name="settings_show_all_platform_links_sub">フィルターを無視してすべてのリンクを表示（Last.fm、Spotify、YT Music、Web）</string>
+    <string name="settings_show_all_platform_links_sub_lb">フィルターを無視してすべてのリンクを表示（ListenBrainz、Spotify、YT Music、Web）</string>
+    <string name="setup_tagline">あなたのLast.fm統計、生まれ変わりました。</string>
+    <string name="setup_tagline_lb">あなたのListenBrainz統計、生まれ変わりました。</string>
+    <string name="settings_card_account_sub">連携中のLast.fmプロフィール、サインアウト</string>
+    <string name="settings_card_account_sub_lb">連携中のListenBrainzプロフィール、サインアウト</string>
+    <string name="about_tagline">あなたのLast.fm統計パートナー</string>
+    <string name="about_tagline_lb">あなたのListenBrainz統計パートナー</string>
+    <string name="faq_a1">いいえ。LastStatsは可視化アプリで、すでにLast.fmアカウントに記録されているスクロブルを表示するだけで、自分では記録しません。\n\n音楽を自動でスクロブリングするには、Pano Scrobbler（Android用）などの専用アプリを使用してください。</string>
+    <string name="faq_a1_lb">いいえ。LastStatsは可視化アプリで、すでにListenBrainzアカウントに記録されているスクロブルを表示するだけで、自分では記録しません。\n\n音楽を自動でスクロブリングするには、Pano Scrobbler（Android用）などの専用アプリを使用してください。</string>
+    <string name="faq_a5">お使いの端末のみです。LastStatsにはサーバーがなく、スクロブルは高速アクセスのためにローカルにキャッシュされ、Last.fmの認証情報もローカルに保存されます。公式Last.fm API以外にデータが送信されることはありません。</string>
+    <string name="faq_a5_lb">お使いの端末のみです。LastStatsにはサーバーがなく、スクロブルは高速アクセスのためにローカルにキャッシュされ、ListenBrainzの認証情報もローカルに保存されます。公式ListenBrainz API以外にデータが送信されることはありません。</string>
+    <string name="faq_a7">「scrobble」とは、Last.fmアカウントに再生として記録された楽曲を指し、Last.fm固有の用語で「1回のカウントされた再生」を意味します。すべての合計（トップアーティストや統計など）はこれに基づいています。</string>
+    <string name="faq_a7_lb">「scrobble」とは、ListenBrainzアカウントに再生として記録された楽曲を指し、ListenBrainz固有の用語で「1回のカウントされた再生」を意味します。すべての合計（トップアーティストや統計など）はこれに基づいています。</string>
+    <string name="achv_desc_loyalty">Last.fmアカウントの利用歴。</string>
+    <string name="achv_desc_loyalty_lb">ListenBrainzアカウントの利用歴。</string>
+    <string name="api_storage_title">保存済みの Last.fm データ</string>
+    <string name="api_storage_title_lb">保存済みの ListenBrainz データ</string>
+    <string name="api_storage_over">Last.fm API 規約の 100 MB 上限を超えています。「ストレージ」でスクロブル履歴を消去してください。</string>
+    <string name="api_storage_over_lb">ListenBrainz API 規約の 100 MB 上限を超えています。「ストレージ」でスクロブル履歴を消去してください。</string>
+    <string name="backup_auto_next_label">次回のバックアップ: %1$s</string>
+    <string name="backup_exported_on">%1$s のバックアップ</string>
+    <string name="global_listeners">世界のリスナー数：%1$s人</string>
+    <string name="history_scrobbles">%1$s回のスクロブル</string>
+    <string name="history_artists_count">%1$s人のアーティスト</string>
+    <string name="history_albums_count">%1$s枚のアルバム</string>
+    <string name="day_label">%5$s年%4$s月%3$s日（%1$s）</string>
+    <string-array name="day_label_weekdays"><item>月曜日</item><item>火曜日</item><item>水曜日</item><item>木曜日</item><item>金曜日</item><item>土曜日</item><item>日曜日</item></string-array>
+    <string-array name="day_label_months"></string-array>
+    <string name="member_since">%1$s から利用</string>
+    <string name="settings_update_available">v%1$s が利用可能</string>
+    <string name="settings_update_banner">アップデート v%1$s</string>
+    <string name="setup_welcome">ようこそ、%1$s さん！</string>
+    <string name="setup_scrobbles_to_import">インポート予定のスクロブル：%1$s件</string>
+    <string name="dash_update_title_a">ベータアップデート：v%1$s</string>
+    <string name="dash_update_title_b">新しいアップデート：v%1$s</string>
+    <string name="news_items_count_a">%1$s件</string>
+    <string name="news_items_count_b">%1$s件</string>
+    <string name="sync_frequency_hours">%1$s時間ごと</string>
+    <string name="sync_new_scrobbles_found_a">新しいスクロブルはありません</string>
+    <string name="sync_new_scrobbles_found_b">新しいスクロブルが%1$s件見つかりました</string>
+    <string name="updates_published_on">%1$s に公開</string>
+    <string name="fallback_will_show">表示内容：%1$s</string>
+    <string name="acct_remove_body">アカウント一覧から @%1$s を削除しますか？</string>
+    <string name="acct_added_success">\@%1$s を追加しました。</string>
+    <string name="acct_my_accounts">マイアカウント（%1$s/%2$s）</string>
+    <string name="acct_slots_remaining">残り%1$s枠</string>
+    <string name="acct_max_reached">最大%1$s件のアカウントに達しました。</string>
+    <string name="achv_unlocked">解除済み %1$s / %2$s</string>
+    <string name="discover_like">%1$s のような</string>
+    <string name="dash_filters_of">「%1$s」のフィルター</string>
+    <string name="api_limit_per">%1$s リクエスト / %2$s</string>
+    <string name="api_win_seconds">%1$s 秒</string>
+    <string name="api_resets_in">%1$s 後にリセット</string>
+    <string name="api_paused_for">制限応答により %1$s 停止中</string>
+    <string name="api_builtin_key">内蔵キー %1$s / %2$s</string>
+    <string name="api_storage_value">許可された %2$s のうち %1$s</string>
+    <string-array name="months"><item></item><item>1月</item><item>2月</item><item>3月</item><item>4月</item><item>5月</item><item>6月</item><item>7月</item><item>8月</item><item>9月</item><item>10月</item><item>11月</item><item>12月</item></string-array>
+    <string-array name="weekdays_short"><item>月</item><item>火</item><item>水</item><item>木</item><item>金</item><item>土</item><item>日</item></string-array>
+    <string-array name="weekdays_narrow"><item>月</item><item>火</item><item>水</item><item>木</item><item>金</item><item>土</item><item>日</item></string-array>
+    <string-array name="notif_threshold_messages"><item>最初の1,000スクロブル達成。旅の始まりです。🎵</item><item>5桁に到達しました！🎉</item><item>あなたは真の音楽中毒者です。🔥</item><item>100万スクロブル達成。伝説です。🎸</item></string-array>
+    <string name="tx_st_notif_on" formatted="false">通知はオンです</string>
+    <string name="tx_st_notif_off" formatted="false">通知はオフです</string>
+    <string name="tx_st_notif_count" formatted="false">{n} 種類が有効</string>
+    <string name="tx_st_notif_perm" formatted="false">システムの許可が必要です</string>
+    <string name="tx_st_notif_none" formatted="false">通知の種類が選ばれていません</string>
+    <string name="tx_st_sync_on" formatted="false">自動同期はオンです</string>
+    <string name="tx_st_sync_off" formatted="false">自動同期はオフです</string>
+    <string name="tx_st_sync_on_s" formatted="false">データは自動的に更新されます。</string>
+    <string name="tx_st_sync_off_s" formatted="false">データは手動のときだけ更新されます。</string>
+    <string name="tx_st_bkp_on" formatted="false">自動バックアップはオンです</string>
+    <string name="tx_st_bkp_off" formatted="false">自動バックアップはオフです</string>
+    <string name="tx_st_bkp_on_s" formatted="false">設定は自動でバックアップされます。</string>
+    <string name="tx_st_bkp_off_s" formatted="false">オンにすると設定を失いません。</string>
+    <string name="tx_st_bkp_next" formatted="false">次回のバックアップ：{d}</string>
+    <string name="tx_cmp_breakdown" formatted="false">共通点の内訳</string>
+    <string name="tx_cmp_by_artists" formatted="false">アーティスト</string>
+    <string name="tx_cmp_by_genres" formatted="false">ジャンル</string>
+    <string name="tx_cmp_by_tracks" formatted="false">トラック</string>
+    <string name="tx_cmp_by_albums" formatted="false">アルバム</string>
+    <string name="tx_eco_on" formatted="false">省電力がオンです</string>
+    <string name="tx_eco_off" formatted="false">省電力はオフです</string>
+    <string name="tx_eco_why_manual" formatted="false">常にオン（手動設定）</string>
+    <string name="tx_eco_why_system" formatted="false">端末のバッテリーセーバーがオンです</string>
+    <string name="tx_eco_why_battery" formatted="false">バッテリー残量は {n}% です</string>
+    <string name="tx_eco_off_hint" formatted="false">オンにするタイミングを下で選びます</string>
+    <string name="tx_eco_trig" formatted="false">オンにするタイミング</string>
+    <string name="tx_eco_sys_t" formatted="false">端末のバッテリーセーバーがオンのとき</string>
+    <string name="tx_eco_sys_s" formatted="false">スマートフォン標準の省電力モードに連動し、解除されると一緒にオフになります。</string>
+    <string name="tx_eco_sys_na" formatted="false">このデバイスでは利用できません（システムの省電力モードを検出できません）。</string>
+    <string name="tx_eco_chg" formatted="false">変わること</string>
+    <string name="tx_eco_chg1" formatted="false">傾きパララックスをオフにします</string>
+    <string name="tx_eco_chg2" formatted="false">画面のリフレッシュレートを約 60 Hz に制限します</string>
+    <string name="tx_eco_chg3" formatted="false">バックグラウンド更新の頻度を下げます</string>
+    <string name="tx_eco_chg4" formatted="false">動くアートワークとバッジの輝きを停止します</string>
+    <string name="tx_eco_chg_note" formatted="false">それ以外は最高品質のままです：画像、エクスポート、共有カード。</string>
+    <string name="tx_lib_section" formatted="false">ライブラリ</string>
+    <string name="tx_lib_merge_t" formatted="false">同じ曲のバージョンをまとめる</string>
+    <string name="tx_lib_merge_s" formatted="false">リマスター、シングル、(feat. …)、デラックス版を1つの曲/アルバムとして数え、再生回数を合算します。リミックス、ライブ、インストは別扱いです。</string>
+    <string name="tx_lib_split_t" formatted="false">コラボを分割</string>
+    <string name="tx_lib_split_s" formatted="false">「Gims &amp; Damso」は独立したアーティストではなく、Gims と Damso の両方にカウントされます。「Simon &amp; Garfunkel」のようなグループはそのままです。</string>
+    <string name="tx_lib_step_t" formatted="false">あなたのライブラリ</string>
+    <string name="tx_lib_step_s" formatted="false">アプリが再生履歴をどのようにまとめるかを選択してください。設定でいつでも変更できます。</string>
+    <string name="tx_bk_dash_t" formatted="false">ダッシュボードと起動</string>
+    <string name="tx_bk_dash_s" formatted="false">セクション、ヘッダー、統計カード、発見、起動タブ</string>
+    <string name="tx_bk_notif_t" formatted="false">通知</string>
+    <string name="tx_bk_notif_s" formatted="false">まとめ、マイルストーン、ニュース、バッジ</string>
+    <string name="tx_bk_lib_t" formatted="false">ライブラリ設定</string>
+    <string name="tx_bk_lib_s" formatted="false">バージョンの統合、コラボの分割</string>
+    <string name="tx_bk_prof_t" formatted="false">お気に入りプロフィール</string>
+    <string name="tx_bk_prof_s" formatted="false">お気に入りにした Last.fm プロフィール</string>
+    <string name="tx_about_legal_t" formatted="false">法的情報</string>
+    <string name="tx_about_legal_site_t" formatted="false">法的表示とプライバシー</string>
+    <string name="tx_about_legal_site_s" formatted="false">発行者、処理されるデータ、外部サービス、あなたの権利</string>
+    <string name="tx_about_licenses_t" formatted="false">オープンソースライセンス</string>
+    <string name="tx_about_licenses_s" formatted="false">Flutter と使用しているすべてのパッケージ</string>
+    <string name="tx_about_legal_editor" formatted="false">発行者：Sano Bld（個人開発者）。ご連絡は Discord または GitHub の issue からお気軽にどうぞ。</string>
+    <string name="tx_about_legal_privacy" formatted="false">データはお使いの端末に保存され、私たちがコピーを保持することはありません。アプリはここに記載のサービスに直接接続し、各サービスは少なくともIPアドレスとリクエスト（例：アーティスト名）を受け取ります。カメラはQRコードの読み取りにのみ使用します。15歳未満の方は保護者の同意なしにご利用いただけません。</string>
+    <string name="tx_about_legal_marks" formatted="false">LastStats は独立したアプリであり、Last.fm、Spotify、YouTube、Apple、Deezer、TheAudioDB、MusicBrainz、Wikipedia、GitHub とは提携しておらず、承認も受けていません。名称やロゴは各所有者に帰属し、アートワークやメタデータも同様です。Wikipedia のテキストは CC BY-SA ライセンスです。</string>
+    <string name="tx_about_readme_t" formatted="false">README とプロジェクトの動き</string>
+    <string name="tx_about_readme_s" formatted="false">README、最新コミット、ワークフロー、バージョン、ダウンロード数</string>
+    <string name="tx_fold_show" formatted="false">表示 ({n})</string>
+    <string name="tx_fold_hide" formatted="false">閉じる</string>
+    <string name="tx_readme_sub" formatted="false">プロジェクトとその動き</string>
+    <string name="tx_readme_version" formatted="false">バージョン</string>
+    <string name="tx_readme_downloads" formatted="false">ダウンロード</string>
+    <string name="tx_readme_stars" formatted="false">スター</string>
+    <string name="tx_readme_license" formatted="false">ライセンス</string>
+    <string name="tx_readme_commits" formatted="false">最新のコミット</string>
+    <string name="tx_readme_workflows" formatted="false">最新のワークフロー</string>
+    <string name="tx_readme_retry" formatted="false">再試行</string>
+    <string name="tx_readme_github" formatted="false">GitHub で開く</string>
+    <string name="tx_readme_failed" formatted="false">読み込めませんでした(オフライン、または GitHub の制限)。</string>
+    <string name="tx_ago_min" formatted="false">{n}分前</string>
+    <string name="tx_ago_h" formatted="false">{n}時間前</string>
+    <string name="tx_ago_d" formatted="false">{n}日前</string>
+    <string name="tx_load_restored" formatted="false">{n} 件のスクロブルを復元</string>
+    <string name="tx_load_ready" formatted="false">インポート準備完了</string>
+    <string name="tx_load_connecting" formatted="false">Last.fm に接続中…</string>
+    <string name="tx_load_done" formatted="false">インポート完了</string>
+    <string name="tx_txt_sec" formatted="false">テキスト</string>
+    <string name="tx_txt_size" formatted="false">文字サイズ</string>
+    <string name="tx_txt_font" formatted="false">フォント</string>
+    <string name="tx_txt_font_def" formatted="false">既定（Android）</string>
+    <string name="tx_font_import" formatted="false">フォントをインポート</string>
+    <string name="tx_font_import_s" formatted="false">.ttf または .otf ファイル（最大3MB）</string>
+    <string name="tx_font_remove" formatted="false">インポートしたフォントを削除</string>
+    <string name="tx_font_bad" formatted="false">このフォントは使用できません。ファイルが無効か、3 MB を超えています</string>
+    <string name="tx_qs_l8_t" formatted="false">フォント</string>
+    <string name="tx_art_popular" formatted="false">人気</string>
+    <string name="tx_art_recent" formatted="false">最新</string>
+    <string name="tx_bio_src_wiki" formatted="false">出典：Wikipedia</string>
+    <string name="tx_bio_src_wiki_orig" formatted="false">原文・Wikipedia</string>
+    <string name="tx_dash_motion_t" formatted="false">ダッシュボードのアニメーションカバー</string>
+    <string name="tx_dash_motion_s" formatted="false">再生中の曲の動画を再生カードとヘッダーで再生します。動画カバーが必要です。</string>
+    <string name="tx_onb_cov_t" formatted="false">カバー、画像、アニメーション</string>
+    <string name="tx_onb_cov_s" formatted="false">画像の形、ジャケットの表示方法、アニメーションのスタイルを選択してください。</string>
+    <string name="tx_onb_sync_t" formatted="false">同期とバッテリー</string>
+    <string name="tx_onb_sync_s" formatted="false">スマートフォンのバッテリーを使いすぎずに、統計を最新の状態に保ちます。</string>
+    <string name="tx_onb_autosync_t" formatted="false">自動同期</string>
+    <string name="tx_onb_autosync_s" formatted="false">アプリがバックグラウンドで定期的に、新しい再生履歴があるかどうかを確認します。</string>
+    <string name="tx_onb_freq" formatted="false">確認の頻度</string>
+    <string name="tx_onb_every_h" formatted="false">{h}時間ごと</string>
+    <string name="tx_onb_every_1h" formatted="false">1時間ごと</string>
+    <string name="tx_load_backup_note" formatted="false">バックアップを検出:新しいスクロブルのみ確認します。</string>
+    <string name="tx_dash_nowplay" formatted="false">再生中</string>
+    <string name="tx_dash_stats" formatted="false">統計</string>
+    <string name="tx_dash_recent" formatted="false">最近の再生</string>
+    <string name="tx_dash_discover" formatted="false">発見</string>
+    <string name="tx_dash_friends" formatted="false">フレンド</string>
+    <string name="tx_dash_chart" formatted="false">ダッシュボードのグラフ</string>
+    <string name="tx_dash_calendar" formatted="false">カレンダー</string>
+    <string name="tx_dash_monthly" formatted="false">月別</string>
+    <string name="tx_cache_video_t" formatted="false">メモリ内の動くカバー</string>
+    <string name="tx_cache_video_s" formatted="false">使用中のビデオメモリ:{mem} · アクティブなプレーヤー {players} · キャッシュ済みリンク {links}</string>
+    <string name="tx_cache_video_short" formatted="false">アニメカバー</string>
+    <string name="tx_cache_video_cleared" formatted="false">動くカバーの動画をメモリから解放しました</string>
+    <string name="tx_cache_memory_section" formatted="false">メモリ</string>
+    <string name="tx_cache_storage_section" formatted="false">ストレージ</string>
+    <string name="tx_lvl" formatted="false">レベル {n}</string>
+    <string name="tx_lvl_history" formatted="false">レベル履歴</string>
+    <string name="tx_set_mblur_t" formatted="false">モーションブラー</string>
+    <string name="tx_menu_copied" formatted="false">コピーしました</string>
+    <string name="tx_menu_select" formatted="false">選択</string>
+    <string name="tx_sel_count" formatted="false">{n} 件を選択中</string>
+    <string name="tx_sel_remove" formatted="false">お気に入りから削除</string>
+    <string name="tx_sel_cancel" formatted="false">キャンセル</string>
+    <string name="tx_menu_add_folder" formatted="false">フォルダに追加</string>
+    <string name="tx_menu_copy_title" formatted="false">タイトルをコピー</string>
+    <string name="tx_menu_copy_both" formatted="false">アーティスト – タイトルをコピー</string>
+    <string name="tx_set_mblur_s" formatted="false">ページ遷移や表示時のやわらかなぼかし</string>
+    <string name="tx_ui_widget_bg" formatted="false">ウィジェットの背景</string>
+    <string name="tx_ui_widget_bg_d" formatted="false">ポスターはテーマの形を使用、無地はライト/ダークに応じて黒または白、なしは透明</string>
+    <string name="tx_ui_widget_bg_poster" formatted="false">ポスター</string>
+    <string name="tx_ui_widget_bg_plain" formatted="false">無地</string>
+    <string name="tx_ui_widget_bg_none" formatted="false">なし</string>
+    <string name="tx_about_insp_podium" formatted="false">インスピレーション:出入りの遷移でのやわらかなぼかし</string>
+    <string name="tx_about_insp_metrolist" formatted="false">インスピレーション:タブ間のスライド+フェード(Material 3)</string>
+    <string name="tx_about_insp_m3skill" formatted="false">モーションの指針:イージング、スプリング、共有軸</string>
+    <string name="tx_ui_beta" formatted="false">ベータ</string>
+    <string name="tx_ui_nothing_red_sub" formatted="false">赤 #FF2020</string>
+    <string name="tx_ui_nothing_yellow_sub" formatted="false">+ 黄 #FFC700</string>
+    <string name="tx_set_living_t" formatted="false">動くカバー</string>
+    <string name="tx_set_living_s" formatted="false">画像が、軽いズームと奥行きの効果でゆっくり動きます。</string>
+    <string name="tx_set_motion_t" formatted="false">ビデオカバー</string>
+    <string name="tx_set_motion_s" formatted="false">曲にアニメーション動画のジャケットがある場合は再生します。</string>
+    <string name="tx_set_achv_t" formatted="false">実績とレベル</string>
+    <string name="tx_set_achv_s" formatted="false">目標、バッジ、アカウントのレベルを確認できます。</string>
+    <string name="tx_cache_img_limit_t" formatted="false">写真キャッシュの上限</string>
+    <string name="tx_cache_img_limit_s" formatted="false">ジャケット、アーティスト写真、アバター。古いものから削除されます。</string>
+    <string name="tx_cache_vid_limit_t" formatted="false">動画キャッシュの上限</string>
+    <string name="tx_cache_vid_limit_s" formatted="false">オフラインで再生できるよう、動くカバーを端末に保存します（Android）。</string>
+    <string name="tx_cache_video_off" formatted="false">オフ</string>
+    <string name="tx_cache_vid_disk_t" formatted="false">保存済みの動くカバー</string>
+    <string name="tx_cache_vid_disk_s" formatted="false">{size} · 保存済みのアニメーションカバー</string>
+    <string name="tx_ap_harmony_title" formatted="false">カラースタイル</string>
+    <string name="tx_ap_harmony_mono" formatted="false">モノクロ</string>
+    <string name="tx_ap_harmony_mono_sub" formatted="false">1色相のみ、濃淡で表現。ニュートラルな面はシンプルなまま</string>
+    <string name="tx_ap_harmony_tinted" formatted="false">ティント</string>
+    <string name="tx_ap_harmony_tinted_sub" formatted="false">1色相で、背景・枠線・文字などのニュートラルにもほのかな色味を加えます。無彩色のグレーは使いません</string>
+    <string name="tx_ap_harmony_classic" formatted="false">クラシック</string>
+    <string name="tx_ap_harmony_classic_sub" formatted="false">標準のMaterial You。複数の補色を使用</string>
+    <string name="tx_ap_harmony_vivid" formatted="false">ビビッド</string>
+    <string name="tx_ap_harmony_vivid_sub" formatted="false">1色相で、より鮮やかで強い</string>
+    <string name="tx_ap_harmony_soft" formatted="false">ソフト</string>
+    <string name="tx_ap_harmony_soft_sub" formatted="false">1色相で、より控えめでグレーに近い</string>
+    <string name="tx_gr_night1" formatted="false">まだ起きてますか、{name}さん？</string>
+    <string name="tx_gr_night2" formatted="false">音楽と過ごす夜ですね、{name}さん</string>
+    <string name="tx_gr_night3" formatted="false">夜は音楽がよく似合います、{name}さん</string>
+    <string name="tx_gr_morning1" formatted="false">おはようございます、{name}さん</string>
+    <string name="tx_gr_morning2" formatted="false">目覚めはいかが、{name}さん？</string>
+    <string name="tx_gr_morning3" formatted="false">いい一日の始まりですね、{name}さん</string>
+    <string name="tx_gr_afternoon1" formatted="false">こんにちは、{name}さん</string>
+    <string name="tx_gr_afternoon2" formatted="false">おかえりなさい、{name}さん</string>
+    <string name="tx_gr_afternoon3" formatted="false">また会えましたね、{name}さん</string>
+    <string name="tx_gr_evening1" formatted="false">こんばんは、{name}さん</string>
+    <string name="tx_gr_evening2" formatted="false">すてきな夜を、{name}さん</string>
+    <string name="tx_gr_evening3" formatted="false">おかえりなさい、{name}さん</string>
+    <string name="tx_gr_weekend1" formatted="false">良い週末を、{name}さん</string>
+    <string name="tx_gr_weekend2" formatted="false">週末を楽しんで、{name}さん</string>
+    <string name="tx_gr_playing1" formatted="false">再生中ですね、{name}さん</string>
+    <string name="tx_gr_playing2" formatted="false">いい選曲です、{name}さん</string>
+    <string name="tx_gr_playing3" formatted="false">いい音ですね、{name}さん</string>
+    <string name="tx_gr_heavy1" formatted="false">相変わらずの音楽好きですね、{name}さん</string>
+    <string name="tx_gr_heavy2" formatted="false">スクロブルが止まりません、{name}さん</string>
+    <string name="tx_gr_birthday1" formatted="false">アカウント記念日おめでとう、{name}さん！</string>
+    <string name="tx_gr_birthday2" formatted="false">もう{years}年一緒ですね、{name}さん！</string>
+    <string name="tx_gr_catchup1" formatted="false">{friend}さんが追いついてきました、{name}さん！</string>
+    <string name="tx_gr_catchup2" formatted="false">{friend}さんがすぐ後ろです、{name}さん</string>
+    <string name="tx_gr_christmas1" formatted="false">メリークリスマス、{name}さん！</string>
+    <string name="tx_gr_christmas2" formatted="false">楽しいホリデーを、{name}さん</string>
+    <string name="tx_gr_newyear1" formatted="false">あけましておめでとう、{name}さん！</string>
+    <string name="tx_gr_newyear2" formatted="false">音楽あふれる一年に、{name}さん！</string>
+    <string name="tx_gr_easter1" formatted="false">イースターおめでとう、{name}さん！</string>
+    <string name="tx_gr_easter2" formatted="false">すてきなイースターを、{name}さん</string>
+    <string name="tx_gr_spring1" formatted="false">春が来ましたね、{name}さん</string>
+    <string name="tx_gr_spring2" formatted="false">春のプレイリストはいかが、{name}さん？</string>
+    <string name="tx_gr_summer1" formatted="false">夏の気分ですね、{name}さん</string>
+    <string name="tx_gr_summer2" formatted="false">太陽を楽しんで、{name}さん</string>
+    <string name="tx_gr_autumn1" formatted="false">秋の気分ですね、{name}さん</string>
+    <string name="tx_gr_autumn2" formatted="false">葉は散っても音楽は残る、{name}さん</string>
+    <string name="tx_gr_winter1" formatted="false">音楽と過ごす冬、{name}さん</string>
+    <string name="tx_gr_winter2" formatted="false">音楽であったまりましょう、{name}さん</string>
+    <string name="tx_hdr_pick_t" formatted="false">端末から画像を選ぶ</string>
+    <string name="tx_hdr_pick_s" formatted="false">アプリ内に保存し、リンクの代わりに使います</string>
+    <string name="tx_hdr_pick_set" formatted="false">端末の画像を使用中（リンクより優先）</string>
+    <string name="tx_hdr_remove_t" formatted="false">端末の画像を削除</string>
+    <string name="tx_hdr_too_big" formatted="false">画像が大きすぎます（最大4MB）</string>
+    <string name="tx_hdr_invalid" formatted="false">無効な画像です</string>
+    <string name="tx_cache_confirm_t" formatted="false">このキャッシュを消去しますか？</string>
+    <string name="tx_cache_confirm_b" formatted="false">{name} を削除します。この操作は元に戻せません。</string>
+    <string name="tx_cache_api_limit_t" formatted="false">APIデータの上限</string>
+    <string name="tx_cache_api_limit_s" formatted="false">保存するAPIデータの最大サイズ。古いものから削除されます。</string>
+    <string name="tx_key_internal_use" formatted="false">アプリ内蔵キーを使用</string>
+    <string name="tx_key_internal_help" formatted="false">予備のオプションです。このキーは複数のユーザーで共有されるため、上限に達したり使えなくなったりして、一部の機能が動作しないことがあります。可能なら自分のキーを使ってください。</string>
+    <string name="tx_key_internal_active" formatted="false">アプリ内蔵キー</string>
+    <string name="tx_key_fallback_title" formatted="false">内蔵キーを予備に使う</string>
+    <string name="tx_key_fallback_sub" formatted="false">まず自分のキーを使い、Last.fmに拒否された場合は、アプリが自動的に内蔵キーでもう一度試します。</string>
+    <string name="tx_key_use_own" formatted="false">自分のAPIキーを使う</string>
+    <string name="tx_key_change_title" formatted="false">APIキーを変更</string>
+    <string name="tx_key_change_sub" formatted="false">現在のキーを別のキーに置き換えるか、アプリ内蔵キーに切り替えられます。</string>
+    <string name="tx_key_change_sub_internal" formatted="false">現在はアプリの共有キーを使っています。自分のキーを追加すると、他のユーザーの利用上限の影響を受けなくなります。</string>
+    <string name="tx_key_change_intro" formatted="false">このアカウント用の新しいAPIキーを入力するか、アプリ内蔵キーに戻してください。ユーザー名や統計は変わりません。</string>
+    <string name="tx_key_change_intro_internal" formatted="false">このアカウントは現在、アプリ内蔵キーを使っています。自分のLast.fm APIキーを下に貼り付けると置き換えられます。ユーザー名や統計は変わりません。</string>
+    <string name="tx_key_change_hint" formatted="false">APIキーは32文字です。last.fm/api/accounts で作成または確認できます。</string>
+    <string name="tx_key_change_invalid_len" formatted="false">APIキーはちょうど32文字である必要があります。最後までコピーできているか確認してください。</string>
+    <string name="tx_key_change_same" formatted="false">このアカウントはすでにこのキーを使っています。別のキーを入力してください。</string>
+    <string name="tx_key_change_check_failed" formatted="false">Last.fmがこのキーを受け付けませんでした。キーが正しいか、ネットワークに接続しているかを確認して、もう一度お試しください。</string>
+    <string name="tx_key_change_favorites_warn" formatted="false">お気に入りの連携は、以前のキーに紐づいているため解除されます。あとでシークレットキーを使って再接続できます。</string>
+    <string name="tx_key_change_apply" formatted="false">適用</string>
+    <string name="tx_key_change_success" formatted="false">APIキーを更新しました。</string>
+    <string name="tx_key_internal_fav_note" formatted="false">お気に入りには、自分のAPIキーとLast.fmのシークレットキーが必要です。上で自分のキーを追加すると有効にできます。</string>
+    <string name="tx_faq_q15" formatted="false">ログイン後にAPIキーを変更できますか？</string>
+    <string name="tx_faq_a15" formatted="false">はい。設定 &gt; アカウントを開き、「APIキーを変更」をタップしてください。キーを別のものに置き換えたり、最初に内蔵キーを選んでいた場合は自分のキーを追加したりできます。統計はそのままで、お気に入りの連携だけ設定し直す必要があります。</string>
+    <string name="tx_nothing_wip_badge" formatted="false">改善中</string>
+    <string name="tx_nothing_wip_msg" formatted="false">Nothing OSスタイルは現在改善中のため、今はご利用いただけません。今後のバージョンで利用できるようになる可能性があります。</string>
+    <string name="tx_ui_play_preview" formatted="false">プレビューを再生</string>
+    <string name="tx_ntf_test_title" formatted="false">🔔 テスト通知</string>
+    <string name="tx_ntf_test_body" formatted="false">LastStats の通知は正常に動作しています！</string>
+    <string name="tx_ui_not_enough_data_yet_sy" formatted="false">データがまだ足りません。設定で履歴全体を同期してください。</string>
+    <string name="tx_ui_level" formatted="false">レベル {level}</string>
+    <string name="tx_ui_fetching" formatted="false">{currentYea} を取得中…（{yearIndex}/{totalYears}）</string>
+    <string name="tx_ui_which_chart" formatted="false">どのグラフ？</string>
+    <string name="tx_ui_which_period" formatted="false">どの期間？</string>
+    <string name="tx_ui_all_time" formatted="false">全期間</string>
+    <string name="tx_ui_exporting" formatted="false">エクスポート中…</string>
+    <string name="tx_ui_chart_not_available_fo" formatted="false">このグラフは選択した期間では利用できません</string>
+    <string name="tx_ui_could_not_generate_the" formatted="false">画像を生成できませんでした。もう一度お試しください。</string>
+    <string name="tx_ui_error" formatted="false">問題が発生しました</string>
+    <string name="tx_ui_loading_history" formatted="false">履歴{yearLabel}を読み込み中… {pct}%</string>
+    <string name="tx_ui_charts_will_be_more_ac" formatted="false">読み込み後、グラフはより正確になります。</string>
+    <string name="tx_ui_load_the_full_history_" formatted="false">全期間を見るには完全な履歴を読み込んでください。</string>
+    <string name="tx_ui_load" formatted="false">読み込む</string>
+    <string name="tx_ui_based_on_scrobbles_all" formatted="false">{v_hourlyCou} 件のスクロブルに基づく（全期間）</string>
+    <string name="tx_ui_all_available_years" formatted="false">利用可能な全期間</string>
+    <string name="tx_ui_based_on_scrobbles_fro" formatted="false">{v_selectedY}年の {v_hourlyCou} 件のスクロブルに基づく</string>
+    <string name="tx_ui_based_on_recent_scrobb" formatted="false">最近の {v_hourlyCou} 件のスクロブルに基づく</string>
+    <string name="tx_ui_analysing_your_last_20" formatted="false">直近約200件のスクロブルを分析中</string>
+    <string name="tx_ui_all_time_loading" formatted="false">全期間（{v_selectedY} 読み込み中）</string>
+    <string name="tx_ui_all_time_2" formatted="false">全期間</string>
+    <string name="tx_ui_export_a_chart" formatted="false">グラフをエクスポート</string>
+    <string name="tx_ui_scrobble_progression" formatted="false">スクロブルの推移</string>
+    <string name="tx_ui_your_musical_genres" formatted="false">あなたの音楽ジャンル</string>
+    <string name="tx_ui_based_on_your_top_arti" formatted="false">よく聴くアーティストに基づく（全期間）</string>
+    <string name="tx_ui_listening_habits" formatted="false">リスニング習慣</string>
+    <string name="tx_ui_album_distribution" formatted="false">アルバム別の内訳</string>
+    <string name="tx_ui_listening_calendar" formatted="false">リスニングカレンダー</string>
+    <string name="tx_ui_daily_activity_to" formatted="false">日別アクティビティ — {first}〜{last}</string>
+    <string name="tx_ui_daily_activity_all_yea" formatted="false">日別アクティビティ — 全期間</string>
+    <string name="tx_ui_daily_activity" formatted="false">日別アクティビティ — {v_selectedY}</string>
+    <string name="tx_ui_load_history_to_see" formatted="false">{v_selectedY} を見るには履歴を読み込んでください</string>
+    <string name="tx_ui_daily_activity_last_12" formatted="false">日別アクティビティ — 直近12か月</string>
+    <string name="tx_ui_all_years" formatted="false">全期間</string>
+    <string name="tx_ui_listening_streaks" formatted="false">連続リスニング</string>
+    <string name="tx_ui_total" formatted="false">合計</string>
+    <string name="tx_ui_avg_mo" formatted="false">月平均</string>
+    <string name="tx_ui_best_month" formatted="false">ベストの月</string>
+    <string name="tx_ui_hourly_distribution" formatted="false">時間帯別の分布</string>
+    <string name="tx_ui_activity_by_day_of_wee" formatted="false">曜日別アクティビティ</string>
+    <string name="tx_ui_current_streak" formatted="false">現在の連続記録</string>
+    <string name="tx_ui_d" formatted="false">日</string>
+    <string name="tx_ui_best_streak" formatted="false">最長の連続記録</string>
+    <string name="tx_ui_best_streak_started_on" formatted="false">最長記録は {bestStart} に開始</string>
+    <string name="tx_ui_no_data_for_this_perio" formatted="false">この期間のデータはありません</string>
+    <string name="tx_ui_load_history_to_displa" formatted="false">{what} を表示するには履歴を読み込んでください</string>
+    <string name="tx_ui_less" formatted="false">少ない</string>
+    <string name="tx_ui_more" formatted="false">多い</string>
+    <string name="tx_ui_scan_a_profile" formatted="false">プロフィールをスキャン</string>
+    <string name="tx_ui_lvl" formatted="false">Lv.{level}</string>
+    <string name="tx_ui_qr_code" formatted="false">QRコード？</string>
+    <string name="tx_ui_add_a_qr_code_to_the_s" formatted="false">共有する画像にQRコードを追加して、見た人があなたのプロフィールをスキャンできるようにしますか？</string>
+    <string name="tx_ui_no_qr" formatted="false">QRなし</string>
+    <string name="tx_ui_to_the_app" formatted="false">アプリへ</string>
+    <string name="tx_ui_to_last_fm" formatted="false">Last.fmへ</string>
+    <string name="tx_ui_compare_music_taste" formatted="false">音楽の好みを比較</string>
+    <string name="tx_ui_syncing_full_library" formatted="false">データを同期中…</string>
+    <string name="tx_ui_see_more" formatted="false">もっと見る</string>
+    <string name="tx_ui_no_achievements_unlock" formatted="false">まだ実績は解除されていません。聴き続けて最初の実績を手に入れましょう！</string>
+    <string name="tx_ui_no_animated_cover_for_" formatted="false">このアルバムにはアニメーションカバーがありません</string>
+    <string name="tx_ui_source" formatted="false">提供元: {source}</string>
+    <string name="tx_ui_view_on_last_fm" formatted="false">Last.fm で見る</string>
+    <string name="tx_ui_original_text_last_fm_" formatted="false">原文: Last.fm — 翻訳: Google 翻訳</string>
+    <string name="tx_ui_source_last_fm" formatted="false">提供元: Last.fm</string>
+    <string name="tx_ui_dark" formatted="false">ダーク</string>
+    <string name="tx_ui_light" formatted="false">ライト</string>
+    <string name="tx_ui_system" formatted="false">システム</string>
+    <string name="tx_ui_colored_widgets" formatted="false">カラーウィジェット</string>
+    <string name="tx_ui_tint_home_screen_widge" formatted="false">ウィジェットにアクセントカラーを適用</string>
+    <string name="tx_ui_search_settings" formatted="false">設定を検索…</string>
+    <string name="tx_ui_no_settings_found" formatted="false">検索に一致する設定がありません</string>
+    <string name="tx_ui_all" formatted="false">すべて</string>
+    <string name="tx_ui_battery_saver" formatted="false">バッテリーセーバー</string>
+    <string name="tx_ui_save_battery_fewer_eff" formatted="false">バッテリーを節約、エフェクト控えめ</string>
+    <string name="tx_ui_musical_soulmates" formatted="false">音楽のソウルメイト</string>
+    <string name="tx_ui_great_compatibility" formatted="false">非常に高い相性</string>
+    <string name="tx_ui_some_common_ground" formatted="false">いくつかの共通点</string>
+    <string name="tx_ui_fairly_different_taste" formatted="false">好みはかなり違う</string>
+    <string name="tx_ui_worlds_apart_musically" formatted="false">音楽的に正反対の世界</string>
+    <string name="tx_ui_this_is_your_own_profi" formatted="false">これはあなた自身のプロフィールです！</string>
+    <string name="tx_ui_artists_from_your_hist" formatted="false">あなたの履歴から{uniqueArti}組のアーティスト · {targetUser}のライブラリ全体</string>
+    <string name="tx_ui_artists_from_your_hist_2" formatted="false">あなたの履歴から{uniqueArti}組のアーティスト · {targetUser}のトップ200</string>
+    <string name="tx_ui_full_library_api" formatted="false">ライブラリ全体（API）</string>
+    <string name="tx_ui_top_200_artists_tracks" formatted="false">トップ200のアーティストと曲（API）</string>
+    <string name="tx_ui_could_not_work_out_the" formatted="false">相性を計算できませんでした。</string>
+    <string name="tx_ui_music_compatibility" formatted="false">音楽の相性</string>
+    <string name="tx_ui_analyzing_musical_tast" formatted="false">音楽の好みを分析中…</string>
+    <string name="tx_ui_artist" formatted="false">{v_totalArti}組のアーティスト</string>
+    <string name="tx_ui_track" formatted="false">{v_totalTrac}曲</string>
+    <string name="tx_ui_album" formatted="false">{v_totalAlbu}枚のアルバム</string>
+    <string name="tx_ui_shared_tracks" formatted="false">共通の曲</string>
+    <string name="tx_ui_shared_artists" formatted="false">共通のアーティスト</string>
+    <string name="tx_ui_no_shared_artists_foun" formatted="false">共通のアーティストは見つかりませんでした。</string>
+    <string name="tx_ui_shared_albums" formatted="false">共通のアルバム</string>
+    <string name="tx_ui_play_count_unavailable" formatted="false">どちらかの再生回数が取得できません。</string>
+    <string name="tx_ui_you_listen_to_this_x_m" formatted="false">あなたは{theirUsern}より{x}倍多く聴いています。</string>
+    <string name="tx_ui_listens_to_this_x_more" formatted="false">{theirUsern}はあなたより{x}倍多く聴いています。</string>
+    <string name="tx_ui_you_both_listen_to_thi" formatted="false">二人ともほぼ同じ回数聴いています。</string>
+    <string name="tx_ui_plays" formatted="false">{plays}回再生</string>
+    <string name="tx_ui_compatibility" formatted="false">相性</string>
+    <string name="tx_ui_you_both_love" formatted="false">二人とも大好き</string>
+    <string name="tx_ui_shared_top_artist" formatted="false">共通のお気に入りアーティスト</string>
+    <string name="tx_ui_achievements" formatted="false">実績</string>
+    <string name="tx_ui_qr_not_recognized_not_" formatted="false">QRコードを認識できません — LastStats/Last.fmのプロフィールではありません</string>
+    <string name="tx_ui_scan_a_profile_s_qr_co" formatted="false">プロフィールのQRコードをスキャン</string>
+    <string name="tx_ui_favorites" formatted="false">お気に入り</string>
+    <string name="tx_ui_advanced_youtube_music" formatted="false">高機能な YouTube Music クライアント。</string>
+    <string name="tx_ui_syncs_the_glyphs_of_no" formatted="false">Nothing フォンの Glyph を音楽に同期させます。</string>
+    <string name="tx_ui_sources" formatted="false">ソース</string>
+    <string name="tx_ui_official_flutter_docs_" formatted="false">Flutter の公式ドキュメント。</string>
+    <string name="tx_ui_official_material_3_gu" formatted="false">Flutter 向け Material 3 公式ガイド。</string>
+    <string name="tx_ui_flutter_api_reference_" formatted="false">Material 3 テーマの Flutter API リファレンス。</string>
+    <string name="tx_ui_official_flutter_packa" formatted="false">アダプティブレイアウト用の Flutter 公式パッケージ。</string>
+    <string name="tx_ui_android_widgets" formatted="false">Android ウィジェット</string>
+    <string name="tx_ui_applies_the_accent_col" formatted="false">ホーム画面ウィジェットの背景にアクセントカラーを適用します。オフの場合は純白または純黒になります。</string>
+    <string name="tx_ui_turns_off_tilt_paralla" formatted="false">傾きによるパララックスを無効にし、画面のリフレッシュレートを制限し、バックグラウンド更新を遅くします。それ以外は最高品質のままです（画像、エクスポート、共有カード）。</string>
+    <string name="tx_ui_always_on" formatted="false">常にオン</string>
+    <string name="tx_ui_force_eco_mode_on_rega" formatted="false">バッテリー残量に関わらず省電力モードを強制的にオンにします。</string>
+    <string name="tx_ui_auto_activate" formatted="false">自動でオン</string>
+    <string name="tx_ui_turn_on_below_a_batter" formatted="false">バッテリー残量が少ないときに省電力モードをオンにする</string>
+    <string name="tx_ui_switches_on_by_itself_" formatted="false">バッテリー残量が少なくなると、省電力モードが自動でオンになります。具体的な残量は後から設定で選べます。</string>
+    <string name="tx_ui_threshold" formatted="false">しきい値</string>
+    <string name="tx_ui_choose_the_tab_display" formatted="false">アプリ起動時に表示するタブを選択します。</string>
+    <string name="tx_ui_the_selected_tab_will_" formatted="false">選択したタブは次回の起動時に表示されます。</string>
+    <string name="tx_ui_friends_sync" formatted="false">フレンド同期</string>
+    <string name="tx_ui_sync_frequency" formatted="false">同期の頻度</string>
+    <string name="tx_ui_daily" formatted="false">毎日</string>
+    <string name="tx_ui_resync_everyone" formatted="false">すべて再同期</string>
+    <string name="tx_ui_version_history" formatted="false">バージョン履歴</string>
+    <string name="tx_ui_could_not_load_release" formatted="false">バージョン履歴を読み込めませんでした。接続を確認して、もう一度お試しください。</string>
+    <string name="tx_ui_installed_dev_build_un" formatted="false">インストール済み：開発ビルド（バージョン不明）</string>
+    <string name="tx_ui_installed" formatted="false">インストール済み：{displayVer}</string>
+    <string name="tx_ui_search_a_version_or_ch" formatted="false">バージョンまたは変更履歴を検索…</string>
+    <string name="tx_ui_official" formatted="false">公式</string>
+    <string name="tx_ui_no_release_matches_you" formatted="false">検索に一致するバージョンはありません。</string>
+    <string name="tx_ui_latest" formatted="false">最新</string>
+    <string name="tx_ui_installed_2" formatted="false">インストール済み</string>
+    <string name="tx_ui_no_description" formatted="false">このバージョンには説明がありません。</string>
+    <string name="tx_ui_download" formatted="false">ダウンロード</string>
+    <string name="tx_ui_view_release" formatted="false">リリースを見る</string>
+    <string name="tx_ui_details" formatted="false">詳細</string>
+    <string name="tx_ui_all_past_releases_chan" formatted="false">過去のすべてのバージョン、変更履歴、ダウンロード</string>
+    <string name="tx_ui_please_fill_both_field" formatted="false">続行するには、両方の項目を入力してください。</string>
+    <string name="tx_svc_title" formatted="false">サービスをお選びください</string>
+    <string name="tx_svc_sub" formatted="false">LastStatsは、この2つのサービスのいずれかから再生履歴を読み込みます。</string>
+    <string name="tx_svc_lfm_s" formatted="false">Last.fmの履歴です。ご注意：Last.fm APIは有料化され、APIキーには2026年12月1日からLast.fm Proが必要です。</string>
+    <string name="tx_svc_lfm_paid" formatted="false">有料API</string>
+    <string name="tx_svc_lb_s" formatted="false">無料のオープンソース（MetaBrainz）です。ユーザートークンで簡単にログインできます。</string>
+    <string name="tx_svc_free" formatted="false">無料</string>
+    <string name="tx_svc_back" formatted="false">サービスを変更</string>
+    <string name="tx_svc_lfm_note" formatted="false">2026年12月1日から、Last.fmのAPIキーにはLast.fm Proの購読が必要です（キーの所有者の場合）。アカウントと履歴は変わりません。</string>
+    <string name="tx_svc_lfm_pro" formatted="false">Last.fm Pro を見る</string>
+    <string name="tx_lb_title" formatted="false">ListenBrainz にログイン</string>
+    <string name="tx_lb_steps" formatted="false">1. 無料のListenBrainzアカウントを作成するかログインしてください。2. ListenBrainzの設定を開いてください。3. ユーザートークンをコピーして、ここに貼り付けてください。</string>
+    <string name="tx_lb_token" formatted="false">ユーザートークン</string>
+    <string name="tx_lb_create" formatted="false">ListenBrainzアカウントを作成</string>
+    <string name="tx_lb_get_token" formatted="false">トークンを取得</string>
+    <string name="tx_lb_docs" formatted="false">APIヘルプ</string>
+    <string name="tx_lb_connect" formatted="false">接続</string>
+    <string name="tx_lb_invalid" formatted="false">トークンが無効です。ListenBrainzの設定でご確認ください。</string>
+    <string name="tx_lb_neterr" formatted="false">ListenBrainzに接続できません。インターネット接続をご確認ください。</string>
+    <string name="tx_lb_ok" formatted="false">ListenBrainz に接続しました（{name}）。</string>
+    <string name="tx_lb_empty" formatted="false">続行するにはトークンを貼り付けてください。</string>
+    <string name="tx_sw_title" formatted="false">ローカルデータが見つかりました</string>
+    <string name="tx_sw_body" formatted="false">アプリには既に{n}件の再生履歴が保存されています。新しいサービスでどうしますか？</string>
+    <string name="tx_sw_transfer" formatted="false">転送</string>
+    <string name="tx_sw_transfer_s" formatted="false">この履歴をListenBrainzに送信し、アプリにも残します。</string>
+    <string name="tx_sw_merge" formatted="false">統合</string>
+    <string name="tx_sw_merge_s" formatted="false">古いデータを残し、新しいサービスのデータを追加します。競合時はLast.fmが優先されます。</string>
+    <string name="tx_sw_fresh" formatted="false">最初からやり直す</string>
+    <string name="tx_sw_fresh_s" formatted="false">ローカルデータを削除し、新しいサービスから再読み込みします。</string>
+    <string name="tx_sw_ok" formatted="false">OK</string>
+    <string name="tx_sw_sending" formatted="false">再生履歴を送信中… {done} / {total}</string>
+    <string name="tx_sw_merging" formatted="false">統合中… {year}</string>
+    <string name="tx_sw_fail" formatted="false">転送に失敗しました。ローカルデータは保持されています。</string>
+    <string name="tx_lfm_create" formatted="false">Last.fmアカウントを作成</string>
+    <string name="tx_conn_lb_desc" formatted="false">再生履歴はユーザートークンでListenBrainzから読み込まれます。Last.fmにはリクエストを送信しません。</string>
+    <string name="tx_acct_lb_token" formatted="false">ListenBrainzトークン</string>
+    <string name="tx_acct_lb_info" formatted="false">トークンはListenBrainzの設定にあります。アカウントにアクセスできるため、他人に知られないようご注意ください。</string>
+    <string name="tx_acct_lb_profile" formatted="false">ListenBrainzプロフィール</string>
+    <string name="tx_acct_lb_view" formatted="false">ListenBrainzで表示</string>
+    <string name="tx_acct_switch" formatted="false">サービスを変更</string>
+    <string name="tx_acct_switch_s" formatted="false">Last.fmとListenBrainzを切り替えます</string>
+    <string name="tx_ui_api_key_must_be_32_cha" formatted="false">API キーはちょうど 32 文字で入力してください。</string>
+    <string name="tx_ui_profile_not_found" formatted="false">プロフィールが見つかりません。ユーザー名を確認して、もう一度お試しください。</string>
+    <string name="tx_ui_chart_monthly" formatted="false">月別の棒グラフ</string>
+    <string name="tx_ui_chart_cumul" formatted="false">推移</string>
+    <string name="tx_ui_chart_genres" formatted="false">音楽ジャンル</string>
+    <string name="tx_ui_chart_habits" formatted="false">リスニング習慣</string>
+    <string name="tx_ui_chart_artists" formatted="false">アーティスト分布</string>
+    <string name="tx_ui_chart_albums" formatted="false">アルバム分布</string>
+    <string name="tx_ui_chart_calendar" formatted="false">リスニングカレンダー</string>
+    <string name="tx_ui_chart_streaks" formatted="false">連続リスニング</string>
+    <string name="tx_ui_band_night" formatted="false">夜</string>
+    <string name="tx_ui_band_morning" formatted="false">朝</string>
+    <string name="tx_ui_band_afternoon" formatted="false">午後</string>
+    <string name="tx_ui_band_evening" formatted="false">夜（夕方）</string>
+    <string name="tx_qs_t1_t" formatted="false">OLED モード</string>
+    <string name="tx_qs_t1_s" formatted="false">完全な黒の背景で、OLED 画面の消費電力を抑えます</string>
+    <string name="tx_qs_t2_t" formatted="false">省電力モード</string>
+    <string name="tx_qs_t2_s" formatted="false">アニメーションとバックグラウンド更新を減らして電池を節約します</string>
+    <string name="tx_qs_t3_t" formatted="false">ニュース通知</string>
+    <string name="tx_qs_t3_s" formatted="false">新機能、修正、お知らせを通知します</string>
+    <string name="tx_qs_t4_t" formatted="false">触覚フィードバック</string>
+    <string name="tx_qs_t4_s" formatted="false">タップ、選択、スワイプ時に短く振動します</string>
+    <string name="tx_qs_t5_t" formatted="false">実績</string>
+    <string name="tx_qs_t5_s" formatted="false">解除した実績とレベルを表示します</string>
+    <string name="tx_qs_l1_t" formatted="false">アクセントカラー</string>
+    <string name="tx_qs_l2_t" formatted="false">テーマ</string>
+    <string name="tx_qs_l3_t" formatted="false">言語</string>
+    <string name="tx_qs_l4_t" formatted="false">音楽プラットフォーム</string>
+    <string name="tx_qs_l5_t" formatted="false">アカウント</string>
+    <string name="tx_qs_l6_t" formatted="false">同期</string>
+    <string name="tx_qs_l7_t" formatted="false">キャッシュ</string>
+    <string name="tx_img_src_lastfm" formatted="false">提供元: Last.fm</string>
+    <string name="tx_img_src_ytmusic" formatted="false">提供元: YouTube Music</string>
+    <string name="tx_img_src_itunes" formatted="false">提供元: iTunes</string>
+    <string name="tx_img_src_deezer" formatted="false">提供元: Deezer</string>
+    <string name="tx_img_src_audiodb" formatted="false">提供元: TheAudioDB</string>
+    <string name="tx_img_src_musicbrainz" formatted="false">提供元: MusicBrainz</string>
+    <string name="tx_img_src_wikipedia" formatted="false">提供元: Wikipedia</string>
+    <string name="tx_ds_type_artist" formatted="false">アーティスト</string>
+    <string name="tx_ds_type_album" formatted="false">アルバム</string>
+    <string name="tx_ds_type_track" formatted="false">曲</string>
+    <string name="tx_pf_1" formatted="false">👤 ユーザープロフィール</string>
+    <string name="tx_pf_2" formatted="false">🎤 トップアーティスト — 全期間</string>
+    <string name="tx_pf_3" formatted="false">💿 トップアルバム — 全期間</string>
+    <string name="tx_pf_4" formatted="false">🎵 トップトラック — 全期間</string>
+    <string name="tx_pf_5" formatted="false">⏱️ 最近の再生</string>
+    <string name="tx_pf_6" formatted="false">🗓️ 今週</string>
+    <string name="tx_pf_7" formatted="false">📅 今月</string>
+    <string name="tx_pf_8" formatted="false">📅 過去3か月</string>
+    <string name="tx_pf_9" formatted="false">📅 過去6か月</string>
+    <string name="tx_pf_10" formatted="false">📅 過去12か月</string>
+    <string name="tx_pf_11" formatted="false">📊 月別履歴</string>
+    <string name="tx_pf_12" formatted="false">❤️ お気に入りの曲</string>
+    <string name="tx_pf_13" formatted="false">🗓️ トップアーティスト — 今週</string>
+    <string name="tx_pf_14" formatted="false">🗓️ アルバムとトラック — 今週</string>
+    <string name="tx_ds_tier_next" formatted="false">{n} / {next} で次のティアへ</string>
+    <string name="tx_ds_tier_max" formatted="false">最高ティアに到達 🎉</string>
+    <string name="tx_ds_tier_first" formatted="false">この曲を聴いて最初のティアを解放しましょう（{n} 回再生から）。</string>
+    <string name="tx_sl_import" formatted="false">データをインポート中</string>
+    <string name="tx_sl_done" formatted="false">インポート完了！</string>
+    <string name="tx_sl_connect" formatted="false">Last.fm に接続中…</string>
+    <string name="tx_sec_chart" formatted="false">グラフ / カレンダー</string>
+    <string name="tx_stat_avg_day" formatted="false">1日平均</string>
+    <string name="tx_stat_avg_week" formatted="false">週平均</string>
+    <string name="tx_stat_days_active" formatted="false">アクティブ日数</string>
+    <string name="tx_stat_scrobbles_week" formatted="false">スクロブル（週）</string>
+    <string name="tx_accent_purple" formatted="false">パープル</string>
+    <string name="tx_accent_blue" formatted="false">ブルー</string>
+    <string name="tx_accent_green" formatted="false">グリーン</string>
+    <string name="tx_accent_red" formatted="false">レッド</string>
+    <string name="tx_accent_orange" formatted="false">オレンジ</string>
+    <string name="tx_accent_pink" formatted="false">ピンク</string>
+    <string name="tx_accent_teal" formatted="false">ティール</string>
+    <string name="tx_accent_neutral" formatted="false">ニュートラル</string>
+    <string name="tx_shape_title" formatted="false">画像の形</string>
+    <string name="tx_shape_covers" formatted="false">ジャケット、アーティスト、アルバム</string>
+    <string name="tx_shape_mix" formatted="false">ミックス</string>
+    <string name="tx_shape_square" formatted="false">四角</string>
+    <string name="tx_shape_circle" formatted="false">円形</string>
+    <string name="tx_shape_pick_one" formatted="false">または1つの形を選択</string>
+    <string name="tx_friend_listening" formatted="false">再生中</string>
+    <string name="tx_friend_offline" formatted="false">オフライン</string>
+    <string name="tx_tier_none" formatted="false">ティアなし</string>
+    <string name="tx_src_title" formatted="false">ソース</string>
+    <string name="tx_src_scrobbles_meta" formatted="false">スクロブルとメタデータ</string>
+    <string name="tx_src_artwork" formatted="false">アートワーク</string>
+    <string name="tx_src_audio_preview" formatted="false">音声プレビュー</string>
+    <string name="tx_src_video_artwork" formatted="false">ビデオアートワーク</string>
+    <string name="tx_tip_love" formatted="false">お気に入りに追加</string>
+    <string name="tx_rail_expand" formatted="false">サイドバーを展開</string>
+    <string name="tx_rail_collapse" formatted="false">サイドバーを折りたたむ</string>
+    <string name="tx_a11y_loading" formatted="false">読み込み中</string>
+    <string name="tx_bk_pick_folder" formatted="false">自動バックアップのフォルダーを選択</string>
+    <string name="tx_bk_save_title" formatted="false">LastStatsのバックアップを保存</string>
+    <string name="tx_bk_pick_file" formatted="false">LastStatsのバックアップファイルを選択</string>
+    <string name="tx_nch_milestone_d" formatted="false">スクロブルのマイルストーン達成時に通知します</string>
+    <string name="tx_nch_grand_d" formatted="false">大きなマイルストーン（1K、10K、100K、1M…）の特別通知</string>
+    <string name="tx_nch_recap_d" formatted="false">日次・週次のリスニングまとめ</string>
+    <string name="tx_nch_update_d" formatted="false">LastStatsの新バージョンが利用可能になると通知します</string>
+    <string name="tx_nch_news_d" formatted="false">LastStatsの新機能・修正・お知らせ</string>
+    <string name="tx_nch_sync_d" formatted="false">スクロブル履歴全体の同期の進行状況</string>
+    <string name="tx_ntf_grand_1000000" formatted="false">100万スクロブル。まさに伝説です。🎸</string>
+    <string name="tx_ntf_grand_500000" formatted="false">50万スクロブル。止まりませんね。🎧</string>
+    <string name="tx_ntf_grand_250000" formatted="false">{n}スクロブル。音楽は終わりません。🎶</string>
+    <string name="tx_ntf_grand_100000" formatted="false">{n}スクロブル！まさに音楽中毒です。🔥</string>
+    <string name="tx_ntf_grand_50000" formatted="false">{n}スクロブル。本当にすごい。🎵</string>
+    <string name="tx_ntf_grand_25000" formatted="false">{n}スクロブル、まだまだ絶好調！</string>
+    <string name="tx_ntf_grand_10000" formatted="false">{n}スクロブル、5桁に到達！🎉</string>
+    <string name="tx_ntf_grand_5000" formatted="false">{n}スクロブル、まだ増え続けています！</string>
+    <string name="tx_ntf_grand_1000" formatted="false">最初の{n}スクロブル。旅の始まりです。🎵</string>
+    <string name="tx_ntf_update_title" formatted="false">LastStats {v} が利用可能</string>
+    <string name="tx_ntf_update_body" formatted="false">新しいバージョンをダウンロードできます。</string>
+    <string name="tx_ntf_milestone_title" formatted="false">🎵 マイルストーン：{n}スクロブル</string>
+    <string name="tx_ntf_milestone_body" formatted="false">Last.fmで{n}スクロブルに到達しました 🎶</string>
+    <string name="tx_ntf_daily_title" formatted="false">📊 今日のまとめ · {d}</string>
+    <string name="tx_ntf_weekly_title" formatted="false">📅 週のまとめ · {w}</string>
+    <string name="tx_ntf_year_title" formatted="false">👀 {y}年のまとめが届きました</string>
+    <string name="tx_ntf_year_body" formatted="false">{y}年の音楽を振り返ろう：アーティスト、曲、アルバムなど。</string>
+    <string name="tx_ntf_recap_body" formatted="false">{n}スクロブル · トップ：{a}</string>
+    <string name="tx_ntf_n_today" formatted="false">今日は{n}スクロブル</string>
+    <string name="tx_ntf_n_week" formatted="false">今週は{n}スクロブル</string>
+    <string name="tx_ntf_top_artist" formatted="false">トップアーティスト：{a}</string>
+    <string name="tx_ntf_update_avail" formatted="false">🆕 アップデートがあります</string>
+    <string name="tx_ntf_update_ready" formatted="false">LastStats {v} の準備ができました。タップして確認。</string>
+    <string name="tx_ntf_sync_title" formatted="false">🔄 スクロブルを同期中…</string>
+    <string name="tx_ntf_sync_done" formatted="false">✅ スクロブルを同期しました</string>
+    <string name="tx_ntf_sync_new" formatted="false">新しいスクロブルを{n}件追加しました。</string>
+    <string name="tx_ntf_grand_t" formatted="false">{v}スクロブル！</string>
+    <string name="tx_ntf_year" formatted="false">{y}年</string>
+    <string name="tx_ntf_week" formatted="false">第{w}週</string>
+    <string name="tx_reorder" formatted="false">並べ替え</string>
+    <string name="tx_sp_login_t" formatted="false">Spotify にログイン</string>
+    <string name="tx_sp_login_hint" formatted="false">Spotify のメールアドレスとパスワードでログインしてください。ログインが完了すると、この画面は自動的に閉じます。</string>
+    <string name="tx_sp_risk_note" formatted="false">ご注意：この機能は公式 API ではなく、Spotify の非公式な呼び出しを利用しています。Spotify がいつでも変更またはブロックする可能性があり、動作しなくなることがあります。また、利用が Spotify の利用規約に反する場合があり、Spotify アカウントに制限がかかる可能性もあります。ご利用は自己責任でお願いします。</string>
+    <string name="tx_sp_perf_note" formatted="false">パフォーマンス:Canvasの検索では、バックグラウンドで非表示のウェブプレーヤーが動作し、追加のネットワーク通信が発生します。バッテリー・データ・メモリの消費が増えたり、アプリが少し重くなったりする場合があります。気になる場合は、このリストからSpotifyを外してください。</string>
+    <string name="tx_sp_t" formatted="false">Spotify (Canvas)</string>
+    <string name="tx_sp_on" formatted="false">接続済み</string>
+    <string name="tx_sp_off" formatted="false">未接続</string>
+    <string name="tx_sp_off_s" formatted="false">Spotify からログアウトしています。Canvas のアニメーションカバーを使うには、もう一度ログインしてください。</string>
+    <string name="tx_mv_ytdash_t" formatted="false">ダッシュボードでも使う</string>
+    <string name="tx_mv_ytdash_s" formatted="false">ダッシュボードのプロフィール背景のアニメーションカバーにもYouTubeを使います（初期設定はオフ）</string>
+    <string name="tx_yr_title" formatted="false">年間まとめ</string>
+    <string name="tx_yr_loading" formatted="false">あなたのまとめをお届け中です。少々お待ちを…</string>
+    <string name="tx_yr_error" formatted="false">おっと、スクロブルを読み込めませんでした。接続を確認してください。</string>
+    <string name="tx_yr_retry" formatted="false">再試行</string>
+    <string name="tx_yr_empty" formatted="false">{year}年のスクロブルはありません…充電期間でしたか？</string>
+    <string name="tx_yr_intro_h" formatted="false">あなたの{year}年の音楽</string>
+    <string name="tx_yr_scrobbles" formatted="false">スクロブル</string>
+    <string name="tx_yr_total_intro" formatted="false">今年あなたが聴いたのは、なんと：</string>
+    <string name="tx_yr_hours" formatted="false">およそ{h}時間分の音楽です。耳にメダルを差し上げたいですね！（推定）</string>
+    <string name="tx_yr_top_artist" formatted="false">あなたの推しアーティスト</string>
+    <string name="tx_yr_top_artists" formatted="false">トップアーティスト</string>
+    <string name="tx_yr_top_tracks" formatted="false">トップトラック</string>
+    <string name="tx_yr_top_albums" formatted="false">トップアルバム</string>
+    <string name="tx_yr_plays" formatted="false">{n}回再生</string>
+    <string name="tx_yr_months_h" formatted="false">月ごとの1年</string>
+    <string name="tx_yr_months" formatted="false">1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月</string>
+    <string name="tx_yr_best_month" formatted="false">最も聴いた月は{m}で、{n}スクロブル。熱い月でしたね！</string>
+    <string name="tx_yr_best_day" formatted="false">最も聴いた日は{d}で、{n}スクロブル。イヤホンが火を噴きそう！</string>
+    <string name="tx_yr_when_h" formatted="false">聴く時間帯</string>
+    <string name="tx_yr_p_night" formatted="false">夜によく聴いています：夜更かしさんですね</string>
+    <string name="tx_yr_p_morning" formatted="false">朝によく聴いています：コーヒーとプレイリストの最強コンビ</string>
+    <string name="tx_yr_p_day" formatted="false">日中によく聴いています：毎日のサウンドトラックです</string>
+    <string name="tx_yr_p_evening" formatted="false">夕方から夜によく聴いています：雰囲気づくりがお得意ですね</string>
+    <string name="tx_yr_peak" formatted="false">聴く時間のピークは{h}時ごろで、好きな曜日は{d}です。</string>
+    <string name="tx_yr_streak_h" formatted="false">メトロノーム級の継続力</string>
+    <string name="tx_yr_streak" formatted="false">日</string>
+    <string name="tx_yr_style" formatted="false">カスタマイズ</string>
+    <string name="tx_yr_flame_h" formatted="false">連続再生の1曲</string>
+    <string name="tx_yr_flame_s" formatted="false">{n}日連続の間の再生回数</string>
+    <string name="tx_yr_day_h" formatted="false">1曲の1日最多再生</string>
+    <string name="tx_yr_day_s" formatted="false">1日で、{d}に。すごい情熱！</string>
+    <string name="tx_yr_active" formatted="false">{t}日のうち{n}日、音楽を聴きました。残りの日は？怪しい静けさ…</string>
+    <string name="tx_yr_disc_h" formatted="false">新しい発見</string>
+    <string name="tx_yr_new" formatted="false">組のアーティストを今年発見。好奇心旺盛ですね！</string>
+    <string name="tx_yr_unique" formatted="false">合計で{a}組のアーティストと{t}曲を聴きました。なんて幅広い！</string>
+    <string name="tx_yr_card_hours" formatted="false">時間（推定）</string>
+    <string name="tx_yr_card_streak" formatted="false">日連続</string>
+    <string name="tx_yr_friends_h" formatted="false">友だちとの比較</string>
+    <string name="tx_yr_rank" formatted="false">{n}人中{r}位</string>
+    <string name="tx_yr_you" formatted="false">あなた</string>
+    <string name="tx_yr_twin_h" formatted="false">音楽のそっくりさん</string>
+    <string name="tx_yr_twin_s" formatted="false">よく聴くアーティストが{n}組共通しています。気が合いますね！</string>
+    <string name="tx_yr_top_track" formatted="false">あなたの No.1 ヒット</string>
+    <string name="tx_yr_top_album" formatted="false">あなたの愛聴アルバム</string>
+    <string name="tx_yr_line_h" formatted="false">積み上がった1年</string>
+    <string name="tx_yr_cal_h" formatted="false">カレンダーで見る1年</string>
+    <string name="tx_yr_share_h" formatted="false">再生の内訳</string>
+    <string name="tx_yr_share_err" formatted="false">おっと、画像を作成できませんでした。もう一度お試しください。</string>
+    <string name="tx_yr_share_profile" formatted="false">プロフィール画像を背景にする</string>
+    <string name="tx_yr_months_full" formatted="false">1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月</string>
+    <string name="tx_yr_months_gen" formatted="false">1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月</string>
+    <string name="tx_yr_day_fmt" formatted="false">{m}{d}日</string>
+    <string name="tx_yr_weekdays_full" formatted="false">月曜日,火曜日,水曜日,木曜日,金曜日,土曜日,日曜日</string>
+    <string name="tx_sp_need" formatted="false">Spotify のログインが必要です：プロフィール &gt; 接続ページ。</string>
+    <string name="tx_conn_title" formatted="false">接続</string>
+    <string name="tx_conn_btn_t" formatted="false">接続ページ</string>
+    <string name="tx_conn_btn_s" formatted="false">Last.fm、Spotify、APIキー</string>
+    <string name="tx_conn_sp_desc" formatted="false">動画カバー（Canvas）に使用します。Spotify アカウントが必要です。</string>
+    <string name="tx_conn_connect" formatted="false">接続</string>
+    <string name="tx_conn_disconnect" formatted="false">切断</string>
+    <string name="tx_conn_keys" formatted="false">APIキー</string>
+    <string name="tx_conn_manage" formatted="false">アカウント管理</string>
+    <string name="tx_conn_test" formatted="false">Spotify をテスト</string>
+    <string name="tx_conn_testing" formatted="false">テスト中…</string>
+    <string name="tx_conn_q_note" formatted="false">Spotify Canvas の画質は1種類です。画質設定は Apple Music と YouTube にのみ適用されます。</string>
+    <string name="tx_conn_lfm_desc" formatted="false">Last.fm の履歴はご自身の API キーで読み込まれます（2026年12月1日以降は Last.fm Pro が必要です）。</string>
+    <string name="tx_conn_lfm_web" formatted="false">Last.fm でログイン</string>
+    <string name="tx_lfm_login_t" formatted="false">Last.fm にログイン</string>
+    <string name="tx_lfm_login_hint" formatted="false">Last.fm のサイトでログインしてください。アプリがユーザー名を検出し、この画面を閉じます。</string>
+    <string name="tx_lfm_web_sub" formatted="false">API キーは不要です。アプリに組み込まれたキーを使用します。</string>
+    <string name="tx_lfm_manual_hint" formatted="false">ユーザー名を自動で取得できませんでした。ログイン後に下に入力してください。</string>
+    <string name="tx_lfm_manual_label" formatted="false">ユーザー名</string>
+    <string name="tx_rec" formatted="false">推奨</string>
+    <string name="tx_not_rec" formatted="false">非推奨</string>
+    <string name="tx_sm_title" formatted="false">接続方法</string>
+    <string name="tx_sm_key_t" formatted="false">自分のAPIキー</string>
+    <string name="tx_sm_key_s" formatted="false">自分専用の利用上限が使え、お気に入り機能も利用できます。</string>
+    <string name="tx_sm_builtin_t" formatted="false">内蔵キー</string>
+    <string name="tx_sm_builtin_s" formatted="false">必要なのはユーザー名だけです。利用上限は他のユーザーと共有されます。</string>
+    <string name="tx_wl_title" formatted="false">ようこそ</string>
+    <string name="tx_wl_sub" formatted="false">Last.fm のユーザー名とご自身の API キーを入力してください。</string>
+    <string name="tx_sr_from_recent" formatted="false">最近の検索から</string>
+    <string name="tx_sr_recent" formatted="false">最近の検索</string>
+    <string name="tx_sr_suggestions" formatted="false">候補</string>
+    <string name="tx_sr_recommended" formatted="false">おすすめ</string>
+    <string name="tx_sr_best" formatted="false">トップ結果</string>
+    <string name="tx_cx_best_month" formatted="false">ベストな月</string>
+    <string name="tx_cx_active_days" formatted="false">アクティブな日</string>
+    <string name="tx_cx_peak_hour" formatted="false">ピーク時間</string>
+    <string name="tx_cx_top_artist" formatted="false">1位のアーティスト</string>
+    <string name="tx_cx_top_artists" formatted="false">トップアーティスト</string>
+    <string name="tx_cx_by_month" formatted="false">月別</string>
+    <string name="tx_cx_cumulative" formatted="false">累計</string>
+    <string name="tx_cx_clock" formatted="false">リスニングクロック</string>
+    <string name="tx_cx_others" formatted="false">その他</string>
+    <string name="tx_cx_artist_distribution" formatted="false">アーティスト別の内訳</string>
+    <string name="tx_cx_daypart" formatted="false">時間帯</string>
+    <string name="tx_cx_night" formatted="false">深夜</string>
+    <string name="tx_cx_morning" formatted="false">朝</string>
+    <string name="tx_cx_afternoon" formatted="false">昼</string>
+    <string name="tx_cx_evening" formatted="false">夜</string>
+    <string name="tx_cx_intensity" formatted="false">日ごとの強度</string>
+    <string name="tx_cx_days" formatted="false">日</string>
+    <string name="tx_cx_busiest" formatted="false">最も多く聴いた日</string>
+    <string name="tx_cx_weekend" formatted="false">平日と週末</string>
+    <string name="tx_up_title" formatted="false">アップデート</string>
+    <string name="tx_up_downloading" formatted="false">ダウンロード中…</string>
+    <string name="tx_up_perm_title" formatted="false">許可が必要です</string>
+    <string name="tx_up_perm_body" formatted="false">Android の設定で LastStats からのインストールを許可し、ここに戻って「再試行」をタップしてください。</string>
+    <string name="tx_up_installing" formatted="false">インストーラーを開いています…</string>
+    <string name="tx_up_restart" formatted="false">LastStats は終了して再起動します。</string>
+    <string name="tx_up_failed" formatted="false">ダウンロードに失敗しました</string>
+    <string name="tx_up_failed_body" formatted="false">ブラウザでリンクを開いてアップデートをインストールしてください。</string>
+    <string name="tx_up_retry" formatted="false">再試行</string>
+    <string name="tx_up_browser" formatted="false">ブラウザで開く</string>
+    <string name="tx_up_close" formatted="false">閉じる</string>
+    <string name="tx_up_saved" formatted="false">ダウンロードに保存しました</string>
+    <string name="tx_up_background" formatted="false">バックグラウンドで続行</string>
+    <string name="tx_ntf_dl_section" formatted="false">ダウンロード</string>
+    <string name="tx_ntf_dl_title" formatted="false">ダウンロード通知</string>
+    <string name="tx_ntf_dl_sub" formatted="false">バックグラウンドでもダウンロードの進行バーを表示します</string>
+    <string name="tx_ntf_dl_ready" formatted="false">ダウンロード完了</string>
+    <string name="tx_ntf_dl_failed" formatted="false">ダウンロードに失敗しました</string>
+    <string name="tx_ntf_act_read" formatted="false">既読にする</string>
+    <string name="tx_ntf_act_read_all" formatted="false">すべて既読にする</string>
+    <string name="tx_ntf_act_install" formatted="false">インストール</string>
+    <string name="tx_ntf_dl_install_hint" formatted="false">タップしてアップデートをインストール</string>
+    <string name="tx_up_open_downloads" formatted="false">ダウンロードを開く</string>
+    <string name="tx_ic_title" formatted="false">アプリアイコン</string>
+    <string name="tx_ic_note" formatted="false">アプリを離れると、アプリ一覧のアイコンが変わります。ホーム画面ではアプリを置き直すか、下のボタンでショートカットを追加してください。</string>
+    <string name="tx_ic_default" formatted="false">クラシック</string>
+    <string name="tx_ic_white" formatted="false">ライト</string>
+    <string name="tx_ic_nothing_black" formatted="false">Nothing ダーク</string>
+    <string name="tx_ic_nothing_white" formatted="false">Nothing ライト</string>
+    <string name="tx_ic_blue" formatted="false">ブルー</string>
+    <string name="tx_ic_red" formatted="false">レッド</string>
+    <string name="tx_ic_pin" formatted="false">ホーム画面に追加</string>
+    <string name="tx_lbl_step1_t" formatted="false">トークンのページを開く</string>
+    <string name="tx_lbl_step1_s" formatted="false">ListenBrainz にログインし、「ユーザートークン」をコピーします。</string>
+    <string name="tx_lbl_open" formatted="false">ListenBrainz を開く</string>
+    <string name="tx_lbl_step2_t" formatted="false">トークンを貼り付け</string>
+    <string name="tx_lbl_paste" formatted="false">貼り付け</string>
+    <string name="tx_lbl_detected" formatted="false">クリップボードにトークンが見つかりました</string>
+    <string name="tx_lbl_use" formatted="false">使う</string>
+    <string name="tx_lbl_format_ok" formatted="false">トークンの形式は正しいです</string>
+    <string name="tx_lbl_format_bad" formatted="false">トークンは xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx の形式です</string>
+    <string name="tx_lbl_err_format" formatted="false">これはトークンではありません。ユーザー名ではなく、ListenBrainz の設定にある「ユーザートークン」をコピーしてください。</string>
+    <string name="tx_lbl_err_invalid" formatted="false">ListenBrainz がこのトークンを拒否しました。完全か確認するか、新しいものをコピーしてください。</string>
+    <string name="tx_lbl_err_rate" formatted="false">ListenBrainz から少し待つよう求められました。数秒後にもう一度お試しください。</string>
+    <string name="tx_lbl_err_server" formatted="false">ListenBrainz のサーバーが正しく応答していません。しばらくしてからお試しください。</string>
+    <string name="tx_lbl_err_net" formatted="false">ListenBrainz に接続できません。接続を確認してください。</string>
+    <string name="tx_lbl_err_after" formatted="false">ログインは成功しましたが、起動に失敗しました：{e}</string>
+    <string name="tx_lbl_options" formatted="false">オプション</string>
+    <string name="tx_lbl_why" formatted="false">トークンを使うと履歴の読み込みが速くなり、お気に入り登録もできます。</string>
+    <string name="tx_lbl_connected" formatted="false">{u} としてログイン中</string>
+    <string name="tx_svc_recommended" formatted="false">おすすめ</string>
+    <string name="tx_lfm_seg_key" formatted="false">自分のキー</string>
+    <string name="tx_lfm_seg_builtin" formatted="false">内蔵キー</string>
+    <string name="tx_lfm_seg_web" formatted="false">ウェブサイト</string>
+    <string name="tx_acct_lb_change" formatted="false">トークンを変更</string>
+    <string name="tx_acct_lb_change_s" formatted="false">新しい ListenBrainz トークンを貼り付け</string>
+    <string name="tx_acct_lb_changed" formatted="false">トークンを更新しました</string>
+    <string name="tx_bk_keys_desc_lb" formatted="false">このバックアップから復元する ListenBrainz のログイン情報を選んでください。</string>
+    <string name="tx_lbl_restore_bad" formatted="false">このバックアップには使えるログイン情報がありません。</string>
+    <string name="tx_lbl_restored" formatted="false">バックアップを復元しました</string>
+    <string name="tx_lbl_step3_t" formatted="false">ログイン</string>
+    <string name="tx_lbl_api_lb" formatted="false">ListenBrainz のトークンを使用します。制限は 1 秒あたり 1 リクエストで、自動で管理されます。</string>
+    <string name="tx_lbl_key_needed" formatted="false">公開キーは無効です。設定 › 接続 で自分の Last.fm API キーを追加してください。</string>
+    <string name="tx_api_img_sec" formatted="false">画像ソース</string>
+    <string name="tx_api_img_sub" formatted="false">ドラッグして並べ替えます。画像が見つかった最初の有効なソースが使われます。</string>
+    <string name="tx_api_vid_sec" formatted="false">動画ソース</string>
+    <string name="tx_api_img_clear" formatted="false">画像キャッシュを消去（新しい順序を適用）</string>
+    <string name="tx_api_img_cleared" formatted="false">画像キャッシュを消去しました</string>
+    <string name="tx_api_help" formatted="false">「本日のリクエスト」：0時以降にサービスへ送信した呼び出し回数。「エラー」：失敗した呼び出し（サービス停止、アクセス拒否、ネットワークなし）。「制限」：サービスから「リクエスト過多」と返された回数で、そのサービスはしばらく一時停止されます。</string>
+    <string name="tx_err_bad_response" formatted="false">サーバーから無効な応答が返されました。サービスが利用できないか、メンテナンス中の可能性があります。しばらくしてから、もう一度お試しください。</string>
+    <string name="tx_dash_offline_cache" formatted="false">サーバーに接続できません。このデバイスに保存されているデータを表示しています。</string>
+    <string name="tx_news_btn" formatted="false">お知らせ</string>
+    <string name="tx_news_btn_sub" formatted="false">障害、メンテナンス、各種のお知らせ</string>
+    <string name="tx_news_load_failed" formatted="false">お知らせを読み込めませんでした。インターネット接続を確認してから、もう一度お試しください。</string>
+    <string name="tx_news_retry" formatted="false">もう一度試す</string>
+    <string name="tx_faq_lfm_h" formatted="false">Last.fm のよくある質問</string>
+    <string name="tx_faq_lb_h" formatted="false">ListenBrainz のよくある質問</string>
+    <string name="tx_ap_cov_section" formatted="false">カバーと実績</string>
+    <string name="tx_faq_lfm_q1" formatted="false">Last.fm の API キーはどうやって取得しますか？</string>
+    <string name="tx_faq_lfm_a1" formatted="false">Last.fm にログインし、last.fm/api/account/create を開いて、アプリケーション名と短い説明を入力します（コールバック URL は空のままで構いません）。その後、last.fm/api/accounts に表示される「API キー」をコピーし、Last.fm のユーザー名とともに LastStats に入力してください。キーはご自身のものです。LastStats には共有キーはありません。</string>
+    <string name="tx_faq_lfm_q2" formatted="false">2026年12月1日に何が変わりますか？</string>
+    <string name="tx_faq_lfm_a2" formatted="false">Last.fm は、2026年12月1日以降、API キーはそのキーを所有する Last.fm アカウントが Last.fm Pro を購読している間のみ動作すると発表しました。無料アカウントが所有するキーは、その日から動作しなくなります。支払いが必要なのはキーの所有者のみで、再生履歴やアカウントは変わりません。購読したくない場合は、無料の ListenBrainz をご利用いただけます。</string>
+    <string name="tx_faq_lfm_q3" formatted="false">キーが使えなくなるとどうなりますか？</string>
+    <string name="tx_faq_lfm_a3" formatted="false">LastStats は端末に保存済みのデータを引き続き表示しますが、新しいデータは読み込めなくなり、エラーメッセージが表示されます。Last.fm Pro を購読する（または Pro アカウントが所有するキーを入力する）と元通りに動作します。または、「設定」&gt;「アカウント」で ListenBrainz に切り替えることもできます。</string>
+    <string name="tx_faq_lfm_q4" formatted="false">再生記録はどうやって Last.fm に届きますか？</string>
+    <string name="tx_faq_lfm_a4" formatted="false">LastStats はスクロブルを表示するだけで、記録は行いません。Last.fm アカウントにログインした、スクロブル用アプリまたは Last.fm 対応のプレーヤー（例：Android の Pano Scrobbler）をご利用ください。</string>
+    <string name="tx_faq_lfm_q5" formatted="false">最新のスクロブルが表示されないのはなぜですか？</string>
+    <string name="tx_faq_lfm_a5" formatted="false">まず、スクロブラーが動作しているか確認してください。曲が last.fm のプロフィールに表示されている必要があります。その後、画面を下に引いて LastStats を更新してください。Last.fm はアプリが送れるリクエスト数を制限しているため、LastStats は呼び出しの間隔を空けます。履歴が非常に多い場合、初回の同期には時間がかかることがあります。</string>
+    <string name="tx_faq_lb_q1" formatted="false">ListenBrainz のユーザートークンはどこにありますか？</string>
+    <string name="tx_faq_lb_a1" formatted="false">listenbrainz.org にログインし、listenbrainz.org/settings/ を開いて「User token」をコピーします。トークンはあなたを識別するものなので、他人に見せないでください。LastStats には、ListenBrainz のユーザー名（MusicBrainz のユーザー名）とトークンを入力します。トークンは端末内にのみ保存されます。</string>
+    <string name="tx_faq_lb_q2" formatted="false">ListenBrainz は無料ですか？</string>
+    <string name="tx_faq_lb_a2" formatted="false">はい。ListenBrainz は非営利団体 MetaBrainz Foundation によるオープンソースのプロジェクトで、無料で利用できます。LastStats に必要なのはユーザートークンだけで、API キーを作成する必要はありません。再生履歴は CC0 ライセンスで公開されるパブリックデータです。</string>
+    <string name="tx_faq_lb_q3" formatted="false">統計が空、または表示されないのはなぜですか？</string>
+    <string name="tx_faq_lb_a3" formatted="false">ListenBrainz は統計を自社のサーバーで計算するため、新しいアカウント、大量のインポート後、またはサービスが混み合っているときは遅れることがあります。その場合、API はまだ準備できていないと応答するだけです。先に再生履歴が表示され、統計は後から追加されます。しばらくしてからもう一度お試しください。</string>
+    <string name="tx_faq_lb_q4" formatted="false">Last.fm の履歴を ListenBrainz に移すにはどうすればよいですか？</string>
+    <string name="tx_faq_lb_a4" formatted="false">listenbrainz.org にログインし（MusicBrainz アカウントが必要です）、listenbrainz.org/import-data/ を開いて Last.fm の再生履歴をインポートします。多くの人が同時にインポートすると、時間がかかることがあります。サービスを切り替える際、LastStats は端末に保存されたスクロブルの転送も提案します。</string>
+    <string name="tx_faq_lb_q5" formatted="false">再生記録を ListenBrainz に送るにはどうすればよいですか？</string>
+    <string name="tx_faq_lb_a5" formatted="false">LastStats は再生履歴を表示するだけです。記録するには、ListenBrainz に対応したプレーヤーまたはスクロブル用アプリを使い、トークンでログインしてください。対応アプリの一覧は listenbrainz.org にあります。再生履歴は公開される点にご注意ください。</string>
+    <string name="tx_yr_ctx_month" formatted="false">最も再生された曲（{m}）</string>
+    <string name="tx_yr_ctx_peak" formatted="false">この時間帯に最も再生された曲</string>
+    <string name="tx_yr_ctx_artist" formatted="false">{a} の最も再生された曲</string>
+    <string name="tx_yr_ctx_disc" formatted="false">新しく出会ったアーティストの中で最も再生された曲</string>
+    <string name="tx_yr_bg_full" formatted="false">全画面の画像</string>
+    <string name="tx_yr_bg_band" formatted="false">上部バナーの画像</string>
+    <string name="tx_yr_bg_none" formatted="false">画像なし</string>
+    <string name="tx_yr_sum_cover" formatted="false">1位の画像</string>
+    <string name="tx_yr_sum_profile" formatted="false">プロフィール</string>
+    <string name="tx_yr_sum_none" formatted="false">なし</string>
+</resources>

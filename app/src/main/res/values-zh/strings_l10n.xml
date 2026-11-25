@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,TypographyEllipsis,TypographyDashes,PluralsCandidate,ImpliedQuantity,StringFormatInvalid,StringFormatMatches,Typos">
+    <string name="period7day">周</string>
+    <string name="period1month">月</string>
+    <string name="period3month">3个月</string>
+    <string name="period6month">6个月</string>
+    <string name="period12month">年</string>
+    <string name="period_overall">全部</string>
+    <string name="nav_dashboard">仪表盘</string>
+    <string name="nav_search">搜索</string>
+    <string name="nav_rankings">排行榜</string>
+    <string name="nav_charts">图表</string>
+    <string name="nav_history">历史记录</string>
+    <string name="nav_settings">设置</string>
+    <string name="cache_title">存储</string>
+    <string name="cache_usage">已用空间</string>
+    <string name="cache_limit">存储上限</string>
+    <string name="cache_limit_hint">达到上限后，最久未使用的图片会自动删除。</string>
+    <string name="cache_clear_section">清理</string>
+    <string name="cache_images">图片</string>
+    <string name="cache_images_subtitle">艺术家、专辑、歌曲封面</string>
+    <string name="cache_api_data">API 数据</string>
+    <string name="cache_api_data_subtitle">热门艺术家、专辑、最近播放…</string>
+    <string name="cache_scrobbles">Scrobble 历史记录</string>
+    <string name="cache_clear_btn">清空</string>
+    <string name="cache_confirm_scrobbles_title">删除历史记录？</string>
+    <string name="cache_confirm_scrobbles_body">完整历史记录将被删除，下次启动时重新下载。</string>
+    <string name="cache_confirm_all_title">清空全部缓存？</string>
+    <string name="cache_confirm_all_body">图片、API 数据和历史记录都将被删除。</string>
+    <string name="cache_delete">删除</string>
+    <string name="common_artists">艺术家</string>
+    <string name="common_albums">专辑</string>
+    <string name="common_tracks">歌曲</string>
+    <string name="common_no_results">无结果</string>
+    <string name="common_retry">重试</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_apply">应用</string>
+    <string name="common_plays">播放次数</string>
+    <string name="common_listeners">听众</string>
+    <string name="common_now_playing_badge">直播中</string>
+    <string name="common_now_playing_long">正在播放</string>
+    <string name="common_recent_tracks">最近播放</string>
+    <string name="common_no_recent_tracks">暂无最近播放</string>
+    <string name="common_top_artists">热门艺术家</string>
+    <string name="rankings_title">排行榜</string>
+    <string name="rankings_podium">领奖台</string>
+    <string name="rankings_continued">排行榜其余部分</string>
+    <string name="rankings_all_years">所有年份</string>
+    <string name="charts_title">图表</string>
+    <string name="charts_monthly">Scrobbles（12个月）</string>
+    <string name="charts_artist_dist">热门艺术家（分布）</string>
+    <string name="charts_mainstream_title">主流 vs 小众佳作</string>
+    <string name="charts_mainstream_subtitle">您喜爱艺术家的全球人气。</string>
+    <string name="charts_compute">计算</string>
+    <string name="charts_recompute">重新计算</string>
+    <string name="charts_gem">小众佳作</string>
+    <string name="charts_mainstream">主流</string>
+    <string name="history_title">历史记录</string>
+    <string name="history_subtitle">您的每日收听记录</string>
+    <string name="history_today">今天</string>
+    <string name="history_select_date">选择日期</string>
+    <string name="history_chronological">按时间顺序</string>
+    <string name="history_list">列表</string>
+    <string name="history_stats">统计</string>
+    <string name="history_no_tracks">当天没有收听记录</string>
+    <string name="history_top_artists">热门艺术家</string>
+    <string name="history_top_albums">热门专辑</string>
+    <string name="history_top_tracks">热门歌曲</string>
+    <string name="history_hour_tracks">首歌曲</string>
+    <string name="search_title">搜索</string>
+    <string name="search_profiles">用户</string>
+    <string name="search_hint_bar">艺术家、专辑、歌曲或用户…</string>
+    <string name="search_hint_artists">搜索艺术家</string>
+    <string name="search_hint_albums">搜索专辑</string>
+    <string name="search_hint_tracks">搜索歌曲</string>
+    <string name="search_type_prompt">在上方搜索栏输入</string>
+    <string name="search_all">全部</string>
+    <string name="search_folders">文件夹</string>
+    <string name="search_folders_hint">创建文件夹以保存歌曲、专辑或艺术家</string>
+    <string name="per_day">每天</string>
+    <string name="activity_days">活跃天数</string>
+    <string name="dash_stats">统计</string>
+    <string name="dash_top_tracks">热门歌曲</string>
+    <string name="dash_friends">好友</string>
+    <string name="dash_refresh">刷新</string>
+    <string name="dash_refresh_friends">刷新好友</string>
+    <string name="dash_scrobbles">scrobbles</string>
+    <string name="dash_scrobbles_per_day">每天</string>
+    <string name="dash_days_active">活跃天数</string>
+    <string name="dash_last_track">最近播放</string>
+    <string name="dash_artist1">第一艺术家</string>
+    <string name="dash_album1">第一专辑</string>
+    <string name="dash_track1">第一歌曲</string>
+    <string name="dash_no_friends">未找到好友</string>
+    <string name="dash_reset_cache">重置缓存</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_theme_auto">自动</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_accent_color">强调色</string>
+    <string name="settings_accent_auto">自动</string>
+    <string name="settings_custom_color">自定义</string>
+    <string name="settings_custom_color_edit">编辑</string>
+    <string name="settings_dynamic_color">动态取色</string>
+    <string name="settings_day_night_accent">日间/夜间强调色</string>
+    <string name="settings_day_night_accent_toggle">日夜使用不同颜色</string>
+    <string name="settings_day_night_accent_toggle_sub">为深色主题使用另一种强调色。</string>
+    <string name="settings_day_night_accent_dark">颜色（深色主题）</string>
+    <string name="settings_day_night_use_hours">使用指定时间</string>
+    <string name="settings_day_night_use_hours_sub">按时间而非当前主题切换颜色。</string>
+    <string name="settings_day_night_day_start">白天开始于</string>
+    <string name="settings_day_night_night_start">夜晚开始于</string>
+    <string name="settings_material_you">Material You</string>
+    <string name="settings_material_you_sub">使用 Android 壁纸的颜色（需要 Android 12 及以上）</string>
+    <string name="settings_music_color">取色自音乐</string>
+    <string name="settings_music_color_sub">从当前播放曲目的封面提取强调色</string>
+    <string name="settings_music_color_note">当前封面的主色调将替代强调色。</string>
+    <string name="settings_music_color_locked">请先关闭 Material You</string>
+    <string name="settings_startup_page">启动页面</string>
+    <string name="settings_startup_tab">启动时的标签页</string>
+    <string name="settings_dashboard_section">仪表盘</string>
+    <string name="settings_header_image">头图</string>
+    <string name="settings_header_image_sub">所选封面将作为首页背景显示。</string>
+    <string name="settings_header_source">来源</string>
+    <string name="settings_header_period">时间段</string>
+    <string name="settings_header_animation">过渡动画</string>
+    <string name="settings_header_animation_sub">切换封面时的动画效果。</string>
+    <string name="settings_header_blur">模糊</string>
+    <string name="settings_header_blur_none">无</string>
+    <string name="settings_header_custom_url">图片链接</string>
+    <string name="settings_header_custom_url_hint">https://example.com/image.jpg</string>
+    <string name="settings_header_custom_url_sub">粘贴图片的直接链接（jpg、png、webp 等）。</string>
+    <string name="settings_header_apply">应用</string>
+    <string name="settings_header_fallback">默认图片</string>
+    <string name="settings_header_fallback_sub">没有播放音乐时，顶部显示的图片。</string>
+    <string name="settings_header_fallback_url_label">默认图片链接</string>
+    <string name="settings_visible_sections">显示的板块</string>
+    <string name="settings_now_playing_section">正在播放</string>
+    <string name="settings_stats_section">统计</string>
+    <string name="settings_top_artists_section">热门艺术家</string>
+    <string name="settings_top_tracks_section">热门歌曲</string>
+    <string name="settings_friends_section">好友</string>
+    <string name="settings_account">账号</string>
+    <string name="settings_logout">退出登录</string>
+    <string name="settings_logout_title">退出登录？</string>
+    <string name="settings_logout_content">您的登录信息将被删除。</string>
+    <string name="settings_logout_confirm">退出登录</string>
+    <string name="settings_backup">备份与恢复</string>
+    <string name="settings_export">导出设置</string>
+    <string name="settings_export_sub">将设置以 JSON 格式复制到剪贴板，便于保存或分享</string>
+    <string name="settings_import">恢复备份</string>
+    <string name="settings_import_sub">从之前导出的 JSON 恢复设置</string>
+    <string name="settings_backup_info">包含：主题、颜色、API 密钥、用户名、头图、收藏。各版本间兼容。</string>
+    <string name="settings_updates">更新</string>
+    <string name="settings_auto_update">自动检查</string>
+    <string name="settings_auto_update_sub">每天在后台检查一次是否有新版本。</string>
+    <string name="settings_check_now">立即检查</string>
+    <string name="settings_up_to_date">已是最新</string>
+    <string name="settings_check_failed">无法检查更新。请检查网络连接后重试。</string>
+    <string name="settings_download">下载</string>
+    <string name="settings_view_release">查看</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_web_version">网页版</string>
+    <string name="settings_web_version_sub">sanobld.github.io/LastStats</string>
+    <string name="settings_source_code">源代码</string>
+    <string name="settings_source_code_sub">github.com/SanoBld/LastStats-App</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_about_project_desc">LastStats 是一个开源个人项目，可能存在一些错误。</string>
+    <string name="settings_about_support">支持本项目</string>
+    <string name="settings_about_support_sub">⭐ 在 GitHub 上点个 star</string>
+    <string name="settings_faq">常见问题</string>
+    <string name="header_now_playing">正在播放</string>
+    <string name="header_top_track">第1名歌曲</string>
+    <string name="header_top_album">第1名专辑</string>
+    <string name="header_top_artist">第1名艺术家</string>
+    <string name="header_custom_image">自定义图片</string>
+    <string name="header_theme_color">主题色</string>
+    <string name="header_anim_none">无</string>
+    <string name="header_anim_fade">淡入淡出</string>
+    <string name="header_anim_slide">滑动</string>
+    <string name="header_anim_zoom">缩放</string>
+    <string name="header_period_week">周</string>
+    <string name="header_period_month">月</string>
+    <string name="header_period_all_time">全部时间</string>
+    <string name="color_picker_title">自定义颜色</string>
+    <string name="color_picker_hue">色相</string>
+    <string name="color_picker_saturation">饱和度</string>
+    <string name="color_picker_brightness">亮度</string>
+    <string name="color_picker_quick_colors">快速选色</string>
+    <string name="color_picker_invalid">格式无效</string>
+    <string name="color_custom_tooltip">自定义</string>
+    <string name="export_title">导出设置</string>
+    <string name="export_filename">文件名</string>
+    <string name="export_json_content">JSON 内容</string>
+    <string name="export_info">复制此 JSON，粘贴到文本文件中，并以 .json 命名</string>
+    <string name="export_copy">复制 JSON</string>
+    <string name="export_copied">已复制！</string>
+    <string name="import_title">恢复备份</string>
+    <string name="import_hint_label">在此粘贴您的 LastStats 备份。</string>
+    <string name="import_empty">没有可导入的内容：输入框为空。请粘贴从 LastStats 导出的 JSON。</string>
+    <string name="import_invalid_json">JSON 无效。</string>
+    <string name="import_unknown_file">无法识别的文件。</string>
+    <string name="import_invalid_format">格式无效。</string>
+    <string name="import_success">设置已成功恢复 ✓</string>
+    <string name="import_restore">恢复</string>
+    <string name="setup_import_json">导入 JSON</string>
+    <string name="setup_import_hint_label">在下方粘贴您的 JSON 文件内容。</string>
+    <string name="setup_import_note">{ \"username\": \"…\", \"api_key\": \"…\" }</string>
+    <string name="setup_import_format">{ \"username\": \"...\", \"api_key\": \"...\" }</string>
+    <string name="setup_invalid_fields">JSON 无效：缺少 \"username\" 或 \"api_key\" 字段。</string>
+    <string name="detail_tracklist">歌曲</string>
+    <string name="detail_album_label">专辑</string>
+    <string name="detail_duration">时长</string>
+    <string name="detail_top_tracks">热门歌曲</string>
+    <string name="detail_top_albums">热门专辑</string>
+    <string name="detail_bio_read_more">展开</string>
+    <string name="detail_bio_read_less">收起</string>
+    <string name="detail_user_plays">您的播放次数</string>
+    <string name="detail_global_plays">总播放次数</string>
+    <string name="detail_user_rank">排名</string>
+    <string name="detail_user_rank_na">无</string>
+    <string name="detail_global_listeners">听众</string>
+    <string name="detail_period">时间段</string>
+    <string name="detail_biography">简介</string>
+    <string name="detail_global_listeners_label">听众</string>
+    <string name="detail_translate">翻译</string>
+    <string name="detail_show_original">查看原文</string>
+    <string name="detail_lyrics">歌词</string>
+    <string name="detail_lyrics_not_found">暂无歌词</string>
+    <string name="detail_copy_lyrics">复制歌词</string>
+    <string name="detail_lyrics_copied">歌词已复制</string>
+    <string name="detail_shoutbox">Last.fm 留言板</string>
+    <string name="detail_shoutbox_reply">回复</string>
+    <string name="dash_per_week">每周</string>
+    <string name="onboard_skip">跳过</string>
+    <string name="onboard_next">下一步</string>
+    <string name="onboard_finish">完成</string>
+    <string name="onboard_back">返回</string>
+    <string name="onboard_appearance_title">自定义您的风格</string>
+    <string name="onboard_appearance_sub">选择浅色或深色主题、强调色以及显示选项。</string>
+    <string name="onboard_notif_title">及时获知动态</string>
+    <string name="onboard_notif_sub">选择要接收的通知,以及手机是否需要振动。</string>
+    <string name="onboard_fav_title">您的收藏用户</string>
+    <string name="onboard_fav_add">添加</string>
+    <string name="onboard_fav_empty">暂无收藏</string>
+    <string name="onboard_fav_no_results">未找到相关用户</string>
+    <string name="onboard_fav_no_friends">该账号没有好友</string>
+    <string name="onboard_fav_selected">已选收藏</string>
+    <string name="onboard_dash_title">您的仪表盘</string>
+    <string name="onboard_dash_sub">选择要在主屏幕上显示的板块。您之后可以在设置中更改。</string>
+    <string name="onboard_startup_title">启动界面</string>
+    <string name="onboard_startup_sub">选择启动应用时首先打开的标签页。</string>
+    <string name="onboard_platform_title">您在哪里听音乐？</string>
+    <string name="onboard_platform_sub">告诉我们您在哪里听音乐。应用只会在曲目、艺术家和专辑页面中显示有用的链接。</string>
+    <string name="platform_lastfm">Last.fm</string>
+    <string name="platform_spotify">Spotify</string>
+    <string name="platform_yt_music">YouTube Music</string>
+    <string name="platform_other">其他 / 全部显示</string>
+    <string name="settings_music_platform">音乐平台</string>
+    <string name="settings_music_platform_sub">在艺术家、专辑和曲目页面中，仅显示所选音乐服务的链接</string>
+    <string name="settings_show_all_platform_links">始终显示全部</string>
+    <string name="onboard_updates_title">更新</string>
+    <string name="onboard_updates_sub">应用会自动检查是否有新版本可用。</string>
+    <string name="onboard_preview">预览</string>
+    <string name="onboard_preview_button">按钮</string>
+    <string name="onboard_preview_outline">主按钮</string>
+    <string name="onboard_preview_text">示例文字</string>
+    <string name="onboard_preview_bubble">气泡</string>
+    <string name="onboard_display">显示</string>
+    <string name="onboard_oled_title">OLED 纯黑</string>
+    <string name="onboard_oled_sub">在深色模式下背景变为纯黑色,可以在 OLED 屏幕上节省电量。</string>
+    <string name="onboard_artwork_color_title">取色自封面</string>
+    <string name="onboard_artwork_color_sub">应用的强调色会自动匹配当前正在播放的曲目的封面。</string>
+    <string name="onboard_news_title">资讯通知</string>
+    <string name="onboard_news_sub">添加新功能或修复问题时,您会收到通知。</string>
+    <string name="onboard_news_badge_title">资讯红点</string>
+    <string name="onboard_news_badge_sub">有新内容可读时，主屏幕的铃铛图标上会显示提示点。</string>
+    <string name="onboard_haptic_title">触感反馈</string>
+    <string name="onboard_haptic_sub">点按按钮和重要元素时,手机会轻轻振动。</string>
+    <string name="onboard_recaps">汇总</string>
+    <string name="onboard_daily_recap_title">每日汇总</string>
+    <string name="onboard_daily_recap_sub">每天收到一份您所听内容的摘要。</string>
+    <string name="onboard_weekly_recap_title">每周汇总</string>
+    <string name="onboard_weekly_recap_sub">每周收到您听得最多的艺术家、专辑和曲目列表。</string>
+    <string name="onboard_milestones_section">Scrobble 里程碑</string>
+    <string name="onboard_milestones_title">里程碑</string>
+    <string name="onboard_milestones_sub">当播放次数达到整数里程碑时,您会收到一条祝贺通知。</string>
+    <string name="onboard_grand_milestones_title">重大里程碑</string>
+    <string name="onboard_grand_milestones_sub">当播放次数达到很大的数字时,会显示特别的庆祝效果。</string>
+    <string name="onboard_dynamic_color_sub">应用会使用您壁纸中的颜色。此选项需要 Android 12 或更高版本。</string>
+    <string name="onboard_beta_title">测试版更新</string>
+    <string name="onboard_beta_sub">比其他人更早收到测试版本。这些版本可能包含错误。</string>
+    <string name="notif_detail_title">通知</string>
+    <string name="notif_detail_open_link">打开链接</string>
+    <string name="settings_checking_updates">正在检查更新…</string>
+    <string name="settings_tap_to_download">点击下载</string>
+    <string name="detail_looking_for_preview">正在查找试听片段…</string>
+    <string name="detail_preview30_sec">试听 · 30 秒</string>
+    <string name="setup_analyse_profile">分析一个账号</string>
+    <string name="setup_connecting">连接中…</string>
+    <string name="setup_start_analysis">开始分析</string>
+    <string name="setup_or">或</string>
+    <string name="setup_username_label">Last.fm 用户名</string>
+    <string name="setup_api_key_label">Last.fm API 密钥</string>
+    <string name="setup_api_key_hint">32 位十六进制密钥</string>
+    <string name="setup_api_key_privacy_note">您的密钥只保存在此设备上,绝不会发送给第三方。</string>
+    <string name="setup_remember_me">记住我</string>
+    <string name="setup_get_api_key">免费获取 API 密钥</string>
+    <string name="setup_welcome_banner">欢迎使用 LastStats！</string>
+    <string name="setup_one_time_import_note">仅需导入一次，之后启动会立即完成。</string>
+    <string name="dash_tap_to_download">点击下载。</string>
+    <string name="dash_week_label">本周</string>
+    <string name="dash_month_label">本月</string>
+    <string name="dash_year_label">今年</string>
+    <string name="dash_top_artist_label">最常听的艺术家</string>
+    <string name="dash_top_track_label">最常听的歌曲</string>
+    <string name="dash_scrobbles_label">Scrobbles</string>
+    <string name="news_type_features">新功能</string>
+    <string name="news_type_fixes">修复</string>
+    <string name="news_type_updates">更新</string>
+    <string name="news_type_alerts">提醒</string>
+    <string name="news_type_info">信息</string>
+    <string name="news_whats_new">最新动态</string>
+    <string name="news_filters">筛选</string>
+    <string name="news_all">全部</string>
+    <string name="news_any_date">任意日期</string>
+    <string name="news_no_news_yet">暂无动态</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_cache">缓存</string>
+    <string name="settings_card_appearance_sub">主题、强调色、布局、Material You</string>
+    <string name="settings_card_dashboard_sub">头图、显示的板块、统计卡片</string>
+    <string name="settings_card_startup_sub">启动时显示的标签页</string>
+    <string name="settings_card_notifications_sub">里程碑、每日和每周汇总</string>
+    <string name="settings_sync">同步</string>
+    <string name="settings_card_sync_sub">后台自动同步 scrobble 记录</string>
+    <string name="settings_card_cache_sub">历史记录、图片、API 数据</string>
+    <string name="settings_card_backup_sub">导出和恢复您的设置</string>
+    <string name="settings_card_updates_sub">检查新版本</string>
+    <string name="settings_card_about_sub">版本、源代码、鸣谢</string>
+    <string name="settings_card_faq_sub">Scrobbling、平台、开源</string>
+    <string name="settings_restart_notice">部分设置需要重启应用才能完全生效。</string>
+    <string name="sync_page_title">Scrobble 同步</string>
+    <string name="sync_auto_title">自动同步</string>
+    <string name="sync_auto_subtitle">按固定间隔在后台同步您的历史记录</string>
+    <string name="sync_frequency_label">频率</string>
+    <string name="sync_frequency_daily">每天一次</string>
+    <string name="sync_manual_title">手动同步</string>
+    <string name="sync_now_button">立即同步</string>
+    <string name="sync_in_progress">同步中…</string>
+    <string name="sync_last_sync_label">上次同步</string>
+    <string name="sync_never_label">从未</string>
+    <string name="sync_total_scrobbles_label">已缓存的 scrobble</string>
+    <string name="sync_up_to_date_msg">历史记录已是最新：没有需要下载的新 scrobble</string>
+    <string name="sync_notif_note">完整同步期间会显示带进度条的通知。</string>
+    <string name="pc_mode_layout">布局</string>
+    <string name="pc_mode_nav_layout">导航布局</string>
+    <string name="pc_mode_auto">自动</string>
+    <string name="pc_mode_side_rail">侧边栏</string>
+    <string name="pc_mode_bottom_bar">底部导航栏</string>
+    <string name="pc_mode_hint_auto">宽屏（≥ 720 dp）使用侧边栏，窄屏使用底部导航栏。</string>
+    <string name="pc_mode_hint_on">始终使用侧边导航栏，无论屏幕尺寸。</string>
+    <string name="pc_mode_hint_off">始终使用底部导航栏，无论屏幕尺寸。</string>
+    <string name="about_app_info">应用信息</string>
+    <string name="about_scrobble_downloader">Scrobble 下载器</string>
+    <string name="about_scrobble_downloader_sub">下载全部 scrobble 历史并保存为文件</string>
+    <string name="about_powered_by">技术支持</string>
+    <string name="about_image_disclaimer">艺术家、专辑和歌曲的图片会自动从这些来源获取，有时可能不准确或与实际内容不符。</string>
+    <string name="about_footer">用 ❤️ 制作 · 与 Last.fm 无关联</string>
+    <string name="updates_current_version">当前版本</string>
+    <string name="updates_beta_title">测试版更新</string>
+    <string name="updates_beta_sub">抢先体验预发布版本</string>
+    <string name="backup_whats_included">包含内容</string>
+    <string name="backup_download_file">下载 .json 文件</string>
+    <string name="backup_choose_file">选择备份文件</string>
+    <string name="backup_file_saved">备份已保存</string>
+    <string name="backup_file_save_failed">无法保存备份文件。请确认存储空间充足且应用有权写入该文件夹，然后重试。</string>
+    <string name="setup_restore_backup">恢复备份</string>
+    <string name="setup_restore_backup_sub">从 .json 格式的备份文件中恢复您的账号和设置。</string>
+    <string name="backup_restore_keys_title">恢复 API 密钥</string>
+    <string name="backup_restore_keys_desc">选择要从此备份恢复的 Last.fm 密钥。</string>
+    <string name="backup_restore_api_key_label">API 密钥</string>
+    <string name="backup_restore_secret_key_label">密钥</string>
+    <string name="backup_include_folders_label">包含文件夹</string>
+    <string name="backup_include_folders_desc">包含您的歌曲文件夹及其内容</string>
+    <string name="backup_include_keys_desc">在导出的文件中包含密钥</string>
+    <string name="backup_include_themes_label">导出主题</string>
+    <string name="backup_include_themes_desc">仅将外观(颜色、样式)分享给其他人。</string>
+    <string name="backup_auto_title">自动备份</string>
+    <string name="backup_auto_enable_label">启用自动备份</string>
+    <string name="backup_auto_enable_desc">按照下方选择的间隔自动保存备份。</string>
+    <string name="backup_auto_freq_label">频率</string>
+    <string name="backup_auto_freq_daily">每天</string>
+    <string name="backup_auto_freq_weekly">每周</string>
+    <string name="backup_auto_freq_monthly">每月</string>
+    <string name="backup_auto_freq_yearly">每年</string>
+    <string name="backup_auto_folder_label">备份文件夹</string>
+    <string name="backup_auto_folder_default">应用默认文件夹</string>
+    <string name="backup_include_scrobbles_label">包含完整历史记录</string>
+    <string name="backup_include_scrobbles_desc">添加您从一开始播放过的所有曲目(文件可能会很大)。</string>
+    <string name="backup_scrobbles_slow_warning">这可能需要一些时间,比普通备份慢。</string>
+    <string name="backup_scrobbles_error_title">历史记录出错</string>
+    <string name="backup_scrobbles_error_desc">此文件中的部分年份历史记录似乎已损坏。您想怎么做?</string>
+    <string name="backup_scrobbles_keep_anyway">仍然继续</string>
+    <string name="backup_scrobbles_cancel">取消历史记录</string>
+    <string name="backup_scrobbles_skip_refetch">跳过并重新在线下载</string>
+    <string name="settings_crash_log">错误日志</string>
+    <string name="backup_crash_log_desc">记录应用遇到的错误，方便反馈问题。</string>
+    <string name="backup_crash_log_share">分享日志</string>
+    <string name="backup_crash_log_clear">清空日志</string>
+    <string name="backup_crash_log_empty">没有记录到错误</string>
+    <string name="backup_crash_log_cleared">日志已清空</string>
+    <string name="backup_crash_log_clear_confirm">清空错误日志？</string>
+    <string name="faq_section_label">常见问题</string>
+    <string name="backup_overwrite_warning">恢复备份将覆盖您当前的设置。</string>
+    <string name="faq_open_source_badge">LastStats 是一个由 SanoBld 用 ❤️ 打造的免费开源项目。</string>
+    <string name="cache_unlimited">无限</string>
+    <string name="cache_total_used">已用总量</string>
+    <string name="cache_scrobbles_short">历史记录</string>
+    <string name="restart_hint_features">某些功能可能需要重启应用才能生效。</string>
+    <string name="reorder_cards_title">重新排序卡片</string>
+    <string name="common_save">保存</string>
+    <string name="dash_fallback_when_no_music">当没有音乐播放时</string>
+    <string name="dash_fallback_choose_display">改为选择在背景中显示的内容</string>
+    <string name="dash_fallback_period_label">显示第1名的时间段</string>
+    <string name="fallback_period1_week">1 周</string>
+    <string name="fallback_period1_month">1 个月</string>
+    <string name="fallback_period_all_time">全部时间</string>
+    <string name="fallback_type_nothing">无</string>
+    <string name="fallback_type_top_track">第1名歌曲</string>
+    <string name="fallback_type_top_album">第1名专辑</string>
+    <string name="fallback_type_top_artist">第1名艺术家</string>
+    <string name="fallback_type_custom_image">自定义图片</string>
+    <string name="fallback_will_show_custom_url">将显示：自定义图片链接</string>
+    <string name="dash_animation_blur_section">动画与模糊</string>
+    <string name="dash_music_animation_title">音乐动态背景</string>
+    <string name="dash_music_animation_sub">播放音乐时，顶部图片会变成动态背景：模糊、流动的色彩和轻柔的呼吸感。</string>
+    <string name="dash_music_animation_info">此模式下模糊为自动（滑块无效）。如果启用了视频封面，视频会显示在上层，背景将暂停。</string>
+    <string name="settings_top_albums_section">热门专辑</string>
+    <string name="dash_recent_plays_label">最近播放</string>
+    <string name="dash_stat_cards_section_label">统计卡片</string>
+    <string name="dash_stat_cards_heading">统计卡片</string>
+    <string name="dash_stat_cards_sub">选择并重新排序统计区块中显示的卡片。</string>
+    <string name="settings_dashboard_chart_section">仪表盘图表</string>
+    <string name="dash_chart_calendar_label">收听日历</string>
+    <string name="dash_chart_monthly_label">月度柱状图</string>
+    <string name="settings_display_name_section">自定义名称</string>
+    <string name="settings_display_name_label">我们该怎么称呼您？</string>
+    <string name="settings_display_name_hint">例如 Noham — 留空则使用账号名称</string>
+    <string name="news_search_hint">搜索动态…</string>
+    <string name="about_open_source_libs">开源库</string>
+    <string name="about_open_source_libs_sub">构建此应用所使用的所有 Flutter 包。</string>
+    <string name="about_license_section">许可证</string>
+    <string name="about_license_text">本项目基于 GNU GPL v3 许可证发布：您可以自由使用、修改和再分发，但衍生作品必须以相同许可证开源，并注明我的名字。</string>
+    <string name="about_license_link">查看完整许可证</string>
+    <string name="language_ai_note">翻译内容由 AI 生成，可能存在不准确之处。</string>
+    <string name="about_ai_dev_note">本应用的开发也使用了 AI。</string>
+    <string name="notif_work_manager_info">通知通过 WorkManager 在后台运行，应用无需保持打开状态，但需要网络连接。</string>
+    <string name="notif_interval_title">每 X 次 scrobble</string>
+    <string name="notif_interval_subtitle">每新增指定数量的 scrobble 就通知您一次</string>
+    <string name="notif_recaps_section">收听汇总</string>
+    <string name="notif_daily_recap_subtitle">当天 scrobble 数 + 最喜爱的艺术家</string>
+    <string name="notif_weekly_recap_subtitle">本周 scrobble 数 + 最喜爱的艺术家</string>
+    <string name="notif_news_section">资讯</string>
+    <string name="notif_sync_section">同步</string>
+    <string name="notif_sync_title">同步通知</string>
+    <string name="notif_sync_subtitle">历史记录同步完成时提醒</string>
+    <string name="notif_sync_detail_title">进度详情</string>
+    <string name="notif_sync_detail_subtitle">同步期间显示实时进度（当前年份、计数）</string>
+    <string name="notif_news_subtitle">获取新功能、修复和公告的通知</string>
+    <string name="notif_badge_on_dashboard">仪表盘上的徽章</string>
+    <string name="notif_badge_subtitle">有未读公告时，在资讯铃铛图标上显示提示点</string>
+    <string name="notif_test_label">测试</string>
+    <string name="notif_permission_disabled_title">通知已禁用</string>
+    <string name="notif_permission_disabled_body">请在系统设置中允许通知，这样 LastStats 才能向您发送回顾、里程碑和资讯。</string>
+    <string name="notif_grant_permission">授予权限</string>
+    <string name="notif_threshold_intro">达到以下每个节点时，您都会收到一条特别通知：</string>
+    <string name="notif_interval_description">每新增 X 个 scrobble 就会通知您</string>
+    <string name="notif_custom_value_label">自定义数值</string>
+    <string name="notif_time_notify_at">通知时间</string>
+    <string name="notif_day_of_week">星期几</string>
+    <string name="week_abbrev">周</string>
+    <string name="notif_send_test">发送测试通知</string>
+    <string name="notif_sent_check_bar">看看您的通知栏！</string>
+    <string name="notif_make_sure_works">检查通知能否在您的手机上正常显示。</string>
+    <string name="notif_sent_bang">已发送！</string>
+    <string name="notif_send_button">发送</string>
+    <string name="ap_visual_style">视觉风格</string>
+    <string name="ap_style_default">默认</string>
+    <string name="ap_nothing_accent_label">强调色</string>
+    <string name="ap_nothing_classic">经典</string>
+    <string name="ap_red_only_desc">仅红色</string>
+    <string name="ap_nothing_mixed">混合</string>
+    <string name="ap_red_yellow_desc">红色 + 黄色点缀</string>
+    <string name="ap_nothing_active_banner">Nothing OS 风格已启用。强调色、动态取色和音乐取色均已禁用。</string>
+    <string name="ap_nothing_oled_inherent">Nothing 深色模式本身就是 OLED 纯黑，无需再开启 OLED 开关。</string>
+    <string name="ap_oled_title">OLED 黑色主题</string>
+    <string name="ap_oled_built_into_nothing">已内置于 Nothing 深色模式</string>
+    <string name="ap_oled_pure_black">深色模式激活时使用纯黑背景</string>
+    <string name="ap_custom_color_tooltip">自定义颜色</string>
+    <string name="ap_color_when_nothing_plays">无播放时的颜色</string>
+    <string name="ap_color_when_nothing_plays_sub">没有歌曲在播放时使用的强调色</string>
+    <string name="ap_keep_last_artwork_title">保留上次封面颜色</string>
+    <string name="ap_keep_last_artwork_sub">无播放时保留上次封面颜色，而不是重置</string>
+    <string name="ap_detail_pages_section">详情页</string>
+    <string name="ap_artwork_color_theme">封面配色主题</string>
+    <string name="ap_artwork_color_theme_sub">详情页会根据封面的主色调调整配色</string>
+    <string name="ap_nav_bar_section">导航栏</string>
+    <string name="ap_show_tab_labels">显示标签文字</string>
+    <string name="ap_show_tab_labels_sub">在底部导航栏图标下方显示标签名称</string>
+    <string name="ap_interactions_section">交互</string>
+    <string name="ap_haptic_feedback_sub">点击、选择和手势时的振动反馈</string>
+    <string name="acct_remove_title">删除账号？</string>
+    <string name="acct_remove_action">删除</string>
+    <string name="acct_already_added_or_full">该账号已添加，或列表已满。</string>
+    <string name="acct_logout_all_body">所有账号都将被删除，您将返回设置界面。</string>
+    <string name="acct_active">当前使用</string>
+    <string name="acct_tap_switch_to_activate">点击\"切换\"以激活</string>
+    <string name="acct_switch">切换</string>
+    <string name="acct_add_an_account">添加账号</string>
+    <string name="acct_api_key_info">每个账号可以使用不同的 API 密钥，也可以共用同一个。您可以在 last.fm/api/accounts 找到您的 API 密钥。</string>
+    <string name="acct_lastfm_profile_section">Last.fm 资料</string>
+    <string name="acct_view_on_lastfm">在 Last.fm 上查看</string>
+    <string name="acct_danger_zone">危险区域</string>
+    <string name="acct_logout_all_sub">删除所有账号并返回设置界面。</string>
+    <string name="acct_username_required">用户名为必填项。</string>
+    <string name="acct_api_key_required">API 密钥为必填项。</string>
+    <string name="acct_username_label">Last.fm 用户名</string>
+    <string name="acct_same_api_key">与当前账号使用相同的 API 密钥</string>
+    <string name="acct_api_key_label">API 密钥</string>
+    <string name="acct_add">添加</string>
+    <string name="language_change_note">语言会立即在整个应用中生效。</string>
+    <string name="dash_total_scrobbles_label">总 scrobble 数</string>
+    <string name="dash_member_since_label">加入时间</string>
+    <string name="dash_country_label">国家</string>
+    <string name="dash_artist_week_label">第一艺术家（周）</string>
+    <string name="dash_album_week_label">第一专辑（周）</string>
+    <string name="dash_track_week_label">第一歌曲（周）</string>
+    <string name="dash_unique_artists_label">独立艺术家数</string>
+    <string name="dash_unique_tracks_label">独立歌曲数</string>
+    <string name="dash_unique_albums_label">独立专辑数</string>
+    <string name="dash_this_week_label">本周</string>
+    <string name="dash_day_unit_short">天</string>
+    <string name="setup_enable_favorites">启用收藏（可选）</string>
+    <string name="setup_favorites_explain">您的密钥可让应用直接在您的 Last.fm 账号上将曲目添加到收藏或移除。</string>
+    <string name="setup_secret_key_label">Last.fm 密钥</string>
+    <string name="fav_connect_invalid_secret">密钥长度必须为 32 个字符。</string>
+    <string name="fav_connect_dialog_title">授权收藏功能</string>
+    <string name="fav_connect_dialog_body">请在浏览器打开的 Last.fm 页面上授权本应用，然后返回此处确认。</string>
+    <string name="fav_connect_dialog_confirm">我已授权</string>
+    <string name="fav_connect_success">收藏功能已成功启用！</string>
+    <string name="fav_connect_error">无法启用收藏。请确认密钥正确，并已在 Last.fm 上授权 LastStats，然后重试。</string>
+    <string name="acct_api_keys_section">API 密钥</string>
+    <string name="acct_secret_key_label">密钥</string>
+    <string name="acct_secret_key_not_set">未设置</string>
+    <string name="acct_favorites_explain">密钥可让您直接在 Last.fm 上添加或取消收藏歌曲。</string>
+    <string name="acct_connect_favorites">启用收藏</string>
+    <string name="acct_disconnect_favorites">停用收藏</string>
+    <string name="settings_favorites_section">收藏</string>
+    <string name="settings_favorites_section_sub">在统计中显示收藏数量</string>
+    <string name="settings_favorites_needs_key">请在账户中添加密钥以启用</string>
+    <string name="fav_section_title">收藏</string>
+    <string name="common_see_more">查看更多</string>
+    <string name="fav_page_title">我的收藏</string>
+    <string name="fav_search_hint">搜索歌曲或艺人</string>
+    <string name="fav_empty">还没有收藏。点按曲目上的爱心即可添加。</string>
+    <string name="settings_loved_badge_title">低调的爱心标记</string>
+    <string name="settings_loved_badge_sub">在最近播放、历史记录和搜索中为收藏的歌曲显示一个小爱心</string>
+    <string name="fav_sort_recent">最近</string>
+    <string name="fav_sort_oldest">最早</string>
+    <string name="fav_sort_artist_az">艺人 A-Z</string>
+    <string name="fav_sort_title_az">标题 A-Z</string>
+    <string name="fav_folder_sort_custom">手动</string>
+    <string name="fav_folders_all">全部</string>
+    <string name="fav_folder_new">新建文件夹</string>
+    <string name="fav_folder_name_placeholder">文件夹名称</string>
+    <string name="fav_folder_custom_emoji_title">选择一个表情符号</string>
+    <string name="fav_folder_custom_emoji_helper">仅限一个表情符号，不能输入文字</string>
+    <string name="fav_folder_desc_placeholder">描述（可选）</string>
+    <string name="fav_folder_recently_played">最近播放</string>
+    <string name="fav_folder_create">创建</string>
+    <string name="fav_folder_edit">编辑文件夹</string>
+    <string name="fav_folder_delete">删除</string>
+    <string name="fav_folder_delete_confirm">删除此文件夹？歌曲将不再归入其中。</string>
+    <string name="fav_folder_assign_title">添加到文件夹</string>
+    <string name="fav_folder_emoji">表情符号</string>
+    <string name="fav_folder_color">颜色</string>
+    <string name="fav_folder_save">保存</string>
+    <string name="fav_folder_empty">此文件夹为空。长按曲目上的爱心即可添加到这里。</string>
+    <string name="rankings_whole_year">全年</string>
+    <string name="charts_export_generated_on">生成于</string>
+    <string name="faq_q1">LastStats 会记录我的音乐播放记录吗？</string>
+    <string name="faq_q3">该应用能在 macOS 或其他平台运行吗？</string>
+    <string name="faq_a3">LastStats 是在 Android 上开发和测试的。其他平台（macOS、Windows、Linux 等）上的表现未经验证，可能出现错误或异常行为。</string>
+    <string name="faq_q4">LastStats 是开源的吗？</string>
+    <string name="faq_a4">是的！源代码可在 GitHub 上自由获取。该项目由 SanoBld 独立用心打造。欢迎贡献代码、反馈问题，或点个 ⭐。</string>
+    <string name="faq_q5">我的数据存储在哪里？</string>
+    <string name="faq_q6">如何启用收藏功能？</string>
+    <string name="faq_a6">使用 Last.fm 时，请前往“设置”&gt;“账户”并输入您的密钥（Secret，位于 last.fm/api/accounts 上 API 密钥的旁边）。使用 ListenBrainz 时无需再添加任何内容：令牌就足够了。连接后，您可以直接在应用中收藏曲目。</string>
+    <string name="faq_q7">什么是“scrobble”？</string>
+    <string name="faq_q8">等级与成就系统是怎么运作的？</string>
+    <string name="faq_a8">你的账户等级随总 scrobble 数增长（没有上限）。卡片也会根据该艺术家/歌曲/专辑的播放次数显示边框颜色（青铜→五彩）。这些都基于本地已缓存的统计数据自动计算，不会额外请求网络。</string>
+    <string name="faq_q9">省电模式是如何工作的？</string>
+    <string name="faq_a9">省电模式会减少应用的活动以节省电量：关闭倾斜视差效果，将屏幕刷新率限制在约 60 Hz，降低后台更新频率，并暂停动态封面和徽章光泽。图片、导出内容和分享卡片仍保持完整画质。\n\n您可以让它始终开启，也可以跟随手机自带的省电模式，或在电量低于您设定的值时自动开启。可在“设置”&gt;“省电模式”中找到。</string>
+    <string name="faq_q10">如何备份或恢复我的数据？</string>
+    <string name="faq_a10">前往“设置”&gt;“备份”。您可以导出备份文件（可选择是否包含 Last.fm 密钥或 ListenBrainz 令牌），之后可在本机或其他设备上导入。</string>
+    <string name="faq_q11">应用可以离线使用吗？</string>
+    <string name="faq_a11">可以，在一定程度上。已加载的统计数据会通过本地缓存离线保留，但获取新的 scrobble 仍需要联网。</string>
+    <string name="faq_q12">我可以切换账户或服务吗？</string>
+    <string name="faq_a12">可以。在“设置”&gt;“账户”中退出登录，然后用其他用户名重新登录，或在登录界面选择另一项服务（Last.fm 或 ListenBrainz）。本地缓存会自动重置，以免数据混杂。</string>
+    <string name="faq_q13">如何设置通知？</string>
+    <string name="faq_a13">在设置 &gt; 通知中，您可以开启同步完成时的提醒、选择提醒出现的频率，也可以完全关闭通知。</string>
+    <string name="faq_q14">图片缺失或一直加载怎么办？</string>
+    <string name="faq_a14">先在应用内清除缓存（设置 &gt; 缓存），再在 Android 中清除（设置 &gt; 应用 &gt; LastStats &gt; 存储 &gt; 清除缓存）。如果仍无图片，请先备份数据（设置 &gt; 备份），卸载并重新安装应用，然后恢复备份。</string>
+    <string name="settings_platform_disabled_by_show_all">已停用：已显示全部链接。</string>
+    <string name="common_in_development">开发中</string>
+    <string name="common_see_less">收起</string>
+    <string name="common_share">分享</string>
+    <string name="news_custom_date">自定义日期</string>
+    <string name="about_shortcuts">键盘快捷键</string>
+    <string name="about_shortcuts_sub">适用于电脑 / 大屏幕</string>
+    <string name="shortcut_switch_tabs">切换标签页</string>
+    <string name="shortcut_search">搜索</string>
+    <string name="shortcut_close">关闭面板</string>
+    <string name="shortcut_refresh">刷新</string>
+    <string name="about_discord">加入 Discord</string>
+    <string name="about_discord_sub">交流、建议和实时公告</string>
+    <string name="achv_title">成就</string>
+    <string name="achv_cat_listening">收听</string>
+    <string name="achv_cat_artists">艺术家</string>
+    <string name="achv_cat_albums">专辑</string>
+    <string name="achv_cat_loyalty">忠诚度</string>
+    <string name="achv_desc_listening">所有艺术家的累计播放次数（scrobbles）。</string>
+    <string name="achv_desc_artists">至少收听过一次的不同艺术家数量。</string>
+    <string name="achv_desc_albums">至少收听过一次的不同专辑数量。</string>
+    <string name="achv_cat_tracks">曲目</string>
+    <string name="achv_desc_tracks">收听过的不同曲目数量。</string>
+    <string name="achv_cat_pace">节奏</string>
+    <string name="achv_desc_pace">每周平均播放次数。</string>
+    <string name="achv_cat_streak">连续打卡</string>
+    <string name="achv_desc_streak">连续有播放记录的最长天数。</string>
+    <string name="achv_cat_marathon">马拉松</string>
+    <string name="achv_desc_marathon">单日最多播放次数。</string>
+    <string name="achv_cat_social">社交</string>
+    <string name="achv_desc_social">已添加的好友或个人资料数量。</string>
+    <string name="achv_cat_comparisons">对比</string>
+    <string name="achv_desc_comparisons">已进行的音乐品味对比次数。</string>
+    <string name="achv_unlocked_badge">已解锁</string>
+    <string name="achv_locked_badge">未解锁</string>
+    <string name="dash_recap">回顾</string>
+    <string name="recap_day">今天</string>
+    <string name="recap_week">本周</string>
+    <string name="recap_month">本月</string>
+    <string name="recap_scrobbles">播放次数</string>
+    <string name="recap_artists">艺术家</string>
+    <string name="recap_tracks">歌曲</string>
+    <string name="recap_top_artist">艺术家</string>
+    <string name="recap_top_track">歌曲</string>
+    <string name="recap_top_album">专辑</string>
+    <string name="recap_avg_day">日均</string>
+    <string name="recap_no_data">此时段暂无播放记录。</string>
+    <string name="recap_see_full">查看完整回顾</string>
+    <string name="recap_top10">前10名</string>
+    <string name="discover_smart_title">最有用的筛选排在最前</string>
+    <string name="discover_smart_sub">根据时间、日期和您最常用的内容排序</string>
+    <string name="discover_for_you">为您推荐</string>
+    <string name="discover_global_trends">全球趋势</string>
+    <string name="discover_src_foryou">您的混合推荐</string>
+    <string name="discover_src_onthisday">历史上的今天</string>
+    <string name="discover_src_fresh">本月</string>
+    <string name="discover_src_genre">您的音乐类型</string>
+    <string name="discover_src_deeper">冷门佳作</string>
+    <string name="discover_src_forgotten">被遗忘的歌</string>
+    <string name="discover_src_albums">专辑</string>
+    <string name="discover_src_country">您的国家</string>
+    <string name="discover_tracks">歌曲</string>
+    <string name="discover_artists">艺术家</string>
+    <string name="discover_week">周</string>
+    <string name="discover_month">月</string>
+    <string name="discover_year">年</string>
+    <string name="discover_nothing">暂时没有内容</string>
+    <string name="dash_reorder_sections">调整版块顺序</string>
+    <string name="dash_infinite_title">无限滚动</string>
+    <string name="dash_infinite_sub">「发现」会循环播放，不断给您新推荐</string>
+    <string name="dash_discover_title">发现</string>
+    <string name="dash_discover_sub">左右滑动，发现新音乐</string>
+    <string name="dash_sort_button">排序</string>
+    <string name="dash_sort_done">完成</string>
+    <string name="dash_sort_hint">拖动即可调整顺序</string>
+    <string name="dash_sort_smart_note">已开启智能排序，所以顺序可能会随时间变化。</string>
+    <string name="dash_separate_row">单独占一行</string>
+    <string name="ap_shape_single">只用一种形状</string>
+    <string name="mv_source">视频来源</string>
+    <string name="mv_src_auto">自动（先 Apple Music，后 YouTube）</string>
+    <string name="mv_src_apple">仅 Apple Music</string>
+    <string name="mv_src_yt">仅 YouTube（歌曲）</string>
+    <string name="mv_quality_t">视频画质</string>
+    <string name="mv_q_auto">自动</string>
+    <string name="mv_q_low">节省流量 (360p)</string>
+    <string name="mv_types_t">在以下内容显示视频</string>
+    <string name="mv_tracks">歌曲</string>
+    <string name="mv_albums">专辑</string>
+    <string name="mv_artists">艺术家</string>
+    <string name="mv_mode_t">模式</string>
+    <string name="mv_mode_best">推荐</string>
+    <string name="mv_mode_saver">省流量</string>
+    <string name="mv_mode_max">最高画质</string>
+    <string name="mv_mode_custom">自定义</string>
+    <string name="mv_src_yt_first">先 YouTube，后 Apple Music</string>
+    <string name="api_title">API</string>
+    <string name="api_card_sub">使用的服务、配额与消耗</string>
+    <string name="api_sum_today">今日请求数</string>
+    <string name="api_sum_errors">错误</string>
+    <string name="api_sum_limited">被限流</string>
+    <string name="api_intro">计数仅针对此设备。服务商按 IP 地址执行限制,因此同一网络中的其他应用也会计入。应用会自动放慢或跳过请求,以保持在限制之内。</string>
+    <string name="api_cat_listening">收听数据</string>
+    <string name="api_cat_metadata">音乐元数据</string>
+    <string name="api_cat_artwork">封面</string>
+    <string name="api_cat_lyrics">歌词</string>
+    <string name="api_cat_translate">翻译</string>
+    <string name="api_cat_updates">更新与资讯</string>
+    <string name="api_cat_other">图片下载</string>
+    <string name="api_status_idle">尚未使用</string>
+    <string name="api_status_ok">正常</string>
+    <string name="api_status_near">接近上限</string>
+    <string name="api_status_paused">已暂停</string>
+    <string name="api_provider_limit">服务商限制</string>
+    <string name="api_no_limit">未公布</string>
+    <string name="api_app_ceiling">应用上限</string>
+    <string name="api_win_second">秒</string>
+    <string name="api_win_minute">分钟</string>
+    <string name="api_win_hour">小时</string>
+    <string name="api_window_usage">当前窗口</string>
+    <string name="api_remaining">剩余</string>
+    <string name="api_today">今天</string>
+    <string name="api_last_hour">过去一小时</string>
+    <string name="api_total">总计</string>
+    <string name="api_rate_limited">限流响应</string>
+    <string name="api_skipped">被应用跳过</string>
+    <string name="api_last_call">最近调用</string>
+    <string name="api_never">从未</string>
+    <string name="api_no_key">无需 API 密钥</string>
+    <string name="api_shared_key">共享的公开测试密钥(免费档)</string>
+    <string name="api_unofficial">非官方接口:不保证配额,可能随时变更或被封锁。</string>
+    <string name="api_key_in_use">使用中的密钥</string>
+    <string name="api_own_key">您自己的 Last.fm 密钥</string>
+    <string name="api_backup_on">备用密钥:开</string>
+    <string name="api_backup_off">备用密钥:关</string>
+    <string name="api_per_key">每个密钥的请求数(今日 / 总计)</string>
+    <string name="api_lastfm_note">Last.fm 未公布具体数字:当某个 IP 请求过多时返回错误 29,其条款禁止规避。通常以每个 IP 每秒约 5 次请求为准,应用保持在 4 次以下。</string>
+    <string name="api_reset">重置计数</string>
+    <string name="api_limiter">限制请求</string>
+    <string name="api_limiter_sub">放慢请求以避免超出 API 限额。关闭 = 更快，无需等待。</string>
+    <string name="api_reset_body">所有请求计数将归零。</string>
+    <string name="api_reset_done">计数已重置</string>
+    <string name="cache_scrobbles_subtitle">从 Last.fm 下载的完整收听记录</string>
+    <string name="cache_scrobbles_subtitle_lb">从 ListenBrainz 下载的完整收听记录</string>
+    <string name="search_hint_profiles">搜索 Last.fm 用户</string>
+    <string name="search_hint_profiles_lb">搜索 ListenBrainz 用户</string>
+    <string name="dash_reset_cache_confirm">所有本地缓存的 scrobble 数据将被删除，并从 Last.fm 重新下载。</string>
+    <string name="dash_reset_cache_confirm_lb">所有本地缓存的 scrobble 数据将被删除，并从 ListenBrainz 重新下载。</string>
+    <string name="dash_friends_activity">您的 Last.fm 好友动态</string>
+    <string name="dash_friends_activity_lb">您的 ListenBrainz 好友动态</string>
+    <string name="settings_friends_section_sub">您的 Last.fm 好友动态</string>
+    <string name="settings_friends_section_sub_lb">您的 ListenBrainz 好友动态</string>
+    <string name="settings_connected_profile">已连接的 Last.fm 账号</string>
+    <string name="settings_connected_profile_lb">已连接的 ListenBrainz 账号</string>
+    <string name="onboard_fav_sub">添加 Last.fm 好友,以便在应用中快速找到他们的资料。</string>
+    <string name="onboard_fav_sub_lb">添加 ListenBrainz 好友,以便在应用中快速找到他们的资料。</string>
+    <string name="onboard_fav_hint">Last.fm 用户名</string>
+    <string name="onboard_fav_hint_lb">ListenBrainz 用户名</string>
+    <string name="onboard_fav_search_hint">搜索 Last.fm 用户…</string>
+    <string name="onboard_fav_search_hint_lb">搜索 ListenBrainz 用户…</string>
+    <string name="onboard_fav_friends_title">您的 Last.fm 好友</string>
+    <string name="onboard_fav_friends_title_lb">您的 ListenBrainz 好友</string>
+    <string name="settings_show_all_platform_links_sub">忽略过滤，显示所有链接（Last.fm、Spotify、YT Music、网页）</string>
+    <string name="settings_show_all_platform_links_sub_lb">忽略过滤，显示所有链接（ListenBrainz、Spotify、YT Music、网页）</string>
+    <string name="setup_tagline">您的 Last.fm 统计，焕然一新。</string>
+    <string name="setup_tagline_lb">您的 ListenBrainz 统计，焕然一新。</string>
+    <string name="settings_card_account_sub">已连接的 Last.fm 账号，退出登录</string>
+    <string name="settings_card_account_sub_lb">已连接的 ListenBrainz 账号，退出登录</string>
+    <string name="about_tagline">您的 Last.fm 统计伴侣</string>
+    <string name="about_tagline_lb">您的 ListenBrainz 统计伴侣</string>
+    <string name="faq_a1">不会。LastStats 是一款可视化应用：它显示您 Last.fm 账户上已有的播放记录，但本身不会记录任何内容。\n\n如需自动记录音乐播放，请使用专门的应用，例如 Pano Scrobbler（Android 可用）。</string>
+    <string name="faq_a1_lb">不会。LastStats 是一款可视化应用：它显示您 ListenBrainz 账户上已有的播放记录，但本身不会记录任何内容。\n\n如需自动记录音乐播放，请使用专门的应用，例如 Pano Scrobbler（Android 可用）。</string>
+    <string name="faq_a5">仅存储在您的设备上。LastStats 没有服务器：您的播放记录会在本地缓存以便快速访问，您的 Last.fm 账户信息也保存在本地。除官方 Last.fm API 外，不会向任何地方发送数据。</string>
+    <string name="faq_a5_lb">仅存储在您的设备上。LastStats 没有服务器：您的播放记录会在本地缓存以便快速访问，您的 ListenBrainz 账户信息也保存在本地。除官方 ListenBrainz API 外，不会向任何地方发送数据。</string>
+    <string name="faq_a7">scrobble 是指在你的 Last.fm 账户上记录一次播放——这是 Last.fm 官方术语，表示“一次被计入的播放”。你的所有统计数据（排行榜、总量等）都基于它。</string>
+    <string name="faq_a7_lb">scrobble 是指在你的 ListenBrainz 账户上记录一次播放——这是 ListenBrainz 官方术语，表示“一次被计入的播放”。你的所有统计数据（排行榜、总量等）都基于它。</string>
+    <string name="achv_desc_loyalty">Last.fm 账号的注册时长。</string>
+    <string name="achv_desc_loyalty_lb">ListenBrainz 账号的注册时长。</string>
+    <string name="api_storage_title">已存储的 Last.fm 数据</string>
+    <string name="api_storage_title_lb">已存储的 ListenBrainz 数据</string>
+    <string name="api_storage_over">已超过 Last.fm API 条款规定的 100 MB 上限。请在“存储”中清除 scrobble 历史记录以符合要求。</string>
+    <string name="api_storage_over_lb">已超过 ListenBrainz API 条款规定的 100 MB 上限。请在“存储”中清除 scrobble 历史记录以符合要求。</string>
+    <string name="global_listeners">%1$s 名全球听众</string>
+    <string name="history_scrobbles">%1$s 次 scrobble</string>
+    <string name="history_artists_count">%1$s 位艺术家</string>
+    <string name="history_albums_count">%1$s 张专辑</string>
+    <string name="day_label">%5$s年%4$s月%3$s日 星期%1$s</string>
+    <string-array name="day_label_weekdays"><item>一</item><item>二</item><item>三</item><item>四</item><item>五</item><item>六</item><item>日</item></string-array>
+    <string-array name="day_label_months"></string-array>
+    <string name="member_since">加入于 %1$s</string>
+    <string name="settings_update_available">v%1$s 可用</string>
+    <string name="settings_update_banner">更新 v%1$s</string>
+    <string name="setup_welcome">欢迎，%1$s！</string>
+    <string name="setup_scrobbles_to_import">待导入 %1$s 条 scrobble</string>
+    <string name="dash_update_title_a">测试版更新：v%1$s</string>
+    <string name="dash_update_title_b">新版本更新：v%1$s</string>
+    <string name="news_items_count_a">%1$s 条</string>
+    <string name="news_items_count_b">%1$s 条</string>
+    <string name="sync_frequency_hours">每 %1$s 小时</string>
+    <string name="sync_new_scrobbles_found_a">没有新的 scrobble</string>
+    <string name="sync_new_scrobbles_found_b">发现 %1$s 条新 scrobble</string>
+    <string name="updates_published_on">发布于 %1$s</string>
+    <string name="backup_auto_next_label">下次备份:%1$s</string>
+    <string name="backup_exported_on">备份于 %1$s</string>
+    <string name="fallback_will_show">将显示：%1$s</string>
+    <string name="acct_remove_body">从您的账号中删除 @%1$s？</string>
+    <string name="acct_added_success">\@%1$s 添加成功。</string>
+    <string name="acct_my_accounts">我的账号 (%1$s/%2$s)</string>
+    <string name="acct_slots_remaining">还可添加 %1$s 个</string>
+    <string name="acct_max_reached">已达到最多 %1$s 个账号的上限。</string>
+    <string name="achv_unlocked">已解锁 %1$s / %2$s</string>
+    <string name="discover_like">类似 %1$s</string>
+    <string name="dash_filters_of">「%1$s」的筛选</string>
+    <string name="api_limit_per">%1$s 次请求 / %2$s</string>
+    <string name="api_win_seconds">%1$s 秒</string>
+    <string name="api_resets_in">%1$s 后重置</string>
+    <string name="api_paused_for">因触发限流,已暂停 %1$s</string>
+    <string name="api_builtin_key">内置密钥 %1$s / %2$s</string>
+    <string name="api_storage_value">允许的 %2$s 中已用 %1$s</string>
+    <string-array name="months"><item></item><item>1月</item><item>2月</item><item>3月</item><item>4月</item><item>5月</item><item>6月</item><item>7月</item><item>8月</item><item>9月</item><item>10月</item><item>11月</item><item>12月</item></string-array>
+    <string-array name="notif_threshold_messages"><item>您的第一个 1,000 次 scrobble。旅程开始了。🎵</item><item>您达到了五位数！🎉</item><item>您是真正的音乐狂热者。🔥</item><item>一百万次 scrobble。这是传奇。🎸</item></string-array>
+    <string-array name="weekdays_short"><item>周一</item><item>周二</item><item>周三</item><item>周四</item><item>周五</item><item>周六</item><item>周日</item></string-array>
+    <string-array name="weekdays_narrow"><item>一</item><item>二</item><item>三</item><item>四</item><item>五</item><item>六</item><item>日</item></string-array>
+    <string name="tx_st_notif_on" formatted="false">通知已开启</string>
+    <string name="tx_st_notif_off" formatted="false">通知已关闭</string>
+    <string name="tx_st_notif_count" formatted="false">已启用 {n} 种</string>
+    <string name="tx_st_notif_perm" formatted="false">需要系统授权</string>
+    <string name="tx_st_notif_none" formatted="false">未选择任何通知类型</string>
+    <string name="tx_st_sync_on" formatted="false">自动同步已开启</string>
+    <string name="tx_st_sync_off" formatted="false">自动同步已关闭</string>
+    <string name="tx_st_sync_on_s" formatted="false">数据会自动更新。</string>
+    <string name="tx_st_sync_off_s" formatted="false">数据仅在您手动操作时更新。</string>
+    <string name="tx_st_bkp_on" formatted="false">自动备份已开启</string>
+    <string name="tx_st_bkp_off" formatted="false">自动备份已关闭</string>
+    <string name="tx_st_bkp_on_s" formatted="false">设置会自动备份。</string>
+    <string name="tx_st_bkp_off_s" formatted="false">开启后不会丢失设置。</string>
+    <string name="tx_st_bkp_next" formatted="false">下次备份：{d}</string>
+    <string name="tx_cmp_breakdown" formatted="false">您二位的共同点</string>
+    <string name="tx_cmp_by_artists" formatted="false">艺术家</string>
+    <string name="tx_cmp_by_genres" formatted="false">风格</string>
+    <string name="tx_cmp_by_tracks" formatted="false">曲目</string>
+    <string name="tx_cmp_by_albums" formatted="false">专辑</string>
+    <string name="tx_eco_on" formatted="false">省电已开启</string>
+    <string name="tx_eco_off" formatted="false">省电已关闭</string>
+    <string name="tx_eco_why_manual" formatted="false">由您设为始终开启</string>
+    <string name="tx_eco_why_system" formatted="false">设备的省电模式已开启</string>
+    <string name="tx_eco_why_battery" formatted="false">电量为 {n}%</string>
+    <string name="tx_eco_off_hint" formatted="false">在下方选择何时开启</string>
+    <string name="tx_eco_trig" formatted="false">何时开启</string>
+    <string name="tx_eco_sys_t" formatted="false">设备省电模式开启时</string>
+    <string name="tx_eco_sys_s" formatted="false">跟随手机自带的省电模式，并随其关闭而关闭。</string>
+    <string name="tx_eco_sys_na" formatted="false">此设备不可用（未检测到系统省电模式）。</string>
+    <string name="tx_eco_chg" formatted="false">会有哪些变化</string>
+    <string name="tx_eco_chg1" formatted="false">关闭倾斜视差</string>
+    <string name="tx_eco_chg2" formatted="false">屏幕刷新率限制在约 60 Hz</string>
+    <string name="tx_eco_chg3" formatted="false">后台更新频率降低</string>
+    <string name="tx_eco_chg4" formatted="false">动态封面和徽章光效暂停</string>
+    <string name="tx_eco_chg_note" formatted="false">其他一切保持完整品质：图片、导出和分享卡片。</string>
+    <string name="tx_lib_section" formatted="false">资料库</string>
+    <string name="tx_lib_merge_t" formatted="false">合并同一曲目的不同版本</string>
+    <string name="tx_lib_merge_s" formatted="false">重制版、单曲、(feat. …)、豪华版会算作同一首曲目或专辑,播放次数合并。混音、现场和纯音乐版本仍单独计算。</string>
+    <string name="tx_lib_split_t" formatted="false">拆分合作艺人</string>
+    <string name="tx_lib_split_s" formatted="false">“Gims &amp; Damso”会分别计入 Gims 和 Damso,而不是单独的艺人。像“Simon &amp; Garfunkel”这样的乐队保持完整。</string>
+    <string name="tx_lib_step_t" formatted="false">您的资料库</string>
+    <string name="tx_lib_step_s" formatted="false">选择应用如何归并您的播放记录。您可以随时在设置中更改。</string>
+    <string name="tx_bk_dash_t" formatted="false">仪表盘与启动</string>
+    <string name="tx_bk_dash_s" formatted="false">板块、头图、统计卡片、发现、启动标签页</string>
+    <string name="tx_bk_notif_t" formatted="false">通知</string>
+    <string name="tx_bk_notif_s" formatted="false">回顾、里程碑、资讯和角标</string>
+    <string name="tx_bk_lib_t" formatted="false">资料库选项</string>
+    <string name="tx_bk_lib_s" formatted="false">合并版本、拆分合作艺人</string>
+    <string name="tx_bk_prof_t" formatted="false">收藏的资料</string>
+    <string name="tx_bk_prof_s" formatted="false">您加星标的 Last.fm 用户</string>
+    <string name="tx_about_legal_t" formatted="false">法律信息</string>
+    <string name="tx_about_legal_site_t" formatted="false">法律声明与隐私</string>
+    <string name="tx_about_legal_site_s" formatted="false">发布者、处理的数据、第三方服务、您的权利</string>
+    <string name="tx_about_licenses_t" formatted="false">开源许可证</string>
+    <string name="tx_about_licenses_s" formatted="false">Flutter 及所有使用的软件包</string>
+    <string name="tx_about_legal_editor" formatted="false">由独立开发者 Sano Bld 发布。欢迎通过 Discord 或 GitHub issues 联系我们。</string>
+    <string name="tx_about_legal_privacy" formatted="false">您的数据保存在您的设备上，我们不保留任何副本。应用会直接连接此处列出的服务，每个服务至少会收到您的 IP 地址和请求内容（例如艺术家名称）。相机仅用于扫描二维码。未经父母同意，本应用不面向 15 岁以下儿童。</string>
+    <string name="tx_about_legal_marks" formatted="false">LastStats 是独立项目，与 Last.fm、Spotify、YouTube、Apple、Deezer、TheAudioDB、MusicBrainz、Wikipedia 和 GitHub 均无关联，也未获其认可。名称和标志归其各自所有者所有，封面和元数据亦然。Wikipedia 文本采用 CC BY-SA 许可。</string>
+    <string name="tx_about_readme_t" formatted="false">README 与项目动态</string>
+    <string name="tx_about_readme_s" formatted="false">阅读 README、最新提交、工作流、版本、下载量</string>
+    <string name="tx_fold_show" formatted="false">显示 ({n})</string>
+    <string name="tx_fold_hide" formatted="false">收起</string>
+    <string name="tx_readme_sub" formatted="false">项目及其动态</string>
+    <string name="tx_readme_version" formatted="false">版本</string>
+    <string name="tx_readme_downloads" formatted="false">下载量</string>
+    <string name="tx_readme_stars" formatted="false">星标</string>
+    <string name="tx_readme_license" formatted="false">许可证</string>
+    <string name="tx_readme_commits" formatted="false">最新提交</string>
+    <string name="tx_readme_workflows" formatted="false">最新工作流</string>
+    <string name="tx_readme_retry" formatted="false">重试</string>
+    <string name="tx_readme_github" formatted="false">在 GitHub 打开</string>
+    <string name="tx_readme_failed" formatted="false">无法加载(离线或已达 GitHub 频率限制)。</string>
+    <string name="tx_ago_min" formatted="false">{n} 分钟前</string>
+    <string name="tx_ago_h" formatted="false">{n} 小时前</string>
+    <string name="tx_ago_d" formatted="false">{n} 天前</string>
+    <string name="tx_load_restored" formatted="false">已恢复 {n} 条 scrobble</string>
+    <string name="tx_load_ready" formatted="false">准备导入</string>
+    <string name="tx_load_connecting" formatted="false">正在连接 Last.fm…</string>
+    <string name="tx_load_done" formatted="false">导入完成</string>
+    <string name="tx_txt_sec" formatted="false">文字</string>
+    <string name="tx_txt_size" formatted="false">文字大小</string>
+    <string name="tx_txt_font" formatted="false">字体</string>
+    <string name="tx_txt_font_def" formatted="false">默认（Android）</string>
+    <string name="tx_font_import" formatted="false">导入字体</string>
+    <string name="tx_font_import_s" formatted="false">.ttf 或 .otf 文件（最大 3 MB）</string>
+    <string name="tx_font_remove" formatted="false">删除已导入的字体</string>
+    <string name="tx_font_bad" formatted="false">无法使用此字体：文件无效或超过 3 MB</string>
+    <string name="tx_qs_l8_t" formatted="false">字体</string>
+    <string name="tx_art_popular" formatted="false">热门</string>
+    <string name="tx_art_recent" formatted="false">最新</string>
+    <string name="tx_bio_src_wiki" formatted="false">来源：维基百科</string>
+    <string name="tx_bio_src_wiki_orig" formatted="false">原文 · 维基百科</string>
+    <string name="tx_dash_motion_t" formatted="false">仪表盘动态封面</string>
+    <string name="tx_dash_motion_s" formatted="false">在播放卡片和顶部栏中播放当前曲目的视频。需要开启视频封面。</string>
+    <string name="tx_onb_cov_t" formatted="false">封面、图片和动画</string>
+    <string name="tx_onb_cov_s" formatted="false">选择图片的形状、封面的显示方式以及动画样式。</string>
+    <string name="tx_onb_sync_t" formatted="false">同步与电池</string>
+    <string name="tx_onb_sync_s" formatted="false">让统计数据保持最新,同时不过多消耗手机电量。</string>
+    <string name="tx_onb_autosync_t" formatted="false">自动同步</string>
+    <string name="tx_onb_autosync_s" formatted="false">应用会定期在后台检查您是否有新的播放记录。</string>
+    <string name="tx_onb_freq" formatted="false">检查频率</string>
+    <string name="tx_onb_every_h" formatted="false">每 {h} 小时</string>
+    <string name="tx_onb_every_1h" formatted="false">每小时</string>
+    <string name="tx_load_backup_note" formatted="false">检测到备份:只会检查更新的 scrobble。</string>
+    <string name="tx_dash_nowplay" formatted="false">正在播放</string>
+    <string name="tx_dash_stats" formatted="false">统计</string>
+    <string name="tx_dash_recent" formatted="false">最近播放</string>
+    <string name="tx_dash_discover" formatted="false">发现</string>
+    <string name="tx_dash_friends" formatted="false">好友</string>
+    <string name="tx_dash_chart" formatted="false">仪表盘图表</string>
+    <string name="tx_dash_calendar" formatted="false">日历</string>
+    <string name="tx_dash_monthly" formatted="false">按月</string>
+    <string name="tx_cache_video_t" formatted="false">内存中的动态封面</string>
+    <string name="tx_cache_video_s" formatted="false">视频内存占用:{mem} · {players} 个活动播放器 · 已缓存 {links} 个链接</string>
+    <string name="tx_cache_video_short" formatted="false">动态封面</string>
+    <string name="tx_cache_video_cleared" formatted="false">已从内存中释放动态封面视频</string>
+    <string name="tx_cache_memory_section" formatted="false">内存</string>
+    <string name="tx_cache_storage_section" formatted="false">存储</string>
+    <string name="tx_lvl" formatted="false">等级 {n}</string>
+    <string name="tx_lvl_history" formatted="false">等级历史</string>
+    <string name="tx_set_mblur_t" formatted="false">动态模糊</string>
+    <string name="tx_menu_copied" formatted="false">已复制</string>
+    <string name="tx_menu_select" formatted="false">选择</string>
+    <string name="tx_sel_count" formatted="false">已选 {n} 项</string>
+    <string name="tx_sel_remove" formatted="false">从收藏中移除</string>
+    <string name="tx_sel_cancel" formatted="false">取消</string>
+    <string name="tx_menu_add_folder" formatted="false">添加到文件夹</string>
+    <string name="tx_menu_copy_title" formatted="false">复制标题</string>
+    <string name="tx_menu_copy_both" formatted="false">复制艺人 – 标题</string>
+    <string name="tx_set_mblur_s" formatted="false">页面切换和内容出现时的柔和模糊</string>
+    <string name="tx_ui_widget_bg" formatted="false">小组件背景</string>
+    <string name="tx_ui_widget_bg_d" formatted="false">海报使用主题形状;纯色根据浅色/深色为黑色或白色;无为透明</string>
+    <string name="tx_ui_widget_bg_poster" formatted="false">海报</string>
+    <string name="tx_ui_widget_bg_plain" formatted="false">纯色</string>
+    <string name="tx_ui_widget_bg_none" formatted="false">无</string>
+    <string name="tx_about_insp_podium" formatted="false">灵感:进入/退出过渡时的柔和模糊</string>
+    <string name="tx_about_insp_metrolist" formatted="false">灵感:标签页之间的滑动+淡入淡出(Material 3)</string>
+    <string name="tx_about_insp_m3skill" formatted="false">动效准则:缓动、弹簧、共享轴</string>
+    <string name="tx_ui_beta" formatted="false">测试版</string>
+    <string name="tx_ui_nothing_red_sub" formatted="false">红色 #FF2020</string>
+    <string name="tx_ui_nothing_yellow_sub" formatted="false">+ 黄色 #FFC700</string>
+    <string name="tx_set_living_t" formatted="false">动态封面效果</string>
+    <string name="tx_set_living_s" formatted="false">图片会以轻微的缩放和景深效果缓缓移动。</string>
+    <string name="tx_set_motion_t" formatted="false">视频封面</string>
+    <string name="tx_set_motion_s" formatted="false">当曲目有动态视频封面时自动播放。</string>
+    <string name="tx_set_achv_t" formatted="false">成就与等级</string>
+    <string name="tx_set_achv_s" formatted="false">查看您的目标、徽章和账号等级。</string>
+    <string name="tx_cache_img_limit_t" formatted="false">照片缓存上限</string>
+    <string name="tx_cache_img_limit_s" formatted="false">封面、艺术家照片和头像。优先删除最旧的。</string>
+    <string name="tx_cache_vid_limit_t" formatted="false">视频缓存上限</string>
+    <string name="tx_cache_vid_limit_s" formatted="false">将动态封面保存在设备上，以便离线播放（Android）。</string>
+    <string name="tx_cache_video_off" formatted="false">关闭</string>
+    <string name="tx_cache_vid_disk_t" formatted="false">已保存的动态封面</string>
+    <string name="tx_cache_vid_disk_s" formatted="false">{size} · 已保存的动态封面</string>
+    <string name="tx_ap_harmony_title" formatted="false">配色风格</string>
+    <string name="tx_ap_harmony_mono" formatted="false">单色</string>
+    <string name="tx_ap_harmony_mono_sub" formatted="false">仅一种色相，强度不同。中性表面保持朴素</string>
+    <string name="tx_ap_harmony_tinted" formatted="false">着色</string>
+    <string name="tx_ap_harmony_tinted_sub" formatted="false">仅一种色相，连中性色（背景、边框、文字）也带一点淡淡的色调，不使用纯灰</string>
+    <string name="tx_ap_harmony_classic" formatted="false">经典</string>
+    <string name="tx_ap_harmony_classic_sub" formatted="false">标准 Material You，含多种互补色相</string>
+    <string name="tx_ap_harmony_vivid" formatted="false">鲜明</string>
+    <string name="tx_ap_harmony_vivid_sub" formatted="false">仅一种色相，饱和度更高、更强烈</string>
+    <string name="tx_ap_harmony_soft" formatted="false">柔和</string>
+    <string name="tx_ap_harmony_soft_sub" formatted="false">仅一种色相，更含蓄，接近灰色</string>
+    <string name="tx_gr_night1" formatted="false">还没睡吗，{name}？</string>
+    <string name="tx_gr_night2" formatted="false">与音乐相伴的夜晚，{name}</string>
+    <string name="tx_gr_night3" formatted="false">有音乐的夜晚更动听，{name}</string>
+    <string name="tx_gr_morning1" formatted="false">早上好，{name}</string>
+    <string name="tx_gr_morning2" formatted="false">睡得好吗，{name}？</string>
+    <string name="tx_gr_morning3" formatted="false">美好一天的开始，{name}</string>
+    <string name="tx_gr_afternoon1" formatted="false">下午好，{name}</string>
+    <string name="tx_gr_afternoon2" formatted="false">很高兴再见到您，{name}</string>
+    <string name="tx_gr_afternoon3" formatted="false">您回来了，{name}</string>
+    <string name="tx_gr_evening1" formatted="false">晚上好，{name}</string>
+    <string name="tx_gr_evening2" formatted="false">祝您有个美好的夜晚，{name}</string>
+    <string name="tx_gr_evening3" formatted="false">您回来了，{name}</string>
+    <string name="tx_gr_weekend1" formatted="false">周末愉快，{name}</string>
+    <string name="tx_gr_weekend2" formatted="false">享受周末吧，{name}</string>
+    <string name="tx_gr_playing1" formatted="false">正听得起劲，{name}</string>
+    <string name="tx_gr_playing2" formatted="false">选得好，{name}</string>
+    <string name="tx_gr_playing3" formatted="false">音质真不错，{name}</string>
+    <string name="tx_gr_heavy1" formatted="false">依然是资深乐迷，{name}</string>
+    <string name="tx_gr_heavy2" formatted="false">Scrobble 一首接一首，{name}</string>
+    <string name="tx_gr_birthday1" formatted="false">账号周年快乐，{name}！</string>
+    <string name="tx_gr_birthday2" formatted="false">已经一起走过 {years} 年了，{name}！</string>
+    <string name="tx_gr_catchup1" formatted="false">{friend}快追上您了，{name}！</string>
+    <string name="tx_gr_catchup2" formatted="false">当心，{friend}就在您身后，{name}</string>
+    <string name="tx_gr_christmas1" formatted="false">圣诞快乐，{name}！</string>
+    <string name="tx_gr_christmas2" formatted="false">节日快乐，{name}</string>
+    <string name="tx_gr_newyear1" formatted="false">新年快乐，{name}！</string>
+    <string name="tx_gr_newyear2" formatted="false">愿新的一年满是音乐，{name}！</string>
+    <string name="tx_gr_easter1" formatted="false">复活节快乐，{name}！</string>
+    <string name="tx_gr_easter2" formatted="false">祝您复活节愉快，{name}</string>
+    <string name="tx_gr_spring1" formatted="false">春天来了，{name}</string>
+    <string name="tx_gr_spring2" formatted="false">来个春日歌单吧，{name}？</string>
+    <string name="tx_gr_summer1" formatted="false">夏日气息，{name}</string>
+    <string name="tx_gr_summer2" formatted="false">享受阳光吧，{name}</string>
+    <string name="tx_gr_autumn1" formatted="false">秋日氛围，{name}</string>
+    <string name="tx_gr_autumn2" formatted="false">落叶纷飞，音乐常在，{name}</string>
+    <string name="tx_gr_winter1" formatted="false">与音乐共度冬天，{name}</string>
+    <string name="tx_gr_winter2" formatted="false">用音乐取暖吧，{name}</string>
+    <string name="tx_hdr_pick_t" formatted="false">从设备选择图片</string>
+    <string name="tx_hdr_pick_s" formatted="false">保存在应用内，优先于链接使用</string>
+    <string name="tx_hdr_pick_set" formatted="false">正在使用设备图片（替代链接）</string>
+    <string name="tx_hdr_remove_t" formatted="false">移除设备图片</string>
+    <string name="tx_hdr_too_big" formatted="false">图片过大（最大 4 MB）</string>
+    <string name="tx_hdr_invalid" formatted="false">无效图片</string>
+    <string name="tx_cache_confirm_t" formatted="false">清除此缓存？</string>
+    <string name="tx_cache_confirm_b" formatted="false">将删除{name}。此操作无法撤销。</string>
+    <string name="tx_cache_api_limit_t" formatted="false">API 数据上限</string>
+    <string name="tx_cache_api_limit_s" formatted="false">已存储 API 数据的最大大小，优先删除最旧的数据。</string>
+    <string name="tx_key_internal_use" formatted="false">使用应用内置密钥</string>
+    <string name="tx_key_internal_help" formatted="false">备用选项：此密钥由多个用户共用，可能达到上限或失效，部分功能可能因此出错。请尽量使用您自己的密钥。</string>
+    <string name="tx_key_internal_active" formatted="false">应用内置密钥</string>
+    <string name="tx_key_fallback_title" formatted="false">内置密钥作为备用</string>
+    <string name="tx_key_fallback_sub" formatted="false">会优先使用您自己的密钥。如果 Last.fm 拒绝该密钥，应用会自动改用内置密钥重试。</string>
+    <string name="tx_key_use_own" formatted="false">使用我自己的 API 密钥</string>
+    <string name="tx_key_change_title" formatted="false">更换 API 密钥</string>
+    <string name="tx_key_change_sub" formatted="false">把您的密钥换成另一个，或改用应用内置密钥。</string>
+    <string name="tx_key_change_sub_internal" formatted="false">您当前使用的是应用的共用密钥。添加您自己的密钥后，就不再受其他用户使用上限的影响。</string>
+    <string name="tx_key_change_intro" formatted="false">为此账号输入新的 API 密钥，或切换回应用内置密钥。您的用户名和统计数据不会改变。</string>
+    <string name="tx_key_change_intro_internal" formatted="false">此账号目前使用的是应用内置密钥。请在下方粘贴您自己的 Last.fm API 密钥来替换它。您的用户名和统计数据不会改变。</string>
+    <string name="tx_key_change_hint" formatted="false">API 密钥为 32 位字符。您可以在 last.fm/api/accounts 创建或查看自己的密钥。</string>
+    <string name="tx_key_change_invalid_len" formatted="false">API 密钥必须正好是 32 位字符，请确认您已完整复制。</string>
+    <string name="tx_key_change_same" formatted="false">此账号已在使用这个密钥，请输入另一个密钥。</string>
+    <string name="tx_key_change_check_failed" formatted="false">Last.fm 未接受此密钥。请检查密钥是否正确以及网络是否正常，然后重试。</string>
+    <string name="tx_key_change_favorites_warn" formatted="false">收藏连接将被移除，因为它依赖于旧密钥。之后您可以用您的私密密钥重新连接。</string>
+    <string name="tx_key_change_apply" formatted="false">应用</string>
+    <string name="tx_key_change_success" formatted="false">API 密钥已更新。</string>
+    <string name="tx_key_internal_fav_note" formatted="false">收藏功能需要您自己的 API 密钥和 Last.fm 私密密钥。请在上方添加您自己的密钥后再启用。</string>
+    <string name="tx_faq_q15" formatted="false">登录后还能更换 API 密钥吗？</string>
+    <string name="tx_faq_a15" formatted="false">可以。前往设置 &gt; 账号，点按“更换 API 密钥”。您可以把密钥换成另一个，或者在最初选择了内置密钥的情况下添加自己的密钥。您的统计数据不变，只需重新设置收藏连接。</string>
+    <string name="tx_nothing_wip_badge" formatted="false">改进中</string>
+    <string name="tx_nothing_wip_msg" formatted="false">Nothing OS 风格正在改进中，因此暂时无法使用。它可能会在后续版本中开放。</string>
+    <string name="tx_ui_play_preview" formatted="false">播放试听</string>
+    <string name="tx_ntf_test_title" formatted="false">🔔 测试通知</string>
+    <string name="tx_ntf_test_body" formatted="false">LastStats 通知运行正常！</string>
+    <string name="tx_ui_not_enough_data_yet_sy" formatted="false">数据还不够，请在设置中同步完整历史记录。</string>
+    <string name="tx_ui_level" formatted="false">等级 {level}</string>
+    <string name="tx_ui_fetching" formatted="false">正在获取 {currentYea}…（{yearIndex}/{totalYears}）</string>
+    <string name="tx_ui_which_chart" formatted="false">选择图表</string>
+    <string name="tx_ui_which_period" formatted="false">选择时间段</string>
+    <string name="tx_ui_all_time" formatted="false">全部时间</string>
+    <string name="tx_ui_exporting" formatted="false">正在导出…</string>
+    <string name="tx_ui_chart_not_available_fo" formatted="false">所选时间段无法显示此图表</string>
+    <string name="tx_ui_could_not_generate_the" formatted="false">无法生成图片，请重试。</string>
+    <string name="tx_ui_error" formatted="false">出了点问题</string>
+    <string name="tx_ui_loading_history" formatted="false">正在加载历史记录{yearLabel}… {pct}%</string>
+    <string name="tx_ui_charts_will_be_more_ac" formatted="false">加载完成后图表会更准确。</string>
+    <string name="tx_ui_load_the_full_history_" formatted="false">加载完整历史记录以查看所有年份。</string>
+    <string name="tx_ui_load" formatted="false">加载</string>
+    <string name="tx_ui_based_on_scrobbles_all" formatted="false">基于 {v_hourlyCou} 条听歌记录（所有年份）</string>
+    <string name="tx_ui_all_available_years" formatted="false">所有可用年份</string>
+    <string name="tx_ui_based_on_scrobbles_fro" formatted="false">基于 {v_selectedY} 年的 {v_hourlyCou} 条听歌记录</string>
+    <string name="tx_ui_based_on_recent_scrobb" formatted="false">基于最近 {v_hourlyCou} 条听歌记录</string>
+    <string name="tx_ui_analysing_your_last_20" formatted="false">正在分析您最近约 200 条听歌记录</string>
+    <string name="tx_ui_all_time_loading" formatted="false">全部时间（{v_selectedY} 加载中）</string>
+    <string name="tx_ui_all_time_2" formatted="false">全部时间</string>
+    <string name="tx_ui_export_a_chart" formatted="false">导出图表</string>
+    <string name="tx_ui_scrobble_progression" formatted="false">Scrobble 进度</string>
+    <string name="tx_ui_your_musical_genres" formatted="false">您的音乐风格</string>
+    <string name="tx_ui_based_on_your_top_arti" formatted="false">基于您的常听艺术家（全部时间）</string>
+    <string name="tx_ui_listening_habits" formatted="false">收听习惯</string>
+    <string name="tx_ui_album_distribution" formatted="false">专辑分布</string>
+    <string name="tx_ui_listening_calendar" formatted="false">收听日历</string>
+    <string name="tx_ui_daily_activity_to" formatted="false">每日活动 — {first} 至 {last}</string>
+    <string name="tx_ui_daily_activity_all_yea" formatted="false">每日活动 — 所有年份</string>
+    <string name="tx_ui_daily_activity" formatted="false">每日活动 — {v_selectedY}</string>
+    <string name="tx_ui_load_history_to_see" formatted="false">加载历史记录以查看 {v_selectedY}</string>
+    <string name="tx_ui_daily_activity_last_12" formatted="false">每日活动 — 最近 12 个月</string>
+    <string name="tx_ui_all_years" formatted="false">所有年份</string>
+    <string name="tx_ui_listening_streaks" formatted="false">连续收听</string>
+    <string name="tx_ui_total" formatted="false">总计</string>
+    <string name="tx_ui_avg_mo" formatted="false">月均</string>
+    <string name="tx_ui_best_month" formatted="false">最佳月份</string>
+    <string name="tx_ui_hourly_distribution" formatted="false">每小时分布</string>
+    <string name="tx_ui_activity_by_day_of_wee" formatted="false">每周活跃度</string>
+    <string name="tx_ui_current_streak" formatted="false">当前连续天数</string>
+    <string name="tx_ui_d" formatted="false">天</string>
+    <string name="tx_ui_best_streak" formatted="false">最长连续天数</string>
+    <string name="tx_ui_best_streak_started_on" formatted="false">最长连续记录始于 {bestStart}</string>
+    <string name="tx_ui_no_data_for_this_perio" formatted="false">该时段无数据</string>
+    <string name="tx_ui_load_history_to_displa" formatted="false">加载历史记录以显示{what}</string>
+    <string name="tx_ui_less" formatted="false">少</string>
+    <string name="tx_ui_more" formatted="false">多</string>
+    <string name="tx_ui_scan_a_profile" formatted="false">扫描个人资料</string>
+    <string name="tx_ui_lvl" formatted="false">等级 {level}</string>
+    <string name="tx_ui_qr_code" formatted="false">二维码？</string>
+    <string name="tx_ui_add_a_qr_code_to_the_s" formatted="false">要在分享的图片中添加二维码，让看到的人可以扫描您的个人资料吗？</string>
+    <string name="tx_ui_no_qr" formatted="false">无二维码</string>
+    <string name="tx_ui_to_the_app" formatted="false">指向应用</string>
+    <string name="tx_ui_to_last_fm" formatted="false">指向 Last.fm</string>
+    <string name="tx_ui_compare_music_taste" formatted="false">比较音乐品味</string>
+    <string name="tx_ui_syncing_full_library" formatted="false">正在同步数据…</string>
+    <string name="tx_ui_see_more" formatted="false">查看更多</string>
+    <string name="tx_ui_no_achievements_unlock" formatted="false">还没有解锁任何成就。继续听歌，解锁第一个吧！</string>
+    <string name="tx_ui_no_animated_cover_for_" formatted="false">此专辑没有动态封面</string>
+    <string name="tx_ui_source" formatted="false">来源：{source}</string>
+    <string name="tx_ui_view_on_last_fm" formatted="false">在 Last.fm 上查看</string>
+    <string name="tx_ui_original_text_last_fm_" formatted="false">原文来自 Last.fm — 翻译来自 Google 翻译</string>
+    <string name="tx_ui_source_last_fm" formatted="false">来源：Last.fm</string>
+    <string name="tx_ui_dark" formatted="false">深色</string>
+    <string name="tx_ui_light" formatted="false">浅色</string>
+    <string name="tx_ui_system" formatted="false">跟随系统</string>
+    <string name="tx_ui_colored_widgets" formatted="false">彩色小组件</string>
+    <string name="tx_ui_tint_home_screen_widge" formatted="false">用强调色为小组件着色</string>
+    <string name="tx_ui_search_settings" formatted="false">搜索设置…</string>
+    <string name="tx_ui_no_settings_found" formatted="false">没有与搜索匹配的设置</string>
+    <string name="tx_ui_all" formatted="false">全部</string>
+    <string name="tx_ui_battery_saver" formatted="false">省电模式</string>
+    <string name="tx_ui_save_battery_fewer_eff" formatted="false">省电，减少特效</string>
+    <string name="tx_ui_musical_soulmates" formatted="false">音乐上的灵魂伴侣</string>
+    <string name="tx_ui_great_compatibility" formatted="false">非常合拍</string>
+    <string name="tx_ui_some_common_ground" formatted="false">有些共同点</string>
+    <string name="tx_ui_fairly_different_taste" formatted="false">口味差异较大</string>
+    <string name="tx_ui_worlds_apart_musically" formatted="false">音乐品味截然不同</string>
+    <string name="tx_ui_this_is_your_own_profi" formatted="false">这是您自己的资料！</string>
+    <string name="tx_ui_artists_from_your_hist" formatted="false">来自您收听记录的 {uniqueArti} 位艺术家 · {targetUser} 的完整曲库</string>
+    <string name="tx_ui_artists_from_your_hist_2" formatted="false">来自您收听记录的 {uniqueArti} 位艺术家 · {targetUser} 的前 200 名</string>
+    <string name="tx_ui_full_library_api" formatted="false">完整曲库（API）</string>
+    <string name="tx_ui_top_200_artists_tracks" formatted="false">前 200 名艺术家与歌曲（API）</string>
+    <string name="tx_ui_could_not_work_out_the" formatted="false">无法计算兼容度。</string>
+    <string name="tx_ui_music_compatibility" formatted="false">音乐契合度</string>
+    <string name="tx_ui_analyzing_musical_tast" formatted="false">正在分析音乐品味…</string>
+    <string name="tx_ui_artist" formatted="false">{v_totalArti} 位艺术家</string>
+    <string name="tx_ui_track" formatted="false">{v_totalTrac} 首歌曲</string>
+    <string name="tx_ui_album" formatted="false">{v_totalAlbu} 张专辑</string>
+    <string name="tx_ui_shared_tracks" formatted="false">共同歌曲</string>
+    <string name="tx_ui_shared_artists" formatted="false">共同艺术家</string>
+    <string name="tx_ui_no_shared_artists_foun" formatted="false">未找到共同的艺术家。</string>
+    <string name="tx_ui_shared_albums" formatted="false">共同专辑</string>
+    <string name="tx_ui_play_count_unavailable" formatted="false">其中一方的播放次数不可用。</string>
+    <string name="tx_ui_you_listen_to_this_x_m" formatted="false">您听这个的次数是 {theirUsern} 的 {x} 倍。</string>
+    <string name="tx_ui_listens_to_this_x_more" formatted="false">{theirUsern} 听这个的次数是您的 {x} 倍。</string>
+    <string name="tx_ui_you_both_listen_to_thi" formatted="false">您二位听这个的频率差不多。</string>
+    <string name="tx_ui_plays" formatted="false">{plays} 次播放</string>
+    <string name="tx_ui_compatibility" formatted="false">契合度</string>
+    <string name="tx_ui_you_both_love" formatted="false">您二位都超爱</string>
+    <string name="tx_ui_shared_top_artist" formatted="false">共同的最爱艺术家</string>
+    <string name="tx_ui_achievements" formatted="false">成就</string>
+    <string name="tx_ui_qr_not_recognized_not_" formatted="false">无法识别二维码 — 不是 LastStats/Last.fm 个人资料</string>
+    <string name="tx_ui_scan_a_profile_s_qr_co" formatted="false">扫描个人资料二维码</string>
+    <string name="tx_ui_favorites" formatted="false">精选推荐</string>
+    <string name="tx_ui_advanced_youtube_music" formatted="false">功能强大的 YouTube Music 客户端。</string>
+    <string name="tx_ui_syncs_the_glyphs_of_no" formatted="false">将 Nothing 手机的 Glyph 灯效与音乐同步。</string>
+    <string name="tx_ui_sources" formatted="false">来源</string>
+    <string name="tx_ui_official_flutter_docs_" formatted="false">Flutter 官方文档。</string>
+    <string name="tx_ui_official_material_3_gu" formatted="false">面向 Flutter 的 Material 3 官方指南。</string>
+    <string name="tx_ui_flutter_api_reference_" formatted="false">Material 3 主题的 Flutter API 参考。</string>
+    <string name="tx_ui_official_flutter_packa" formatted="false">用于自适应布局的 Flutter 官方包。</string>
+    <string name="tx_ui_android_widgets" formatted="false">Android 小组件</string>
+    <string name="tx_ui_applies_the_accent_col" formatted="false">将强调色应用到主屏幕小组件的背景。关闭时为纯白或纯黑。</string>
+    <string name="tx_ui_turns_off_tilt_paralla" formatted="false">关闭倾斜视差，限制屏幕刷新率，并降低后台更新频率 — 其他一切保持完整品质（图片、导出、分享卡片）。</string>
+    <string name="tx_ui_always_on" formatted="false">始终开启</string>
+    <string name="tx_ui_force_eco_mode_on_rega" formatted="false">无论电量多少都强制开启省电模式。</string>
+    <string name="tx_ui_auto_activate" formatted="false">自动启用</string>
+    <string name="tx_ui_turn_on_below_a_batter" formatted="false">电量低时开启省电模式</string>
+    <string name="tx_ui_switches_on_by_itself_" formatted="false">当电量变低时,省电模式会自动开启。您之后可以在设置中选择具体的电量。</string>
+    <string name="tx_ui_threshold" formatted="false">阈值</string>
+    <string name="tx_ui_choose_the_tab_display" formatted="false">选择应用启动时显示的标签页。</string>
+    <string name="tx_ui_the_selected_tab_will_" formatted="false">所选标签页将在下次启动应用时显示。</string>
+    <string name="tx_ui_friends_sync" formatted="false">好友同步</string>
+    <string name="tx_ui_sync_frequency" formatted="false">同步频率</string>
+    <string name="tx_ui_daily" formatted="false">每天</string>
+    <string name="tx_ui_resync_everyone" formatted="false">全部重新同步</string>
+    <string name="tx_ui_version_history" formatted="false">版本历史</string>
+    <string name="tx_ui_could_not_load_release" formatted="false">无法加载版本历史。请检查网络连接后重试。</string>
+    <string name="tx_ui_installed_dev_build_un" formatted="false">已安装：开发版本（版本未知）</string>
+    <string name="tx_ui_installed" formatted="false">已安装：{displayVer}</string>
+    <string name="tx_ui_search_a_version_or_ch" formatted="false">搜索版本或更新日志…</string>
+    <string name="tx_ui_official" formatted="false">官方</string>
+    <string name="tx_ui_no_release_matches_you" formatted="false">没有符合搜索的版本。</string>
+    <string name="tx_ui_latest" formatted="false">最新</string>
+    <string name="tx_ui_installed_2" formatted="false">已安装</string>
+    <string name="tx_ui_no_description" formatted="false">此版本没有说明。</string>
+    <string name="tx_ui_download" formatted="false">下载</string>
+    <string name="tx_ui_view_release" formatted="false">查看发布页</string>
+    <string name="tx_ui_details" formatted="false">详情</string>
+    <string name="tx_ui_all_past_releases_chan" formatted="false">所有历史版本、更新日志和下载</string>
+    <string name="tx_ui_please_fill_both_field" formatted="false">请填写两个输入框后再继续。</string>
+    <string name="tx_svc_title" formatted="false">请选择您的服务</string>
+    <string name="tx_svc_sub" formatted="false">LastStats 会从这两个服务之一读取您的播放记录。</string>
+    <string name="tx_svc_lfm_s" formatted="false">您的 Last.fm 历史记录。注意：Last.fm API 将收费，2026 年 12 月 1 日起 API 密钥需要 Last.fm Pro。</string>
+    <string name="tx_svc_lfm_paid" formatted="false">API 收费</string>
+    <string name="tx_svc_lb_s" formatted="false">免费且开源（MetaBrainz）。使用您的用户令牌即可轻松登录。</string>
+    <string name="tx_svc_free" formatted="false">免费</string>
+    <string name="tx_svc_back" formatted="false">更换服务</string>
+    <string name="tx_svc_lfm_note" formatted="false">自 2026 年 12 月 1 日起，Last.fm API 密钥需要 Last.fm Pro 订阅（针对密钥所有者）。您的账户和历史记录不会改变。</string>
+    <string name="tx_svc_lfm_pro" formatted="false">查看 Last.fm Pro</string>
+    <string name="tx_lb_title" formatted="false">登录 ListenBrainz</string>
+    <string name="tx_lb_steps" formatted="false">1. 创建免费的 ListenBrainz 账户或登录。2. 打开您的 ListenBrainz 设置。3. 复制您的用户令牌并粘贴到此处。</string>
+    <string name="tx_lb_token" formatted="false">用户令牌</string>
+    <string name="tx_lb_create" formatted="false">创建 ListenBrainz 账户</string>
+    <string name="tx_lb_get_token" formatted="false">获取我的令牌</string>
+    <string name="tx_lb_docs" formatted="false">API 帮助</string>
+    <string name="tx_lb_connect" formatted="false">连接</string>
+    <string name="tx_lb_invalid" formatted="false">令牌无效。请在您的 ListenBrainz 设置中检查。</string>
+    <string name="tx_lb_neterr" formatted="false">无法连接 ListenBrainz。请检查您的网络连接。</string>
+    <string name="tx_lb_ok" formatted="false">已连接 ListenBrainz（{name}）。</string>
+    <string name="tx_lb_empty" formatted="false">请粘贴您的令牌以继续。</string>
+    <string name="tx_sw_title" formatted="false">发现本地数据</string>
+    <string name="tx_sw_body" formatted="false">应用中已保存 {n} 条本地播放记录。切换到新服务后要如何处理？</string>
+    <string name="tx_sw_transfer" formatted="false">转移</string>
+    <string name="tx_sw_transfer_s" formatted="false">将这些记录发送到 ListenBrainz，并保留在应用中。</string>
+    <string name="tx_sw_merge" formatted="false">合并</string>
+    <string name="tx_sw_merge_s" formatted="false">保留旧数据并添加新服务的数据。冲突时以 Last.fm 为准。</string>
+    <string name="tx_sw_fresh" formatted="false">重新开始</string>
+    <string name="tx_sw_fresh_s" formatted="false">删除本地数据并从新服务重新加载。</string>
+    <string name="tx_sw_ok" formatted="false">确定</string>
+    <string name="tx_sw_sending" formatted="false">正在发送播放记录… {done} / {total}</string>
+    <string name="tx_sw_merging" formatted="false">正在合并… {year}</string>
+    <string name="tx_sw_fail" formatted="false">转移失败。您的本地数据已保留。</string>
+    <string name="tx_lfm_create" formatted="false">创建 Last.fm 账户</string>
+    <string name="tx_conn_lb_desc" formatted="false">您的播放记录通过用户令牌从 ListenBrainz 读取。不会向 Last.fm 发送任何请求。</string>
+    <string name="tx_acct_lb_token" formatted="false">ListenBrainz 令牌</string>
+    <string name="tx_acct_lb_info" formatted="false">令牌位于您的 ListenBrainz 设置中。请妥善保密：它可访问您的账户。</string>
+    <string name="tx_acct_lb_profile" formatted="false">ListenBrainz 个人资料</string>
+    <string name="tx_acct_lb_view" formatted="false">在 ListenBrainz 查看</string>
+    <string name="tx_acct_switch" formatted="false">更换服务</string>
+    <string name="tx_acct_switch_s" formatted="false">在 Last.fm 与 ListenBrainz 之间切换</string>
+    <string name="tx_ui_api_key_must_be_32_cha" formatted="false">API 密钥必须正好是 32 个字符。</string>
+    <string name="tx_ui_profile_not_found" formatted="false">找不到该用户资料。请检查用户名后重试。</string>
+    <string name="tx_ui_chart_monthly" formatted="false">月度柱状图</string>
+    <string name="tx_ui_chart_cumul" formatted="false">进度趋势</string>
+    <string name="tx_ui_chart_genres" formatted="false">音乐风格</string>
+    <string name="tx_ui_chart_habits" formatted="false">收听习惯</string>
+    <string name="tx_ui_chart_artists" formatted="false">艺术家分布</string>
+    <string name="tx_ui_chart_albums" formatted="false">专辑分布</string>
+    <string name="tx_ui_chart_calendar" formatted="false">收听日历</string>
+    <string name="tx_ui_chart_streaks" formatted="false">连续收听</string>
+    <string name="tx_ui_band_night" formatted="false">夜间</string>
+    <string name="tx_ui_band_morning" formatted="false">上午</string>
+    <string name="tx_ui_band_afternoon" formatted="false">下午</string>
+    <string name="tx_ui_band_evening" formatted="false">晚上</string>
+    <string name="tx_qs_t1_t" formatted="false">OLED 模式</string>
+    <string name="tx_qs_t1_s" formatted="false">纯黑背景，可在 OLED 屏幕上省电</string>
+    <string name="tx_qs_t2_t" formatted="false">省电模式</string>
+    <string name="tx_qs_t2_s" formatted="false">减少动画和后台更新以节省电量</string>
+    <string name="tx_qs_t3_t" formatted="false">新闻通知</string>
+    <string name="tx_qs_t3_s" formatted="false">推送新功能、修复和公告</string>
+    <string name="tx_qs_t4_t" formatted="false">触觉反馈</string>
+    <string name="tx_qs_t4_s" formatted="false">点按、选择或滑动时轻微震动</string>
+    <string name="tx_qs_t5_t" formatted="false">成就</string>
+    <string name="tx_qs_t5_s" formatted="false">显示已解锁的成就和您的等级</string>
+    <string name="tx_qs_l1_t" formatted="false">强调色</string>
+    <string name="tx_qs_l2_t" formatted="false">主题</string>
+    <string name="tx_qs_l3_t" formatted="false">语言</string>
+    <string name="tx_qs_l4_t" formatted="false">音乐平台</string>
+    <string name="tx_qs_l5_t" formatted="false">账户</string>
+    <string name="tx_qs_l6_t" formatted="false">同步</string>
+    <string name="tx_qs_l7_t" formatted="false">缓存</string>
+    <string name="tx_img_src_lastfm" formatted="false">来源：Last.fm</string>
+    <string name="tx_img_src_ytmusic" formatted="false">来源：YouTube Music</string>
+    <string name="tx_img_src_itunes" formatted="false">来源：iTunes</string>
+    <string name="tx_img_src_deezer" formatted="false">来源：Deezer</string>
+    <string name="tx_img_src_audiodb" formatted="false">来源：TheAudioDB</string>
+    <string name="tx_img_src_musicbrainz" formatted="false">来源：MusicBrainz</string>
+    <string name="tx_img_src_wikipedia" formatted="false">来源：维基百科</string>
+    <string name="tx_ds_type_artist" formatted="false">艺术家</string>
+    <string name="tx_ds_type_album" formatted="false">专辑</string>
+    <string name="tx_ds_type_track" formatted="false">歌曲</string>
+    <string name="tx_pf_1" formatted="false">👤 用户资料</string>
+    <string name="tx_pf_2" formatted="false">🎤 热门艺术家 — 全部时间</string>
+    <string name="tx_pf_3" formatted="false">💿 热门专辑 — 全部时间</string>
+    <string name="tx_pf_4" formatted="false">🎵 热门歌曲 — 全部时间</string>
+    <string name="tx_pf_5" formatted="false">⏱️ 最近播放</string>
+    <string name="tx_pf_6" formatted="false">🗓️ 本周</string>
+    <string name="tx_pf_7" formatted="false">📅 本月</string>
+    <string name="tx_pf_8" formatted="false">📅 最近 3 个月</string>
+    <string name="tx_pf_9" formatted="false">📅 最近 6 个月</string>
+    <string name="tx_pf_10" formatted="false">📅 最近 12 个月</string>
+    <string name="tx_pf_11" formatted="false">📊 月度历史</string>
+    <string name="tx_pf_12" formatted="false">❤️ 喜欢的歌曲</string>
+    <string name="tx_pf_13" formatted="false">🗓️ 热门艺术家 — 本周</string>
+    <string name="tx_pf_14" formatted="false">🗓️ 专辑和歌曲 — 本周</string>
+    <string name="tx_ds_tier_next" formatted="false">{n} / {next} 升至下一级</string>
+    <string name="tx_ds_tier_max" formatted="false">已达到最高等级 🎉</string>
+    <string name="tx_ds_tier_first" formatted="false">听这首歌来解锁第一个等级（{n} 次播放起）。</string>
+    <string name="tx_sl_import" formatted="false">正在导入您的数据</string>
+    <string name="tx_sl_done" formatted="false">已导入！</string>
+    <string name="tx_sl_connect" formatted="false">正在连接 Last.fm…</string>
+    <string name="tx_sec_chart" formatted="false">图表/日历</string>
+    <string name="tx_stat_avg_day" formatted="false">日均</string>
+    <string name="tx_stat_avg_week" formatted="false">周均</string>
+    <string name="tx_stat_days_active" formatted="false">活跃天数</string>
+    <string name="tx_stat_scrobbles_week" formatted="false">本周 scrobbles</string>
+    <string name="tx_accent_purple" formatted="false">紫色</string>
+    <string name="tx_accent_blue" formatted="false">蓝色</string>
+    <string name="tx_accent_green" formatted="false">绿色</string>
+    <string name="tx_accent_red" formatted="false">红色</string>
+    <string name="tx_accent_orange" formatted="false">橙色</string>
+    <string name="tx_accent_pink" formatted="false">粉色</string>
+    <string name="tx_accent_teal" formatted="false">青绿色</string>
+    <string name="tx_accent_neutral" formatted="false">中性色</string>
+    <string name="tx_shape_title" formatted="false">图片形状</string>
+    <string name="tx_shape_covers" formatted="false">封面、艺术家和专辑</string>
+    <string name="tx_shape_mix" formatted="false">混合</string>
+    <string name="tx_shape_square" formatted="false">方形</string>
+    <string name="tx_shape_circle" formatted="false">圆形</string>
+    <string name="tx_shape_pick_one" formatted="false">或选择单一形状</string>
+    <string name="tx_friend_listening" formatted="false">正在收听</string>
+    <string name="tx_friend_offline" formatted="false">离线</string>
+    <string name="tx_tier_none" formatted="false">暂无等级</string>
+    <string name="tx_src_title" formatted="false">来源</string>
+    <string name="tx_src_scrobbles_meta" formatted="false">Scrobbles 和元数据</string>
+    <string name="tx_src_artwork" formatted="false">封面图</string>
+    <string name="tx_src_audio_preview" formatted="false">音频试听</string>
+    <string name="tx_src_video_artwork" formatted="false">视频封面</string>
+    <string name="tx_tip_love" formatted="false">收藏</string>
+    <string name="tx_rail_expand" formatted="false">展开侧边栏</string>
+    <string name="tx_rail_collapse" formatted="false">收起侧边栏</string>
+    <string name="tx_a11y_loading" formatted="false">加载中</string>
+    <string name="tx_bk_pick_folder" formatted="false">选择自动备份文件夹</string>
+    <string name="tx_bk_save_title" formatted="false">保存 LastStats 备份</string>
+    <string name="tx_bk_pick_file" formatted="false">选择 LastStats 备份文件</string>
+    <string name="tx_nch_milestone_d" formatted="false">达到 scrobble 里程碑时通知您</string>
+    <string name="tx_nch_grand_d" formatted="false">重大里程碑的特别提醒（1K、10K、100K、1M…）</string>
+    <string name="tx_nch_recap_d" formatted="false">每日和每周收听摘要</string>
+    <string name="tx_nch_update_d" formatted="false">LastStats 有新版本时通知您</string>
+    <string name="tx_nch_news_d" formatted="false">LastStats 的新功能、修复和公告</string>
+    <string name="tx_nch_sync_d" formatted="false">同步完整 scrobble 历史时的进度</string>
+    <string name="tx_ntf_grand_1000000" formatted="false">一百万次 scrobble，太传奇了。🎸</string>
+    <string name="tx_ntf_grand_500000" formatted="false">五十万次 scrobble，您从不停歇。🎧</string>
+    <string name="tx_ntf_grand_250000" formatted="false">{n} 次 scrobble，音乐永不停歇。🎶</string>
+    <string name="tx_ntf_grand_100000" formatted="false">{n} 次 scrobble！您是真正的音乐迷。🔥</string>
+    <string name="tx_ntf_grand_50000" formatted="false">{n} 次 scrobble，令人印象深刻。🎵</string>
+    <string name="tx_ntf_grand_25000" formatted="false">{n} 次 scrobble，依然势头强劲！</string>
+    <string name="tx_ntf_grand_10000" formatted="false">{n} 次 scrobble，您突破了五位数！🎉</string>
+    <string name="tx_ntf_grand_5000" formatted="false">{n} 次 scrobble，还在继续！</string>
+    <string name="tx_ntf_grand_1000" formatted="false">您的前 {n} 次 scrobble，旅程开始了。🎵</string>
+    <string name="tx_ntf_update_title" formatted="false">LastStats {v} 现已推出</string>
+    <string name="tx_ntf_update_body" formatted="false">新版本已可下载。</string>
+    <string name="tx_ntf_milestone_title" formatted="false">🎵 里程碑：{n} 次 scrobble</string>
+    <string name="tx_ntf_milestone_body" formatted="false">您刚刚在 Last.fm 上达到了 {n} 次 scrobble 🎶</string>
+    <string name="tx_ntf_daily_title" formatted="false">📊 每日回顾 · {d}</string>
+    <string name="tx_ntf_weekly_title" formatted="false">📅 每周回顾 · {w}</string>
+    <string name="tx_ntf_year_title" formatted="false">👀 您的 {y} 年度回顾已就绪</string>
+    <string name="tx_ntf_year_body" formatted="false">回顾您的 {y} 年音乐：艺术家、歌曲、专辑等更多内容。</string>
+    <string name="tx_ntf_recap_body" formatted="false">{n} 次 scrobble · 最多：{a}</string>
+    <string name="tx_ntf_n_today" formatted="false">今天 {n} 次 scrobble</string>
+    <string name="tx_ntf_n_week" formatted="false">本周 {n} 次 scrobble</string>
+    <string name="tx_ntf_top_artist" formatted="false">最常听艺术家：{a}</string>
+    <string name="tx_ntf_update_avail" formatted="false">🆕 有可用更新</string>
+    <string name="tx_ntf_update_ready" formatted="false">LastStats {v} 已就绪，点按查看。</string>
+    <string name="tx_ntf_sync_title" formatted="false">🔄 正在同步 scrobble…</string>
+    <string name="tx_ntf_sync_done" formatted="false">✅ Scrobble 已同步</string>
+    <string name="tx_ntf_sync_new" formatted="false">已添加 {n} 条新 scrobble。</string>
+    <string name="tx_ntf_grand_t" formatted="false">{v} 次 scrobble！</string>
+    <string name="tx_ntf_year" formatted="false">{y} 年</string>
+    <string name="tx_ntf_week" formatted="false">第 {w} 周</string>
+    <string name="tx_reorder" formatted="false">调整顺序</string>
+    <string name="tx_sp_login_t" formatted="false">登录 Spotify</string>
+    <string name="tx_sp_login_hint" formatted="false">请使用您的 Spotify 邮箱和密码登录。登录成功后此窗口会自动关闭。</string>
+    <string name="tx_sp_risk_note" formatted="false">注意：此功能依赖 Spotify 的非官方调用，而非官方 API。Spotify 可能随时更改或封锁它，它可能停止工作，使用它也可能违反 Spotify 的使用条款，从而可能导致您的 Spotify 账号受到限制。使用风险自负。</string>
+    <string name="tx_sp_perf_note" formatted="false">性能:查找 Canvas 时会在后台运行一个隐藏的网页播放器,并产生额外的网络请求。这可能会增加电量、流量和内存消耗,并让应用稍微变慢。如果您有所察觉,请把 Spotify 从此列表中移除。</string>
+    <string name="tx_sp_t" formatted="false">Spotify (Canvas)</string>
+    <string name="tx_sp_on" formatted="false">已连接</string>
+    <string name="tx_sp_off" formatted="false">未连接</string>
+    <string name="tx_sp_off_s" formatted="false">您已退出 Spotify。重新登录后才能获取 Canvas 动态封面。</string>
+    <string name="tx_mv_ytdash_t" formatted="false">也用于仪表盘</string>
+    <string name="tx_mv_ytdash_s" formatted="false">在仪表盘的个人资料背景动画封面中也使用 YouTube（默认关闭）</string>
+    <string name="tx_yr_title" formatted="false">年度回顾</string>
+    <string name="tx_yr_loading" formatted="false">您的年度回顾马上就好，稍等片刻…</string>
+    <string name="tx_yr_error" formatted="false">哎呀，无法加载您的 scrobble，请检查网络连接。</string>
+    <string name="tx_yr_retry" formatted="false">重试</string>
+    <string name="tx_yr_empty" formatted="false">{year} 年没有 scrobble……难道是休假年？</string>
+    <string name="tx_yr_intro_h" formatted="false">您的 {year} 音乐年</string>
+    <string name="tx_yr_scrobbles" formatted="false">次 scrobble</string>
+    <string name="tx_yr_total_intro" formatted="false">今年您一共听了足足：</string>
+    <string name="tx_yr_hours" formatted="false">大约相当于 {h} 小时的音乐。您的耳朵值得一枚奖牌！（估算）</string>
+    <string name="tx_yr_top_artist" formatted="false">您的本命艺人</string>
+    <string name="tx_yr_top_artists" formatted="false">热门艺人</string>
+    <string name="tx_yr_top_tracks" formatted="false">热门歌曲</string>
+    <string name="tx_yr_top_albums" formatted="false">热门专辑</string>
+    <string name="tx_yr_plays" formatted="false">{n} 次播放</string>
+    <string name="tx_yr_months_h" formatted="false">按月回顾您的一年</string>
+    <string name="tx_yr_months" formatted="false">1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月</string>
+    <string name="tx_yr_best_month" formatted="false">您最活跃的月份是{m}，共 {n} 次 scrobble。那个月热度爆表！</string>
+    <string name="tx_yr_best_day" formatted="false">您最疯狂的一天是{d}，共 {n} 次 scrobble。耳机都冒烟了！</string>
+    <string name="tx_yr_when_h" formatted="false">您的收听时间</string>
+    <string name="tx_yr_p_night" formatted="false">您主要在深夜听歌：妥妥的夜猫子</string>
+    <string name="tx_yr_p_morning" formatted="false">您主要在早上听歌：咖啡配歌单，黄金搭档</string>
+    <string name="tx_yr_p_day" formatted="false">您主要在白天听歌：为日常配上原声</string>
+    <string name="tx_yr_p_evening" formatted="false">您主要在晚上听歌：氛围感才是您的菜</string>
+    <string name="tx_yr_peak" formatted="false">您的收听高峰在 {h} 点左右，最喜欢的日子是{d}。</string>
+    <string name="tx_yr_streak_h" formatted="false">您的坚持，堪比节拍器</string>
+    <string name="tx_yr_streak" formatted="false">天</string>
+    <string name="tx_yr_style" formatted="false">自定义</string>
+    <string name="tx_yr_flame_h" formatted="false">连续收听的歌曲</string>
+    <string name="tx_yr_flame_s" formatted="false">在您连续{n}天期间的播放次数</string>
+    <string name="tx_yr_day_h" formatted="false">单曲单日纪录</string>
+    <string name="tx_yr_day_s" formatted="false">一天之内，在{d}。真是热爱！</string>
+    <string name="tx_yr_active" formatted="false">在 {t} 天中，您有 {n} 天在听音乐。其余的日子呢？静得有点可疑……</string>
+    <string name="tx_yr_disc_h" formatted="false">新发现</string>
+    <string name="tx_yr_new" formatted="false">位艺人是今年的新发现。好奇宝宝！</string>
+    <string name="tx_yr_unique" formatted="false">您一共听了 {a} 位不同的艺人和 {t} 首不同的歌曲。口味真丰富！</string>
+    <string name="tx_yr_card_hours" formatted="false">小时（估算）</string>
+    <string name="tx_yr_card_streak" formatted="false">天连续</string>
+    <string name="tx_yr_friends_h" formatted="false">您和好友对比</string>
+    <string name="tx_yr_rank" formatted="false">您在 {n} 人中排名第 {r}</string>
+    <string name="tx_yr_you" formatted="false">您</string>
+    <string name="tx_yr_twin_h" formatted="false">您的音乐知己</string>
+    <string name="tx_yr_twin_s" formatted="false">你们有 {n} 位共同喜爱的艺人。英雄所见略同！</string>
+    <string name="tx_yr_top_track" formatted="false">您的年度单曲</string>
+    <string name="tx_yr_top_album" formatted="false">您的心头好专辑</string>
+    <string name="tx_yr_line_h" formatted="false">累计的一年</string>
+    <string name="tx_yr_cal_h" formatted="false">日历中的一年</string>
+    <string name="tx_yr_share_h" formatted="false">播放都去哪了</string>
+    <string name="tx_yr_share_err" formatted="false">哎呀，无法生成图片，请重试。</string>
+    <string name="tx_yr_share_profile" formatted="false">使用头像作为背景</string>
+    <string name="tx_yr_months_full" formatted="false">1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月</string>
+    <string name="tx_yr_months_gen" formatted="false">1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月</string>
+    <string name="tx_yr_day_fmt" formatted="false">{m}{d}日</string>
+    <string name="tx_yr_weekdays_full" formatted="false">星期一,星期二,星期三,星期四,星期五,星期六,星期日</string>
+    <string name="tx_sp_need" formatted="false">Spotify 需要登录：个人资料 &gt; 连接页面。</string>
+    <string name="tx_conn_title" formatted="false">连接</string>
+    <string name="tx_conn_btn_t" formatted="false">连接页面</string>
+    <string name="tx_conn_btn_s" formatted="false">Last.fm、Spotify 和 API 密钥</string>
+    <string name="tx_conn_sp_desc" formatted="false">用于视频封面（Canvas）。需要 Spotify 账户。</string>
+    <string name="tx_conn_connect" formatted="false">连接</string>
+    <string name="tx_conn_disconnect" formatted="false">断开连接</string>
+    <string name="tx_conn_keys" formatted="false">API 密钥</string>
+    <string name="tx_conn_manage" formatted="false">管理账户</string>
+    <string name="tx_conn_test" formatted="false">测试 Spotify</string>
+    <string name="tx_conn_testing" formatted="false">测试中…</string>
+    <string name="tx_conn_q_note" formatted="false">Spotify Canvas 只有一种画质。画质设置仅适用于 Apple Music 和 YouTube。</string>
+    <string name="tx_conn_lfm_desc" formatted="false">您的 Last.fm 历史记录通过您自己的 API 密钥读取（2026 年 12 月 1 日起需要 Last.fm Pro）。</string>
+    <string name="tx_conn_lfm_web" formatted="false">使用 Last.fm 登录</string>
+    <string name="tx_lfm_login_t" formatted="false">登录 Last.fm</string>
+    <string name="tx_lfm_login_hint" formatted="false">请在 Last.fm 网站登录。应用会识别您的用户名，然后关闭此窗口。</string>
+    <string name="tx_lfm_web_sub" formatted="false">无需 API 密钥:应用会使用其内置的密钥。</string>
+    <string name="tx_lfm_manual_hint" formatted="false">未能自动识别用户名。登录后请在下方输入。</string>
+    <string name="tx_lfm_manual_label" formatted="false">用户名</string>
+    <string name="tx_rec" formatted="false">推荐</string>
+    <string name="tx_not_rec" formatted="false">不推荐</string>
+    <string name="tx_sm_title" formatted="false">连接方式</string>
+    <string name="tx_sm_key_t" formatted="false">我的 API 密钥</string>
+    <string name="tx_sm_key_s" formatted="false">您拥有独立的使用额度,并且可以使用收藏功能。</string>
+    <string name="tx_sm_builtin_t" formatted="false">内置密钥</string>
+    <string name="tx_sm_builtin_s" formatted="false">只需要您的用户名。使用额度与其他用户共享。</string>
+    <string name="tx_wl_title" formatted="false">欢迎</string>
+    <string name="tx_wl_sub" formatted="false">请输入您的 Last.fm 用户名和您自己的 API 密钥。</string>
+    <string name="tx_sr_from_recent" formatted="false">来自您最近的搜索</string>
+    <string name="tx_sr_recent" formatted="false">最近搜索</string>
+    <string name="tx_sr_suggestions" formatted="false">搜索建议</string>
+    <string name="tx_sr_recommended" formatted="false">推荐</string>
+    <string name="tx_sr_best" formatted="false">最佳结果</string>
+    <string name="tx_cx_best_month" formatted="false">最佳月份</string>
+    <string name="tx_cx_active_days" formatted="false">活跃天数</string>
+    <string name="tx_cx_peak_hour" formatted="false">高峰时段</string>
+    <string name="tx_cx_top_artist" formatted="false">第一艺术家</string>
+    <string name="tx_cx_top_artists" formatted="false">热门艺术家</string>
+    <string name="tx_cx_by_month" formatted="false">按月</string>
+    <string name="tx_cx_cumulative" formatted="false">累计</string>
+    <string name="tx_cx_clock" formatted="false">收听时钟</string>
+    <string name="tx_cx_others" formatted="false">其他</string>
+    <string name="tx_cx_artist_distribution" formatted="false">艺人分布</string>
+    <string name="tx_cx_daypart" formatted="false">时段分布</string>
+    <string name="tx_cx_night" formatted="false">凌晨</string>
+    <string name="tx_cx_morning" formatted="false">早晨</string>
+    <string name="tx_cx_afternoon" formatted="false">下午</string>
+    <string name="tx_cx_evening" formatted="false">晚上</string>
+    <string name="tx_cx_intensity" formatted="false">每日强度</string>
+    <string name="tx_cx_days" formatted="false">天</string>
+    <string name="tx_cx_busiest" formatted="false">听歌最多的日子</string>
+    <string name="tx_cx_weekend" formatted="false">工作日与周末</string>
+    <string name="tx_up_title" formatted="false">更新</string>
+    <string name="tx_up_downloading" formatted="false">正在下载…</string>
+    <string name="tx_up_perm_title" formatted="false">需要授权</string>
+    <string name="tx_up_perm_body" formatted="false">请在 Android 设置中允许 LastStats 安装应用，然后返回此处点按“重试”。</string>
+    <string name="tx_up_installing" formatted="false">正在打开安装程序…</string>
+    <string name="tx_up_restart" formatted="false">LastStats 将关闭并重新启动。</string>
+    <string name="tx_up_failed" formatted="false">下载失败</string>
+    <string name="tx_up_failed_body" formatted="false">请在浏览器中打开链接以安装更新。</string>
+    <string name="tx_up_retry" formatted="false">重试</string>
+    <string name="tx_up_browser" formatted="false">在浏览器中打开</string>
+    <string name="tx_up_close" formatted="false">关闭</string>
+    <string name="tx_up_saved" formatted="false">已保存到“下载”</string>
+    <string name="tx_up_background" formatted="false">在后台继续</string>
+    <string name="tx_ntf_dl_section" formatted="false">下载</string>
+    <string name="tx_ntf_dl_title" formatted="false">下载通知</string>
+    <string name="tx_ntf_dl_sub" formatted="false">下载时显示进度条，后台也可用</string>
+    <string name="tx_ntf_dl_ready" formatted="false">下载完成</string>
+    <string name="tx_ntf_dl_failed" formatted="false">下载失败</string>
+    <string name="tx_ntf_act_read" formatted="false">标为已读</string>
+    <string name="tx_ntf_act_read_all" formatted="false">全部标为已读</string>
+    <string name="tx_ntf_act_install" formatted="false">安装</string>
+    <string name="tx_ntf_dl_install_hint" formatted="false">点按以安装更新</string>
+    <string name="tx_up_open_downloads" formatted="false">打开“下载”</string>
+    <string name="tx_ic_title" formatted="false">应用图标</string>
+    <string name="tx_ic_note" formatted="false">离开应用后图标会在应用列表中更换。主屏幕上请重新放置应用，或用下方按钮添加快捷方式。</string>
+    <string name="tx_ic_default" formatted="false">经典</string>
+    <string name="tx_ic_white" formatted="false">浅色</string>
+    <string name="tx_ic_nothing_black" formatted="false">Nothing 深色</string>
+    <string name="tx_ic_nothing_white" formatted="false">Nothing 浅色</string>
+    <string name="tx_ic_blue" formatted="false">蓝色</string>
+    <string name="tx_ic_red" formatted="false">红色</string>
+    <string name="tx_ic_pin" formatted="false">添加到主屏幕</string>
+    <string name="tx_lbl_step1_t" formatted="false">打开您的令牌页面</string>
+    <string name="tx_lbl_step1_s" formatted="false">登录 ListenBrainz，然后复制“用户令牌”。</string>
+    <string name="tx_lbl_open" formatted="false">打开 ListenBrainz</string>
+    <string name="tx_lbl_step2_t" formatted="false">粘贴令牌</string>
+    <string name="tx_lbl_paste" formatted="false">粘贴</string>
+    <string name="tx_lbl_detected" formatted="false">在剪贴板中找到令牌</string>
+    <string name="tx_lbl_use" formatted="false">使用</string>
+    <string name="tx_lbl_format_ok" formatted="false">令牌格式有效</string>
+    <string name="tx_lbl_format_bad" formatted="false">令牌形如 xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</string>
+    <string name="tx_lbl_err_format" formatted="false">这不是令牌。请不要输入用户名：请在 ListenBrainz 设置中复制“用户令牌”。</string>
+    <string name="tx_lbl_err_invalid" formatted="false">ListenBrainz 拒绝了此令牌。请检查是否完整，或复制一个新的。</string>
+    <string name="tx_lbl_err_rate" formatted="false">ListenBrainz 要求稍等片刻，请几秒后重试。</string>
+    <string name="tx_lbl_err_server" formatted="false">ListenBrainz 服务器响应异常，请稍后重试。</string>
+    <string name="tx_lbl_err_net" formatted="false">无法连接 ListenBrainz，请检查网络。</string>
+    <string name="tx_lbl_err_after" formatted="false">登录已通过，但打开应用失败：{e}</string>
+    <string name="tx_lbl_options" formatted="false">选项</string>
+    <string name="tx_lbl_why" formatted="false">令牌可加快读取历史记录，并支持收藏曲目。</string>
+    <string name="tx_lbl_connected" formatted="false">已登录为 {u}</string>
+    <string name="tx_svc_recommended" formatted="false">推荐</string>
+    <string name="tx_lfm_seg_key" formatted="false">我的密钥</string>
+    <string name="tx_lfm_seg_builtin" formatted="false">内置密钥</string>
+    <string name="tx_lfm_seg_web" formatted="false">网站</string>
+    <string name="tx_acct_lb_change" formatted="false">更换令牌</string>
+    <string name="tx_acct_lb_change_s" formatted="false">粘贴新的 ListenBrainz 令牌</string>
+    <string name="tx_acct_lb_changed" formatted="false">令牌已更新</string>
+    <string name="tx_bk_keys_desc_lb" formatted="false">选择要从此备份恢复的 ListenBrainz 登录信息。</string>
+    <string name="tx_lbl_restore_bad" formatted="false">此备份不包含可用的登录信息。</string>
+    <string name="tx_lbl_restored" formatted="false">备份已恢复</string>
+    <string name="tx_lbl_step3_t" formatted="false">登录</string>
+    <string name="tx_lbl_api_lb" formatted="false">使用您的 ListenBrainz 令牌。限制：每秒 1 次请求，自动管理。</string>
+    <string name="tx_lbl_key_needed" formatted="false">公共密钥已停用：请在 设置 › 连接 中添加您自己的 Last.fm API 密钥。</string>
+    <string name="tx_api_img_sec" formatted="false">图片来源</string>
+    <string name="tx_api_img_sub" formatted="false">拖动排序。将使用第一个找到图片的已启用来源。</string>
+    <string name="tx_api_vid_sec" formatted="false">视频来源</string>
+    <string name="tx_api_img_clear" formatted="false">清除图片缓存（应用新顺序）</string>
+    <string name="tx_api_img_cleared" formatted="false">图片缓存已清除</string>
+    <string name="tx_api_help" formatted="false">“今日请求”：自午夜起发送给各服务的调用次数。“错误”：失败的调用（服务宕机、拒绝访问或无网络）。“被限流”：服务返回“请求过多”，该服务会暂停一小段时间。</string>
+    <string name="tx_err_bad_response" formatted="false">服务器返回了无效的响应。服务可能不可用或正在维护。请稍后重试。</string>
+    <string name="tx_dash_offline_cache" formatted="false">无法连接到服务器。正在显示此设备上已保存的数据。</string>
+    <string name="tx_news_btn" formatted="false">公告</string>
+    <string name="tx_news_btn_sub" formatted="false">故障、维护和各类通知</string>
+    <string name="tx_news_load_failed" formatted="false">无法加载公告。请检查您的网络连接，然后重试。</string>
+    <string name="tx_news_retry" formatted="false">重试</string>
+    <string name="tx_faq_lfm_h" formatted="false">Last.fm 常见问题</string>
+    <string name="tx_faq_lb_h" formatted="false">ListenBrainz 常见问题</string>
+    <string name="tx_ap_cov_section" formatted="false">封面与成就</string>
+    <string name="tx_faq_lfm_q1" formatted="false">如何获取 Last.fm API 密钥？</string>
+    <string name="tx_faq_lfm_a1" formatted="false">登录 Last.fm，打开 last.fm/api/account/create，填写应用名称和简短说明（回调 URL 可以留空），然后复制 last.fm/api/accounts 上显示的“API 密钥”。将它与您的 Last.fm 用户名一起输入 LastStats。密钥属于您本人：LastStats 没有任何共享密钥。</string>
+    <string name="tx_faq_lfm_q2" formatted="false">2026 年 12 月 1 日会有什么变化？</string>
+    <string name="tx_faq_lfm_a2" formatted="false">Last.fm 已宣布，自 2026 年 12 月 1 日起，API 密钥只有在其所属的 Last.fm 账户订阅了 Last.fm Pro 时才能使用。免费账户拥有的密钥将在当天失效。只有密钥的所有者需要付费：您的收听历史和账户不会改变。如果您不想订阅，可以改用免费的 ListenBrainz。</string>
+    <string name="tx_faq_lfm_q3" formatted="false">如果我的密钥失效了会怎样？</string>
+    <string name="tx_faq_lfm_a3" formatted="false">LastStats 会继续显示已保存在您设备上的数据，但无法再加载新数据，并会显示错误提示。订阅 Last.fm Pro（或输入由 Pro 账户拥有的密钥）即可恢复正常，也可以在“设置”&gt;“账户”中切换到 ListenBrainz。</string>
+    <string name="tx_faq_lfm_q4" formatted="false">我的收听记录如何到达 Last.fm？</string>
+    <string name="tx_faq_lfm_a4" formatted="false">LastStats 只显示您的 Scrobble，自身不会记录任何内容。请使用已登录您的 Last.fm 账户的 Scrobble 应用或支持 Last.fm 的播放器（例如 Android 上的 Pano Scrobbler）。</string>
+    <string name="tx_faq_lfm_q5" formatted="false">为什么看不到我最新的 Scrobble？</string>
+    <string name="tx_faq_lfm_a5" formatted="false">请先确认您的 Scrobble 工具正常工作：该曲目必须出现在您的 last.fm 个人资料中。然后下拉屏幕刷新 LastStats。Last.fm 会限制应用可发送的请求数量，因此 LastStats 会放慢调用频率：历史记录非常庞大时，首次同步可能需要一些时间。</string>
+    <string name="tx_faq_lb_q1" formatted="false">在哪里可以找到我的 ListenBrainz 用户令牌？</string>
+    <string name="tx_faq_lb_a1" formatted="false">登录 listenbrainz.org，打开 listenbrainz.org/settings/，复制“User token”。请妥善保密：它用于识别您的身份。在 LastStats 中输入您的 ListenBrainz 用户名（即 MusicBrainz 用户名）和令牌。令牌仅保存在您的设备上。</string>
+    <string name="tx_faq_lb_q2" formatted="false">ListenBrainz 是免费的吗？</string>
+    <string name="tx_faq_lb_a2" formatted="false">是的。ListenBrainz 是非营利组织 MetaBrainz Foundation 的开源项目，可免费使用。LastStats 只需要您的用户令牌：无需创建 API 密钥。您的收听记录是以 CC0 许可发布的公开数据。</string>
+    <string name="tx_faq_lb_q3" formatted="false">为什么我的统计是空的或缺失？</string>
+    <string name="tx_faq_lb_a3" formatted="false">ListenBrainz 在自己的服务器上计算统计数据，因此新账户、大量导入之后或服务繁忙时可能会延迟。此时 API 只会回复尚未准备好。您的收听记录会先出现，统计数据随后才会出现。请稍后再试。</string>
+    <string name="tx_faq_lb_q4" formatted="false">如何把我的 Last.fm 历史记录导入 ListenBrainz？</string>
+    <string name="tx_faq_lb_a4" formatted="false">登录 listenbrainz.org（需要 MusicBrainz 账户），打开 listenbrainz.org/import-data/ 即可导入您的 Last.fm 收听记录。许多人同时导入时可能需要一些时间。切换服务时，LastStats 也会提供转移保存在您设备上的 Scrobble 的选项。</string>
+    <string name="tx_faq_lb_q5" formatted="false">如何把我的收听记录发送到 ListenBrainz？</string>
+    <string name="tx_faq_lb_a5" formatted="false">LastStats 只显示您的收听记录。若要记录，请使用兼容 ListenBrainz 的播放器或 Scrobble 应用，并使用您的令牌登录；支持的应用列表见 listenbrainz.org。请注意，您的收听记录是公开的。</string>
+    <string name="tx_yr_ctx_month" formatted="false">播放次数最多的曲目（{m}）</string>
+    <string name="tx_yr_ctx_peak" formatted="false">这些时段播放次数最多的曲目</string>
+    <string name="tx_yr_ctx_artist" formatted="false">{a} 播放次数最多的曲目</string>
+    <string name="tx_yr_ctx_disc" formatted="false">在您的新发现中播放次数最多的曲目</string>
+    <string name="tx_yr_bg_full" formatted="false">全屏图片</string>
+    <string name="tx_yr_bg_band" formatted="false">顶部横幅图片</string>
+    <string name="tx_yr_bg_none" formatted="false">无图片</string>
+    <string name="tx_yr_sum_cover" formatted="false">第 1 名的图片</string>
+    <string name="tx_yr_sum_profile" formatted="false">个人资料</string>
+    <string name="tx_yr_sum_none" formatted="false">无</string>
+</resources>

@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,TypographyEllipsis,TypographyDashes,PluralsCandidate,ImpliedQuantity,StringFormatInvalid,StringFormatMatches,Typos">
+    <string name="period7day">Semana</string>
+    <string name="period1month">Mes</string>
+    <string name="period3month">3 meses</string>
+    <string name="period6month">6 meses</string>
+    <string name="period12month">Año</string>
+    <string name="period_overall">Todo</string>
+    <string name="nav_dashboard">Panel</string>
+    <string name="nav_search">Buscar</string>
+    <string name="nav_rankings">Clasificación</string>
+    <string name="nav_charts">Gráficos</string>
+    <string name="nav_history">Historial</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="cache_title">Almacenamiento</string>
+    <string name="cache_usage">Uso</string>
+    <string name="cache_limit">Límite de almacenamiento</string>
+    <string name="cache_limit_hint">Cuando se alcanza el límite, las imágenes menos recientes se eliminan automáticamente.</string>
+    <string name="cache_clear_section">Limpiar</string>
+    <string name="cache_images">Imágenes</string>
+    <string name="cache_images_subtitle">Portadas de artistas, álbumes y canciones</string>
+    <string name="cache_api_data">Datos de la API</string>
+    <string name="cache_api_data_subtitle">Top artistas, álbumes, escuchas recientes…</string>
+    <string name="cache_scrobbles">Historial de scrobbles</string>
+    <string name="cache_clear_btn">Vaciar</string>
+    <string name="cache_confirm_scrobbles_title">¿Eliminar el historial?</string>
+    <string name="cache_confirm_scrobbles_body">Se eliminará todo el historial. Se volverá a descargar en el próximo inicio.</string>
+    <string name="cache_confirm_all_title">¿Vaciar todo el caché?</string>
+    <string name="cache_confirm_all_body">Se eliminarán las imágenes, los datos de la API y el historial.</string>
+    <string name="cache_delete">Eliminar</string>
+    <string name="common_artists">Artistas</string>
+    <string name="common_albums">Álbumes</string>
+    <string name="common_tracks">Canciones</string>
+    <string name="common_no_results">Sin resultados</string>
+    <string name="common_retry">Reintentar</string>
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_apply">Aplicar</string>
+    <string name="common_plays">reproducciones</string>
+    <string name="common_listeners">oyentes</string>
+    <string name="common_now_playing_badge">EN VIVO</string>
+    <string name="common_now_playing_long">Reproduciendo ahora</string>
+    <string name="common_recent_tracks">Canciones recientes</string>
+    <string name="common_no_recent_tracks">Sin canciones recientes</string>
+    <string name="common_top_artists">Top Artistas</string>
+    <string name="rankings_title">Clasificación</string>
+    <string name="rankings_podium">Podio</string>
+    <string name="rankings_continued">Resto de la clasificación</string>
+    <string name="rankings_all_years">Todos los años</string>
+    <string name="charts_title">Gráficos</string>
+    <string name="charts_monthly">Scrobbles (12 meses)</string>
+    <string name="charts_artist_dist">Top artistas (distribución)</string>
+    <string name="charts_mainstream_title">Mainstream vs Joyas ocultas</string>
+    <string name="charts_mainstream_subtitle">Popularidad mundial de sus artistas favoritos.</string>
+    <string name="charts_compute">Calcular</string>
+    <string name="charts_recompute">Recalcular</string>
+    <string name="charts_gem">Joya oculta</string>
+    <string name="charts_mainstream">Mainstream</string>
+    <string name="history_title">Historial</string>
+    <string name="history_subtitle">Sus escuchas, día a día</string>
+    <string name="history_today">Hoy</string>
+    <string name="history_select_date">Seleccionar una fecha</string>
+    <string name="history_chronological">Cronológico</string>
+    <string name="history_list">Lista</string>
+    <string name="history_stats">Estadísticas</string>
+    <string name="history_no_tracks">Sin escuchas ese día</string>
+    <string name="history_top_artists">Top artistas</string>
+    <string name="history_top_albums">Top álbumes</string>
+    <string name="history_top_tracks">Top canciones</string>
+    <string name="history_hour_tracks">canción</string>
+    <string name="search_title">Buscar</string>
+    <string name="search_profiles">Perfiles</string>
+    <string name="search_hint_bar">Artista, álbum, canción o perfil…</string>
+    <string name="search_hint_artists">Busque un artista</string>
+    <string name="search_hint_albums">Busque un álbum</string>
+    <string name="search_hint_tracks">Busque una canción</string>
+    <string name="search_type_prompt">Escriba en la barra de arriba</string>
+    <string name="search_all">Todo</string>
+    <string name="search_folders">Carpetas</string>
+    <string name="search_folders_hint">Cree una carpeta para guardar canciones, álbumes o artistas.</string>
+    <string name="per_day">por día</string>
+    <string name="activity_days">días activos</string>
+    <string name="dash_stats">Estadísticas</string>
+    <string name="dash_top_tracks">Top Canciones</string>
+    <string name="dash_friends">Amigos</string>
+    <string name="dash_refresh">Actualizar</string>
+    <string name="dash_refresh_friends">Actualizar amigos</string>
+    <string name="dash_scrobbles">scrobbles</string>
+    <string name="dash_scrobbles_per_day">por día</string>
+    <string name="dash_days_active">días activos</string>
+    <string name="dash_last_track">Última escucha</string>
+    <string name="dash_artist1">Artista #1</string>
+    <string name="dash_album1">Álbum #1</string>
+    <string name="dash_track1">Canción #1</string>
+    <string name="dash_no_friends">No se encontraron amigos</string>
+    <string name="dash_reset_cache">Restablecer caché</string>
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_appearance">Apariencia</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_auto">Auto</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_accent_color">Color de acento</string>
+    <string name="settings_accent_auto">Auto</string>
+    <string name="settings_custom_color">Personalizado</string>
+    <string name="settings_custom_color_edit">Editar</string>
+    <string name="settings_dynamic_color">Color dinámico</string>
+    <string name="settings_day_night_accent">Acento día/noche</string>
+    <string name="settings_day_night_accent_toggle">Colores diferentes de día y de noche</string>
+    <string name="settings_day_night_accent_toggle_sub">Usa un color de acento diferente para el tema oscuro.</string>
+    <string name="settings_day_night_accent_dark">Color (tema oscuro)</string>
+    <string name="settings_day_night_use_hours">Usar horas específicas</string>
+    <string name="settings_day_night_use_hours_sub">Cambia de color según la hora en lugar del tema activo.</string>
+    <string name="settings_day_night_day_start">El día empieza a las</string>
+    <string name="settings_day_night_night_start">La noche empieza a las</string>
+    <string name="settings_material_you">Material You</string>
+    <string name="settings_material_you_sub">Usa los colores del fondo de pantalla de Android (Android 12 o posterior)</string>
+    <string name="settings_music_color">Color desde la música</string>
+    <string name="settings_music_color_sub">Toma el color de acento de la portada de la canción que suena</string>
+    <string name="settings_music_color_note">El color dominante de la carátula actual reemplaza el acento.</string>
+    <string name="settings_music_color_locked">Desactive Material You primero</string>
+    <string name="settings_startup_page">Página de inicio</string>
+    <string name="settings_startup_tab">Pestaña al abrir</string>
+    <string name="settings_dashboard_section">Panel</string>
+    <string name="settings_header_image">Imagen de cabecera</string>
+    <string name="settings_header_image_sub">La carátula elegida se muestra como fondo de inicio.</string>
+    <string name="settings_header_source">Fuente</string>
+    <string name="settings_header_period">Período</string>
+    <string name="settings_header_animation">Transición</string>
+    <string name="settings_header_animation_sub">Animación al cambiar de carátula.</string>
+    <string name="settings_header_blur">Desenfoque</string>
+    <string name="settings_header_blur_none">Ninguno</string>
+    <string name="settings_header_custom_url">URL de la imagen</string>
+    <string name="settings_header_custom_url_hint">https://ejemplo.com/imagen.jpg</string>
+    <string name="settings_header_custom_url_sub">Pegue la URL directa de una imagen (jpg, png, webp…).</string>
+    <string name="settings_header_apply">Aplicar</string>
+    <string name="settings_header_fallback">Imagen predeterminada</string>
+    <string name="settings_header_fallback_sub">Imagen que se muestra en la cabecera cuando no suena música.</string>
+    <string name="settings_header_fallback_url_label">URL de la imagen predeterminada</string>
+    <string name="settings_visible_sections">Secciones visibles</string>
+    <string name="settings_now_playing_section">Reproduciendo ahora</string>
+    <string name="settings_stats_section">Estadísticas</string>
+    <string name="settings_top_artists_section">Top Artistas</string>
+    <string name="settings_top_tracks_section">Top Canciones</string>
+    <string name="settings_friends_section">Amigos</string>
+    <string name="settings_account">Cuenta</string>
+    <string name="settings_logout">Cerrar sesión</string>
+    <string name="settings_logout_title">¿Cerrar sesión?</string>
+    <string name="settings_logout_content">Sus credenciales se eliminarán.</string>
+    <string name="settings_logout_confirm">Cerrar sesión</string>
+    <string name="settings_backup">Copia de seguridad y restauración</string>
+    <string name="settings_export">Exportar ajustes</string>
+    <string name="settings_export_sub">Copia sus ajustes en formato JSON al portapapeles, para guardarlos o compartirlos</string>
+    <string name="settings_import">Restaurar una copia de seguridad</string>
+    <string name="settings_import_sub">Restaura sus ajustes a partir de un JSON exportado antes</string>
+    <string name="settings_backup_info">Incluye: tema, colores, clave API, usuario, cabecera, favoritos. Compatible entre versiones.</string>
+    <string name="settings_updates">Actualizaciones</string>
+    <string name="settings_auto_update">Verificación automática</string>
+    <string name="settings_auto_update_sub">Busca una versión nueva en segundo plano, una vez al día.</string>
+    <string name="settings_check_now">Verificar ahora</string>
+    <string name="settings_up_to_date">Actualizado</string>
+    <string name="settings_check_failed">No se pudo comprobar si hay actualizaciones. Revise su conexión a internet e inténtelo de nuevo.</string>
+    <string name="settings_download">Descargar</string>
+    <string name="settings_view_release">Ver</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_version">Versión</string>
+    <string name="settings_web_version">Versión web</string>
+    <string name="settings_web_version_sub">sanobld.github.io/LastStats</string>
+    <string name="settings_source_code">Código fuente</string>
+    <string name="settings_source_code_sub">github.com/SanoBld/LastStats-App</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_about_project_desc">LastStats es un proyecto personal de código abierto. Puede contener errores.</string>
+    <string name="settings_about_support">Apoye el proyecto</string>
+    <string name="settings_about_support_sub">⭐ Deje una estrella en GitHub</string>
+    <string name="settings_faq">Preguntas frecuentes</string>
+    <string name="header_now_playing">Reproduciendo ahora</string>
+    <string name="header_top_track">Canción #1</string>
+    <string name="header_top_album">Álbum #1</string>
+    <string name="header_top_artist">Artista #1</string>
+    <string name="header_custom_image">Imagen personalizada</string>
+    <string name="header_theme_color">Color del tema</string>
+    <string name="header_anim_none">Ninguna</string>
+    <string name="header_anim_fade">Desvanecer</string>
+    <string name="header_anim_slide">Deslizar</string>
+    <string name="header_anim_zoom">Zoom</string>
+    <string name="header_period_week">Semana</string>
+    <string name="header_period_month">Mes</string>
+    <string name="header_period_all_time">Todo el tiempo</string>
+    <string name="color_picker_title">Color personalizado</string>
+    <string name="color_picker_hue">Tono</string>
+    <string name="color_picker_saturation">Saturación</string>
+    <string name="color_picker_brightness">Brillo</string>
+    <string name="color_picker_quick_colors">Colores rápidos</string>
+    <string name="color_picker_invalid">Formato inválido</string>
+    <string name="color_custom_tooltip">Personalizado</string>
+    <string name="export_title">Exportar ajustes</string>
+    <string name="export_filename">Nombre del archivo</string>
+    <string name="export_json_content">Contenido JSON</string>
+    <string name="export_info">Copie este JSON, péguelo en un archivo de texto y nómbrelo con .json</string>
+    <string name="export_copy">Copiar JSON</string>
+    <string name="export_copied">¡Copiado!</string>
+    <string name="import_title">Restaurar una copia de seguridad</string>
+    <string name="import_hint_label">Pegue aquí su copia de seguridad de LastStats.</string>
+    <string name="import_empty">No hay nada que importar: el campo está vacío. Pegue el JSON que exportó desde LastStats.</string>
+    <string name="import_invalid_json">JSON inválido.</string>
+    <string name="import_unknown_file">Archivo no reconocido.</string>
+    <string name="import_invalid_format">Formato inválido.</string>
+    <string name="import_success">Ajustes restaurados con éxito ✓</string>
+    <string name="import_restore">Restaurar</string>
+    <string name="setup_import_json">Importar JSON</string>
+    <string name="setup_import_hint_label">Pegue el contenido de su archivo JSON abajo.</string>
+    <string name="setup_import_note">{ \"username\": \"…\", \"api_key\": \"…\" }</string>
+    <string name="setup_import_format">{ \"username\": \"...\", \"api_key\": \"...\" }</string>
+    <string name="setup_invalid_fields">JSON inválido: faltan los campos \"username\" o \"api_key\".</string>
+    <string name="detail_tracklist">Canciones</string>
+    <string name="detail_album_label">Álbum</string>
+    <string name="detail_duration">Duración</string>
+    <string name="detail_top_tracks">Canciones populares</string>
+    <string name="detail_top_albums">Álbumes populares</string>
+    <string name="detail_bio_read_more">Leer más</string>
+    <string name="detail_bio_read_less">Leer menos</string>
+    <string name="detail_user_plays">sus reproducciones</string>
+    <string name="detail_global_plays">reproducciones totales</string>
+    <string name="detail_user_rank">posición</string>
+    <string name="detail_user_rank_na">N/D</string>
+    <string name="detail_global_listeners">oyentes</string>
+    <string name="detail_period">Período</string>
+    <string name="detail_biography">Biografía</string>
+    <string name="detail_global_listeners_label">Oyentes</string>
+    <string name="detail_translate">Traducir</string>
+    <string name="detail_show_original">Ver original</string>
+    <string name="detail_lyrics">Letra</string>
+    <string name="detail_lyrics_not_found">Letra no disponible</string>
+    <string name="detail_copy_lyrics">Copiar letra</string>
+    <string name="detail_lyrics_copied">Letra copiada</string>
+    <string name="detail_shoutbox">Chat de Last.fm</string>
+    <string name="detail_shoutbox_reply">Responder</string>
+    <string name="dash_per_week">por semana</string>
+    <string name="onboard_skip">Omitir</string>
+    <string name="onboard_next">Siguiente</string>
+    <string name="onboard_finish">Finalizar</string>
+    <string name="onboard_back">Atrás</string>
+    <string name="onboard_appearance_title">Personalice su estilo</string>
+    <string name="onboard_appearance_sub">Elija el tema claro u oscuro, el color de acento y las opciones de visualización.</string>
+    <string name="onboard_notif_title">Manténgase informado</string>
+    <string name="onboard_notif_sub">Elija qué notificaciones desea recibir y si el teléfono debe vibrar.</string>
+    <string name="onboard_fav_title">Sus perfiles favoritos</string>
+    <string name="onboard_fav_add">Añadir</string>
+    <string name="onboard_fav_empty">Sin favoritos por ahora</string>
+    <string name="onboard_fav_no_results">No se encontró ningún perfil</string>
+    <string name="onboard_fav_no_friends">No se encontraron amigos en esta cuenta</string>
+    <string name="onboard_fav_selected">Favoritos seleccionados</string>
+    <string name="onboard_dash_title">Su panel</string>
+    <string name="onboard_dash_sub">Elija qué secciones mostrar en la pantalla de inicio. Podrá cambiarlas más tarde en los ajustes.</string>
+    <string name="onboard_startup_title">Pantalla de inicio</string>
+    <string name="onboard_startup_sub">Elija qué pestaña se abre primero al iniciar la aplicación.</string>
+    <string name="onboard_platform_title">¿Dónde escucha música?</string>
+    <string name="onboard_platform_sub">Indique dónde escucha música. La aplicación mostrará solo los enlaces útiles en las páginas de canciones, artistas y álbumes.</string>
+    <string name="platform_lastfm">Last.fm</string>
+    <string name="platform_spotify">Spotify</string>
+    <string name="platform_yt_music">YouTube Music</string>
+    <string name="platform_other">Otra / mostrar todo</string>
+    <string name="settings_music_platform">Plataforma musical</string>
+    <string name="settings_music_platform_sub">Solo muestra los enlaces de su servicio de música en las páginas de artista, álbum y canción</string>
+    <string name="settings_show_all_platform_links">Mostrar siempre todo</string>
+    <string name="onboard_updates_title">Actualizaciones</string>
+    <string name="onboard_updates_sub">La aplicación comprueba automáticamente si hay una versión nueva disponible.</string>
+    <string name="onboard_preview">Vista previa</string>
+    <string name="onboard_preview_button">Botón</string>
+    <string name="onboard_preview_outline">Botón principal</string>
+    <string name="onboard_preview_text">Texto de ejemplo</string>
+    <string name="onboard_preview_bubble">Burbuja</string>
+    <string name="onboard_display">Pantalla</string>
+    <string name="onboard_oled_title">Negro OLED</string>
+    <string name="onboard_oled_sub">El fondo se vuelve completamente negro en el modo oscuro, lo que ahorra batería en las pantallas OLED.</string>
+    <string name="onboard_artwork_color_title">Color desde la carátula</string>
+    <string name="onboard_artwork_color_sub">El color de acento de la aplicación se adapta automáticamente a la portada de la canción que se está reproduciendo.</string>
+    <string name="onboard_news_title">Notificaciones de novedades</string>
+    <string name="onboard_news_sub">Se le avisa cuando se añade una función nueva o se corrige un problema.</string>
+    <string name="onboard_news_badge_title">Punto de novedades</string>
+    <string name="onboard_news_badge_sub">Aparece un punto en la campana de la pantalla de inicio cuando hay algo nuevo por leer.</string>
+    <string name="onboard_haptic_title">Retroalimentación háptica</string>
+    <string name="onboard_haptic_sub">El teléfono vibra ligeramente cuando toca los botones y los elementos importantes.</string>
+    <string name="onboard_recaps">Resúmenes</string>
+    <string name="onboard_daily_recap_title">Resumen diario</string>
+    <string name="onboard_daily_recap_sub">Cada día, reciba un resumen de lo que ha escuchado.</string>
+    <string name="onboard_weekly_recap_title">Resumen semanal</string>
+    <string name="onboard_weekly_recap_sub">Cada semana, reciba la lista de sus artistas, álbumes y canciones más escuchados.</string>
+    <string name="onboard_milestones_section">Hitos de scrobbles</string>
+    <string name="onboard_milestones_title">Hitos</string>
+    <string name="onboard_milestones_sub">Una notificación le felicita cuando su número de reproducciones llega a una cifra redonda.</string>
+    <string name="onboard_grand_milestones_title">Grandes hitos</string>
+    <string name="onboard_grand_milestones_sub">Aparece una celebración especial cuando alcanza un número muy grande de reproducciones.</string>
+    <string name="onboard_dynamic_color_sub">La aplicación usa los colores de su fondo de pantalla. Esta opción está disponible a partir de Android 12.</string>
+    <string name="onboard_beta_title">Actualizaciones beta</string>
+    <string name="onboard_beta_sub">Reciba las versiones de prueba antes que nadie. Pueden contener errores.</string>
+    <string name="notif_detail_title">Notificación</string>
+    <string name="notif_detail_open_link">Abrir enlace</string>
+    <string name="settings_checking_updates">Buscando actualizaciones…</string>
+    <string name="settings_tap_to_download">Toque para descargar</string>
+    <string name="detail_looking_for_preview">Buscando un adelanto…</string>
+    <string name="detail_preview30_sec">Adelanto · 30 seg</string>
+    <string name="setup_analyse_profile">Analizar un perfil</string>
+    <string name="setup_connecting">Conectando…</string>
+    <string name="setup_start_analysis">Iniciar análisis</string>
+    <string name="setup_or">o</string>
+    <string name="setup_username_label">Usuario de Last.fm</string>
+    <string name="setup_api_key_label">Clave API de Last.fm</string>
+    <string name="setup_api_key_hint">Clave hexadecimal de 32 caracteres</string>
+    <string name="setup_api_key_privacy_note">Su clave se guarda únicamente en este dispositivo y nunca se envía a terceros.</string>
+    <string name="setup_remember_me">Recordarme</string>
+    <string name="setup_get_api_key">Obtener una clave API gratis</string>
+    <string name="setup_welcome_banner">¡Bienvenido a LastStats!</string>
+    <string name="setup_one_time_import_note">Importación única, los próximos inicios serán instantáneos.</string>
+    <string name="dash_tap_to_download">Toque para descargar.</string>
+    <string name="dash_week_label">ESTA SEMANA</string>
+    <string name="dash_month_label">ESTE MES</string>
+    <string name="dash_year_label">ESTE AÑO</string>
+    <string name="dash_top_artist_label">Artista más escuchado</string>
+    <string name="dash_top_track_label">Canción más escuchada</string>
+    <string name="dash_scrobbles_label">Scrobbles</string>
+    <string name="news_type_features">Funciones</string>
+    <string name="news_type_fixes">Correcciones</string>
+    <string name="news_type_updates">Actualizaciones</string>
+    <string name="news_type_alerts">Alertas</string>
+    <string name="news_type_info">Info</string>
+    <string name="news_whats_new">Novedades</string>
+    <string name="news_filters">Filtros</string>
+    <string name="news_all">Todo</string>
+    <string name="news_any_date">Cualquier fecha</string>
+    <string name="news_no_news_yet">Sin novedades por ahora</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_cache">Caché</string>
+    <string name="settings_card_appearance_sub">Tema, acento, diseño, Material You</string>
+    <string name="settings_card_dashboard_sub">Imagen de cabecera, secciones visibles, tarjetas de estadísticas</string>
+    <string name="settings_card_startup_sub">Pestaña mostrada al iniciar la app</string>
+    <string name="settings_card_notifications_sub">Hitos, resúmenes diarios y semanales</string>
+    <string name="settings_sync">Sincronización</string>
+    <string name="settings_card_sync_sub">Sincronización automática en segundo plano</string>
+    <string name="settings_card_cache_sub">Historial, imágenes, datos de la API</string>
+    <string name="settings_card_backup_sub">Exportar y restaurar sus ajustes</string>
+    <string name="settings_card_updates_sub">Buscar nuevas versiones</string>
+    <string name="settings_card_about_sub">Versión, código fuente, créditos</string>
+    <string name="settings_card_faq_sub">Scrobbling, plataformas, código abierto</string>
+    <string name="settings_restart_notice">Algunos ajustes requieren reiniciar la app para aplicarse por completo.</string>
+    <string name="sync_page_title">Sincronización de scrobbles</string>
+    <string name="sync_auto_title">Sincronización automática</string>
+    <string name="sync_auto_subtitle">Sincroniza su historial en segundo plano a intervalos regulares</string>
+    <string name="sync_frequency_label">Frecuencia</string>
+    <string name="sync_frequency_daily">Una vez al día</string>
+    <string name="sync_manual_title">Sincronización manual</string>
+    <string name="sync_now_button">Sincronizar ahora</string>
+    <string name="sync_in_progress">Sincronizando…</string>
+    <string name="sync_last_sync_label">Última sincronización</string>
+    <string name="sync_never_label">Nunca</string>
+    <string name="sync_total_scrobbles_label">Scrobbles en caché</string>
+    <string name="sync_up_to_date_msg">Historial al día: no hay scrobbles nuevos que descargar</string>
+    <string name="sync_notif_note">Durante una sincronización completa aparece una notificación con progreso.</string>
+    <string name="pc_mode_layout">Diseño</string>
+    <string name="pc_mode_nav_layout">Diseño de navegación</string>
+    <string name="pc_mode_auto">Auto</string>
+    <string name="pc_mode_side_rail">Barra lateral</string>
+    <string name="pc_mode_bottom_bar">Barra inferior</string>
+    <string name="pc_mode_hint_auto">Barra lateral en pantallas anchas (≥ 720 dp), barra inferior en pantallas estrechas.</string>
+    <string name="pc_mode_hint_on">Usar siempre la barra de navegación lateral, sin importar el tamaño de pantalla.</string>
+    <string name="pc_mode_hint_off">Usar siempre la barra de navegación inferior, sin importar el tamaño de pantalla.</string>
+    <string name="about_app_info">Información de la app</string>
+    <string name="about_scrobble_downloader">Descargador de scrobbles</string>
+    <string name="about_scrobble_downloader_sub">Descargue todo su historial de scrobbles y guárdelo en un archivo</string>
+    <string name="about_powered_by">Con la ayuda de</string>
+    <string name="about_image_disclaimer">Las imágenes de artistas, álbumes y canciones se obtienen automáticamente de estas fuentes y a veces pueden ser incorrectas o no coincidir con el contenido real.</string>
+    <string name="about_footer">Hecho con ❤️ · Sin afiliación con Last.fm</string>
+    <string name="updates_current_version">Versión actual</string>
+    <string name="updates_beta_title">Actualizaciones beta</string>
+    <string name="updates_beta_sub">Reciba acceso anticipado a las versiones preliminares</string>
+    <string name="backup_whats_included">Qué incluye</string>
+    <string name="backup_download_file">Descargue un archivo .json</string>
+    <string name="backup_choose_file">Elegir un archivo de copia de seguridad</string>
+    <string name="backup_file_saved">Copia de seguridad guardada</string>
+    <string name="backup_file_save_failed">No se pudo guardar el archivo de copia de seguridad. Compruebe que hay espacio libre y que la app puede escribir en la carpeta, e inténtelo de nuevo.</string>
+    <string name="setup_restore_backup">Restaurar una copia de seguridad</string>
+    <string name="setup_restore_backup_sub">Recupere su cuenta y sus ajustes desde un archivo de copia de seguridad en formato .json.</string>
+    <string name="backup_restore_keys_title">Restaurar claves de API</string>
+    <string name="backup_restore_keys_desc">Elija qué claves de Last.fm restaurar desde esta copia de seguridad.</string>
+    <string name="backup_restore_api_key_label">Clave de API</string>
+    <string name="backup_restore_secret_key_label">Clave secreta</string>
+    <string name="backup_include_folders_label">Incluir carpetas</string>
+    <string name="backup_include_folders_desc">Incluye sus carpetas de canciones y su contenido.</string>
+    <string name="backup_include_keys_desc">Incluir las claves en el archivo exportado</string>
+    <string name="backup_include_themes_label">Exportar temas</string>
+    <string name="backup_include_themes_desc">Le permite compartir solo el aspecto (colores, estilo) con otra persona.</string>
+    <string name="backup_auto_title">Copia de seguridad automática</string>
+    <string name="backup_auto_enable_label">Activar copia de seguridad automática</string>
+    <string name="backup_auto_enable_desc">Guarda una copia de seguridad sola, en el intervalo elegido abajo.</string>
+    <string name="backup_auto_freq_label">Frecuencia</string>
+    <string name="backup_auto_freq_daily">Cada día</string>
+    <string name="backup_auto_freq_weekly">Cada semana</string>
+    <string name="backup_auto_freq_monthly">Cada mes</string>
+    <string name="backup_auto_freq_yearly">Cada año</string>
+    <string name="backup_auto_folder_label">Carpeta de copia de seguridad</string>
+    <string name="backup_auto_folder_default">Carpeta predeterminada de la app</string>
+    <string name="backup_include_scrobbles_label">Incluir todo el historial</string>
+    <string name="backup_include_scrobbles_desc">Añade todas las canciones escuchadas desde el principio (puede ser grande).</string>
+    <string name="backup_scrobbles_slow_warning">Esto puede tardar un poco y es más lento que una copia de seguridad normal.</string>
+    <string name="backup_scrobbles_error_title">Error en el historial</string>
+    <string name="backup_scrobbles_error_desc">Algunos años del historial parecen estar dañados en este archivo. ¿Qué quiere hacer?</string>
+    <string name="backup_scrobbles_keep_anyway">Continuar de todos modos</string>
+    <string name="backup_scrobbles_cancel">Cancelar historial</string>
+    <string name="backup_scrobbles_skip_refetch">Omitir y volver a descargar en línea</string>
+    <string name="settings_crash_log">Registro de errores</string>
+    <string name="backup_crash_log_desc">Guarda los errores que encuentra la app, útil para reportar un fallo.</string>
+    <string name="backup_crash_log_share">Compartir registro</string>
+    <string name="backup_crash_log_clear">Vaciar registro</string>
+    <string name="backup_crash_log_empty">No hay errores registrados</string>
+    <string name="backup_crash_log_cleared">Registro vaciado</string>
+    <string name="backup_crash_log_clear_confirm">¿Vaciar el registro de errores?</string>
+    <string name="faq_section_label">Preguntas frecuentes</string>
+    <string name="backup_overwrite_warning">Restaurar una copia de seguridad sobrescribirá sus ajustes actuales.</string>
+    <string name="faq_open_source_badge">LastStats es un proyecto gratuito y de código abierto hecho con ❤️ por SanoBld.</string>
+    <string name="cache_unlimited">Ilimitado</string>
+    <string name="cache_total_used">Total usado</string>
+    <string name="cache_scrobbles_short">Historial</string>
+    <string name="restart_hint_features">Algunas funciones pueden requerir reiniciar la app para surtir efecto.</string>
+    <string name="reorder_cards_title">Reordenar tarjetas</string>
+    <string name="common_save">Guardar</string>
+    <string name="dash_fallback_when_no_music">Cuando no hay música sonando</string>
+    <string name="dash_fallback_choose_display">Elija qué mostrar de fondo en su lugar</string>
+    <string name="dash_fallback_period_label">Período del n.º 1 mostrado</string>
+    <string name="fallback_period1_week">1 semana</string>
+    <string name="fallback_period1_month">1 mes</string>
+    <string name="fallback_period_all_time">Todo el tiempo</string>
+    <string name="fallback_type_nothing">Nada</string>
+    <string name="fallback_type_top_track">Canción #1</string>
+    <string name="fallback_type_top_album">Álbum #1</string>
+    <string name="fallback_type_top_artist">Artista #1</string>
+    <string name="fallback_type_custom_image">Imagen personalizada</string>
+    <string name="fallback_will_show_custom_url">Mostrará: URL de imagen personalizada</string>
+    <string name="dash_animation_blur_section">Animación y desenfoque</string>
+    <string name="dash_music_animation_title">Fondo animado de música</string>
+    <string name="dash_music_animation_sub">Mientras suena música, la imagen de cabecera se convierte en un fondo vivo: desenfoque, colores que derivan y una respiración suave.</string>
+    <string name="dash_music_animation_info">El desenfoque es automático en este modo (el control no tiene efecto). Si la carátula en vídeo está activa, se reproduce encima y el fondo se pausa.</string>
+    <string name="settings_top_albums_section">Top Álbumes</string>
+    <string name="dash_recent_plays_label">Reproducciones recientes</string>
+    <string name="dash_stat_cards_section_label">Tarjetas de estadísticas</string>
+    <string name="dash_stat_cards_heading">Tarjetas de stats</string>
+    <string name="dash_stat_cards_sub">Elija y reordene las tarjetas mostradas en el bloque de estadísticas.</string>
+    <string name="settings_dashboard_chart_section">Gráfico del panel</string>
+    <string name="dash_chart_calendar_label">Calendario de escucha</string>
+    <string name="dash_chart_monthly_label">Barras mensuales</string>
+    <string name="settings_display_name_section">Nombre personalizado</string>
+    <string name="settings_display_name_label">¿Cómo quiere que le llamemos?</string>
+    <string name="settings_display_name_hint">Ej. Noham — déjelo vacío para usar el nombre de su cuenta</string>
+    <string name="news_search_hint">Buscar en las noticias…</string>
+    <string name="about_open_source_libs">Bibliotecas de código abierto</string>
+    <string name="about_open_source_libs_sub">Todos los paquetes de Flutter usados para crear la app.</string>
+    <string name="about_license_section">Licencia</string>
+    <string name="about_license_text">Este proyecto se publica bajo la licencia GNU GPL v3: es libre de usarlo, modificarlo y redistribuirlo, siempre que las obras derivadas sigan siendo de código abierto con la misma licencia y se mencione mi nombre.</string>
+    <string name="about_license_link">Ver licencia completa</string>
+    <string name="language_ai_note">Las traducciones fueron generadas por IA y pueden contener imprecisiones.</string>
+    <string name="about_ai_dev_note">La IA también se usó para desarrollar esta app.</string>
+    <string name="notif_work_manager_info">Las notificaciones se ejecutan en segundo plano mediante WorkManager. La app no necesita estar abierta. Se requiere conexión a internet.</string>
+    <string name="notif_interval_title">Cada X scrobbles</string>
+    <string name="notif_interval_subtitle">Reciba un aviso cada vez que sume un número fijo de scrobbles</string>
+    <string name="notif_recaps_section">Resúmenes de escucha</string>
+    <string name="notif_daily_recap_subtitle">Total de scrobbles + artista favorito del día</string>
+    <string name="notif_weekly_recap_subtitle">Total de scrobbles + artista favorito de la semana</string>
+    <string name="notif_news_section">Actualidad</string>
+    <string name="notif_sync_section">Sincronización</string>
+    <string name="notif_sync_title">Notificaciones de sincronización</string>
+    <string name="notif_sync_subtitle">Avisa cuando termina una sincronización del historial</string>
+    <string name="notif_sync_detail_title">Detalle del progreso</string>
+    <string name="notif_sync_detail_subtitle">Mostrar el avance (año actual, contador) durante la sincronización</string>
+    <string name="notif_news_subtitle">Reciba avisos de nuevas funciones, correcciones y anuncios</string>
+    <string name="notif_badge_on_dashboard">Insignia en el panel</string>
+    <string name="notif_badge_subtitle">Muestra un punto en la campana de novedades cuando hay anuncios sin leer</string>
+    <string name="notif_test_label">Prueba</string>
+    <string name="notif_permission_disabled_title">Notificaciones desactivadas</string>
+    <string name="notif_permission_disabled_body">Active las notificaciones en los ajustes del sistema para que LastStats pueda enviarle resúmenes, hitos y novedades.</string>
+    <string name="notif_grant_permission">Conceder permiso</string>
+    <string name="notif_threshold_intro">Recibirá una notificación especial en cada uno de estos hitos:</string>
+    <string name="notif_interval_description">Recibirá un aviso cada vez que alcance X scrobbles nuevos</string>
+    <string name="notif_custom_value_label">Valor personalizado</string>
+    <string name="notif_time_notify_at">Notificar a</string>
+    <string name="notif_day_of_week">Día de la semana</string>
+    <string name="week_abbrev">S</string>
+    <string name="notif_send_test">Enviar una notificación de prueba</string>
+    <string name="notif_sent_check_bar">¡Revise su barra de notificaciones!</string>
+    <string name="notif_make_sure_works">Compruebe que las notificaciones funcionan bien en su teléfono.</string>
+    <string name="notif_sent_bang">¡Enviado!</string>
+    <string name="notif_send_button">Enviar</string>
+    <string name="ap_visual_style">Estilo visual</string>
+    <string name="ap_style_default">Predeterminado</string>
+    <string name="ap_nothing_accent_label">Acento</string>
+    <string name="ap_nothing_classic">Clásico</string>
+    <string name="ap_red_only_desc">Solo rojo</string>
+    <string name="ap_nothing_mixed">Mixto</string>
+    <string name="ap_red_yellow_desc">Rojo + toques amarillos</string>
+    <string name="ap_nothing_active_banner">Estilo Nothing OS activo. El acento, el color dinámico y el color de la música están desactivados.</string>
+    <string name="ap_nothing_oled_inherent">El modo oscuro de Nothing es negro OLED de forma nativa. No hace falta activar OLED.</string>
+    <string name="ap_oled_title">Tema negro OLED</string>
+    <string name="ap_oled_built_into_nothing">Integrado en el modo oscuro de Nothing</string>
+    <string name="ap_oled_pure_black">Fondos negros puros cuando el modo oscuro está activo</string>
+    <string name="ap_custom_color_tooltip">Color personalizado</string>
+    <string name="ap_color_when_nothing_plays">Color cuando no suena nada</string>
+    <string name="ap_color_when_nothing_plays_sub">Acento usado cuando no hay ninguna pista sonando</string>
+    <string name="ap_keep_last_artwork_title">Mantener el último color de portada</string>
+    <string name="ap_keep_last_artwork_sub">Mantener el último color de portada en lugar de restablecerlo cuando no suena nada</string>
+    <string name="ap_detail_pages_section">Páginas de detalle</string>
+    <string name="ap_artwork_color_theme">Tema de color de la portada</string>
+    <string name="ap_artwork_color_theme_sub">Las páginas de detalle adaptan sus colores al color dominante de la portada</string>
+    <string name="ap_nav_bar_section">Barra de navegación</string>
+    <string name="ap_show_tab_labels">Mostrar etiquetas de pestañas</string>
+    <string name="ap_show_tab_labels_sub">Mostrar los nombres de las pestañas debajo de los iconos</string>
+    <string name="ap_interactions_section">Interacciones</string>
+    <string name="ap_haptic_feedback_sub">Vibraciones en toques, selecciones y gestos</string>
+    <string name="acct_remove_title">¿Eliminar cuenta?</string>
+    <string name="acct_remove_action">Eliminar</string>
+    <string name="acct_already_added_or_full">Esta cuenta ya está añadida o la lista está llena.</string>
+    <string name="acct_logout_all_body">Se eliminarán todas las cuentas. Volverá a la pantalla de configuración.</string>
+    <string name="acct_active">Activa</string>
+    <string name="acct_tap_switch_to_activate">Toque \"Cambiar\" para activar</string>
+    <string name="acct_switch">Cambiar</string>
+    <string name="acct_add_an_account">Añadir una cuenta</string>
+    <string name="acct_api_key_info">Cada cuenta puede usar una clave API distinta o la misma. Puede encontrar su clave API en last.fm/api/accounts.</string>
+    <string name="acct_lastfm_profile_section">Perfil de Last.fm</string>
+    <string name="acct_view_on_lastfm">Ver en Last.fm</string>
+    <string name="acct_danger_zone">Zona de peligro</string>
+    <string name="acct_logout_all_sub">Eliminar todas las cuentas y volver a la configuración.</string>
+    <string name="acct_username_required">El nombre de usuario es obligatorio.</string>
+    <string name="acct_api_key_required">La clave API es obligatoria.</string>
+    <string name="acct_username_label">Usuario de Last.fm</string>
+    <string name="acct_same_api_key">Misma clave API que la cuenta activa</string>
+    <string name="acct_api_key_label">Clave API</string>
+    <string name="acct_add">Añadir</string>
+    <string name="language_change_note">El idioma cambia de inmediato en toda la app.</string>
+    <string name="dash_total_scrobbles_label">Total de scrobbles</string>
+    <string name="dash_member_since_label">Miembro desde</string>
+    <string name="dash_country_label">País</string>
+    <string name="dash_artist_week_label">Artista #1 (semana)</string>
+    <string name="dash_album_week_label">Álbum #1 (semana)</string>
+    <string name="dash_track_week_label">Canción #1 (semana)</string>
+    <string name="dash_unique_artists_label">Artistas únicos</string>
+    <string name="dash_unique_tracks_label">Canciones únicas</string>
+    <string name="dash_unique_albums_label">Álbumes únicos</string>
+    <string name="dash_this_week_label">Esta semana</string>
+    <string name="dash_day_unit_short">d</string>
+    <string name="setup_enable_favorites">Activar favoritos (opcional)</string>
+    <string name="setup_favorites_explain">Su clave secreta permite a la aplicación añadir una canción a sus favoritos, o quitarla, directamente en su cuenta de Last.fm.</string>
+    <string name="setup_secret_key_label">Clave secreta de Last.fm</string>
+    <string name="fav_connect_invalid_secret">La clave secreta debe tener 32 caracteres.</string>
+    <string name="fav_connect_dialog_title">Autorizar favoritos</string>
+    <string name="fav_connect_dialog_body">Autorice la app en la página de Last.fm abierta en su navegador y luego vuelva aquí para confirmar.</string>
+    <string name="fav_connect_dialog_confirm">Ya autoricé</string>
+    <string name="fav_connect_success">¡Favoritos activados con éxito!</string>
+    <string name="fav_connect_error">No se pudieron activar los favoritos. Compruebe que su clave secreta es correcta y que ha autorizado LastStats en Last.fm, e inténtelo de nuevo.</string>
+    <string name="acct_api_keys_section">Claves API</string>
+    <string name="acct_secret_key_label">Clave secreta</string>
+    <string name="acct_secret_key_not_set">No configurada</string>
+    <string name="acct_favorites_explain">La clave secreta permite marcar (o quitar) canciones como favoritas directamente en Last.fm.</string>
+    <string name="acct_connect_favorites">Activar favoritos</string>
+    <string name="acct_disconnect_favorites">Desactivar favoritos</string>
+    <string name="settings_favorites_section">Favoritos</string>
+    <string name="settings_favorites_section_sub">Muestra el número de favoritos en las estadísticas</string>
+    <string name="settings_favorites_needs_key">Añada su clave secreta en Cuenta para activar</string>
+    <string name="fav_section_title">Favoritos</string>
+    <string name="common_see_more">Ver más</string>
+    <string name="fav_page_title">Mis favoritos</string>
+    <string name="fav_search_hint">Buscar una canción o artista</string>
+    <string name="fav_empty">Aún no tiene favoritos. Toque el corazón de una canción para añadirla.</string>
+    <string name="settings_loved_badge_title">Insignia de corazón discreta</string>
+    <string name="settings_loved_badge_sub">Muestra un pequeño corazón en las canciones favoritas en reproducciones recientes, historial y búsqueda</string>
+    <string name="fav_sort_recent">Recientes</string>
+    <string name="fav_sort_oldest">Antiguos</string>
+    <string name="fav_sort_artist_az">Artista A-Z</string>
+    <string name="fav_sort_title_az">Título A-Z</string>
+    <string name="fav_folder_sort_custom">Manual</string>
+    <string name="fav_folders_all">Todos</string>
+    <string name="fav_folder_new">Nueva carpeta</string>
+    <string name="fav_folder_name_placeholder">Nombre de la carpeta</string>
+    <string name="fav_folder_custom_emoji_title">Elija un emoji</string>
+    <string name="fav_folder_custom_emoji_helper">Solo un emoji, sin texto.</string>
+    <string name="fav_folder_desc_placeholder">Descripción (opcional)</string>
+    <string name="fav_folder_recently_played">Escuchado recientemente</string>
+    <string name="fav_folder_create">Crear</string>
+    <string name="fav_folder_edit">Editar carpeta</string>
+    <string name="fav_folder_delete">Eliminar</string>
+    <string name="fav_folder_delete_confirm">¿Eliminar esta carpeta? Las canciones dejarán de estar organizadas en ella.</string>
+    <string name="fav_folder_assign_title">Añadir a una carpeta</string>
+    <string name="fav_folder_emoji">Emoji</string>
+    <string name="fav_folder_color">Color</string>
+    <string name="fav_folder_save">Guardar</string>
+    <string name="fav_folder_empty">Esta carpeta está vacía. Mantenga pulsado el corazón de una canción para añadirla aquí.</string>
+    <string name="rankings_whole_year">Todo el año</string>
+    <string name="charts_export_generated_on">generado el</string>
+    <string name="faq_q1">¿LastStats hace scrobble de mi música?</string>
+    <string name="faq_q3">¿La app funciona en macOS u otras plataformas?</string>
+    <string name="faq_a3">LastStats se desarrolla y prueba en Android. El funcionamiento en otras plataformas (macOS, Windows, Linux…) no está verificado, pueden producirse errores o comportamientos inesperados.</string>
+    <string name="faq_q4">¿LastStats es de código abierto?</string>
+    <string name="faq_a4">¡Sí! El código fuente está disponible libremente en GitHub. El proyecto es independiente, hecho con pasión por SanoBld. Puede contribuir, reportar errores o simplemente dejar una estrella ⭐.</string>
+    <string name="faq_q5">¿Dónde se almacenan mis datos?</string>
+    <string name="faq_q6">¿Cómo activo los favoritos?</string>
+    <string name="faq_a6">Con Last.fm, vaya a Ajustes &gt; Cuenta e introduzca su clave secreta (está junto a su clave API en last.fm/api/accounts). Con ListenBrainz no hay que añadir nada más: basta con su token. Una vez conectado, puede marcar canciones como favoritas directamente desde la aplicación.</string>
+    <string name="faq_q7">¿Qué es un \'scrobble\'?</string>
+    <string name="faq_q8">¿Cómo funcionan los niveles y los logros?</string>
+    <string name="faq_a8">Su nivel de cuenta crece con su total de scrobbles (no hay nivel máximo). Las tarjetas también muestran un borde (bronce → iridiscente) según las veces que se ha escuchado ese artista/canción/álbum. Todo se calcula automáticamente a partir de estadísticas ya guardadas en caché, sin llamadas de red adicionales.</string>
+    <string name="faq_q9">¿Cómo funciona el modo de ahorro de energía?</string>
+    <string name="faq_a9">El modo de ahorro de energía reduce la actividad de la app para cuidar la batería: se desactiva el efecto de paralaje al inclinar el móvil, la frecuencia de actualización de pantalla se limita a unos 60 Hz, las actualizaciones en segundo plano son menos frecuentes, y las portadas animadas y el brillo de las insignias se pausan. Las imágenes, las exportaciones y las tarjetas para compartir mantienen la calidad completa.\n\nPuedes dejarlo siempre activado, hacer que siga el ahorro de batería de tu teléfono o que se active por debajo de un nivel de batería que elijas. Lo encontrarás en Ajustes &gt; Ahorro de batería.</string>
+    <string name="faq_q10">¿Cómo hago una copia de seguridad o la restauro?</string>
+    <string name="faq_a10">Vaya a Ajustes &gt; Copia de seguridad. Puede exportar un archivo de copia (con o sin su clave de Last.fm o su token de ListenBrainz) e importarlo más tarde o en otro dispositivo.</string>
+    <string name="faq_q11">¿Funciona la app sin conexión?</string>
+    <string name="faq_a11">Sí, hasta cierto punto. Las estadísticas ya cargadas siguen disponibles sin conexión gracias a la caché local, pero se necesita conexión para obtener nuevos scrobbles.</string>
+    <string name="faq_q12">¿Puedo cambiar de cuenta o de servicio?</string>
+    <string name="faq_a12">Sí. Desde Ajustes &gt; Cuenta, cierre sesión y vuelva a iniciarla con otro nombre de usuario, o elija el otro servicio (Last.fm o ListenBrainz) en la pantalla de inicio de sesión. La caché local se restablece automáticamente para que los datos nunca se mezclen.</string>
+    <string name="faq_q13">¿Cómo configuro las notificaciones?</string>
+    <string name="faq_a13">Desde Ajustes &gt; Notificaciones, puede activar un aviso cuando termine una sincronización, elegir con qué frecuencia aparecen los avisos o desactivar las notificaciones por completo si lo prefiere.</string>
+    <string name="faq_q14">Faltan imágenes o cargan sin fin. ¿Qué hago?</string>
+    <string name="faq_a14">Vacíe la caché en la app (Ajustes &gt; Caché) y luego en Android (Ajustes &gt; Aplicaciones &gt; LastStats &gt; Almacenamiento &gt; Borrar caché). Si siguen faltando imágenes, haga una copia de seguridad (Ajustes &gt; Copia de seguridad), desinstale y reinstale la app y restaure la copia.</string>
+    <string name="settings_platform_disabled_by_show_all">Desactivado: ya se muestran todos los enlaces.</string>
+    <string name="common_in_development">En desarrollo</string>
+    <string name="common_see_less">Ver menos</string>
+    <string name="common_share">Compartir</string>
+    <string name="news_custom_date">Fecha personalizada</string>
+    <string name="about_shortcuts">Atajos de teclado</string>
+    <string name="about_shortcuts_sub">Disponibles en PC / pantalla grande</string>
+    <string name="shortcut_switch_tabs">Cambiar de pestaña</string>
+    <string name="shortcut_search">Buscar</string>
+    <string name="shortcut_close">Cerrar una ficha</string>
+    <string name="shortcut_refresh">Actualizar</string>
+    <string name="about_discord">Unirse al Discord</string>
+    <string name="about_discord_sub">Chat, sugerencias y anuncios en directo</string>
+    <string name="achv_title">Logros</string>
+    <string name="achv_cat_listening">Escucha</string>
+    <string name="achv_cat_artists">Artistas</string>
+    <string name="achv_cat_albums">Álbumes</string>
+    <string name="achv_cat_loyalty">Fidelidad</string>
+    <string name="achv_desc_listening">Total de canciones escuchadas (scrobbles), todos los artistas.</string>
+    <string name="achv_desc_artists">Número de artistas distintos escuchados al menos una vez.</string>
+    <string name="achv_desc_albums">Número de álbumes distintos escuchados al menos una vez.</string>
+    <string name="achv_cat_tracks">Canciones</string>
+    <string name="achv_desc_tracks">Número de canciones distintas escuchadas.</string>
+    <string name="achv_cat_pace">Ritmo</string>
+    <string name="achv_desc_pace">Promedio de scrobbles por semana.</string>
+    <string name="achv_cat_streak">Racha</string>
+    <string name="achv_desc_streak">La racha más larga de días consecutivos con al menos una escucha.</string>
+    <string name="achv_cat_marathon">Maratón</string>
+    <string name="achv_desc_marathon">El mayor número de escuchas en un solo día.</string>
+    <string name="achv_cat_social">Social</string>
+    <string name="achv_desc_social">El número de amigos o perfiles añadidos.</string>
+    <string name="achv_cat_comparisons">Comparaciones</string>
+    <string name="achv_desc_comparisons">El número de comparaciones de gustos musicales realizadas.</string>
+    <string name="achv_unlocked_badge">Desbloqueado</string>
+    <string name="achv_locked_badge">Bloqueado</string>
+    <string name="dash_recap">Resumen</string>
+    <string name="recap_day">Hoy</string>
+    <string name="recap_week">Esta semana</string>
+    <string name="recap_month">Este mes</string>
+    <string name="recap_scrobbles">escuchas</string>
+    <string name="recap_artists">Artistas</string>
+    <string name="recap_tracks">Canciones</string>
+    <string name="recap_top_artist">Artista</string>
+    <string name="recap_top_track">Canción</string>
+    <string name="recap_top_album">Álbum</string>
+    <string name="recap_avg_day">Prom/día</string>
+    <string name="recap_no_data">Sin escuchas en este período.</string>
+    <string name="recap_see_full">Ver resumen completo</string>
+    <string name="recap_top10">Top 10</string>
+    <string name="discover_smart_title">El filtro más útil primero</string>
+    <string name="discover_smart_sub">Según la hora, el día y lo que más usa</string>
+    <string name="discover_for_you">Para usted</string>
+    <string name="discover_global_trends">Tendencias globales</string>
+    <string name="discover_src_foryou">Su mix</string>
+    <string name="discover_src_onthisday">Un día como hoy</string>
+    <string name="discover_src_fresh">Este mes</string>
+    <string name="discover_src_genre">Sus géneros</string>
+    <string name="discover_src_deeper">Joyas ocultas</string>
+    <string name="discover_src_forgotten">Olvidadas</string>
+    <string name="discover_src_albums">Álbumes</string>
+    <string name="discover_src_country">Su país</string>
+    <string name="discover_tracks">Canciones</string>
+    <string name="discover_artists">Artistas</string>
+    <string name="discover_week">semana</string>
+    <string name="discover_month">mes</string>
+    <string name="discover_year">año</string>
+    <string name="discover_nothing">Aún no hay nada que mostrar</string>
+    <string name="dash_reorder_sections">Cambiar el orden de las secciones</string>
+    <string name="dash_infinite_title">Desplazamiento infinito</string>
+    <string name="dash_infinite_sub">Descubrir se repite y sigue sugiriendo más</string>
+    <string name="dash_discover_title">Descubrir</string>
+    <string name="dash_discover_sub">Ideas de música para deslizar</string>
+    <string name="dash_sort_button">Ordenar</string>
+    <string name="dash_sort_done">Listo</string>
+    <string name="dash_sort_hint">Arrastre para cambiar el orden</string>
+    <string name="dash_sort_smart_note">El orden inteligente está activado, así que puede cambiar este orden según el momento.</string>
+    <string name="dash_separate_row">En su propia fila</string>
+    <string name="ap_shape_single">Una sola forma</string>
+    <string name="mv_source">Fuente del vídeo</string>
+    <string name="mv_src_auto">Auto (Apple Music y luego YouTube)</string>
+    <string name="mv_src_apple">Solo Apple Music</string>
+    <string name="mv_src_yt">Solo YouTube (canciones)</string>
+    <string name="mv_quality_t">Calidad del vídeo</string>
+    <string name="mv_q_auto">Auto</string>
+    <string name="mv_q_low">Ahorro (360p)</string>
+    <string name="mv_types_t">Mostrar vídeo para</string>
+    <string name="mv_tracks">Canciones</string>
+    <string name="mv_albums">Álbumes</string>
+    <string name="mv_artists">Artistas</string>
+    <string name="mv_mode_t">Modo</string>
+    <string name="mv_mode_best">Recomendado</string>
+    <string name="mv_mode_saver">Ahorro</string>
+    <string name="mv_mode_max">Calidad máxima</string>
+    <string name="mv_mode_custom">Personalizado</string>
+    <string name="mv_src_yt_first">YouTube y luego Apple Music</string>
+    <string name="api_title">API</string>
+    <string name="api_card_sub">Servicios usados, cuotas y consumo</string>
+    <string name="api_sum_today">Solicitudes hoy</string>
+    <string name="api_sum_errors">Errores</string>
+    <string name="api_sum_limited">Limitadas</string>
+    <string name="api_intro">Los contadores solo cubren este dispositivo. Los proveedores aplican sus límites por dirección IP, así que otras apps de la misma red también cuentan. La app reduce o omite solicitudes automáticamente para respetarlos.</string>
+    <string name="api_cat_listening">Datos de escucha</string>
+    <string name="api_cat_metadata">Metadatos musicales</string>
+    <string name="api_cat_artwork">Carátulas</string>
+    <string name="api_cat_lyrics">Letras</string>
+    <string name="api_cat_translate">Traducción</string>
+    <string name="api_cat_updates">Actualizaciones y novedades</string>
+    <string name="api_cat_other">Descargas de imágenes</string>
+    <string name="api_status_idle">Aún sin usar</string>
+    <string name="api_status_ok">OK</string>
+    <string name="api_status_near">Cerca del límite</string>
+    <string name="api_status_paused">En pausa</string>
+    <string name="api_provider_limit">Límite del proveedor</string>
+    <string name="api_no_limit">Ninguno publicado</string>
+    <string name="api_app_ceiling">Tope de la app</string>
+    <string name="api_win_second">segundo</string>
+    <string name="api_win_minute">minuto</string>
+    <string name="api_win_hour">hora</string>
+    <string name="api_window_usage">Ventana actual</string>
+    <string name="api_remaining">Restantes</string>
+    <string name="api_today">Hoy</string>
+    <string name="api_last_hour">Última hora</string>
+    <string name="api_total">Total</string>
+    <string name="api_rate_limited">Respuestas de límite alcanzado</string>
+    <string name="api_skipped">Omitidas por la app</string>
+    <string name="api_last_call">Última llamada</string>
+    <string name="api_never">Nunca</string>
+    <string name="api_no_key">No requiere clave API</string>
+    <string name="api_shared_key">Clave de prueba pública compartida (plan gratuito)</string>
+    <string name="api_unofficial">Punto de acceso no oficial: sin cuota garantizada, puede cambiar o bloquearse sin aviso.</string>
+    <string name="api_key_in_use">Clave en uso</string>
+    <string name="api_own_key">Tu propia clave de Last.fm</string>
+    <string name="api_backup_on">Clave de respaldo: activada</string>
+    <string name="api_backup_off">Clave de respaldo: desactivada</string>
+    <string name="api_per_key">Solicitudes por clave (hoy / total)</string>
+    <string name="api_lastfm_note">Last.fm no publica ninguna cifra: devuelve el error 29 cuando una IP envía demasiadas solicitudes, y sus términos prohíben eludirlo. Unas 5 solicitudes por segundo por IP es la pauta habitual; la app se mantiene por debajo de 4.</string>
+    <string name="api_reset">Restablecer contadores</string>
+    <string name="api_limiter">Limitar solicitudes</string>
+    <string name="api_limiter_sub">Ralentiza las solicitudes para respetar los límites de las API. Desactivado = más rápido, sin esperas.</string>
+    <string name="api_reset_body">Todos los contadores de solicitudes volverán a cero.</string>
+    <string name="api_reset_done">Contadores restablecidos</string>
+    <string name="cache_scrobbles_subtitle">Todo tu historial de escucha descargado de Last.fm</string>
+    <string name="cache_scrobbles_subtitle_lb">Todo tu historial de escucha descargado de ListenBrainz</string>
+    <string name="search_hint_profiles">Busque un usuario de Last.fm</string>
+    <string name="search_hint_profiles_lb">Busque un usuario de ListenBrainz</string>
+    <string name="dash_reset_cache_confirm">Todos los datos de scrobbles en caché se eliminarán y se volverán a descargar desde Last.fm.</string>
+    <string name="dash_reset_cache_confirm_lb">Todos los datos de scrobbles en caché se eliminarán y se volverán a descargar desde ListenBrainz.</string>
+    <string name="dash_friends_activity">Actividad de sus amigos de Last.fm</string>
+    <string name="dash_friends_activity_lb">Actividad de sus amigos de ListenBrainz</string>
+    <string name="settings_friends_section_sub">Actividad de sus amigos de Last.fm</string>
+    <string name="settings_friends_section_sub_lb">Actividad de sus amigos de ListenBrainz</string>
+    <string name="settings_connected_profile">Perfil de Last.fm conectado</string>
+    <string name="settings_connected_profile_lb">Perfil de ListenBrainz conectado</string>
+    <string name="onboard_fav_sub">Añada amigos de Last.fm para encontrar rápidamente sus perfiles desde la aplicación.</string>
+    <string name="onboard_fav_sub_lb">Añada amigos de ListenBrainz para encontrar rápidamente sus perfiles desde la aplicación.</string>
+    <string name="onboard_fav_hint">Usuario de Last.fm</string>
+    <string name="onboard_fav_hint_lb">Usuario de ListenBrainz</string>
+    <string name="onboard_fav_search_hint">Buscar un perfil de Last.fm…</string>
+    <string name="onboard_fav_search_hint_lb">Buscar un perfil de ListenBrainz…</string>
+    <string name="onboard_fav_friends_title">Sus amigos de Last.fm</string>
+    <string name="onboard_fav_friends_title_lb">Sus amigos de ListenBrainz</string>
+    <string name="settings_show_all_platform_links_sub">Ignora el filtro y muestra todos los enlaces (Last.fm, Spotify, YT Music, Web)</string>
+    <string name="settings_show_all_platform_links_sub_lb">Ignora el filtro y muestra todos los enlaces (ListenBrainz, Spotify, YT Music, Web)</string>
+    <string name="setup_tagline">Sus estadísticas de Last.fm, reinventadas.</string>
+    <string name="setup_tagline_lb">Sus estadísticas de ListenBrainz, reinventadas.</string>
+    <string name="settings_card_account_sub">Perfil de Last.fm conectado, cerrar sesión</string>
+    <string name="settings_card_account_sub_lb">Perfil de ListenBrainz conectado, cerrar sesión</string>
+    <string name="about_tagline">Su compañero de estadísticas de Last.fm</string>
+    <string name="about_tagline_lb">Su compañero de estadísticas de ListenBrainz</string>
+    <string name="faq_a1">No. LastStats es una aplicación de visualización: muestra los scrobbles ya registrados en su cuenta de Last.fm, pero no registra ninguno por sí misma.\n\nPara hacer scrobble automáticamente de su música, use una app dedicada como Pano Scrobbler (disponible en Android).</string>
+    <string name="faq_a1_lb">No. LastStats es una aplicación de visualización: muestra los scrobbles ya registrados en su cuenta de ListenBrainz, pero no registra ninguno por sí misma.\n\nPara hacer scrobble automáticamente de su música, use una app dedicada como Pano Scrobbler (disponible en Android).</string>
+    <string name="faq_a5">Solo en su dispositivo. LastStats no tiene servidor: sus scrobbles se guardan en caché localmente para un acceso rápido, y sus credenciales de Last.fm también se almacenan localmente. No se envía nada excepto a la API oficial de Last.fm.</string>
+    <string name="faq_a5_lb">Solo en su dispositivo. LastStats no tiene servidor: sus scrobbles se guardan en caché localmente para un acceso rápido, y sus credenciales de ListenBrainz también se almacenan localmente. No se envía nada excepto a la API oficial de ListenBrainz.</string>
+    <string name="faq_a7">Un scrobble es una canción registrada como escuchada en su cuenta de Last.fm; es el término propio de Last.fm para \'una escucha contada\'. Todos sus totales (artistas top, estadísticas, etc.) se basan en ello.</string>
+    <string name="faq_a7_lb">Un scrobble es una canción registrada como escuchada en su cuenta de ListenBrainz; es el término propio de ListenBrainz para \'una escucha contada\'. Todos sus totales (artistas top, estadísticas, etc.) se basan en ello.</string>
+    <string name="achv_desc_loyalty">Antigüedad de la cuenta de Last.fm.</string>
+    <string name="achv_desc_loyalty_lb">Antigüedad de la cuenta de ListenBrainz.</string>
+    <string name="api_storage_title">Datos de Last.fm almacenados</string>
+    <string name="api_storage_title_lb">Datos de ListenBrainz almacenados</string>
+    <string name="api_storage_over">Supera el límite de 100 MB fijado por los términos de la API de Last.fm. Borra el historial de scrobbles en Almacenamiento para cumplirlo.</string>
+    <string name="api_storage_over_lb">Supera el límite de 100 MB fijado por los términos de la API de ListenBrainz. Borra el historial de scrobbles en Almacenamiento para cumplirlo.</string>
+    <string name="global_listeners">%1$s oyentes mundiales</string>
+    <string name="history_scrobbles">%1$s scrobbles</string>
+    <string name="history_artists_count">%1$s artistas</string>
+    <string name="history_albums_count">%1$s álbumes</string>
+    <string name="day_label">%1$s, %3$s de %2$s de %5$s</string>
+    <string-array name="day_label_weekdays"><item>lunes</item><item>martes</item><item>miércoles</item><item>jueves</item><item>viernes</item><item>sábado</item><item>domingo</item></string-array>
+    <string-array name="day_label_months"><item>enero</item><item>febrero</item><item>marzo</item><item>abril</item><item>mayo</item><item>junio</item><item>julio</item><item>agosto</item><item>septiembre</item><item>octubre</item><item>noviembre</item><item>diciembre</item></string-array>
+    <string name="member_since">Desde %1$s</string>
+    <string name="settings_update_available">v%1$s disponible</string>
+    <string name="settings_update_banner">Actualización v%1$s</string>
+    <string name="setup_welcome">¡Bienvenido, %1$s!</string>
+    <string name="setup_scrobbles_to_import">%1$s scrobbles por importar</string>
+    <string name="dash_update_title_a">Beta actualización: v%1$s</string>
+    <string name="dash_update_title_b">Nueva actualización: v%1$s</string>
+    <string name="news_items_count_a">%1$s elementos</string>
+    <string name="news_items_count_b">%1$s elemento</string>
+    <string name="sync_frequency_hours">Cada %1$sh</string>
+    <string name="sync_new_scrobbles_found_a">Sin scrobbles nuevos</string>
+    <string name="sync_new_scrobbles_found_b">%1$s scrobble(s) nuevo(s) encontrado(s)</string>
+    <string name="updates_published_on">Publicado el %1$s</string>
+    <string name="backup_auto_next_label">Próxima copia: %1$s</string>
+    <string name="backup_exported_on">Copia de seguridad del %1$s</string>
+    <string name="fallback_will_show">Mostrará: %1$s</string>
+    <string name="acct_remove_body">¿Eliminar @%1$s de sus cuentas?</string>
+    <string name="acct_added_success">\@%1$s añadido correctamente.</string>
+    <string name="acct_my_accounts">Mis cuentas (%1$s/%2$s)</string>
+    <string name="acct_slots_remaining">%1$s espacio(s) restante(s)</string>
+    <string name="acct_max_reached">Se alcanzó el máximo de %1$s cuentas.</string>
+    <string name="achv_unlocked">%1$s / %2$s desbloqueados</string>
+    <string name="discover_like">Como %1$s</string>
+    <string name="dash_filters_of">Filtros de «%1$s»</string>
+    <string name="api_limit_per">%1$s solicitudes / %2$s</string>
+    <string name="api_win_seconds">%1$s segundos</string>
+    <string name="api_resets_in">Se reinicia en %1$s</string>
+    <string name="api_paused_for">En pausa durante %1$s tras una respuesta de límite alcanzado</string>
+    <string name="api_builtin_key">Clave integrada %1$s de %2$s</string>
+    <string name="api_storage_value">%1$s de %2$s permitidos</string>
+    <string-array name="months"><item></item><item>ene</item><item>feb</item><item>mar</item><item>abr</item><item>may</item><item>jun</item><item>jul</item><item>ago</item><item>sep</item><item>oct</item><item>nov</item><item>dic</item></string-array>
+    <string-array name="notif_threshold_messages"><item>Sus primeros 1000 scrobbles. La aventura comienza. 🎵</item><item>¡Ha llegado a cinco cifras! 🎉</item><item>Es un verdadero adicto a la música. 🔥</item><item>Un millón de scrobbles. Eso es legendario. 🎸</item></string-array>
+    <string-array name="weekdays_short"><item>Lun</item><item>Mar</item><item>Mié</item><item>Jue</item><item>Vie</item><item>Sáb</item><item>Dom</item></string-array>
+    <string-array name="weekdays_narrow"><item>L</item><item>M</item><item>X</item><item>J</item><item>V</item><item>S</item><item>D</item></string-array>
+    <string name="tx_st_notif_on" formatted="false">Notificaciones activadas</string>
+    <string name="tx_st_notif_off" formatted="false">Notificaciones desactivadas</string>
+    <string name="tx_st_notif_count" formatted="false">{n} tipos activos</string>
+    <string name="tx_st_notif_perm" formatted="false">Se necesita el permiso del sistema</string>
+    <string name="tx_st_notif_none" formatted="false">Ningún tipo de notificación elegido</string>
+    <string name="tx_st_sync_on" formatted="false">Sincronización automática activada</string>
+    <string name="tx_st_sync_off" formatted="false">Sincronización automática desactivada</string>
+    <string name="tx_st_sync_on_s" formatted="false">Sus datos se actualizan solos.</string>
+    <string name="tx_st_sync_off_s" formatted="false">Los datos solo se actualizan cuando lo pide.</string>
+    <string name="tx_st_bkp_on" formatted="false">Copia de seguridad automática activada</string>
+    <string name="tx_st_bkp_off" formatted="false">Copia de seguridad automática desactivada</string>
+    <string name="tx_st_bkp_on_s" formatted="false">Sus ajustes se guardan automáticamente.</string>
+    <string name="tx_st_bkp_off_s" formatted="false">Actívela para no perder nunca sus ajustes.</string>
+    <string name="tx_st_bkp_next" formatted="false">Próxima copia: {d}</string>
+    <string name="tx_cmp_breakdown" formatted="false">Lo que les une</string>
+    <string name="tx_cmp_by_artists" formatted="false">Artistas</string>
+    <string name="tx_cmp_by_genres" formatted="false">Géneros</string>
+    <string name="tx_cmp_by_tracks" formatted="false">Canciones</string>
+    <string name="tx_cmp_by_albums" formatted="false">Álbumes</string>
+    <string name="tx_eco_on" formatted="false">Ahorro de energía activado</string>
+    <string name="tx_eco_off" formatted="false">Ahorro de energía desactivado</string>
+    <string name="tx_eco_why_manual" formatted="false">Siempre activado, por usted</string>
+    <string name="tx_eco_why_system" formatted="false">El ahorro de batería de su dispositivo está activado</string>
+    <string name="tx_eco_why_battery" formatted="false">La batería está al {n} %</string>
+    <string name="tx_eco_off_hint" formatted="false">Elija abajo cuándo activarlo</string>
+    <string name="tx_eco_trig" formatted="false">Cuándo activarlo</string>
+    <string name="tx_eco_sys_t" formatted="false">Cuando el ahorro de batería del dispositivo esté activado</string>
+    <string name="tx_eco_sys_s" formatted="false">Sigue el modo de ahorro de energía integrado del teléfono y se desactiva con él.</string>
+    <string name="tx_eco_sys_na" formatted="false">No disponible en este dispositivo (no se detecta un ahorro de batería del sistema).</string>
+    <string name="tx_eco_chg" formatted="false">Qué cambia</string>
+    <string name="tx_eco_chg1" formatted="false">El paralaje al mover el móvil se desactiva</string>
+    <string name="tx_eco_chg2" formatted="false">La frecuencia de la pantalla se limita a unos 60 Hz</string>
+    <string name="tx_eco_chg3" formatted="false">Las actualizaciones en segundo plano son menos frecuentes</string>
+    <string name="tx_eco_chg4" formatted="false">Las carátulas animadas y el brillo de las insignias se pausan</string>
+    <string name="tx_eco_chg_note" formatted="false">Todo lo demás mantiene la calidad completa: imágenes, exportaciones y tarjetas para compartir.</string>
+    <string name="tx_lib_section" formatted="false">Biblioteca</string>
+    <string name="tx_lib_merge_t" formatted="false">Unir versiones de una misma canción</string>
+    <string name="tx_lib_merge_s" formatted="false">Remasters, sencillos, (feat. …) y ediciones deluxe cuentan como una sola canción o álbum y sus reproducciones se suman. Los remixes, directos e instrumentales siguen separados.</string>
+    <string name="tx_lib_split_t" formatted="false">Separar colaboraciones</string>
+    <string name="tx_lib_split_s" formatted="false">«Gims &amp; Damso» cuenta para Gims y para Damso en lugar de ser un artista aparte. Grupos como «Simon &amp; Garfunkel» se mantienen enteros.</string>
+    <string name="tx_lib_step_t" formatted="false">Su biblioteca</string>
+    <string name="tx_lib_step_s" formatted="false">Elija cómo agrupa la aplicación sus reproducciones. Podrá cambiarlo en cualquier momento en los ajustes.</string>
+    <string name="tx_bk_dash_t" formatted="false">Panel e inicio</string>
+    <string name="tx_bk_dash_s" formatted="false">Secciones, cabecera, tarjetas de estadísticas, descubrir, pestaña de inicio</string>
+    <string name="tx_bk_notif_t" formatted="false">Notificaciones</string>
+    <string name="tx_bk_notif_s" formatted="false">Resúmenes, hitos, noticias e insignias</string>
+    <string name="tx_bk_lib_t" formatted="false">Opciones de biblioteca</string>
+    <string name="tx_bk_lib_s" formatted="false">Unir versiones, separar colaboraciones</string>
+    <string name="tx_bk_prof_t" formatted="false">Perfiles favoritos</string>
+    <string name="tx_bk_prof_s" formatted="false">Los perfiles de Last.fm que marcó</string>
+    <string name="tx_about_legal_t" formatted="false">Aviso legal</string>
+    <string name="tx_about_legal_site_t" formatted="false">Aviso legal y privacidad</string>
+    <string name="tx_about_legal_site_s" formatted="false">Editor, datos tratados, servicios de terceros, sus derechos</string>
+    <string name="tx_about_licenses_t" formatted="false">Licencias de código abierto</string>
+    <string name="tx_about_licenses_s" formatted="false">Flutter y todos los paquetes usados</string>
+    <string name="tx_about_legal_editor" formatted="false">Publicada por Sano Bld, desarrollador independiente. Contáctanos en Discord o en los issues de GitHub.</string>
+    <string name="tx_about_legal_privacy" formatted="false">Sus datos se quedan en su dispositivo y no guardamos ninguna copia. La app contacta directamente con los servicios indicados aquí, y cada uno recibe como mínimo su dirección IP y la solicitud (por ejemplo, el nombre de un artista). La cámara solo se usa para escanear códigos QR. No está pensada para menores de 15 años sin el consentimiento de un progenitor.</string>
+    <string name="tx_about_legal_marks" formatted="false">LastStats es independiente y no está afiliada ni respaldada por Last.fm, Spotify, YouTube, Apple, Deezer, TheAudioDB, MusicBrainz, Wikipedia ni GitHub. Los nombres y logotipos pertenecen a sus propietarios, al igual que las carátulas y los metadatos. Los textos de Wikipedia están bajo licencia CC BY-SA.</string>
+    <string name="tx_about_readme_t" formatted="false">README y actividad del proyecto</string>
+    <string name="tx_about_readme_s" formatted="false">Leer el README, últimos commits, workflows, versión, descargas</string>
+    <string name="tx_fold_show" formatted="false">Mostrar ({n})</string>
+    <string name="tx_fold_hide" formatted="false">Contraer</string>
+    <string name="tx_readme_sub" formatted="false">El proyecto y su actividad</string>
+    <string name="tx_readme_version" formatted="false">Versión</string>
+    <string name="tx_readme_downloads" formatted="false">Descargas</string>
+    <string name="tx_readme_stars" formatted="false">Estrellas</string>
+    <string name="tx_readme_license" formatted="false">Licencia</string>
+    <string name="tx_readme_commits" formatted="false">Últimos commits</string>
+    <string name="tx_readme_workflows" formatted="false">Últimos workflows</string>
+    <string name="tx_readme_retry" formatted="false">Reintentar</string>
+    <string name="tx_readme_github" formatted="false">Abrir en GitHub</string>
+    <string name="tx_readme_failed" formatted="false">No se pudo cargar (sin conexión o límite de GitHub alcanzado).</string>
+    <string name="tx_ago_min" formatted="false">hace {n} min</string>
+    <string name="tx_ago_h" formatted="false">hace {n} h</string>
+    <string name="tx_ago_d" formatted="false">hace {n} d</string>
+    <string name="tx_load_restored" formatted="false">{n} scrobbles restaurados</string>
+    <string name="tx_load_ready" formatted="false">Listo para importar</string>
+    <string name="tx_load_connecting" formatted="false">Conectando con Last.fm…</string>
+    <string name="tx_load_done" formatted="false">Importación completada</string>
+    <string name="tx_txt_sec" formatted="false">Texto</string>
+    <string name="tx_txt_size" formatted="false">Tamaño del texto</string>
+    <string name="tx_txt_font" formatted="false">Fuente</string>
+    <string name="tx_txt_font_def" formatted="false">Predeterminada (Android)</string>
+    <string name="tx_font_import" formatted="false">Importar una fuente</string>
+    <string name="tx_font_import_s" formatted="false">Archivo .ttf u .otf (3 MB máx.)</string>
+    <string name="tx_font_remove" formatted="false">Eliminar la fuente importada</string>
+    <string name="tx_font_bad" formatted="false">No se puede usar esta fuente: el archivo no es válido o supera los 3 MB</string>
+    <string name="tx_qs_l8_t" formatted="false">Fuente</string>
+    <string name="tx_art_popular" formatted="false">Populares</string>
+    <string name="tx_art_recent" formatted="false">Recientes</string>
+    <string name="tx_bio_src_wiki" formatted="false">Fuente: Wikipedia</string>
+    <string name="tx_bio_src_wiki_orig" formatted="false">Texto original · Wikipedia</string>
+    <string name="tx_dash_motion_t" formatted="false">Portada animada en el panel</string>
+    <string name="tx_dash_motion_s" formatted="false">Reproduce el vídeo de la canción actual en la tarjeta de reproducción y en la cabecera. Requiere las portadas de vídeo.</string>
+    <string name="tx_onb_cov_t" formatted="false">Portadas, imágenes y animaciones</string>
+    <string name="tx_onb_cov_s" formatted="false">Elija la forma de las imágenes, cómo se muestran las portadas y el estilo de las animaciones.</string>
+    <string name="tx_onb_sync_t" formatted="false">Sincronización y batería</string>
+    <string name="tx_onb_sync_s" formatted="false">Mantenga sus estadísticas al día sin consumir demasiada batería del teléfono.</string>
+    <string name="tx_onb_autosync_t" formatted="false">Sincronización automática</string>
+    <string name="tx_onb_autosync_s" formatted="false">La aplicación comprueba con regularidad, en segundo plano, si tiene nuevas reproducciones.</string>
+    <string name="tx_onb_freq" formatted="false">Frecuencia de comprobación</string>
+    <string name="tx_onb_every_h" formatted="false">Cada {h} horas</string>
+    <string name="tx_onb_every_1h" formatted="false">Cada hora</string>
+    <string name="tx_load_backup_note" formatted="false">Copia de seguridad detectada: solo se comprobarán los scrobbles más recientes.</string>
+    <string name="tx_dash_nowplay" formatted="false">Reproduciendo ahora</string>
+    <string name="tx_dash_stats" formatted="false">Estadísticas</string>
+    <string name="tx_dash_recent" formatted="false">Reproducciones recientes</string>
+    <string name="tx_dash_discover" formatted="false">Descubrir</string>
+    <string name="tx_dash_friends" formatted="false">Amigos</string>
+    <string name="tx_dash_chart" formatted="false">Gráfico del panel</string>
+    <string name="tx_dash_calendar" formatted="false">Calendario</string>
+    <string name="tx_dash_monthly" formatted="false">Mensual</string>
+    <string name="tx_cache_video_t" formatted="false">Portadas animadas en memoria</string>
+    <string name="tx_cache_video_s" formatted="false">Memoria de vídeo en uso: {mem} · {players} reproductor(es) activo(s) · {links} enlace(s) en caché</string>
+    <string name="tx_cache_video_short" formatted="false">Portadas animadas</string>
+    <string name="tx_cache_video_cleared" formatted="false">Vídeos de portadas animadas liberados de la memoria</string>
+    <string name="tx_cache_memory_section" formatted="false">Memoria</string>
+    <string name="tx_cache_storage_section" formatted="false">Almacenamiento</string>
+    <string name="tx_lvl" formatted="false">Nivel {n}</string>
+    <string name="tx_lvl_history" formatted="false">Historial de niveles</string>
+    <string name="tx_set_mblur_t" formatted="false">Desenfoque de movimiento</string>
+    <string name="tx_menu_copied" formatted="false">Copiado</string>
+    <string name="tx_menu_select" formatted="false">Seleccionar</string>
+    <string name="tx_sel_count" formatted="false">{n} seleccionados</string>
+    <string name="tx_sel_remove" formatted="false">Quitar de favoritos</string>
+    <string name="tx_sel_cancel" formatted="false">Cancelar</string>
+    <string name="tx_menu_add_folder" formatted="false">Añadir a una carpeta</string>
+    <string name="tx_menu_copy_title" formatted="false">Copiar título</string>
+    <string name="tx_menu_copy_both" formatted="false">Copiar artista – título</string>
+    <string name="tx_set_mblur_s" formatted="false">Desenfoque suave en las transiciones de página y apariciones</string>
+    <string name="tx_ui_widget_bg" formatted="false">Fondo del widget</string>
+    <string name="tx_ui_widget_bg_d" formatted="false">Póster usa las formas del tema; Liso es negro o blanco según claro/oscuro; Ninguno es transparente</string>
+    <string name="tx_ui_widget_bg_poster" formatted="false">Póster</string>
+    <string name="tx_ui_widget_bg_plain" formatted="false">Liso</string>
+    <string name="tx_ui_widget_bg_none" formatted="false">Ninguno</string>
+    <string name="tx_about_insp_podium" formatted="false">Inspiración: desenfoque suave en las transiciones de entrada / salida</string>
+    <string name="tx_about_insp_metrolist" formatted="false">Inspiración: deslizamiento + fundido entre pestañas (Material 3)</string>
+    <string name="tx_about_insp_m3skill" formatted="false">Pautas de movimiento: curvas, resortes, eje compartido</string>
+    <string name="tx_ui_beta" formatted="false">Beta</string>
+    <string name="tx_ui_nothing_red_sub" formatted="false">Rojo #FF2020</string>
+    <string name="tx_ui_nothing_yellow_sub" formatted="false">+ Amarillo #FFC700</string>
+    <string name="tx_set_living_t" formatted="false">Portadas animadas</string>
+    <string name="tx_set_living_s" formatted="false">Las imágenes se mueven suavemente con un ligero efecto de zoom y profundidad.</string>
+    <string name="tx_set_motion_t" formatted="false">Portadas en vídeo</string>
+    <string name="tx_set_motion_s" formatted="false">Reproduce la portada animada en vídeo cuando existe para la canción.</string>
+    <string name="tx_set_achv_t" formatted="false">Logros y niveles</string>
+    <string name="tx_set_achv_s" formatted="false">Siga sus objetivos, sus insignias y el nivel de su cuenta.</string>
+    <string name="tx_cache_img_limit_t" formatted="false">Límite de caché de fotos</string>
+    <string name="tx_cache_img_limit_s" formatted="false">Portadas, fotos de artistas y avatares. Se borran primero las más antiguas.</string>
+    <string name="tx_cache_vid_limit_t" formatted="false">Límite de caché de vídeo</string>
+    <string name="tx_cache_vid_limit_s" formatted="false">Portadas animadas guardadas en el dispositivo para verlas sin conexión (Android).</string>
+    <string name="tx_cache_video_off" formatted="false">Desactivado</string>
+    <string name="tx_cache_vid_disk_t" formatted="false">Portadas animadas en disco</string>
+    <string name="tx_cache_vid_disk_s" formatted="false">{size} · Portadas animadas guardadas</string>
+    <string name="tx_ap_harmony_title" formatted="false">Estilo de color</string>
+    <string name="tx_ap_harmony_mono" formatted="false">Monocromo</string>
+    <string name="tx_ap_harmony_mono_sub" formatted="false">Un solo tono, con distintas intensidades. Las superficies neutras se mantienen sobrias</string>
+    <string name="tx_ap_harmony_tinted" formatted="false">Teñido</string>
+    <string name="tx_ap_harmony_tinted_sub" formatted="false">Un solo tono, y hasta los neutros (fondos, bordes, textos) llevan un ligero matiz. Sin gris plano</string>
+    <string name="tx_ap_harmony_classic" formatted="false">Clásico</string>
+    <string name="tx_ap_harmony_classic_sub" formatted="false">Material You estándar, con varios tonos complementarios</string>
+    <string name="tx_ap_harmony_vivid" formatted="false">Vivo</string>
+    <string name="tx_ap_harmony_vivid_sub" formatted="false">Un solo tono, más saturado e intenso</string>
+    <string name="tx_ap_harmony_soft" formatted="false">Suave</string>
+    <string name="tx_ap_harmony_soft_sub" formatted="false">Un solo tono, más apagado, cercano al gris</string>
+    <string name="tx_gr_night1" formatted="false">¿Aún despierto, {name}?</string>
+    <string name="tx_gr_night2" formatted="false">Una noche con música, {name}</string>
+    <string name="tx_gr_night3" formatted="false">Las noches suenan mejor con música, {name}</string>
+    <string name="tx_gr_morning1" formatted="false">Buenos días, {name}</string>
+    <string name="tx_gr_morning2" formatted="false">¡A despertar, {name}!</string>
+    <string name="tx_gr_morning3" formatted="false">Un gran comienzo de día, {name}</string>
+    <string name="tx_gr_afternoon1" formatted="false">Buenas tardes, {name}</string>
+    <string name="tx_gr_afternoon2" formatted="false">Qué gusto verle de nuevo, {name}</string>
+    <string name="tx_gr_afternoon3" formatted="false">Ya está aquí, {name}</string>
+    <string name="tx_gr_evening1" formatted="false">Buenas noches, {name}</string>
+    <string name="tx_gr_evening2" formatted="false">Que tengas una linda noche, {name}</string>
+    <string name="tx_gr_evening3" formatted="false">Ya está de vuelta, {name}</string>
+    <string name="tx_gr_weekend1" formatted="false">Feliz fin de semana, {name}</string>
+    <string name="tx_gr_weekend2" formatted="false">Disfrute del fin de semana, {name}</string>
+    <string name="tx_gr_playing1" formatted="false">En plena escucha, {name}</string>
+    <string name="tx_gr_playing2" formatted="false">Buena elección, {name}</string>
+    <string name="tx_gr_playing3" formatted="false">Suena genial, {name}</string>
+    <string name="tx_gr_heavy1" formatted="false">Siempre tan melómano, {name}</string>
+    <string name="tx_gr_heavy2" formatted="false">Los scrobbles no paran, {name}</string>
+    <string name="tx_gr_birthday1" formatted="false">¡Feliz aniversario de cuenta, {name}!</string>
+    <string name="tx_gr_birthday2" formatted="false">¡Ya son {years} año(s) juntos, {name}!</string>
+    <string name="tx_gr_catchup1" formatted="false">¡{friend} le está alcanzando, {name}!</string>
+    <string name="tx_gr_catchup2" formatted="false">Cuidado, {friend} está justo detrás de usted, {name}</string>
+    <string name="tx_gr_christmas1" formatted="false">¡Feliz Navidad, {name}!</string>
+    <string name="tx_gr_christmas2" formatted="false">Felices fiestas, {name}</string>
+    <string name="tx_gr_newyear1" formatted="false">¡Feliz Año Nuevo, {name}!</string>
+    <string name="tx_gr_newyear2" formatted="false">¡Un año lleno de música, {name}!</string>
+    <string name="tx_gr_easter1" formatted="false">¡Felices Pascuas, {name}!</string>
+    <string name="tx_gr_easter2" formatted="false">Que tengas una linda Pascua, {name}</string>
+    <string name="tx_gr_spring1" formatted="false">Llegó la primavera, {name}</string>
+    <string name="tx_gr_spring2" formatted="false">¿Una playlist de primavera, {name}?</string>
+    <string name="tx_gr_summer1" formatted="false">Aires de verano, {name}</string>
+    <string name="tx_gr_summer2" formatted="false">Disfrute del sol, {name}</string>
+    <string name="tx_gr_autumn1" formatted="false">Ambiente otoñal, {name}</string>
+    <string name="tx_gr_autumn2" formatted="false">Caen las hojas, la música se queda, {name}</string>
+    <string name="tx_gr_winter1" formatted="false">Un invierno con música, {name}</string>
+    <string name="tx_gr_winter2" formatted="false">Abrígate con música, {name}</string>
+    <string name="tx_hdr_pick_t" formatted="false">Elegir una imagen del dispositivo</string>
+    <string name="tx_hdr_pick_s" formatted="false">Se guarda en la app y se usa en lugar del enlace</string>
+    <string name="tx_hdr_pick_set" formatted="false">Imagen del dispositivo en uso (sustituye al enlace)</string>
+    <string name="tx_hdr_remove_t" formatted="false">Quitar la imagen del dispositivo</string>
+    <string name="tx_hdr_too_big" formatted="false">Imagen demasiado grande (máximo 4 MB)</string>
+    <string name="tx_hdr_invalid" formatted="false">Imagen no válida</string>
+    <string name="tx_cache_confirm_t" formatted="false">¿Vaciar esta caché?</string>
+    <string name="tx_cache_confirm_b" formatted="false">Se eliminará {name}. Esta acción no se puede deshacer.</string>
+    <string name="tx_cache_api_limit_t" formatted="false">Límite de datos de la API</string>
+    <string name="tx_cache_api_limit_s" formatted="false">Tamaño máximo de los datos de la API guardados. Se borran primero los más antiguos.</string>
+    <string name="tx_key_internal_use" formatted="false">Usar la clave integrada de la app</string>
+    <string name="tx_key_internal_help" formatted="false">Opción de respaldo: esta clave se comparte entre usuarios. Puede alcanzar su límite o dejar de funcionar y algunas funciones podrían fallar. Use su propia clave siempre que pueda.</string>
+    <string name="tx_key_internal_active" formatted="false">Clave integrada de la app</string>
+    <string name="tx_key_fallback_title" formatted="false">Clave integrada como respaldo</string>
+    <string name="tx_key_fallback_sub" formatted="false">Se usa primero su clave. Si Last.fm la rechaza, la app lo intenta de nuevo automáticamente con la clave integrada.</string>
+    <string name="tx_key_use_own" formatted="false">Usar mi propia clave API</string>
+    <string name="tx_key_change_title" formatted="false">Cambiar la clave API</string>
+    <string name="tx_key_change_sub" formatted="false">Sustituya su clave por otra, o pase a la clave integrada de la app.</string>
+    <string name="tx_key_change_sub_internal" formatted="false">Está usando la clave compartida de la app. Añada su propia clave para no depender de los límites de otros usuarios.</string>
+    <string name="tx_key_change_intro" formatted="false">Introduzca una nueva clave API para esta cuenta, o vuelva a la clave integrada de la app. Su nombre de usuario y sus estadísticas no cambian.</string>
+    <string name="tx_key_change_intro_internal" formatted="false">Esta cuenta usa ahora la clave integrada de la app. Pegue abajo su propia clave API de Last.fm para sustituirla. Su nombre de usuario y sus estadísticas no cambian.</string>
+    <string name="tx_key_change_hint" formatted="false">Una clave API tiene 32 caracteres. Puede crearla o encontrarla en last.fm/api/accounts.</string>
+    <string name="tx_key_change_invalid_len" formatted="false">Una clave API debe tener exactamente 32 caracteres. Compruebe que la ha copiado completa.</string>
+    <string name="tx_key_change_same" formatted="false">Esta cuenta ya usa esta clave. Introduzca una diferente.</string>
+    <string name="tx_key_change_check_failed" formatted="false">Last.fm no ha aceptado esta clave. Compruebe que es correcta y que tiene conexión a Internet, e inténtelo de nuevo.</string>
+    <string name="tx_key_change_favorites_warn" formatted="false">Se quitará la conexión de favoritos, porque depende de la clave anterior. Después podrá volver a conectarla con su clave secreta.</string>
+    <string name="tx_key_change_apply" formatted="false">Aplicar</string>
+    <string name="tx_key_change_success" formatted="false">La clave API se ha actualizado.</string>
+    <string name="tx_key_internal_fav_note" formatted="false">Los favoritos necesitan su propia clave API y su clave secreta de Last.fm. Añada su clave arriba para poder activarlos.</string>
+    <string name="tx_faq_q15" formatted="false">¿Puedo cambiar mi clave API después de iniciar sesión?</string>
+    <string name="tx_faq_a15" formatted="false">Sí. Vaya a Ajustes &gt; Cuenta y toque «Cambiar la clave API». Puede sustituir su clave por otra, o añadir la suya si al principio eligió la clave integrada. Sus estadísticas no cambian; solo hay que volver a configurar la conexión de favoritos.</string>
+    <string name="tx_nothing_wip_badge" formatted="false">En mejora</string>
+    <string name="tx_nothing_wip_msg" formatted="false">El estilo Nothing OS se está mejorando, por lo que no está disponible por ahora. Podrá activarse en una versión futura.</string>
+    <string name="tx_ui_play_preview" formatted="false">Reproducir vista previa</string>
+    <string name="tx_ntf_test_title" formatted="false">🔔 Notificación de prueba</string>
+    <string name="tx_ntf_test_body" formatted="false">¡Las notificaciones de LastStats funcionan!</string>
+    <string name="tx_ui_not_enough_data_yet_sy" formatted="false">Aún no hay suficientes datos: sincronice su historial completo en los ajustes.</string>
+    <string name="tx_ui_level" formatted="false">Nivel {level}</string>
+    <string name="tx_ui_fetching" formatted="false">Obteniendo {currentYea}… ({yearIndex}/{totalYears})</string>
+    <string name="tx_ui_which_chart" formatted="false">¿Qué gráfico?</string>
+    <string name="tx_ui_which_period" formatted="false">¿Qué período?</string>
+    <string name="tx_ui_all_time" formatted="false">Todo el tiempo</string>
+    <string name="tx_ui_exporting" formatted="false">Exportando…</string>
+    <string name="tx_ui_chart_not_available_fo" formatted="false">Este gráfico no está disponible para el período seleccionado</string>
+    <string name="tx_ui_could_not_generate_the" formatted="false">No se pudo generar la imagen. Inténtalo de nuevo.</string>
+    <string name="tx_ui_error" formatted="false">Algo salió mal</string>
+    <string name="tx_ui_loading_history" formatted="false">Cargando historial{yearLabel}… {pct} %</string>
+    <string name="tx_ui_charts_will_be_more_ac" formatted="false">Los gráficos serán más precisos una vez cargado.</string>
+    <string name="tx_ui_load_the_full_history_" formatted="false">Cargue el historial completo para acceder a todos los años.</string>
+    <string name="tx_ui_load" formatted="false">Cargar</string>
+    <string name="tx_ui_based_on_scrobbles_all" formatted="false">Basado en {v_hourlyCou} scrobbles (todos los años)</string>
+    <string name="tx_ui_all_available_years" formatted="false">Todos los años disponibles</string>
+    <string name="tx_ui_based_on_scrobbles_fro" formatted="false">Basado en {v_hourlyCou} scrobbles de {v_selectedY}</string>
+    <string name="tx_ui_based_on_recent_scrobb" formatted="false">Basado en {v_hourlyCou} scrobbles recientes</string>
+    <string name="tx_ui_analysing_your_last_20" formatted="false">Analizando sus últimos ~200 scrobbles</string>
+    <string name="tx_ui_all_time_loading" formatted="false">Todo el tiempo (datos de {v_selectedY} cargando)</string>
+    <string name="tx_ui_all_time_2" formatted="false">Todo el tiempo</string>
+    <string name="tx_ui_export_a_chart" formatted="false">Exportar un gráfico</string>
+    <string name="tx_ui_scrobble_progression" formatted="false">Progresión de scrobbles</string>
+    <string name="tx_ui_your_musical_genres" formatted="false">Sus géneros musicales</string>
+    <string name="tx_ui_based_on_your_top_arti" formatted="false">Basado en sus artistas favoritos (todo el tiempo)</string>
+    <string name="tx_ui_listening_habits" formatted="false">Hábitos de escucha</string>
+    <string name="tx_ui_album_distribution" formatted="false">Distribución por álbum</string>
+    <string name="tx_ui_listening_calendar" formatted="false">Calendario de escucha</string>
+    <string name="tx_ui_daily_activity_to" formatted="false">Actividad diaria — {first} a {last}</string>
+    <string name="tx_ui_daily_activity_all_yea" formatted="false">Actividad diaria — todos los años</string>
+    <string name="tx_ui_daily_activity" formatted="false">Actividad diaria — {v_selectedY}</string>
+    <string name="tx_ui_load_history_to_see" formatted="false">Cargue el historial para ver {v_selectedY}</string>
+    <string name="tx_ui_daily_activity_last_12" formatted="false">Actividad diaria — últimos 12 meses</string>
+    <string name="tx_ui_all_years" formatted="false">todos los años</string>
+    <string name="tx_ui_listening_streaks" formatted="false">Rachas de escucha</string>
+    <string name="tx_ui_total" formatted="false">Total</string>
+    <string name="tx_ui_avg_mo" formatted="false">Prom./mes</string>
+    <string name="tx_ui_best_month" formatted="false">Mejor mes</string>
+    <string name="tx_ui_hourly_distribution" formatted="false">Distribución horaria</string>
+    <string name="tx_ui_activity_by_day_of_wee" formatted="false">Actividad por día de la semana</string>
+    <string name="tx_ui_current_streak" formatted="false">Racha actual</string>
+    <string name="tx_ui_d" formatted="false">d</string>
+    <string name="tx_ui_best_streak" formatted="false">Mejor racha</string>
+    <string name="tx_ui_best_streak_started_on" formatted="false">Mejor racha iniciada el {bestStart}</string>
+    <string name="tx_ui_no_data_for_this_perio" formatted="false">Sin datos para este período</string>
+    <string name="tx_ui_load_history_to_displa" formatted="false">Cargue el historial para mostrar {what}</string>
+    <string name="tx_ui_less" formatted="false">Menos</string>
+    <string name="tx_ui_more" formatted="false">Más</string>
+    <string name="tx_ui_scan_a_profile" formatted="false">Escanear un perfil</string>
+    <string name="tx_ui_lvl" formatted="false">Niv. {level}</string>
+    <string name="tx_ui_qr_code" formatted="false">¿Código QR?</string>
+    <string name="tx_ui_add_a_qr_code_to_the_s" formatted="false">¿Añadir un código QR a la imagen compartida para que quien la vea pueda escanear su perfil?</string>
+    <string name="tx_ui_no_qr" formatted="false">Sin QR</string>
+    <string name="tx_ui_to_the_app" formatted="false">A la app</string>
+    <string name="tx_ui_to_last_fm" formatted="false">A Last.fm</string>
+    <string name="tx_ui_compare_music_taste" formatted="false">Comparar gustos musicales</string>
+    <string name="tx_ui_syncing_full_library" formatted="false">Sincronizando datos…</string>
+    <string name="tx_ui_see_more" formatted="false">Ver más</string>
+    <string name="tx_ui_no_achievements_unlock" formatted="false">Aún no ha desbloqueado logros. ¡Siga escuchando para conseguir el primero!</string>
+    <string name="tx_ui_no_animated_cover_for_" formatted="false">No hay portada animada para este álbum</string>
+    <string name="tx_ui_source" formatted="false">Fuente: {source}</string>
+    <string name="tx_ui_view_on_last_fm" formatted="false">Ver en Last.fm</string>
+    <string name="tx_ui_original_text_last_fm_" formatted="false">Texto original: Last.fm — Traducción: Google Translate</string>
+    <string name="tx_ui_source_last_fm" formatted="false">Fuente: Last.fm</string>
+    <string name="tx_ui_dark" formatted="false">Oscuro</string>
+    <string name="tx_ui_light" formatted="false">Claro</string>
+    <string name="tx_ui_system" formatted="false">Sistema</string>
+    <string name="tx_ui_colored_widgets" formatted="false">Widgets con color</string>
+    <string name="tx_ui_tint_home_screen_widge" formatted="false">Aplica el color de acento a los widgets</string>
+    <string name="tx_ui_search_settings" formatted="false">Buscar un ajuste…</string>
+    <string name="tx_ui_no_settings_found" formatted="false">Ningún ajuste coincide con su búsqueda</string>
+    <string name="tx_ui_all" formatted="false">Todas</string>
+    <string name="tx_ui_battery_saver" formatted="false">Ahorro de batería</string>
+    <string name="tx_ui_save_battery_fewer_eff" formatted="false">Ahorra batería, menos efectos</string>
+    <string name="tx_ui_musical_soulmates" formatted="false">Almas gemelas musicales</string>
+    <string name="tx_ui_great_compatibility" formatted="false">Muy buena compatibilidad</string>
+    <string name="tx_ui_some_common_ground" formatted="false">Algunos puntos en común</string>
+    <string name="tx_ui_fairly_different_taste" formatted="false">Gustos bastante diferentes</string>
+    <string name="tx_ui_worlds_apart_musically" formatted="false">Universos musicales opuestos</string>
+    <string name="tx_ui_this_is_your_own_profi" formatted="false">¡Este es su propio perfil!</string>
+    <string name="tx_ui_artists_from_your_hist" formatted="false">{uniqueArti} artistas de su historial · biblioteca completa de {targetUser}</string>
+    <string name="tx_ui_artists_from_your_hist_2" formatted="false">{uniqueArti} artistas de su historial · top 200 de {targetUser}</string>
+    <string name="tx_ui_full_library_api" formatted="false">Biblioteca completa (API)</string>
+    <string name="tx_ui_top_200_artists_tracks" formatted="false">Top 200 artistas y canciones (API)</string>
+    <string name="tx_ui_could_not_work_out_the" formatted="false">No se pudo calcular la compatibilidad.</string>
+    <string name="tx_ui_music_compatibility" formatted="false">Compatibilidad musical</string>
+    <string name="tx_ui_analyzing_musical_tast" formatted="false">Analizando gustos musicales…</string>
+    <string name="tx_ui_artist" formatted="false">{v_totalArti} artista{v_totalArti2}</string>
+    <string name="tx_ui_track" formatted="false">{v_totalTrac} canción{v_totalTrac2}</string>
+    <string name="tx_ui_album" formatted="false">{v_totalAlbu} álbum{v_totalAlbu2}</string>
+    <string name="tx_ui_shared_tracks" formatted="false">Canciones en común</string>
+    <string name="tx_ui_shared_artists" formatted="false">Artistas en común</string>
+    <string name="tx_ui_no_shared_artists_foun" formatted="false">No se encontraron artistas en común.</string>
+    <string name="tx_ui_shared_albums" formatted="false">Álbumes en común</string>
+    <string name="tx_ui_play_count_unavailable" formatted="false">Recuento de reproducciones no disponible para uno de los dos.</string>
+    <string name="tx_ui_you_listen_to_this_x_m" formatted="false">Escucha esto {x}x más que {theirUsern}.</string>
+    <string name="tx_ui_listens_to_this_x_more" formatted="false">{theirUsern} escucha esto {x}x más que usted.</string>
+    <string name="tx_ui_you_both_listen_to_thi" formatted="false">Ambos escuchan esto casi por igual.</string>
+    <string name="tx_ui_plays" formatted="false">{plays} reproducciones</string>
+    <string name="tx_ui_compatibility" formatted="false">compatibilidad</string>
+    <string name="tx_ui_you_both_love" formatted="false">A AMBOS LES ENCANTA</string>
+    <string name="tx_ui_shared_top_artist" formatted="false">ARTISTA FAVORITO EN COMÚN</string>
+    <string name="tx_ui_achievements" formatted="false">Logros</string>
+    <string name="tx_ui_qr_not_recognized_not_" formatted="false">QR no reconocido: no es un perfil de LastStats/Last.fm</string>
+    <string name="tx_ui_scan_a_profile_s_qr_co" formatted="false">Escanee el código QR de un perfil</string>
+    <string name="tx_ui_favorites" formatted="false">Favoritos</string>
+    <string name="tx_ui_advanced_youtube_music" formatted="false">Cliente avanzado de YouTube Music.</string>
+    <string name="tx_ui_syncs_the_glyphs_of_no" formatted="false">Sincroniza los Glyphs de los Nothing phones con la música.</string>
+    <string name="tx_ui_sources" formatted="false">Fuentes</string>
+    <string name="tx_ui_official_flutter_docs_" formatted="false">Documentación oficial de Flutter.</string>
+    <string name="tx_ui_official_material_3_gu" formatted="false">Guía oficial de Material 3 para Flutter.</string>
+    <string name="tx_ui_flutter_api_reference_" formatted="false">Referencia de la API de Flutter para Material 3.</string>
+    <string name="tx_ui_official_flutter_packa" formatted="false">Paquete oficial de Flutter para layouts adaptativos.</string>
+    <string name="tx_ui_android_widgets" formatted="false">Widgets de Android</string>
+    <string name="tx_ui_applies_the_accent_col" formatted="false">Aplica el color de acento al fondo de los widgets de la pantalla de inicio. Desactivado: blanco o negro puro.</string>
+    <string name="tx_ui_turns_off_tilt_paralla" formatted="false">Desactiva el paralaje al mover el móvil, limita la frecuencia de actualización de la pantalla y ralentiza las actualizaciones en segundo plano; todo lo demás mantiene la calidad completa (imágenes, exportaciones, tarjetas para compartir).</string>
+    <string name="tx_ui_always_on" formatted="false">Siempre activado</string>
+    <string name="tx_ui_force_eco_mode_on_rega" formatted="false">Fuerza el modo ahorro, sea cual sea el nivel de batería.</string>
+    <string name="tx_ui_auto_activate" formatted="false">Activación automática</string>
+    <string name="tx_ui_turn_on_below_a_batter" formatted="false">Activar el ahorro de energía cuando la batería esté baja</string>
+    <string name="tx_ui_switches_on_by_itself_" formatted="false">El ahorro de energía se activa solo cuando el nivel de batería baja. Podrá elegir el nivel exacto más tarde en los ajustes.</string>
+    <string name="tx_ui_threshold" formatted="false">Umbral</string>
+    <string name="tx_ui_choose_the_tab_display" formatted="false">Elija la pestaña que se muestra al iniciar la app.</string>
+    <string name="tx_ui_the_selected_tab_will_" formatted="false">La pestaña seleccionada aparecerá en el próximo inicio de la app.</string>
+    <string name="tx_ui_friends_sync" formatted="false">Sincronización de amigos</string>
+    <string name="tx_ui_sync_frequency" formatted="false">Frecuencia de sincronización</string>
+    <string name="tx_ui_daily" formatted="false">Cada día</string>
+    <string name="tx_ui_resync_everyone" formatted="false">Resincronizar todo</string>
+    <string name="tx_ui_version_history" formatted="false">Historial de versiones</string>
+    <string name="tx_ui_could_not_load_release" formatted="false">No se pudo cargar el historial de versiones. Revise su conexión e inténtelo de nuevo.</string>
+    <string name="tx_ui_installed_dev_build_un" formatted="false">Instalada: build de desarrollo (versión desconocida)</string>
+    <string name="tx_ui_installed" formatted="false">Instalada: {displayVer}</string>
+    <string name="tx_ui_search_a_version_or_ch" formatted="false">Buscar una versión o un changelog…</string>
+    <string name="tx_ui_official" formatted="false">Oficial</string>
+    <string name="tx_ui_no_release_matches_you" formatted="false">Ninguna versión coincide con su búsqueda.</string>
+    <string name="tx_ui_latest" formatted="false">ÚLTIMA</string>
+    <string name="tx_ui_installed_2" formatted="false">INSTALADA</string>
+    <string name="tx_ui_no_description" formatted="false">Esta versión no incluye descripción.</string>
+    <string name="tx_ui_download" formatted="false">Descargar</string>
+    <string name="tx_ui_view_release" formatted="false">Ver versión</string>
+    <string name="tx_ui_details" formatted="false">Detalles</string>
+    <string name="tx_ui_all_past_releases_chan" formatted="false">Todas las versiones anteriores, changelogs y descargas</string>
+    <string name="tx_ui_please_fill_both_field" formatted="false">Rellene los dos campos para continuar.</string>
+    <string name="tx_svc_title" formatted="false">Elija su servicio</string>
+    <string name="tx_svc_sub" formatted="false">LastStats lee sus reproducciones desde uno de estos dos servicios.</string>
+    <string name="tx_svc_lfm_s" formatted="false">Su historial de Last.fm. Atención: la API de Last.fm pasa a ser de pago; una clave API requiere Last.fm Pro a partir del 1 de diciembre de 2026.</string>
+    <string name="tx_svc_lfm_paid" formatted="false">API de pago</string>
+    <string name="tx_svc_lb_s" formatted="false">Gratuito y de código abierto (MetaBrainz). Inicio de sesión sencillo con su token de usuario.</string>
+    <string name="tx_svc_free" formatted="false">Gratis</string>
+    <string name="tx_svc_back" formatted="false">Cambiar de servicio</string>
+    <string name="tx_svc_lfm_note" formatted="false">A partir del 1 de diciembre de 2026, una clave API de Last.fm requiere una suscripción a Last.fm Pro (para la persona propietaria de la clave). Su cuenta y su historial no cambian.</string>
+    <string name="tx_svc_lfm_pro" formatted="false">Ver Last.fm Pro</string>
+    <string name="tx_lb_title" formatted="false">Conexión a ListenBrainz</string>
+    <string name="tx_lb_steps" formatted="false">1. Cree una cuenta gratuita de ListenBrainz o inicie sesión. 2. Abra sus ajustes de ListenBrainz. 3. Copie su token de usuario y péguelo aquí.</string>
+    <string name="tx_lb_token" formatted="false">Token de usuario</string>
+    <string name="tx_lb_create" formatted="false">Crear una cuenta de ListenBrainz</string>
+    <string name="tx_lb_get_token" formatted="false">Obtener mi token</string>
+    <string name="tx_lb_docs" formatted="false">Ayuda de la API</string>
+    <string name="tx_lb_connect" formatted="false">Conectar</string>
+    <string name="tx_lb_invalid" formatted="false">Token no válido. Compruébelo en sus ajustes de ListenBrainz.</string>
+    <string name="tx_lb_neterr" formatted="false">No se ha podido conectar con ListenBrainz. Compruebe su conexión a Internet.</string>
+    <string name="tx_lb_ok" formatted="false">ListenBrainz conectado ({name}).</string>
+    <string name="tx_lb_empty" formatted="false">Pegue su token para continuar.</string>
+    <string name="tx_sw_title" formatted="false">Datos locales encontrados</string>
+    <string name="tx_sw_body" formatted="false">La app ya tiene {n} reproducciones guardadas localmente. ¿Qué hacer con el nuevo servicio?</string>
+    <string name="tx_sw_transfer" formatted="false">Transferir</string>
+    <string name="tx_sw_transfer_s" formatted="false">Envía estas reproducciones a ListenBrainz y las conserva en la app.</string>
+    <string name="tx_sw_merge" formatted="false">Fusionar</string>
+    <string name="tx_sw_merge_s" formatted="false">Conserva los datos antiguos y añade los del nuevo servicio. En caso de conflicto, Last.fm tiene prioridad.</string>
+    <string name="tx_sw_fresh" formatted="false">Empezar de cero</string>
+    <string name="tx_sw_fresh_s" formatted="false">Borra los datos locales y recarga desde el nuevo servicio.</string>
+    <string name="tx_sw_ok" formatted="false">OK</string>
+    <string name="tx_sw_sending" formatted="false">Enviando reproducciones… {done} / {total}</string>
+    <string name="tx_sw_merging" formatted="false">Fusionando… {year}</string>
+    <string name="tx_sw_fail" formatted="false">La transferencia falló. Sus datos locales se conservan.</string>
+    <string name="tx_lfm_create" formatted="false">Crear una cuenta de Last.fm</string>
+    <string name="tx_conn_lb_desc" formatted="false">Sus reproducciones se leen desde ListenBrainz con su token de usuario. No se envía ninguna solicitud a Last.fm.</string>
+    <string name="tx_acct_lb_token" formatted="false">Token de ListenBrainz</string>
+    <string name="tx_acct_lb_info" formatted="false">El token está en sus ajustes de ListenBrainz. Manténgalo en secreto: da acceso a su cuenta.</string>
+    <string name="tx_acct_lb_profile" formatted="false">Perfil de ListenBrainz</string>
+    <string name="tx_acct_lb_view" formatted="false">Ver en ListenBrainz</string>
+    <string name="tx_acct_switch" formatted="false">Cambiar de servicio</string>
+    <string name="tx_acct_switch_s" formatted="false">Pasar de Last.fm a ListenBrainz, o al revés</string>
+    <string name="tx_ui_api_key_must_be_32_cha" formatted="false">La clave API debe tener exactamente 32 caracteres.</string>
+    <string name="tx_ui_profile_not_found" formatted="false">Perfil no encontrado. Revise el nombre de usuario e inténtelo de nuevo.</string>
+    <string name="tx_ui_chart_monthly" formatted="false">Barras mensuales</string>
+    <string name="tx_ui_chart_cumul" formatted="false">Progresión</string>
+    <string name="tx_ui_chart_genres" formatted="false">Géneros musicales</string>
+    <string name="tx_ui_chart_habits" formatted="false">Hábitos de escucha</string>
+    <string name="tx_ui_chart_artists" formatted="false">Distribución de artistas</string>
+    <string name="tx_ui_chart_albums" formatted="false">Distribución de álbumes</string>
+    <string name="tx_ui_chart_calendar" formatted="false">Calendario de escucha</string>
+    <string name="tx_ui_chart_streaks" formatted="false">Rachas de escucha</string>
+    <string name="tx_ui_band_night" formatted="false">Noche</string>
+    <string name="tx_ui_band_morning" formatted="false">Mañana</string>
+    <string name="tx_ui_band_afternoon" formatted="false">Tarde</string>
+    <string name="tx_ui_band_evening" formatted="false">Noche</string>
+    <string name="tx_qs_t1_t" formatted="false">Modo OLED</string>
+    <string name="tx_qs_t1_s" formatted="false">Fondo negro puro, ahorra energía en pantallas OLED</string>
+    <string name="tx_qs_t2_t" formatted="false">Modo de ahorro de energía</string>
+    <string name="tx_qs_t2_s" formatted="false">Menos animaciones y actualizaciones en segundo plano para ahorrar batería</string>
+    <string name="tx_qs_t3_t" formatted="false">Notificaciones de noticias</string>
+    <string name="tx_qs_t3_s" formatted="false">Avisos de novedades, correcciones y anuncios</string>
+    <string name="tx_qs_t4_t" formatted="false">Retroalimentación háptica</string>
+    <string name="tx_qs_t4_s" formatted="false">Vibraciones breves al tocar, seleccionar o deslizar</string>
+    <string name="tx_qs_t5_t" formatted="false">Logros</string>
+    <string name="tx_qs_t5_s" formatted="false">Muestra los logros desbloqueados y su nivel</string>
+    <string name="tx_qs_l1_t" formatted="false">Color de acento</string>
+    <string name="tx_qs_l2_t" formatted="false">Tema</string>
+    <string name="tx_qs_l3_t" formatted="false">Idioma</string>
+    <string name="tx_qs_l4_t" formatted="false">Plataforma musical</string>
+    <string name="tx_qs_l5_t" formatted="false">Cuenta</string>
+    <string name="tx_qs_l6_t" formatted="false">Sincronización</string>
+    <string name="tx_qs_l7_t" formatted="false">Caché</string>
+    <string name="tx_img_src_lastfm" formatted="false">Fuente: Last.fm</string>
+    <string name="tx_img_src_ytmusic" formatted="false">Fuente: YouTube Music</string>
+    <string name="tx_img_src_itunes" formatted="false">Fuente: iTunes</string>
+    <string name="tx_img_src_deezer" formatted="false">Fuente: Deezer</string>
+    <string name="tx_img_src_audiodb" formatted="false">Fuente: TheAudioDB</string>
+    <string name="tx_img_src_musicbrainz" formatted="false">Fuente: MusicBrainz</string>
+    <string name="tx_img_src_wikipedia" formatted="false">Fuente: Wikipedia</string>
+    <string name="tx_ds_type_artist" formatted="false">Artista</string>
+    <string name="tx_ds_type_album" formatted="false">Álbum</string>
+    <string name="tx_ds_type_track" formatted="false">Canción</string>
+    <string name="tx_pf_1" formatted="false">👤 Perfil de usuario</string>
+    <string name="tx_pf_2" formatted="false">🎤 Top artistas — Global</string>
+    <string name="tx_pf_3" formatted="false">💿 Top álbumes — Global</string>
+    <string name="tx_pf_4" formatted="false">🎵 Top canciones — Global</string>
+    <string name="tx_pf_5" formatted="false">⏱️ Reproducciones recientes</string>
+    <string name="tx_pf_6" formatted="false">🗓️ Esta semana</string>
+    <string name="tx_pf_7" formatted="false">📅 Este mes</string>
+    <string name="tx_pf_8" formatted="false">📅 Últimos 3 meses</string>
+    <string name="tx_pf_9" formatted="false">📅 Últimos 6 meses</string>
+    <string name="tx_pf_10" formatted="false">📅 Últimos 12 meses</string>
+    <string name="tx_pf_11" formatted="false">📊 Historial mensual</string>
+    <string name="tx_pf_12" formatted="false">❤️ Canciones favoritas</string>
+    <string name="tx_pf_13" formatted="false">🗓️ Top artistas — Semana</string>
+    <string name="tx_pf_14" formatted="false">🗓️ Álbumes y canciones — Semana</string>
+    <string name="tx_ds_tier_next" formatted="false">{n} / {next} para el siguiente nivel</string>
+    <string name="tx_ds_tier_max" formatted="false">Nivel máximo alcanzado 🎉</string>
+    <string name="tx_ds_tier_first" formatted="false">Escuche este tema para desbloquear un primer nivel (desde {n} reproducciones).</string>
+    <string name="tx_sl_import" formatted="false">Importando sus datos</string>
+    <string name="tx_sl_done" formatted="false">¡Importado!</string>
+    <string name="tx_sl_connect" formatted="false">Conectando con Last.fm…</string>
+    <string name="tx_sec_chart" formatted="false">Gráfico / calendario</string>
+    <string name="tx_stat_avg_day" formatted="false">Prom. / día</string>
+    <string name="tx_stat_avg_week" formatted="false">Prom. / semana</string>
+    <string name="tx_stat_days_active" formatted="false">Días activos</string>
+    <string name="tx_stat_scrobbles_week" formatted="false">Scrobbles (semana)</string>
+    <string name="tx_accent_purple" formatted="false">Morado</string>
+    <string name="tx_accent_blue" formatted="false">Azul</string>
+    <string name="tx_accent_green" formatted="false">Verde</string>
+    <string name="tx_accent_red" formatted="false">Rojo</string>
+    <string name="tx_accent_orange" formatted="false">Naranja</string>
+    <string name="tx_accent_pink" formatted="false">Rosa</string>
+    <string name="tx_accent_teal" formatted="false">Verde azulado</string>
+    <string name="tx_accent_neutral" formatted="false">Neutro</string>
+    <string name="tx_shape_title" formatted="false">Formas de imágenes</string>
+    <string name="tx_shape_covers" formatted="false">Portadas, artistas y álbumes</string>
+    <string name="tx_shape_mix" formatted="false">Mezcla</string>
+    <string name="tx_shape_square" formatted="false">Cuadrado</string>
+    <string name="tx_shape_circle" formatted="false">Círculo</string>
+    <string name="tx_shape_pick_one" formatted="false">O elija una sola forma</string>
+    <string name="tx_friend_listening" formatted="false">Escuchando</string>
+    <string name="tx_friend_offline" formatted="false">Sin conexión</string>
+    <string name="tx_tier_none" formatted="false">Sin nivel</string>
+    <string name="tx_src_title" formatted="false">Fuentes</string>
+    <string name="tx_src_scrobbles_meta" formatted="false">Scrobbles y metadatos</string>
+    <string name="tx_src_artwork" formatted="false">Carátula</string>
+    <string name="tx_src_audio_preview" formatted="false">Vista previa de audio</string>
+    <string name="tx_src_video_artwork" formatted="false">Carátula en vídeo</string>
+    <string name="tx_tip_love" formatted="false">Añadir a favoritos</string>
+    <string name="tx_rail_expand" formatted="false">Expandir barra lateral</string>
+    <string name="tx_rail_collapse" formatted="false">Contraer barra lateral</string>
+    <string name="tx_a11y_loading" formatted="false">Cargando</string>
+    <string name="tx_bk_pick_folder" formatted="false">Elegir carpeta de copia automática</string>
+    <string name="tx_bk_save_title" formatted="false">Guardar copia de LastStats</string>
+    <string name="tx_bk_pick_file" formatted="false">Elegir un archivo de copia de LastStats</string>
+    <string name="tx_nch_milestone_d" formatted="false">Avisa cuando alcanza un hito de scrobbles</string>
+    <string name="tx_nch_grand_d" formatted="false">Alertas especiales para grandes hitos (1K, 10K, 100K, 1M…)</string>
+    <string name="tx_nch_recap_d" formatted="false">Resúmenes de escucha diarios y semanales</string>
+    <string name="tx_nch_update_d" formatted="false">Avisa cuando hay una nueva versión de LastStats</string>
+    <string name="tx_nch_news_d" formatted="false">Novedades, correcciones y anuncios sobre LastStats</string>
+    <string name="tx_nch_sync_d" formatted="false">Progreso al sincronizar todo su historial de scrobbles</string>
+    <string name="tx_ntf_grand_1000000" formatted="false">Un millón de scrobbles. Es legendario. 🎸</string>
+    <string name="tx_ntf_grand_500000" formatted="false">Medio millón de scrobbles. Usted no para nunca. 🎧</string>
+    <string name="tx_ntf_grand_250000" formatted="false">{n} scrobbles: la música nunca termina. 🎶</string>
+    <string name="tx_ntf_grand_100000" formatted="false">¡{n} scrobbles! Eres un verdadero adicto a la música. 🔥</string>
+    <string name="tx_ntf_grand_50000" formatted="false">{n} scrobbles. Realmente impresionante. 🎵</string>
+    <string name="tx_ntf_grand_25000" formatted="false">¡{n} scrobbles y sigue a tope!</string>
+    <string name="tx_ntf_grand_10000" formatted="false">{n} scrobbles: ¡ha llegado a cinco cifras! 🎉</string>
+    <string name="tx_ntf_grand_5000" formatted="false">¡{n} scrobbles y contando!</string>
+    <string name="tx_ntf_grand_1000" formatted="false">Tus primeros {n} scrobbles. Empieza el viaje. 🎵</string>
+    <string name="tx_ntf_update_title" formatted="false">LastStats {v} disponible</string>
+    <string name="tx_ntf_update_body" formatted="false">Hay una nueva versión lista para descargar.</string>
+    <string name="tx_ntf_milestone_title" formatted="false">🎵 Hito: {n} scrobbles</string>
+    <string name="tx_ntf_milestone_body" formatted="false">Acaba de alcanzar {n} scrobbles en Last.fm 🎶</string>
+    <string name="tx_ntf_daily_title" formatted="false">📊 Resumen del día · {d}</string>
+    <string name="tx_ntf_weekly_title" formatted="false">📅 Resumen semanal · {w}</string>
+    <string name="tx_ntf_year_title" formatted="false">👀 Tu resumen de {y} está listo</string>
+    <string name="tx_ntf_year_body" formatted="false">Descubra su {y} en música: artistas, canciones, álbumes y mucho más.</string>
+    <string name="tx_ntf_recap_body" formatted="false">{n} scrobbles · Top: {a}</string>
+    <string name="tx_ntf_n_today" formatted="false">{n} scrobbles hoy</string>
+    <string name="tx_ntf_n_week" formatted="false">{n} scrobbles esta semana</string>
+    <string name="tx_ntf_top_artist" formatted="false">Artista más escuchado: {a}</string>
+    <string name="tx_ntf_update_avail" formatted="false">🆕 Actualización disponible</string>
+    <string name="tx_ntf_update_ready" formatted="false">LastStats {v} está lista: toque para verla.</string>
+    <string name="tx_ntf_sync_title" formatted="false">🔄 Sincronizando scrobbles…</string>
+    <string name="tx_ntf_sync_done" formatted="false">✅ Scrobbles sincronizados</string>
+    <string name="tx_ntf_sync_new" formatted="false">{n} scrobble(s) nuevo(s) añadido(s).</string>
+    <string name="tx_ntf_grand_t" formatted="false">¡{v} scrobbles!</string>
+    <string name="tx_ntf_year" formatted="false">Año {y}</string>
+    <string name="tx_ntf_week" formatted="false">Semana {w}</string>
+    <string name="tx_reorder" formatted="false">Reordenar</string>
+    <string name="tx_sp_login_t" formatted="false">Inicio de sesión en Spotify</string>
+    <string name="tx_sp_login_hint" formatted="false">Inicie sesión con su correo y su contraseña de Spotify. La ventana se cierra sola al terminar.</string>
+    <string name="tx_sp_risk_note" formatted="false">Atención: esta función se basa en llamadas no oficiales de Spotify, no en una API oficial. Spotify puede cambiarla o bloquearla en cualquier momento, puede dejar de funcionar, y su uso puede ir en contra de las condiciones de uso de Spotify, lo que podría provocar restricciones en su cuenta de Spotify. Úsela bajo su propia responsabilidad.</string>
+    <string name="tx_sp_perf_note" formatted="false">Rendimiento: la búsqueda de Canvas ejecuta un reproductor web oculto en segundo plano y hace solicitudes de red adicionales. Puede consumir más batería, datos y memoria y ralentizar un poco la app. Quite Spotify de esta lista si lo nota.</string>
+    <string name="tx_sp_t" formatted="false">Spotify (Canvas)</string>
+    <string name="tx_sp_on" formatted="false">Conectado</string>
+    <string name="tx_sp_off" formatted="false">No conectado</string>
+    <string name="tx_sp_off_s" formatted="false">Ha cerrado sesión en Spotify. Vuelva a iniciarla para obtener las portadas animadas de Canvas.</string>
+    <string name="tx_mv_ytdash_t" formatted="false">También en el panel</string>
+    <string name="tx_mv_ytdash_s" formatted="false">Usar YouTube para la portada animada de fondo del perfil en el panel (desactivado por defecto)</string>
+    <string name="tx_yr_title" formatted="false">Resumen del año</string>
+    <string name="tx_yr_loading" formatted="false">Su resumen está en camino, no se mueva…</string>
+    <string name="tx_yr_error" formatted="false">Vaya, no se pudieron cargar sus scrobbles. Compruebe su conexión.</string>
+    <string name="tx_yr_retry" formatted="false">Reintentar</string>
+    <string name="tx_yr_empty" formatted="false">Ningún scrobble en {year}… ¿año sabático?</string>
+    <string name="tx_yr_intro_h" formatted="false">Tu año {year} en música</string>
+    <string name="tx_yr_scrobbles" formatted="false">scrobbles</string>
+    <string name="tx_yr_total_intro" formatted="false">Este año ha escuchado nada menos que:</string>
+    <string name="tx_yr_hours" formatted="false">Eso equivale a unas {h} horas de música. ¡Tus oídos merecen una medalla! (estimación)</string>
+    <string name="tx_yr_top_artist" formatted="false">Tu artista del alma</string>
+    <string name="tx_yr_top_artists" formatted="false">Top artistas</string>
+    <string name="tx_yr_top_tracks" formatted="false">Top canciones</string>
+    <string name="tx_yr_top_albums" formatted="false">Top álbumes</string>
+    <string name="tx_yr_plays" formatted="false">{n} reproducciones</string>
+    <string name="tx_yr_months_h" formatted="false">Tu año, mes a mes</string>
+    <string name="tx_yr_months" formatted="false">Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic</string>
+    <string name="tx_yr_best_month" formatted="false">Tu mes más activo: {m}, con {n} scrobbles. ¡Subió la temperatura!</string>
+    <string name="tx_yr_best_day" formatted="false">Tu día más intenso: {d}, con {n} scrobbles. ¡Los auriculares echaban humo!</string>
+    <string name="tx_yr_when_h" formatted="false">Cuándo escucha</string>
+    <string name="tx_yr_p_night" formatted="false">Escucha sobre todo de noche: búho nocturno confirmado</string>
+    <string name="tx_yr_p_morning" formatted="false">Escucha sobre todo por la mañana: café y playlist, dúo ganador</string>
+    <string name="tx_yr_p_day" formatted="false">Escucha sobre todo durante el día: la banda sonora de sus días</string>
+    <string name="tx_yr_p_evening" formatted="false">Escucha sobre todo por la tarde-noche: lo suyo es el ambiente</string>
+    <string name="tx_yr_peak" formatted="false">Su momento de mayor escucha es hacia las {h}:00, y su día favorito es el {d}.</string>
+    <string name="tx_yr_streak_h" formatted="false">Tu constancia de metrónomo</string>
+    <string name="tx_yr_streak" formatted="false">días</string>
+    <string name="tx_yr_style" formatted="false">Personalizar</string>
+    <string name="tx_yr_flame_h" formatted="false">Tu canción en racha</string>
+    <string name="tx_yr_flame_s" formatted="false">reproducciones durante su racha de {n} días</string>
+    <string name="tx_yr_day_h" formatted="false">Tu récord con una canción</string>
+    <string name="tx_yr_day_s" formatted="false">en un solo día, el {d}. ¡Qué pasión!</string>
+    <string name="tx_yr_active" formatted="false">Escuchó música {n} días de {t}. ¿Y los demás? Un silencio sospechoso…</string>
+    <string name="tx_yr_disc_h" formatted="false">Descubrimientos</string>
+    <string name="tx_yr_new" formatted="false">artistas descubiertos este año. ¡Cuánta curiosidad!</string>
+    <string name="tx_yr_unique" formatted="false">En total, escuchó {a} artistas y {t} canciones diferentes. ¡Qué variedad!</string>
+    <string name="tx_yr_card_hours" formatted="false">horas (estimadas)</string>
+    <string name="tx_yr_card_streak" formatted="false">días seguidos</string>
+    <string name="tx_yr_friends_h" formatted="false">Usted contra sus amigos</string>
+    <string name="tx_yr_rank" formatted="false">Eres el n.º {r} de {n}</string>
+    <string name="tx_yr_you" formatted="false">Tú</string>
+    <string name="tx_yr_twin_h" formatted="false">Tu gemelo musical</string>
+    <string name="tx_yr_twin_s" formatted="false">Tienen {n} artistas favoritos en común. ¡Las grandes mentes piensan igual!</string>
+    <string name="tx_yr_top_track" formatted="false">Tu éxito n.º 1</string>
+    <string name="tx_yr_top_album" formatted="false">Tu álbum fetiche</string>
+    <string name="tx_yr_line_h" formatted="false">Tu año, acumulado</string>
+    <string name="tx_yr_cal_h" formatted="false">Tu año en un calendario</string>
+    <string name="tx_yr_share_h" formatted="false">A dónde van sus reproducciones</string>
+    <string name="tx_yr_share_err" formatted="false">Vaya, no se pudo crear la imagen. Inténtalo de nuevo.</string>
+    <string name="tx_yr_share_profile" formatted="false">Usar mi foto de perfil como fondo</string>
+    <string name="tx_yr_months_full" formatted="false">enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre</string>
+    <string name="tx_yr_months_gen" formatted="false">enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre</string>
+    <string name="tx_yr_day_fmt" formatted="false">{d} de {m}</string>
+    <string name="tx_yr_weekdays_full" formatted="false">lunes,martes,miércoles,jueves,viernes,sábado,domingo</string>
+    <string name="tx_sp_need" formatted="false">Spotify necesita iniciar sesión: Perfil &gt; Página de conexión.</string>
+    <string name="tx_conn_title" formatted="false">Conexiones</string>
+    <string name="tx_conn_btn_t" formatted="false">Página de conexión</string>
+    <string name="tx_conn_btn_s" formatted="false">Last.fm, Spotify y claves API</string>
+    <string name="tx_conn_sp_desc" formatted="false">Se usa para los vídeos de portada (Canvas). Es necesaria una cuenta de Spotify.</string>
+    <string name="tx_conn_connect" formatted="false">Conectar</string>
+    <string name="tx_conn_disconnect" formatted="false">Desconectar</string>
+    <string name="tx_conn_keys" formatted="false">Claves API</string>
+    <string name="tx_conn_manage" formatted="false">Gestionar cuenta</string>
+    <string name="tx_conn_test" formatted="false">Probar Spotify</string>
+    <string name="tx_conn_testing" formatted="false">Probando…</string>
+    <string name="tx_conn_q_note" formatted="false">Spotify Canvas tiene una sola calidad. Los ajustes de calidad solo se aplican a Apple Music y YouTube.</string>
+    <string name="tx_conn_lfm_desc" formatted="false">Su historial de Last.fm se lee con su propia clave API (requiere Last.fm Pro a partir del 1 de diciembre de 2026).</string>
+    <string name="tx_conn_lfm_web" formatted="false">Iniciar sesión con Last.fm</string>
+    <string name="tx_lfm_login_t" formatted="false">Inicio de sesión en Last.fm</string>
+    <string name="tx_lfm_login_hint" formatted="false">Inicie sesión en el sitio de Last.fm. La aplicación detectará su nombre de usuario y cerrará la ventana.</string>
+    <string name="tx_lfm_web_sub" formatted="false">No se necesita ninguna clave API: la aplicación usa su propia clave integrada.</string>
+    <string name="tx_lfm_manual_hint" formatted="false">No se encontró el nombre de usuario automáticamente. Introdúzcalo abajo una vez iniciada la sesión.</string>
+    <string name="tx_lfm_manual_label" formatted="false">Nombre de usuario</string>
+    <string name="tx_rec" formatted="false">recomendado</string>
+    <string name="tx_not_rec" formatted="false">no recomendado</string>
+    <string name="tx_sm_title" formatted="false">Método de conexión</string>
+    <string name="tx_sm_key_t" formatted="false">Mi clave API</string>
+    <string name="tx_sm_key_s" formatted="false">Dispone de su propio límite de uso y los favoritos están disponibles.</string>
+    <string name="tx_sm_builtin_t" formatted="false">Clave integrada</string>
+    <string name="tx_sm_builtin_s" formatted="false">Solo se necesita su nombre de usuario. El límite de uso se comparte con los demás usuarios.</string>
+    <string name="tx_wl_title" formatted="false">Bienvenido</string>
+    <string name="tx_wl_sub" formatted="false">Introduzca su nombre de usuario de Last.fm y su propia clave API.</string>
+    <string name="tx_sr_from_recent" formatted="false">Desde sus búsquedas recientes</string>
+    <string name="tx_sr_recent" formatted="false">Búsquedas recientes</string>
+    <string name="tx_sr_suggestions" formatted="false">Sugerencias</string>
+    <string name="tx_sr_recommended" formatted="false">Recomendado</string>
+    <string name="tx_sr_best" formatted="false">Mejores resultados</string>
+    <string name="tx_cx_best_month" formatted="false">Mejor mes</string>
+    <string name="tx_cx_active_days" formatted="false">Días activos</string>
+    <string name="tx_cx_peak_hour" formatted="false">Hora pico</string>
+    <string name="tx_cx_top_artist" formatted="false">Artista n.º 1</string>
+    <string name="tx_cx_top_artists" formatted="false">Top artistas</string>
+    <string name="tx_cx_by_month" formatted="false">Por mes</string>
+    <string name="tx_cx_cumulative" formatted="false">Acumulado</string>
+    <string name="tx_cx_clock" formatted="false">Reloj de escucha</string>
+    <string name="tx_cx_others" formatted="false">Otros</string>
+    <string name="tx_cx_artist_distribution" formatted="false">Distribución por artista</string>
+    <string name="tx_cx_daypart" formatted="false">Momentos del día</string>
+    <string name="tx_cx_night" formatted="false">Madrugada</string>
+    <string name="tx_cx_morning" formatted="false">Mañana</string>
+    <string name="tx_cx_afternoon" formatted="false">Tarde</string>
+    <string name="tx_cx_evening" formatted="false">Noche</string>
+    <string name="tx_cx_intensity" formatted="false">Intensidad de los días</string>
+    <string name="tx_cx_days" formatted="false">días</string>
+    <string name="tx_cx_busiest" formatted="false">Días más intensos</string>
+    <string name="tx_cx_weekend" formatted="false">Semana vs fin de semana</string>
+    <string name="tx_up_title" formatted="false">Actualización</string>
+    <string name="tx_up_downloading" formatted="false">Descargando…</string>
+    <string name="tx_up_perm_title" formatted="false">Permiso necesario</string>
+    <string name="tx_up_perm_body" formatted="false">Permita instalar desde LastStats en los ajustes de Android, vuelva aquí y toque Reintentar.</string>
+    <string name="tx_up_installing" formatted="false">Abriendo la instalación…</string>
+    <string name="tx_up_restart" formatted="false">LastStats se cerrará y se reiniciará.</string>
+    <string name="tx_up_failed" formatted="false">Descarga fallida</string>
+    <string name="tx_up_failed_body" formatted="false">Abra el enlace en el navegador para instalar la actualización.</string>
+    <string name="tx_up_retry" formatted="false">Reintentar</string>
+    <string name="tx_up_browser" formatted="false">Abrir en el navegador</string>
+    <string name="tx_up_close" formatted="false">Cerrar</string>
+    <string name="tx_up_saved" formatted="false">Guardado en Descargas</string>
+    <string name="tx_up_background" formatted="false">Continuar en segundo plano</string>
+    <string name="tx_ntf_dl_section" formatted="false">Descargas</string>
+    <string name="tx_ntf_dl_title" formatted="false">Notificaciones de descarga</string>
+    <string name="tx_ntf_dl_sub" formatted="false">Barra de progreso durante las descargas, incluso en segundo plano</string>
+    <string name="tx_ntf_dl_ready" formatted="false">Descarga completada</string>
+    <string name="tx_ntf_dl_failed" formatted="false">Descarga fallida</string>
+    <string name="tx_ntf_act_read" formatted="false">Marcar como leído</string>
+    <string name="tx_ntf_act_read_all" formatted="false">Marcar todo como leído</string>
+    <string name="tx_ntf_act_install" formatted="false">Instalar</string>
+    <string name="tx_ntf_dl_install_hint" formatted="false">Toque para instalar la actualización</string>
+    <string name="tx_up_open_downloads" formatted="false">Abrir Descargas</string>
+    <string name="tx_ic_title" formatted="false">Icono de la app</string>
+    <string name="tx_ic_note" formatted="false">El icono cambia al salir de la app, en la lista de aplicaciones. En la pantalla de inicio, vuelva a colocar la app o añada un acceso directo con el botón de abajo.</string>
+    <string name="tx_ic_default" formatted="false">Clásico</string>
+    <string name="tx_ic_white" formatted="false">Claro</string>
+    <string name="tx_ic_nothing_black" formatted="false">Nothing oscuro</string>
+    <string name="tx_ic_nothing_white" formatted="false">Nothing claro</string>
+    <string name="tx_ic_blue" formatted="false">Azul</string>
+    <string name="tx_ic_red" formatted="false">Rojo</string>
+    <string name="tx_ic_pin" formatted="false">Añadir a la pantalla de inicio</string>
+    <string name="tx_lbl_step1_t" formatted="false">Abra la página de su token</string>
+    <string name="tx_lbl_step1_s" formatted="false">Inicie sesión en ListenBrainz y copie el «Token de usuario».</string>
+    <string name="tx_lbl_open" formatted="false">Abrir ListenBrainz</string>
+    <string name="tx_lbl_step2_t" formatted="false">Pegue el token</string>
+    <string name="tx_lbl_paste" formatted="false">Pegar</string>
+    <string name="tx_lbl_detected" formatted="false">Token encontrado en el portapapeles</string>
+    <string name="tx_lbl_use" formatted="false">Usar</string>
+    <string name="tx_lbl_format_ok" formatted="false">Formato de token válido</string>
+    <string name="tx_lbl_format_bad" formatted="false">Un token se parece a xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</string>
+    <string name="tx_lbl_err_format" formatted="false">Eso no es un token. No escriba su nombre de usuario: copie el «Token de usuario» de los ajustes de ListenBrainz.</string>
+    <string name="tx_lbl_err_invalid" formatted="false">ListenBrainz rechaza este token. Compruebe que esté completo o copie uno nuevo.</string>
+    <string name="tx_lbl_err_rate" formatted="false">ListenBrainz pide esperar un momento. Inténtalo de nuevo en unos segundos.</string>
+    <string name="tx_lbl_err_server" formatted="false">El servidor de ListenBrainz no responde bien. Inténtalo de nuevo en un momento.</string>
+    <string name="tx_lbl_err_net" formatted="false">No se puede conectar con ListenBrainz. Compruebe su conexión.</string>
+    <string name="tx_lbl_err_after" formatted="false">Inicio de sesión aceptado, pero falló la apertura: {e}</string>
+    <string name="tx_lbl_options" formatted="false">Opciones</string>
+    <string name="tx_lbl_why" formatted="false">El token acelera la lectura de su historial y permite añadir canciones a favoritos.</string>
+    <string name="tx_lbl_connected" formatted="false">Sesión iniciada como {u}</string>
+    <string name="tx_svc_recommended" formatted="false">Recomendado</string>
+    <string name="tx_lfm_seg_key" formatted="false">Mi clave</string>
+    <string name="tx_lfm_seg_builtin" formatted="false">Clave integrada</string>
+    <string name="tx_lfm_seg_web" formatted="false">Sitio web</string>
+    <string name="tx_acct_lb_change" formatted="false">Cambiar token</string>
+    <string name="tx_acct_lb_change_s" formatted="false">Pegue un nuevo token de ListenBrainz</string>
+    <string name="tx_acct_lb_changed" formatted="false">Token actualizado</string>
+    <string name="tx_bk_keys_desc_lb" formatted="false">Elija qué datos de inicio de sesión de ListenBrainz restaurar desde esta copia.</string>
+    <string name="tx_lbl_restore_bad" formatted="false">Esta copia no contiene un inicio de sesión utilizable.</string>
+    <string name="tx_lbl_restored" formatted="false">Copia restaurada</string>
+    <string name="tx_lbl_step3_t" formatted="false">Inicie sesión</string>
+    <string name="tx_lbl_api_lb" formatted="false">Usa su token de ListenBrainz. Límite: 1 solicitud por segundo, gestionada automáticamente.</string>
+    <string name="tx_lbl_key_needed" formatted="false">Las claves públicas están desactivadas: añada su propia clave API de Last.fm en Ajustes › Conexiones.</string>
+    <string name="tx_api_img_sec" formatted="false">Fuentes de imágenes</string>
+    <string name="tx_api_img_sub" formatted="false">Arrastre para ordenar. Se usa la primera fuente activada que encuentre una imagen.</string>
+    <string name="tx_api_vid_sec" formatted="false">Fuentes de vídeo</string>
+    <string name="tx_api_img_clear" formatted="false">Vaciar la caché de imágenes (aplicar el nuevo orden)</string>
+    <string name="tx_api_img_cleared" formatted="false">Caché de imágenes vaciada</string>
+    <string name="tx_api_help" formatted="false">«Solicitudes hoy»: número de llamadas enviadas a los servicios desde medianoche. «Errores»: llamadas fallidas (servicio caído, acceso denegado o sin red). «Limitadas»: respuestas de «demasiadas solicitudes» de un servicio, que se pausa durante un rato.</string>
+    <string name="tx_err_bad_response" formatted="false">El servidor ha devuelto una respuesta no válida. Es posible que el servicio no esté disponible o esté en mantenimiento. Inténtelo de nuevo en unos instantes.</string>
+    <string name="tx_dash_offline_cache" formatted="false">No se ha podido conectar con el servidor. Se muestran los datos guardados en este dispositivo.</string>
+    <string name="tx_news_btn" formatted="false">Noticias</string>
+    <string name="tx_news_btn_sub" formatted="false">Interrupciones, mantenimiento y anuncios</string>
+    <string name="tx_news_load_failed" formatted="false">No se han podido cargar las noticias. Compruebe su conexión a Internet e inténtelo de nuevo.</string>
+    <string name="tx_news_retry" formatted="false">Volver a intentar</string>
+    <string name="tx_faq_lfm_h" formatted="false">Preguntas frecuentes de Last.fm</string>
+    <string name="tx_faq_lb_h" formatted="false">Preguntas frecuentes de ListenBrainz</string>
+    <string name="tx_ap_cov_section" formatted="false">Carátulas y logros</string>
+    <string name="tx_faq_lfm_q1" formatted="false">¿Cómo obtengo una clave API de Last.fm?</string>
+    <string name="tx_faq_lfm_a1" formatted="false">Inicie sesión en Last.fm, abra last.fm/api/account/create, indique un nombre de aplicación y una breve descripción (la URL de retorno puede quedar vacía) y copie la «clave API» que aparece en last.fm/api/accounts. Introdúzcala en LastStats junto con su nombre de usuario de Last.fm. La clave es suya: LastStats no tiene ninguna clave compartida.</string>
+    <string name="tx_faq_lfm_q2" formatted="false">¿Qué cambia el 1 de diciembre de 2026?</string>
+    <string name="tx_faq_lfm_a2" formatted="false">Last.fm ha anunciado que, a partir del 1 de diciembre de 2026, una clave API solo funcionará mientras la cuenta de Last.fm que la posee tenga una suscripción a Last.fm Pro. Las claves de cuentas gratuitas dejarán de funcionar ese día. Solo el propietario de la clave debe pagar: su historial de escucha y su cuenta no cambian. Si no desea suscribirse, puede usar ListenBrainz, que es gratuito.</string>
+    <string name="tx_faq_lfm_q3" formatted="false">¿Qué ocurre si mi clave deja de funcionar?</string>
+    <string name="tx_faq_lfm_a3" formatted="false">LastStats sigue mostrando los datos ya guardados en su dispositivo, pero ya no se pueden cargar datos nuevos y aparece un mensaje de error. Suscríbase a Last.fm Pro (o introduzca una clave de una cuenta Pro) para que todo vuelva a funcionar, o cambie a ListenBrainz en Ajustes &gt; Cuenta.</string>
+    <string name="tx_faq_lfm_q4" formatted="false">¿Cómo llegan mis escuchas a Last.fm?</string>
+    <string name="tx_faq_lfm_a4" formatted="false">LastStats solo muestra sus scrobbles; no registra ninguno. Utilice una aplicación de scrobbling o un reproductor compatible con Last.fm (por ejemplo, Pano Scrobbler en Android), con la sesión iniciada en su cuenta de Last.fm.</string>
+    <string name="tx_faq_lfm_q5" formatted="false">¿Por qué no aparecen mis últimos scrobbles?</string>
+    <string name="tx_faq_lfm_a5" formatted="false">Compruebe primero que su scrobbler funciona: la canción debe aparecer en su perfil de last.fm. Después, deslice hacia abajo para actualizar LastStats. Last.fm limita el número de peticiones que una aplicación puede enviar, por lo que LastStats espacia sus llamadas: un historial muy grande puede tardar en sincronizarse la primera vez.</string>
+    <string name="tx_faq_lb_q1" formatted="false">¿Dónde encuentro mi token de usuario de ListenBrainz?</string>
+    <string name="tx_faq_lb_a1" formatted="false">Inicie sesión en listenbrainz.org, abra listenbrainz.org/settings/ y copie el «User token». Manténgalo en privado: le identifica. En LastStats, introduzca su nombre de usuario de ListenBrainz (su nombre de usuario de MusicBrainz) y el token. Solo se guarda en su dispositivo.</string>
+    <string name="tx_faq_lb_q2" formatted="false">¿ListenBrainz es gratuito?</string>
+    <string name="tx_faq_lb_a2" formatted="false">Sí. ListenBrainz es un proyecto de código abierto de la fundación sin ánimo de lucro MetaBrainz y su uso es gratuito. LastStats solo necesita su token de usuario: no hay que crear ninguna clave API. Sus escuchas son datos públicos publicados bajo la licencia CC0.</string>
+    <string name="tx_faq_lb_q3" formatted="false">¿Por qué mis estadísticas están vacías o no aparecen?</string>
+    <string name="tx_faq_lb_a3" formatted="false">ListenBrainz calcula las estadísticas en sus propios servidores, por lo que pueden tardar en una cuenta nueva, tras una importación grande o cuando el servicio está saturado. En ese caso, la API simplemente responde que todavía no hay nada listo. Primero aparecen sus escuchas y las estadísticas llegan más tarde. Inténtelo de nuevo un poco más tarde.</string>
+    <string name="tx_faq_lb_q4" formatted="false">¿Cómo traigo mi historial de Last.fm a ListenBrainz?</string>
+    <string name="tx_faq_lb_a4" formatted="false">Inicie sesión en listenbrainz.org (se necesita una cuenta de MusicBrainz) y abra listenbrainz.org/import-data/ para importar sus escuchas de Last.fm. Cuando mucha gente importa a la vez, puede tardar. Al cambiar de servicio, LastStats también le ofrece transferir los scrobbles guardados en su dispositivo.</string>
+    <string name="tx_faq_lb_q5" formatted="false">¿Cómo envío mis escuchas a ListenBrainz?</string>
+    <string name="tx_faq_lb_a5" formatted="false">LastStats solo muestra sus escuchas. Para registrarlas, utilice un reproductor o una aplicación de scrobbling compatible con ListenBrainz, con la sesión iniciada mediante su token; la lista de aplicaciones compatibles está en listenbrainz.org. Recuerde que sus escuchas son públicas.</string>
+    <string name="tx_yr_ctx_month" formatted="false">Canción más escuchada ({m})</string>
+    <string name="tx_yr_ctx_peak" formatted="false">Canción más escuchada a estas horas</string>
+    <string name="tx_yr_ctx_artist" formatted="false">Canción más escuchada de {a}</string>
+    <string name="tx_yr_ctx_disc" formatted="false">Canción más escuchada entre sus descubrimientos</string>
+    <string name="tx_yr_bg_full" formatted="false">Imagen a pantalla completa</string>
+    <string name="tx_yr_bg_band" formatted="false">Imagen en banda superior</string>
+    <string name="tx_yr_bg_none" formatted="false">Sin imagen</string>
+    <string name="tx_yr_sum_cover" formatted="false">Imagen del top 1</string>
+    <string name="tx_yr_sum_profile" formatted="false">Perfil</string>
+    <string name="tx_yr_sum_none" formatted="false">Ninguna</string>
+</resources>
