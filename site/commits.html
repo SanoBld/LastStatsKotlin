@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LastStats | Pushs</title>
+<meta name="description" content="Tous les pushs de LastStats : commits, versions et archives ZIP à télécharger.">
+<meta name="theme-color" content="#10617D">
+<script src="js/palette.js"></script>
+<script>(function(d){var r=d.documentElement;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;r.classList.add('pre-anim','gsap-on');try{if(!localStorage.getItem('ls_intro'))r.classList.add('show-loader')}catch(e){}setTimeout(function(){r.classList.remove('pre-anim','show-loader')},6000)})(document)</script>
+<link rel="preload" href="assets/fonts/GoogleSansFlex-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/GoogleSansFlex-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://cloud.umami.is" crossorigin>
+<link rel="stylesheet" href="css/animations.css">
+<link rel="icon" href="assets/img/favicon-light.png" media="(prefers-color-scheme: light)">
+<link rel="icon" href="assets/img/favicon-dark.png" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/project.css">
+<link rel="stylesheet" href="css/help.css">
+<link rel="stylesheet" href="css/releases.css">
+<link rel="stylesheet" href="css/commits.css">
+<link rel="stylesheet" href="css/news.css">
+<link rel="stylesheet" href="css/expressive.css">
+<script defer src="https://cloud.umami.is/script.js" data-website-id="adc52595-b992-434a-8eaf-2a4880979675"></script>
+</head>
+<body>
+
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo md-ripple" aria-label="Home">
+      <span class="ms" aria-hidden="true">home</span>
+    </a>
+    <div class="nav-toggles">
+      <a href="news.html" class="nav-logo nav-news md-ripple" aria-label="Actus"><span class="ms" aria-hidden="true">newspaper</span></a>
+      <button type="button" class="lang-toggle md-ripple" aria-label="Switch to English">EN</button>
+      <button id="theme-toggle" class="theme-toggle md-ripple" aria-label="Changer de thème">
+        <span class="dot"></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="project-page-header help-header">
+    <div class="project-hero-bg" aria-hidden="true"></div>
+    <div class="project-hero-grid" aria-hidden="true"></div>
+
+    <a href="index.html" class="back-link md-ripple reveal">
+      <span class="ms" style="font-size:16px" aria-hidden="true">chevron_left</span>
+      <span data-i18n="common.back_to_laststats">Retour à LastStats</span>
+    </a>
+
+    <h1 class="project-page-title reveal" data-i18n="commits.title">Pushs</h1>
+    <p class="project-page-desc reveal" data-i18n="commits.desc">
+      Tous les pushs de LastStats : commits, versions et archives ZIP de chaque état du code.
+    </p>
+  </section>
+
+  <section class="help-section releases-section">
+    <div id="cm-latest"></div>
+
+    <div class="rel-toolbar reveal">
+      <div class="rel-filter" id="cm-filter" role="group">
+        <button type="button" class="rel-filter-btn md-ripple is-active" data-filter="all" data-i18n="commits.filter_all">Tous</button>
+        <button type="button" class="rel-filter-btn md-ripple" data-filter="feat" data-i18n="commits.filter_feat">Nouveautés</button>
+        <button type="button" class="rel-filter-btn md-ripple" data-filter="fix" data-i18n="commits.filter_fix">Correctifs</button>
+        <button type="button" class="rel-filter-btn md-ripple" data-filter="tag" data-i18n="commits.filter_tag">Versions</button>
+      </div>
+      <input type="search" class="rel-search cm-search" id="cm-search" autocomplete="off" spellcheck="false" placeholder="Rechercher…" aria-label="Rechercher">
+      <a class="rel-gh md-ripple" href="https://github.com/SanoBld/LastStats/commits" target="_blank" rel="noopener">
+        <span data-i18n="releases.all_on_github">Voir sur GitHub</span>
+        <span class="ms arrow-icon" style="font-size:14px" aria-hidden="true">arrow_forward</span>
+      </a>
+    </div>
+
+    <p class="rel-status" id="cm-status" data-i18n="commits.loading">Chargement des pushs…</p>
+    <div id="cm-list"></div>
+    <button type="button" class="rel-more md-ripple" id="cm-more" hidden data-i18n="releases.show_more">Afficher plus</button>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Sano Bld</p>
+    <div class="footer-links footer-buttons">
+      <a class="md-ripple" href="releases.html" data-i18n="releases.nav">Versions</a>
+      <a class="md-ripple" href="commits.html" data-i18n="commits.nav">Pushs</a>
+      <a class="md-ripple" href="help.html" data-i18n="common.help">Aide</a>
+      <a class="md-ripple" href="https://github.com/SanoBld/LastStats" target="_blank" rel="noopener">GitHub</a>
+      <a class="md-ripple" href="https://discord.gg/JjqmkQgZBs" target="_blank" rel="noopener">Discord</a>
+      <a class="md-ripple" href="legal.html" data-i18n="common.legal_notice">Mentions légales</a>
+    </div>
+  </footer>
+
+  <script src="js/theme.js"></script>
+  <script src="i18n/fr.js"></script>
+  <script src="i18n/en.js"></script>
+  <script src="i18n/de.js"></script>
+  <script src="i18n/es.js"></script>
+  <script src="i18n/it.js"></script>
+  <script src="i18n/pt.js"></script>
+  <script src="i18n/ru.js"></script>
+  <script src="i18n/ja.js"></script>
+  <script src="i18n/zh.js"></script>
+  <script src="i18n/ar.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/vendor/SplitText.min.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/ripple.js"></script>
+  <script src="js/expressive.js"></script>
+  <script src="js/nav-autohide.js"></script>
+  <script src="js/commits.js" data-repo="SanoBld/LastStats"></script>
+</body>
+</html>

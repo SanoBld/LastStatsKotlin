@@ -1,0 +1,65 @@
+name: Build Android
+
+# Reusable: called by build-all.yml / release.yml, also runnable manually.
+# One Gradle run builds the universal APK and one APK per CPU architecture.
+# File names are what the in-app updater looks for, so don't rename them.
+on:
+  workflow_call:
+    inputs:
+      version:
+        description: 'Version to build (e.g. 5.0.0). Empty = dev build'
+        required: false
+        type: string
+        default: ''
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to build (e.g. 5.0.0). Empty = dev build'
+        required: false
+        type: string
+        default: ''
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.11.1'
+
+      # No version given = dev build: never claim to be a real release.
+      - name: Build release APKs
+        shell: bash
+        env:
+          IN_VERSION: ${{ inputs.version }}
+          LS_KEYS: ${{ secrets.LS_KEYS }}
+        run: |
+          VERSION="${IN_VERSION:-0.0.0-dev.${{ github.run_number }}}"
+          gradle :app:assembleRelease -PabiSplits=true \
+            -PversionName="$VERSION" -PversionCode=${{ github.run_number }} \
+            --no-daemon --stacktrace
+
+      - name: Collect APKs
+        shell: bash
+        run: |
+          mkdir -p dist
+          cp app/build/outputs/apk/release/*.apk dist/
+          ls -la dist
+          for f in app-universal-release.apk app-arm64-v8a-release.apk app-armeabi-v7a-release.apk app-x86_64-release.apk; do
+            test -f "dist/$f" || { echo "Missing $f"; exit 1; }
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android-apks
+          path: dist/*.apk

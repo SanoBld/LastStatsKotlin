@@ -1,0 +1,23 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": false,
+  "files.exclude": {
+    "**/.gradle": true,
+    "**/build": true
+  },
+  "search.exclude": {
+    "**/build": true,
+    "site": true,
+    "docs": true
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "[kotlin]": {
+    "editor.tabSize": 4
+  },
+  "[xml]": {
+    "editor.tabSize": 2
+  }
+}

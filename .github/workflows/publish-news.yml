@@ -1,0 +1,112 @@
+name: Publish app news
+
+# Manually triggered: fill in the form in the Actions tab to push a new
+# announcement to all app instances. Appends to news.json on gh-pages,
+# read by the dashboard's news bell at startup.
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Title (short)'
+        required: true
+      body:
+        description: 'Body (optional). One line: write \n for a line break. **bold** *italic* __underline__ ~~strike~~ ==highlight== `code` / "# Title" / "- list item" / table "| A | B |\n|---|---|\n| 1 | 2 |" / image "![alt](https://...)" / links are automatic'
+        required: false
+        default: ''
+      type:
+        description: 'Type'
+        required: true
+        type: choice
+        options:
+          - feature
+          - fix
+          - update
+          - alert
+          - info
+        default: info
+      emoji:
+        description: 'Emoji (optional, overrides type icon)'
+        required: false
+        default: ''
+      discord:
+        description: 'Also post on Discord (secret DISCORD_NEWS_WEBHOOK)'
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# never push to gh-pages at the same time as another workflow
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  publish-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      # Fetch the current news.json straight from the gh-pages branch (the
+      # github.io CDN can serve a copy that is a few minutes old, which would
+      # drop a news item published just before). Falls back to the live site.
+      - name: Fetch existing news.json
+        run: |
+          git fetch --depth=1 origin gh-pages 2>/dev/null \
+            && git show origin/gh-pages:news.json > existing.json 2>/dev/null \
+            || curl -fsSL https://sanobld.github.io/LastStats/news.json -o existing.json \
+            || echo '{"items":[]}' > existing.json
+          jq -e '.items' existing.json >/dev/null 2>&1 || echo '{"items":[]}' > existing.json
+
+      - name: Build new news.json
+        env:
+          TITLE: ${{ inputs.title }}
+          BODY:  ${{ inputs.body }}
+          TYPE:  ${{ inputs.type }}
+          EMOJI: ${{ inputs.emoji }}
+        run: |
+          mkdir -p public
+          # The input field is a single line: "\n" typed as two characters
+          # becomes a real line break (needed for lists and tables).
+          BODY="${BODY//\\n/$'\n'}"
+          ID="news_$(date +%s)"
+          DATE=$(date +%d/%m)
+
+          NEW_ITEM=$(jq -n \
+            --arg id "$ID" \
+            --arg title "$TITLE" \
+            --arg body "$BODY" \
+            --arg type "$TYPE" \
+            --arg emoji "$EMOJI" \
+            --arg date "$DATE" \
+            '{id:$id, title:$title, body:$body, type:$type, emoji:$emoji, date:$date}')
+
+          # Prepend the new item, keep only the last 30 to avoid unbounded growth
+          jq --argjson newitem "$NEW_ITEM" \
+            '.items = ([$newitem] + .items) | .items |= .[:30]' \
+            existing.json > public/news.json
+
+          # copy for the website (data/news.json), next to the root file
+          mkdir -p public/data && cp public/news.json public/data/news.json
+          cat public/news.json
+
+      - name: Publish news.json to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          keep_files: true
+
+      - name: Post on Discord
+        if: ${{ inputs.discord }}
+        continue-on-error: true
+        env:
+          WEBHOOK:   ${{ secrets.DISCORD_NEWS_WEBHOOK }}
+          KIND:      news
+          NEWS_TYPE: ${{ inputs.type }}
+          TITLE:     ${{ inputs.title }}
+          BODY:      ${{ inputs.body }}
+          EMOJI:     ${{ inputs.emoji }}
+          URL:       https://sanobld.github.io/LastStats/news.html
+        run: python3 .github/scripts/discord_notify.py

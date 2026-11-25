@@ -1,0 +1,46 @@
+name: Build LastStats
+
+# Runs automatically on every push touching app code. It builds the APKs for
+# verification, without creating a GitHub Release.
+# (Releases are handled separately by release.yml on tag push.)
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'app/**'
+      - 'gradle/**'
+      - '*.kts'
+      - 'gradle.properties'
+      - 'version.properties'
+      - '.github/workflows/build-android.yml'
+  workflow_dispatch: {}
+
+# Cancel an in-progress run if a newer push arrives, saves CI minutes.
+concurrency:
+  group: build-all-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # Skips automated commits that contain "[skip ci]" in their message
+  # (e.g. release.yml's version-bump commit).
+  check-skip:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 2
+      - id: check
+        run: |
+          MSG=$(git log -1 --pretty=%B)
+          if [[ "$MSG" == *"[skip ci]"* ]]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  android:
+    needs: check-skip
+    if: needs.check-skip.outputs.skip != 'true'
+    uses: ./.github/workflows/build-android.yml

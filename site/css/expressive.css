@@ -1,0 +1,707 @@
+/* ==========================================================
+   MATERIAL 3 EXPRESSIVE — same shapes and motion as the app
+   (lib/theme/m3_shapes.dart + m3_motion.dart):
+   - buttons are pills / circles, pressed = softer 14px square
+   - spring curves are the app's own cubic-bezier values
+   - connected groups keep big outer corners and small inner ones
+   Loaded after every other stylesheet; colors still come from style.css.
+   ========================================================== */
+:root {
+  /* app curves (M3Motion): spatial = moves/shape, effects = color/opacity */
+  --spring-fast: cubic-bezier(.42, 1.67, .21, .90);      /* 350 ms */
+  --spring-default: cubic-bezier(.38, 1.21, .22, 1);     /* 500 ms */
+  --spring-slow: cubic-bezier(.39, 1.29, .35, .98);      /* 650 ms */
+  --effects: cubic-bezier(.34, .80, .34, 1);             /* 200 ms */
+  --m3-emphasized-accel: cubic-bezier(.3, 0, .8, .15);
+
+  /* Radii are real half-heights, never 999px: a radius that is bigger than
+     the box only starts to show at the very end of the transition, which
+     looked like a freeze followed by a jump. */
+  --r-pill: 24px;   /* 48px buttons */
+  --r-chip: 18px;   /* 36px chips */
+  --r-outer: 24px;
+  --r-inner: 6px;
+  --r-hover: 18px;
+  --r-press: 14px;  /* app: pressed button */
+  --r-card: 20px;   /* app: menus, snackbars */
+  --r-tile: 28px;
+
+  --font-heading: var(--font-display);
+  --md-surface-container-highest: #DFE3E5;
+}
+[data-theme="dark"] { --md-surface-container-highest: #303638; }
+
+* { -webkit-tap-highlight-color: transparent; }
+a, button { touch-action: manipulation; }
+
+/* shared motion: shape and position use springs, colors use the effects curve */
+.project-actions a, .project-actions button, .contact-links a, .about-cta,
+.lang-toggle, .theme-toggle, .nav-logo, .back-link, .help-external-link,
+.feature-chips span, .project-tags span, .dl-option, .dl-back, .lightbox-close, .dl-modal-close {
+  transition: border-radius .5s var(--spring-default), transform .35s var(--spring-fast),
+              box-shadow .2s var(--effects), background-color .2s var(--effects);
+}
+
+/* ---------- Buttons: real touch height so the pill radius is exact ---------- */
+.project-actions a, .project-actions button, .contact-links a { min-height: 48px; justify-content: center; }
+.about-cta, .back-link { min-height: 40px; display: inline-flex; align-items: center; }
+.help-external-link { min-height: 44px; align-items: center; }
+
+/* ---------- Connected groups: GitHub + Download, contact links ---------- */
+.project-actions, .contact-links { gap: 2px; flex-wrap: nowrap; }
+.project-actions > *, .contact-links > * { border-radius: var(--r-inner); }
+.project-actions > :first-child, .contact-links > :first-child { border-radius: var(--r-outer) var(--r-inner) var(--r-inner) var(--r-outer); }
+.project-actions > :last-child,  .contact-links > :last-child  { border-radius: var(--r-inner) var(--r-outer) var(--r-outer) var(--r-inner); }
+.project-actions > :only-child,  .contact-links > :only-child  { border-radius: var(--r-pill); }
+@media (max-width: 520px) {
+  .project-actions, .contact-links { flex-direction: column; align-items: stretch; }
+  .project-actions > *, .contact-links > * { justify-content: center; text-align: center; }
+  .project-actions > :first-child, .contact-links > :first-child { border-radius: var(--r-outer) var(--r-outer) var(--r-inner) var(--r-inner); }
+  .project-actions > :last-child,  .contact-links > :last-child  { border-radius: var(--r-inner) var(--r-inner) var(--r-outer) var(--r-outer); }
+}
+
+/* ---------- Single buttons: pill ---------- */
+.about-cta, .back-link { border-radius: 20px; }
+.help-external-link { border-radius: 22px; }
+.lang-toggle { border-radius: 22px; }
+
+/* ---------- Icon buttons: circle ---------- */
+.theme-toggle, .nav-logo, .lightbox-close, .dl-modal-close { border-radius: 50%; }
+.nav-logo {
+  display: flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; background: var(--md-secondary-container); color: var(--md-on-secondary-container);
+}
+
+/* ---------- Info chips (Flutter, Material You...) ----------
+   Desktop: ONE connected bar. Narrow screens: it wraps into separate pills
+   instead of a hidden horizontal scroll that cut chips off. */
+.feature-chips, .project-tags { gap: 2px; flex-wrap: nowrap; max-width: 100%; }
+.feature-chips { width: fit-content; margin-inline: auto; }
+.feature-chips span, .project-tags span {
+  display: inline-flex; align-items: center; min-height: 36px;
+  user-select: none; white-space: nowrap; flex: none; border-radius: var(--r-inner);
+}
+.feature-chips span:first-child, .project-tags span:first-child { border-radius: var(--r-chip) var(--r-inner) var(--r-inner) var(--r-chip); }
+.feature-chips span:last-child,  .project-tags span:last-child  { border-radius: var(--r-inner) var(--r-chip) var(--r-chip) var(--r-inner); }
+@media (max-width: 900px) {
+  .feature-chips, .project-tags { flex-wrap: wrap; justify-content: center; gap: .45rem; width: auto; }
+  .feature-chips span, .project-tags span,
+  .feature-chips span:first-child, .project-tags span:first-child,
+  .feature-chips span:last-child, .project-tags span:last-child { border-radius: var(--r-chip); }
+}
+
+/* ---------- Live stats (stars / version / downloads) ---------- */
+.gh-stats { gap: 2px; flex-wrap: nowrap; width: fit-content; max-width: 100%; margin-inline: auto; min-height: 92px; }
+.gh-stats.is-empty { min-height: 0; margin-bottom: 0; }
+.gh-stats .gh-stat {
+  flex: 1 0 auto; flex-direction: column; align-items: flex-start; gap: .15rem;
+  min-width: 8.5rem; padding: 1rem 1.4rem; border-radius: var(--r-inner);
+  background: var(--md-secondary-container); color: var(--md-on-secondary-container);
+  transition: border-radius .5s var(--spring-default), transform .35s var(--spring-fast), background-color .2s var(--effects);
+  /* tiles appear together, staggered, once the data is in (no fill-mode forwards,
+     otherwise the end state would block the hover/press transforms) */
+  animation: stat-in .55s var(--m3-emphasized-decel) backwards;
+  animation-delay: calc(var(--n, 0) * 80ms);
+}
+@keyframes stat-in { from { opacity: 0; transform: translateY(14px) scale(.96); } }
+.gh-stats .gh-stat:nth-child(2) { background: var(--md-primary-container); color: var(--md-on-primary-container); }
+.gh-stats .gh-stat:nth-child(3) { background: var(--md-tertiary-container); color: var(--md-on-tertiary-container); }
+.gh-stats .gh-stat:first-child { border-radius: 32px var(--r-inner) var(--r-inner) 32px; }
+.gh-stats .gh-stat:last-child  { border-radius: var(--r-inner) 32px 32px var(--r-inner); }
+.gh-stats .gh-stat:only-child  { border-radius: 32px; }
+.gh-stats .gh-stat svg { color: currentColor; opacity: .8; margin-bottom: .35rem; }
+.gh-stats .gh-stat-value { font-family: var(--font-display); font-weight: 700; font-size: 1.7rem; line-height: 1.1; }
+.gh-stats .gh-stat-label { font-size: .78rem; font-weight: 500; opacity: .8; }
+@media (hover: hover) { .gh-stats .gh-stat:hover { border-radius: var(--r-tile); transform: translateY(-2px); } }
+.gh-stats .gh-stat:active { border-radius: var(--r-press); transform: scale(.96); transition-duration: .2s; }
+@media (max-width: 560px) {
+  .gh-stats { flex-direction: column; align-items: stretch; width: 100%; min-height: 196px; }
+  .gh-stats.is-empty { min-height: 0; }
+  .gh-stats .gh-stat { flex-direction: row; align-items: center; gap: .75rem; }
+  .gh-stats .gh-stat svg { margin: 0; }
+  .gh-stats .gh-stat-label { margin-left: auto; }
+  .gh-stats .gh-stat:first-child { border-radius: var(--r-tile) var(--r-tile) var(--r-inner) var(--r-inner); }
+  .gh-stats .gh-stat:last-child  { border-radius: var(--r-inner) var(--r-inner) var(--r-tile) var(--r-tile); }
+  .gh-stats .gh-stat:only-child  { border-radius: var(--r-tile); }
+}
+
+/* ---------- Download dialog (app: 250 ms in / 150 ms out, emphasized curves) ---------- */
+.dl-modal-box {
+  border-radius: 28px; transform: scale(.92) translateY(16px); opacity: 0;
+  transition: transform .15s var(--m3-emphasized-accel), opacity .15s linear;
+}
+.dl-modal.is-open .dl-modal-box {
+  transform: none; opacity: 1;
+  transition: transform .25s var(--m3-emphasized-decel), opacity .2s var(--effects);
+}
+#dl-modal-content { transition: opacity .15s var(--effects); }
+#dl-modal-content.is-switching { opacity: 0; filter: none; }
+.dl-options { gap: 2px; }
+.dl-option { border-radius: var(--r-inner); }
+.dl-option:first-child { border-radius: var(--r-card) var(--r-card) var(--r-inner) var(--r-inner); }
+.dl-option:last-child  { border-radius: var(--r-inner) var(--r-inner) var(--r-card) var(--r-card); }
+.dl-option:only-child  { border-radius: var(--r-card); }
+.dl-back { padding: .5rem 1rem; margin-left: -1rem; border-radius: 20px; }
+
+/* ---------- Cards (app: 20px) ---------- */
+.help-card, .faq-list { border-radius: var(--r-card); }
+
+/* ---------- Screenshots ---------- */
+.showcase-media {
+  border-radius: var(--r-tile);
+  transition: transform .5s var(--spring-default), box-shadow .3s var(--effects), border-radius .5s var(--spring-default);
+}
+
+/* ---------- Hover (mouse only; touch devices use the press state) ---------- */
+@media (hover: hover) {
+  .project-actions > :hover, .contact-links > :hover { border-radius: var(--r-hover); transform: translateY(-2px); }
+  .about-cta:hover, .back-link:hover, .help-external-link:hover, .lang-toggle:hover { border-radius: var(--r-hover); transform: translateY(-2px); }
+  .theme-toggle:hover, .nav-logo:hover, .lightbox-close:hover, .dl-modal-close:hover { border-radius: var(--r-hover); transform: none; }
+  .feature-chips span:hover, .project-tags span:hover { border-radius: var(--r-chip); transform: translateY(-2px); }
+  .dl-option:hover { border-radius: var(--r-hover); }
+  .dl-back:hover { background: var(--md-primary-container); border-radius: var(--r-hover); }
+  .showcase-media:hover { border-radius: 36px; }
+}
+
+/* ---------- Pressed: every button becomes the app's softer 14px square.
+   Mouse, touch, and JS-held (.is-pressed) so quick taps still show it. ---------- */
+.project-actions > :active, .contact-links > :active,
+.project-actions > .is-pressed, .contact-links > .is-pressed,
+.feature-chips span:active, .project-tags span:active,
+.feature-chips span.is-pressed, .project-tags span.is-pressed,
+.dl-option:active, .dl-option.is-pressed,
+.about-cta:active, .back-link:active, .help-external-link:active, .lang-toggle:active,
+.about-cta.is-pressed, .back-link.is-pressed, .help-external-link.is-pressed, .lang-toggle.is-pressed,
+.theme-toggle:active, .nav-logo:active, .lightbox-close:active, .dl-modal-close:active,
+.theme-toggle.is-pressed, .nav-logo.is-pressed,
+.dl-back:active, .dl-back.is-pressed {
+  border-radius: var(--r-press); transform: scale(.95);
+  transition-duration: .2s, .2s, .2s, .2s;
+}
+.showcase-media:active { transform: scale(.97); border-radius: var(--r-card); }
+
+@media (hover: none) {
+  .theme-toggle, .nav-logo { width: 48px; height: 48px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-delay: 0s !important; scroll-behavior: auto !important; }
+}
+
+/* ---------- Fix: hero buttons (GitHub / Download / Web) pressed + hover ----------
+   project.css has `.project-actions button:hover` (specificity 0,2,1), which beat
+   the shorter `.project-actions > :active` rule above. Result: with a mouse the
+   button stayed lifted (translateY) instead of morphing to the pressed shape, and
+   the shadow never went away, so it looked like a stuck / glitchy animation.
+   These rules have the same weight as project.css and come after it, so the
+   order is now always: rest -> hover (lift) -> pressed (soft square, scaled). */
+.project-actions a, .project-actions button { isolation: isolate; will-change: transform; }
+@media (hover: hover) {
+  .project-actions a:hover, .project-actions button:hover { transform: translateY(-2px); }
+}
+.project-actions a:active, .project-actions button:active,
+.project-actions a.is-pressed, .project-actions button.is-pressed {
+  border-radius: var(--r-press);
+  transform: scale(.95);
+  transition-duration: .2s, .2s, .2s, .2s;
+}
+/* keep the ripple inside the rounded shape while the radius is animating */
+.project-actions .ripple-ink { z-index: -1; }
+
+/* ---------- Download button: same shape + motion as the stat tiles above ----------
+   rest = small inner corners, hover = big tile corners, press = soft square */
+.project-actions #download-trigger { border-radius: var(--r-inner); }
+@media (hover: hover) {
+  .project-actions #download-trigger:hover { border-radius: var(--r-tile); transform: translateY(-2px); }
+}
+.project-actions #download-trigger:active,
+.project-actions #download-trigger.is-pressed {
+  border-radius: var(--r-press); transform: scale(.96); transition-duration: .2s, .2s, .2s, .2s;
+}
+/* version tile is a link now */
+a.gh-stat { text-decoration: none; cursor: pointer; }
+
+/* ---------- Responsive safety net (all pages) ---------- */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: 5.5rem; }
+body { overflow-x: clip; }              /* no sideways scroll, and sticky still works */
+img, video { max-width: 100%; height: auto; }
+.help-card, .rel-card, .about-app, .project-page-desc { overflow-wrap: anywhere; }
+@media (max-width: 640px) {
+  .project-page-title { font-size: clamp(1.9rem, 9vw, 2.6rem); }
+  .project-page-desc { font-size: .95rem; }
+  .footer { padding: 2rem 1.2rem; }
+  .footer .footer-links { gap: .6rem 1.1rem; }
+  .footer .footer-links a { padding: .3rem 0; }   /* bigger tap area */
+}
+@media (max-width: 400px) {
+  section { padding-left: 1rem; padding-right: 1rem; }
+  .nav { padding-left: 1rem; padding-right: 1rem; }
+}
+/* phones in landscape: the nav should not eat the screen */
+@media (max-height: 480px) and (orientation: landscape) { .nav { padding-top: .5rem; padding-bottom: .5rem; } }
+
+/* ---------- Language dropdown (Android-style menu) ---------- */
+.lang-wrap { position: relative; display: inline-block; }
+.lang-toggle::after {
+  content: ""; display: inline-block; width: 6px; height: 6px; margin-inline-start: 8px; margin-bottom: 3px;
+  border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg);
+  transition: transform .3s var(--spring-fast);
+}
+.lang-wrap.is-open .lang-toggle::after { transform: rotate(225deg); margin-bottom: -1px; }
+.lang-menu {
+  position: absolute; top: calc(100% + 8px); inset-inline-end: 0; z-index: 200;
+  min-width: 210px; max-height: min(70vh, 460px); overflow-y: auto; padding: 8px;
+  background: var(--md-surface-container-high); color: var(--md-on-surface);
+  border-radius: 20px; box-shadow: 0 8px 28px rgba(0,0,0,.28);
+  transform-origin: top right; transform: scale(.8); opacity: 0; visibility: hidden; pointer-events: none;
+  transition: transform .35s var(--spring-default), opacity .15s var(--effects), visibility 0s .35s;
+}
+[dir="rtl"] .lang-menu { transform-origin: top left; }
+.lang-wrap.is-open .lang-menu {
+  transform: scale(1); opacity: 1; visibility: visible; pointer-events: auto;
+  transition: transform .35s var(--spring-default), opacity .15s var(--effects), visibility 0s;
+}
+.lang-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; width: 100%;
+  min-height: 48px; padding: 0 16px; border: 0; border-radius: 14px; background: transparent;
+  color: inherit; font: inherit; font-size: .95rem; text-align: start; cursor: pointer;
+  position: relative; overflow: hidden;
+  transition: background-color .2s var(--effects), border-radius .4s var(--spring-default);
+}
+.lang-item:hover { background: var(--md-surface-container-low); }
+.lang-item:active { border-radius: 24px; }
+.lang-item.is-active { background: var(--md-secondary-container); color: var(--md-on-secondary-container); font-weight: 500; }
+.lang-item-tag { font-size: .75rem; opacity: .7; letter-spacing: .04em; }
+.cm-tr-btn.is-active { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+.cm-tr-note { opacity: .65; font-size: .8em; margin-inline-start: .4em; }
+
+/* ---------- Table of contents: keep the timeline dots from being clipped ---------- */
+@media (min-width: 901px) { .rel-rail-scroll { padding-left: 8px; } }
+
+/* ---------- Translate button: small round icon ---------- */
+.cm-tr-btn {
+  flex: 0 0 auto; width: 40px; height: 40px; min-width: 0; padding: 0 !important;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 50% !important; background: var(--md-surface-container-high); color: var(--md-on-surface-variant);
+}
+.cm-tr-btn svg { width: 20px; height: 20px; fill: currentColor; pointer-events: none; }
+.cm-tr-btn.is-active { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+@media (hover: hover) { .cm-tr-btn:hover { border-radius: 14px !important; } }
+.cm-tr-btn:active { border-radius: 14px !important; transform: scale(.95); }
+
+/* round translate button: exact circle wherever it sits (toolbar or sidebar), never stretched */
+button.cm-tr-btn, .rel-rail button.cm-tr-btn, .rel-toolbar button.cm-tr-btn {
+  display: inline-flex; align-items: center; justify-content: center; align-self: flex-start;
+  flex: 0 0 40px; box-sizing: border-box; aspect-ratio: 1 / 1; line-height: 0; padding: 0 !important;
+  width: 40px; min-width: 40px; max-width: 40px; height: 40px; min-height: 40px; max-height: 40px;
+  margin: .3rem 0 .8rem;
+}
+@media (min-width: 641px) { .rel-toolbar button.cm-tr-btn { align-self: center; margin: 0; } }
+
+/* ---- nav: help + color + language + theme grouped on the right (centered on phones) ---- */
+.nav { justify-content: flex-end; }
+.nav-toggles .nav-logo {
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--md-secondary-container); color: var(--md-on-secondary-container);
+}
+.color-wrap { position: relative; display: inline-block; }
+.color-menu {
+  position: absolute; top: calc(100% + 8px); inset-inline-end: 0; z-index: 200;
+  width: 272px; padding: 16px; display: flex; flex-direction: column; gap: 14px;
+  background: var(--md-surface-container-high); color: var(--md-on-surface);
+  border-radius: 28px; box-shadow: 0 8px 28px rgba(0,0,0,.28);
+  transform-origin: top right; transform: scale(.8); opacity: 0; visibility: hidden; pointer-events: none;
+  transition: transform .35s var(--spring-default), opacity .15s var(--effects), visibility 0s .35s;
+}
+.color-wrap.is-open .color-menu {
+  transform: scale(1); opacity: 1; visibility: visible; pointer-events: auto;
+  transition: transform .35s var(--spring-default), opacity .15s var(--effects), visibility 0s;
+}
+.color-range {
+  -webkit-appearance: none; appearance: none; width: 100%; height: 16px; border-radius: 8px; outline: none;
+  background: linear-gradient(90deg, hsl(0,60%,45%), hsl(60,60%,45%), hsl(120,60%,45%), hsl(180,60%,45%), hsl(240,60%,45%), hsl(300,60%,45%), hsl(360,60%,45%));
+}
+.color-range::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 28px; height: 28px; border-radius: 50%; cursor: pointer;
+  background: var(--thumb, var(--md-primary)); border: 4px solid var(--md-surface-container-high);
+  box-shadow: 0 0 0 2px var(--md-primary);
+}
+.color-range::-moz-range-thumb {
+  width: 20px; height: 20px; border-radius: 50%; cursor: pointer;
+  background: var(--thumb, var(--md-primary)); border: 4px solid var(--md-surface-container-high);
+  box-shadow: 0 0 0 2px var(--md-primary);
+}
+.color-swatches { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; }
+.color-sw {
+  width: 32px; height: 32px; border-radius: 50%; border: 0; cursor: pointer;
+  transition: transform .3s var(--spring-fast), box-shadow .2s var(--effects);
+}
+.color-sw:hover { transform: scale(1.12); }
+.color-sw.is-active { box-shadow: 0 0 0 3px var(--md-surface-container-high), 0 0 0 5px var(--md-primary); }
+.color-save { display: flex; align-items: center; gap: 12px; font-size: .9rem; cursor: pointer; }
+.color-save input { width: 20px; height: 20px; accent-color: var(--md-primary); cursor: pointer; flex-shrink: 0; }
+.color-random {
+  min-height: 44px; border: 0; border-radius: 22px; cursor: pointer; font: inherit; font-size: .9rem; font-weight: 500;
+  background: var(--md-secondary-container); color: var(--md-on-secondary-container);
+  position: relative; overflow: hidden; transition: border-radius .4s var(--spring-default);
+}
+.color-random:active { border-radius: 14px; }
+@media (max-width: 640px) {
+  .nav { justify-content: center; }
+  .color-menu { position: fixed; top: 4.6rem; left: 50%; inset-inline-end: auto; translate: -50% 0; transform-origin: top center; width: min(300px, calc(100vw - 2rem)); }
+}
+
+.color-modes { display: flex; gap: 2px; }
+.color-modes button {
+  flex: 1; min-height: 40px; border: 0; cursor: pointer; font: inherit; font-size: .85rem; font-weight: 500;
+  background: var(--md-surface-container-highest); color: var(--md-on-surface-variant);
+  border-radius: 6px; position: relative; overflow: hidden;
+  transition: background-color .2s var(--effects), color .2s var(--effects), border-radius .4s var(--spring-default);
+}
+.color-modes button:first-child { border-radius: 20px 6px 6px 20px; }
+.color-modes button:last-child { border-radius: 6px 20px 20px 6px; }
+.color-modes button.is-active { background: var(--md-primary); color: var(--md-on-primary); }
+.color-random { transition: background-color .2s var(--effects), border-radius .4s var(--spring-default); }
+@media (hover: hover) {
+  .color-random:hover { background: color-mix(in srgb, var(--md-secondary-container) 78%, var(--md-on-secondary-container)); }
+}
+.color-random:active { background: color-mix(in srgb, var(--md-secondary-container) 65%, var(--md-on-secondary-container)); }
+
+.color-random.is-active { background: var(--md-primary); color: var(--md-on-primary); }
+@media (hover: hover) {
+  .color-random.is-active:hover { background: color-mix(in srgb, var(--md-primary) 82%, #000); }
+}
+.color-random.is-active:active { background: color-mix(in srgb, var(--md-primary) 68%, #000); }
+
+/* ---------- Footer: one connected bar, same pattern as the info chips ---------- */
+.footer .footer-links.footer-buttons {
+  display: flex; flex-wrap: nowrap; gap: 2px; width: fit-content; max-width: 100%;
+  margin: 1rem auto 0; justify-content: center;
+}
+.footer .footer-links.footer-buttons a {
+  flex: none; white-space: nowrap; justify-content: center; display: inline-flex; align-items: center;
+  min-height: 48px; padding: 0 1.1rem; border-radius: var(--r-inner); text-decoration: none;
+  font-size: .9rem; font-weight: 600;
+  background: var(--md-secondary-container); color: var(--md-on-secondary-container);
+  transition: border-radius .5s var(--spring-default), transform .35s var(--spring-fast),
+              box-shadow .2s var(--effects), background-color .2s var(--effects);
+}
+.footer .footer-links.footer-buttons > :first-child { border-radius: var(--r-pill) var(--r-inner) var(--r-inner) var(--r-pill); }
+.footer .footer-links.footer-buttons > :last-child  { border-radius: var(--r-inner) var(--r-pill) var(--r-pill) var(--r-inner); }
+/* narrow screens: wraps into separate pills instead of a cut-off bar */
+@media (max-width: 1100px) {
+  .footer .footer-links.footer-buttons { flex-wrap: wrap; width: auto; gap: .45rem; }
+  .footer .footer-links.footer-buttons > *,
+  .footer .footer-links.footer-buttons > :first-child,
+  .footer .footer-links.footer-buttons > :last-child { border-radius: var(--r-pill); }
+}
+@media (max-width: 640px) {
+  .footer .footer-links.footer-buttons { max-width: 100%; }
+  .footer .footer-links.footer-buttons a { min-height: 44px; padding: 0 1rem; font-size: .85rem; }
+}
+@media (hover: hover) {
+  .footer .footer-links.footer-buttons a:hover { border-radius: var(--r-hover); transform: translateY(-2px); color: var(--md-on-secondary-container); }
+}
+.footer .footer-links.footer-buttons a:active, .footer .footer-links.footer-buttons a.is-pressed {
+  border-radius: var(--r-press); transform: scale(.95); transition-duration: .2s, .2s, .2s, .2s;
+}
+
+/* ---------- Hero: everything visible right at page load, on any screen ---------- */
+html:not(.gsap-on) .project-page-header .reveal:not(.back-link) { opacity: 1 !important; transform: none !important; transition: none; }
+.project-page-header .gh-stats .gh-stat { animation: none; }
+.project-page-header .gh-stats { min-height: 0; }
+@media (max-height: 820px) {
+  .project-page-header { padding-top: 5.5rem; padding-bottom: 2.5rem; }
+  .project-page-title { margin: .8rem 0 .6rem; }
+  .project-page-desc { margin-bottom: 1rem; }
+  .project-actions { margin-bottom: 1.5rem; }
+}
+
+/* ---------- Back link: tonal like the other buttons, same shared motion ---------- */
+.back-link, .back-link:hover { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+/* .reveal also sets transform/transition; keep the shared button motion on top of it */
+.back-link.reveal { transition: border-radius .5s var(--spring-default), transform .35s var(--spring-fast), opacity .7s var(--m3-emphasized-decel), background-color .2s var(--effects); }
+@media (hover: hover) { .back-link.reveal.in-view:hover { border-radius: var(--r-hover); transform: translateY(-2px); } }
+.back-link.reveal.in-view:active, .back-link.reveal.in-view.is-pressed { border-radius: var(--r-press); transform: scale(.95); transition-duration: .2s; }
+
+/* ---------- Mobile: every button bubble is a full pill, separated like the info chips ---------- */
+@media (max-width: 640px) {
+  .footer .footer-links.footer-buttons a,
+  .footer .footer-links.footer-buttons > :first-child,
+  .footer .footer-links.footer-buttons > :last-child { border-radius: 999px; }
+  .project-actions, .contact-links { gap: .45rem; }
+  .project-actions > *, .contact-links > *,
+  .project-actions > :first-child, .contact-links > :first-child,
+  .project-actions > :last-child, .contact-links > :last-child,
+  .project-actions > :only-child, .contact-links > :only-child { border-radius: var(--r-pill); }
+}
+
+/* Mobile pills: my pill rules above had overridden the hover/press shapes, so put them back on top */
+@media (max-width: 640px) {
+  .project-actions > :active, .contact-links > :active,
+  .project-actions > .is-pressed, .contact-links > .is-pressed,
+  .footer .footer-links.footer-buttons a:active,
+  .footer .footer-links.footer-buttons a.is-pressed,
+  .footer .footer-links.footer-buttons > :first-child:active,
+  .footer .footer-links.footer-buttons > :last-child:active {
+    border-radius: var(--r-press); transform: scale(.95); transition-duration: .2s, .2s, .2s, .2s;
+  }
+}
+@media (max-width: 640px) and (hover: hover) {
+  .footer .footer-links.footer-buttons a:hover,
+  .project-actions > :hover, .contact-links > :hover,
+  .footer .footer-links.footer-buttons > :first-child:hover,
+  .footer .footer-links.footer-buttons > :last-child:hover { border-radius: var(--r-pill); transform: translateY(-2px); }
+}
+
+/* Mobile: buttons keep the connected shape like the stat tiles (big outer corners, small inner) */
+@media (max-width: 640px) {
+  .project-actions { gap: 2px; }
+  .project-actions > * { border-radius: var(--r-inner); }
+  .project-actions > :first-child { border-radius: var(--r-outer) var(--r-inner) var(--r-inner) var(--r-outer); }
+  .project-actions > :last-child { border-radius: var(--r-inner) var(--r-outer) var(--r-outer) var(--r-inner); }
+  .project-actions > :only-child { border-radius: var(--r-pill); }
+}
+@media (max-width: 520px) {
+  .project-actions > :first-child { border-radius: var(--r-outer) var(--r-outer) var(--r-inner) var(--r-inner); }
+  .project-actions > :last-child { border-radius: var(--r-inner) var(--r-inner) var(--r-outer) var(--r-outer); }
+}
+@media (max-width: 640px) and (hover: hover) {
+  .project-actions > :hover { border-radius: var(--r-tile); }
+}
+@media (max-width: 640px) {
+  .project-actions > :active, .project-actions > .is-pressed { border-radius: var(--r-press); }
+}
+
+
+/* ==========================================================
+   HARMONY — one set of rules for every button / chip / card on the site.
+   Loaded last on purpose: it replaces the per-page differences (sizes,
+   corner radii, hover lift, hover colors, pressed shape, shadows).
+
+   Button families
+     text buttons : hero actions, contact, footer, back, CTA, filters,
+                    release / commit buttons, language, random colour...
+     icon buttons : theme, logo, translate, carousel arrows, close
+   Same behaviour inside a family:
+     rest    -> own colour, NO shadow
+     hover   -> softer corners (--r-hover) + 2px lift (icons: no lift)
+                + a colour "state layer" (same recipe everywhere), NO shadow
+     pressed -> 14px square + scale .95
+     focus   -> same outline everywhere
+   ========================================================== */
+:root {
+  --btn-h: 44px;       /* standard button */
+  --btn-h-lg: 48px;    /* big action groups (hero, contact, footer, files) */
+  --r-btn: 22px;       /* half of 44px */
+}
+
+/* 1) NO shadow on any button, at rest or on hover */
+.project-actions a, .project-actions button, .contact-links a,
+.footer .footer-links.footer-buttons a, .back-link, .about-cta, .help-external-link,
+.lang-toggle, .theme-toggle, .nav-logo, .cm-tr-btn, .rel-filter-btn, .rel-gh, .rel-more,
+.rel-toggle, .rel-asset, .rel-plat-sum, .cm-btn, .cm-sha, .color-random, .color-modes button,
+.m3-carousel-btn, .lightbox-close, .dl-modal-close, .dl-option, .dl-back,
+.feature-chips span, .project-tags span,
+.project-actions a:hover, .project-actions button:hover, .contact-links a:hover,
+.theme-toggle:hover, .lang-toggle:hover, .nav-logo:hover, .m3-carousel-btn:hover {
+  box-shadow: none !important;
+}
+
+/* 2) same sizes */
+.project-actions a, .project-actions button, .contact-links a,
+.footer .footer-links.footer-buttons a, .rel-asset, .rel-plat-sum { min-height: var(--btn-h-lg); }
+.back-link, .about-cta, .help-external-link, .lang-toggle, .rel-filter-btn:not(.cm-tr-btn),
+.rel-gh, .rel-more, .cm-btn, .color-random, .web-warn-actions a, .web-warn-actions button { min-height: var(--btn-h); }
+.about-cta, .back-link, .help-external-link, .lang-toggle, .rel-gh, .rel-more { border-radius: var(--r-btn); }
+.rel-toggle { border-radius: var(--r-chip); }
+.rel-filter-btn:not(.cm-tr-btn):first-child { border-radius: var(--r-btn) var(--r-inner) var(--r-inner) var(--r-btn); }
+.rel-filter-btn:not(.cm-tr-btn):last-child  { border-radius: var(--r-inner) var(--r-btn) var(--r-btn) var(--r-inner); }
+.cm-btn:first-child { border-radius: var(--r-btn) var(--r-inner) var(--r-inner) var(--r-btn); }
+.cm-btn:last-child  { border-radius: var(--r-inner) var(--r-btn) var(--r-btn) var(--r-inner); }
+.cm-btn:only-child  { border-radius: var(--r-btn); }
+.web-warn-actions a, .web-warn-actions button { border-radius: var(--r-btn); }
+/* same text style */
+.project-actions a, .project-actions button, .contact-links a,
+.footer .footer-links.footer-buttons a, .back-link, .about-cta, .help-external-link,
+.rel-filter-btn, .rel-gh, .rel-more, .rel-asset, .rel-plat-sum, .cm-btn, .color-random {
+  font-weight: 500; letter-spacing: 0;
+}
+.project-actions a, .project-actions button, .contact-links a, .footer .footer-links.footer-buttons a { font-size: .95rem; }
+.back-link, .about-cta, .help-external-link, .rel-filter-btn, .rel-gh, .rel-more, .rel-asset, .rel-plat-sum, .cm-btn, .color-random { font-size: .9rem; }
+
+/* 3) same colours: first button of a group = filled, the others = tonal
+      (the contact links used to be primary / secondary / tertiary) */
+.contact-links a:nth-child(n+2) { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+.contact-links a:first-child { background: var(--md-primary); color: var(--md-on-primary); }
+/* translate button: same tonal round button as theme / logo, filled when on */
+.cm-tr-btn { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+.cm-tr-btn.is-active { background: var(--md-primary); color: var(--md-on-primary); }
+/* chips: same look and same (colour-less) hover everywhere */
+.project-tags span, .project-tags span:hover { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+
+/* 4) same motion */
+.project-actions a, .project-actions button, .contact-links a,
+.footer .footer-links.footer-buttons a, .about-cta, .help-external-link, .lang-toggle,
+.theme-toggle, .nav-logo, .cm-tr-btn, .rel-filter-btn, .rel-gh, .rel-more, .rel-toggle,
+.rel-asset, .rel-plat-sum, .cm-btn, .cm-sha, .color-random, .color-modes button,
+.m3-carousel-btn, .lightbox-close, .dl-modal-close, .dl-option, .dl-back,
+.feature-chips span, .project-tags span {
+  transition: border-radius .5s var(--spring-default), transform .35s var(--spring-fast),
+              background-color .2s var(--effects), color .2s var(--effects), opacity .2s var(--effects);
+}
+
+/* 5) same hover: shape + lift, colour state layer (mouse only) */
+@media (hover: hover) {
+  .project-actions a:hover, .project-actions button:hover, .project-actions #download-trigger:hover,
+  .contact-links a:hover, .footer .footer-links.footer-buttons a:hover,
+  .about-cta:hover, .help-external-link:hover, .lang-toggle:hover,
+  .rel-filter-btn:not(.cm-tr-btn):hover, .rel-gh:hover, .rel-more:hover, .rel-toggle:hover,
+  .rel-asset:hover, .rel-plat-sum:hover, .cm-btn:hover, .color-random:hover {
+    border-radius: var(--r-hover) !important; transform: translateY(-2px);
+  }
+  .back-link.reveal.in-view:hover, .back-link:hover { border-radius: var(--r-hover); transform: translateY(-2px); }
+  /* icon buttons: shape only */
+  .theme-toggle:hover, .nav-logo:hover, .cm-tr-btn:hover, .m3-carousel-btn:hover:not(:disabled),
+  .lightbox-close:hover, .dl-modal-close:hover { border-radius: var(--r-hover) !important; transform: none; }
+  /* chips */
+  .feature-chips span:hover, .project-tags span:hover { border-radius: var(--r-chip); transform: translateY(-2px); }
+
+  /* colour state layer: one recipe for tonal buttons, one for filled ones */
+  .project-actions a.tonal:hover, .project-actions button.tonal:hover,
+  .contact-links a:nth-child(n+2):hover, .footer .footer-links.footer-buttons a:hover,
+  .back-link:hover, .about-cta:hover, .help-external-link:hover, .lang-toggle:hover,
+  .theme-toggle:hover, .nav-logo:hover, .cm-tr-btn:not(.is-active):hover,
+  .rel-filter-btn:not(.is-active):not(.cm-tr-btn):hover, .rel-gh:hover, .rel-more:hover,
+  .rel-asset:hover, .rel-plat-sum:hover, .cm-btn:not(.is-zip):hover,
+  .m3-carousel-btn:hover:not(:disabled), .color-random:not(.is-active):hover {
+    background-color: color-mix(in srgb, var(--md-secondary-container) 86%, var(--md-on-secondary-container));
+    color: var(--md-on-secondary-container);
+  }
+  .project-actions a:not(.tonal):hover, .project-actions button:not(.tonal):hover,
+  .contact-links a:first-child:hover, .rel-filter-btn.is-active:hover, .cm-tr-btn.is-active:hover,
+  .cm-btn.is-zip:hover, .color-modes button.is-active:hover, .color-random.is-active:hover,
+  .rel-card.is-latest .rel-asset:hover, .rel-card.is-latest .rel-plat-sum:hover,
+  .web-warn-open:hover {
+    background-color: color-mix(in srgb, var(--md-primary) 86%, var(--md-on-primary));
+    color: var(--md-on-primary);
+  }
+  .rel-toggle:hover { background-color: var(--md-surface-container-highest); }
+  /* cards / screenshots: same small lift, no shadow, no scale */
+  .project-card:hover, .showcase-media:hover { transform: translateY(-4px); }
+  .showcase-media:hover { border-radius: var(--r-tile); }
+}
+/* latest-version card: buttons are already filled, so hover keeps the same filled layer */
+.rel-card.is-latest .cm-btn.is-zip { background: var(--md-on-primary-container); color: var(--md-primary-container); }
+
+/* 6) same pressed shape (mouse, touch and the JS-held .is-pressed) */
+.project-actions a:active, .project-actions button:active, .project-actions #download-trigger:active,
+.contact-links a:active, .footer .footer-links.footer-buttons a:active,
+.back-link:active, .about-cta:active, .help-external-link:active, .lang-toggle:active,
+.theme-toggle:active, .nav-logo:active, .cm-tr-btn:active, .m3-carousel-btn:active:not(:disabled),
+.rel-filter-btn:not(.cm-tr-btn):active, .rel-gh:active, .rel-more:active, .rel-toggle:active,
+.rel-asset:active, .rel-plat-sum:active, .cm-btn:active, .cm-sha:active, .color-random:active, .color-modes button:active,
+.lightbox-close:active, .dl-modal-close:active, .dl-option:active, .dl-back:active,
+.project-actions a.is-pressed, .project-actions button.is-pressed, .contact-links a.is-pressed,
+.footer .footer-links.footer-buttons a.is-pressed, .back-link.is-pressed, .about-cta.is-pressed,
+.help-external-link.is-pressed, .lang-toggle.is-pressed, .theme-toggle.is-pressed, .nav-logo.is-pressed,
+.cm-tr-btn.is-pressed, .m3-carousel-btn.is-pressed, .rel-filter-btn.is-pressed, .rel-gh.is-pressed,
+.rel-more.is-pressed, .rel-toggle.is-pressed, .rel-asset.is-pressed, .rel-plat-sum.is-pressed,
+.cm-btn.is-pressed, .cm-sha.is-pressed, .color-random.is-pressed, .dl-option.is-pressed, .dl-back.is-pressed,
+.rel-filter-btn:not(.cm-tr-btn).is-pressed, .project-actions #download-trigger.is-pressed {
+  border-radius: var(--r-press) !important; transform: scale(.95) !important;
+  transition-duration: .2s, .2s, .2s, .2s, .2s;
+}
+.project-card:active, .showcase-media:active { transform: scale(.98); }
+
+/* 7) same keyboard focus ring */
+.project-actions a:focus-visible, .project-actions button:focus-visible, .contact-links a:focus-visible,
+.footer .footer-links.footer-buttons a:focus-visible, .back-link:focus-visible, .about-cta:focus-visible,
+.help-external-link:focus-visible, .lang-toggle:focus-visible, .theme-toggle:focus-visible,
+.nav-logo:focus-visible, .cm-tr-btn:focus-visible, .m3-carousel-btn:focus-visible,
+.rel-filter-btn:focus-visible, .rel-gh:focus-visible, .rel-more:focus-visible, .rel-toggle:focus-visible,
+.rel-asset:focus-visible, .rel-plat-sum:focus-visible, .cm-btn:focus-visible, .color-random:focus-visible,
+.dl-option:focus-visible, .dl-back:focus-visible {
+  outline: 2px solid var(--md-primary); outline-offset: 2px;
+}
+
+
+/* ---------- Header buttons: download = accent, GitHub = secondary, web = tertiary ---------- */
+.project-actions #download-trigger { font-weight: 600; box-shadow: 0 6px 20px -8px var(--md-primary); }
+.project-actions a.tonal { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+.project-actions button.tert, .project-actions button.tert:hover, .project-actions button.tert:active {
+  background: var(--md-tertiary-container) !important; color: var(--md-on-tertiary-container) !important;
+}
+
+/* ---------- Header buttons: connected shapes like the stat tiles, on every screen size ----------
+   Row (desktop + wide phones): big corners on the outer sides. Column (small phones): big corners top and bottom. */
+.project-actions > :is(a, button):not(:active):not(.is-pressed),
+.project-actions > #download-trigger:not(:active):not(.is-pressed) { border-radius: var(--r-inner); }
+.project-actions > :is(a, button):first-child:not(:active):not(.is-pressed),
+.project-actions > #download-trigger:first-child:not(:active):not(.is-pressed) { border-radius: var(--r-outer) var(--r-inner) var(--r-inner) var(--r-outer); }
+.project-actions > :is(a, button):last-child:not(:active):not(.is-pressed) { border-radius: var(--r-inner) var(--r-outer) var(--r-outer) var(--r-inner); }
+@media (max-width: 520px) {
+  .project-actions > :is(a, button):first-child:not(:active):not(.is-pressed),
+  .project-actions > #download-trigger:first-child:not(:active):not(.is-pressed) { border-radius: var(--r-outer) var(--r-outer) var(--r-inner) var(--r-inner); }
+  .project-actions > :is(a, button):last-child:not(:active):not(.is-pressed) { border-radius: var(--r-inner) var(--r-inner) var(--r-outer) var(--r-outer); }
+}
+
+
+/* ---------- Softer press animation everywhere: lighter squeeze, slower and smoother ---------- */
+.project-actions a:active, .project-actions button:active, .project-actions #download-trigger:active,
+.contact-links a:active, .footer .footer-links.footer-buttons a:active,
+.back-link:active, .about-cta:active, .help-external-link:active, .lang-toggle:active,
+.theme-toggle:active, .nav-logo:active, .cm-tr-btn:active, .m3-carousel-btn:active:not(:disabled),
+.rel-filter-btn:not(.cm-tr-btn):active, .rel-gh:active, .rel-more:active, .rel-toggle:active,
+.rel-asset:active, .rel-plat-sum:active, .cm-btn:active, .cm-sha:active, .color-random:active, .color-modes button:active,
+.lightbox-close:active, .dl-modal-close:active, .dl-option:active, .dl-back:active,
+.project-actions a.is-pressed, .project-actions button.is-pressed, .contact-links a.is-pressed,
+.footer .footer-links.footer-buttons a.is-pressed, .back-link.is-pressed, .about-cta.is-pressed,
+.help-external-link.is-pressed, .lang-toggle.is-pressed, .theme-toggle.is-pressed, .nav-logo.is-pressed,
+.cm-tr-btn.is-pressed, .m3-carousel-btn.is-pressed, .rel-filter-btn.is-pressed, .rel-gh.is-pressed,
+.rel-more.is-pressed, .rel-toggle.is-pressed, .rel-asset.is-pressed, .rel-plat-sum.is-pressed,
+.cm-btn.is-pressed, .cm-sha.is-pressed, .color-random.is-pressed, .dl-option.is-pressed, .dl-back.is-pressed,
+.rel-filter-btn:not(.cm-tr-btn).is-pressed, .project-actions #download-trigger.is-pressed {
+  transform: scale(.97) !important;
+  transition-duration: .35s !important;
+  transition-timing-function: cubic-bezier(.2, .8, .2, 1) !important;
+}
+.project-actions a, .project-actions button, .contact-links a { transition-timing-function: cubic-bezier(.2, .8, .2, 1); }
+
+/* ---------- Hero grid: slow glow always, pointer lights nearby cells, press lights a zone ---------- */
+.project-hero-grid { transition: opacity 1.2s ease; }
+.project-hero-grid::before, .project-hero-grid::after { content: ""; position: absolute; inset: 0; pointer-events: none; }
+/* slow breathing glow (always on) */
+.project-hero-grid::after {
+  background-image: inherit; background-size: inherit; opacity: 0; filter: brightness(1.8) saturate(1.2);
+  -webkit-mask-image: radial-gradient(ellipse 70% 80% at 50% 35%, #000 0%, transparent 100%);
+  mask-image: radial-gradient(ellipse 70% 80% at 50% 35%, #000 0%, transparent 100%);
+  animation: grid-breathe 4.5s ease-in-out infinite;
+}
+@keyframes grid-breathe { 0%,100% { opacity: 0; } 50% { opacity: .75; } }
+/* pointer (hover) and press: theme-colored lines + lit cells, local to the pointer */
+.project-hero-grid::before {
+  background-image: linear-gradient(var(--md-primary) 2.5px, transparent 2.5px), linear-gradient(90deg, var(--md-primary) 2.5px, transparent 2.5px);
+  background-size: 64px 64px; background-color: transparent;
+  opacity: 0; transition: opacity .35s ease;
+  -webkit-mask-image: radial-gradient(circle 190px at var(--mx, 50%) var(--my, 50%), #000 0%, transparent 100%);
+  mask-image: radial-gradient(circle 190px at var(--mx, 50%) var(--my, 50%), #000 0%, transparent 100%);
+}
+.project-hero-grid.is-hover::before { opacity: 1; }
+.project-hero-grid.is-press::before {
+  background-color: color-mix(in srgb, var(--md-primary) 45%, transparent);
+  -webkit-mask-image: radial-gradient(circle 280px at var(--mx, 50%) var(--my, 50%), #000 0%, transparent 100%);
+  mask-image: radial-gradient(circle 280px at var(--mx, 50%) var(--my, 50%), #000 0%, transparent 100%);
+  animation: grid-flash .9s ease-out forwards;
+}
+@keyframes grid-flash { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; } }
+
+/* ---------- Logo (index): theme-colored outline ---------- */
+.project-logo {
+  position: relative; transition: background-color .4s ease, border-color .4s ease;
+  background: color-mix(in srgb, var(--md-primary) 14%, var(--md-surface-container-high));
+  border: 2px solid color-mix(in srgb, var(--md-primary) 55%, transparent); box-sizing: border-box;
+}
+.project-logo svg { position: relative; z-index: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .project-hero-grid::after, .project-hero-grid::before { animation: none !important; }
+}

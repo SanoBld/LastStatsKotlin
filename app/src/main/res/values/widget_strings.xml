@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Picker names -->
+    <string name="widget_name_scrobbles">LastStats — Total scrobbles</string>
+    <string name="widget_name_now_playing">LastStats — Now playing</string>
+    <string name="widget_name_loved">LastStats — Loved tracks</string>
+    <string name="widget_name_weekly">LastStats — This week</string>
+    <string name="widget_name_recap">LastStats — Recap</string>
+
+    <!-- On-widget text -->
+    <string name="widget_scrobbles_label">scrobbles · %1$s</string>
+    <string name="widget_loved_label">loved tracks ♥</string>
+    <string name="widget_weekly_label">scrobbles this week</string>
+    <string name="widget_no_scrobble">No scrobble yet</string>
+    <string name="widget_now_playing_status">NOW PLAYING</string>
+    <string name="widget_last_played_status">LAST PLAYED</string>
+    <string name="widget_recap_total">total</string>
+    <string name="widget_recap_week">this week</string>
+    <string name="widget_recap_loved">loved</string>
+    <string name="widget_desc_scrobbles">Your total scrobble count</string>
+    <string name="widget_desc_now_playing">The track playing now, with its cover</string>
+    <string name="widget_desc_loved">How many tracks you loved</string>
+    <string name="widget_desc_weekly">Your scrobbles over the last 7 days</string>
+    <string name="widget_desc_recap">Total, this week and loved tracks at a glance</string>
+    <string name="widget_preview_scrobbles">scrobbles</string>
+    <string name="widget_preview_track">Song title</string>
+    <string name="widget_preview_artist">Artist</string>
+    <string name="widget_name_heatmap">LastStats — Calendar</string>
+    <string name="widget_desc_heatmap">Your listening calendar, one square per day</string>
+</resources>

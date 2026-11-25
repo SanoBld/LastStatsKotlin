@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_name_scrobbles">LastStats — Scrobbles totales</string>
+    <string name="widget_name_now_playing">LastStats — Sonando ahora</string>
+    <string name="widget_name_loved">LastStats — Favoritas</string>
+    <string name="widget_name_weekly">LastStats — Esta semana</string>
+    <string name="widget_name_recap">LastStats — Resumen</string>
+
+    <string name="widget_scrobbles_label">scrobbles · %1$s</string>
+    <string name="widget_loved_label">favoritas ♥</string>
+    <string name="widget_weekly_label">scrobbles esta semana</string>
+    <string name="widget_no_scrobble">Sin scrobbles aún</string>
+    <string name="widget_now_playing_status">SONANDO AHORA</string>
+    <string name="widget_last_played_status">ÚLTIMA REPRODUCIDA</string>
+    <string name="widget_recap_total">total</string>
+    <string name="widget_recap_week">esta semana</string>
+    <string name="widget_recap_loved">favoritas</string>
+    <string name="widget_desc_scrobbles">Tu total de scrobbles</string>
+    <string name="widget_desc_now_playing">La canción actual con su portada</string>
+    <string name="widget_desc_loved">Cuántas canciones te gustan</string>
+    <string name="widget_desc_weekly">Tus scrobbles de los últimos 7 días</string>
+    <string name="widget_desc_recap">Total, semana y favoritas de un vistazo</string>
+    <string name="widget_preview_scrobbles">scrobbles</string>
+    <string name="widget_preview_track">Canción</string>
+    <string name="widget_preview_artist">Artista</string>
+</resources>

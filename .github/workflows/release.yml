@@ -1,0 +1,216 @@
+name: Release LastStats
+
+# Two ways to trigger a real release:
+#  1) Push a tag like v2.7.0 (or v2.7.0-beta for a pre-release)
+#  2) Run this workflow manually from the Actions tab (workflow_dispatch)
+on:
+  push:
+    tags: [ 'v*.*.*' ]
+  workflow_dispatch:
+    inputs:
+      prerelease:
+        description: 'Mark as pre-release? (beta, rc...)'
+        type: boolean
+        required: false
+        default: false
+      version:
+        description: 'Version to release (e.g. 2.0.1)'
+        required: true
+
+jobs:
+  # Resolves tag/version/prerelease BEFORE the builds so it can be passed
+  # down to them as an input (each build job does its own checkout, so it
+  # can never see a commit made by a later step in this same run).
+  resolve:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      tag:        ${{ steps.meta.outputs.tag }}
+      version:    ${{ steps.meta.outputs.version }}
+      prerelease: ${{ steps.meta.outputs.prerelease }}
+      notes:      ${{ steps.changelog.outputs.notes }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Resolve tag, version and prerelease flag
+        id: meta
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            VERSION="${{ inputs.version }}"
+
+            # If the "prerelease" checkbox is ticked and the version doesn't
+            # already have a suffix (e.g. "-beta", "-rc1"), append "-beta"
+            # automatically so the tag/app version reflects it too.
+            if [ "${{ inputs.prerelease }}" = "true" ] && [[ "$VERSION" != *"-"* ]]; then
+              VERSION="${VERSION}-beta"
+            fi
+
+            echo "tag=v$VERSION"    >> $GITHUB_OUTPUT
+            echo "version=$VERSION" >> $GITHUB_OUTPUT
+            if [[ "$VERSION" == *"-"* ]]; then
+              echo "prerelease=true"  >> $GITHUB_OUTPUT
+            else
+              echo "prerelease=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            TAG="${GITHUB_REF_NAME}"
+            VER="${TAG#v}"
+            echo "tag=$TAG"     >> $GITHUB_OUTPUT
+            echo "version=$VER" >> $GITHUB_OUTPUT
+            if [[ "$TAG" == *"-"* ]]; then
+              echo "prerelease=true"  >> $GITHUB_OUTPUT
+            else
+              echo "prerelease=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      # Reads CHANGELOG.md and grabs only the section for this version
+      # (the lines between "## vX.Y.Z" and the next "## " heading).
+      # This is what lets you write the human-readable release notes
+      # yourself, instead of relying only on the auto-generated ones.
+      - name: Extract changelog entry for this version
+        id: changelog
+        run: |
+          TAG="${{ steps.meta.outputs.tag }}"
+          NOTES=$(awk -v heading="## $TAG" '
+            $0 == heading { found=1; next }
+            found && /^## / { exit }
+            found { print }
+          ' CHANGELOG.md 2>/dev/null)
+
+          # Trim leading/trailing blank lines so we don't get extra gaps in the body
+          NOTES=$(printf '%s' "$NOTES" | sed -e '/./,$!d' -e :a -e '/^\n*$/{$d;N;ba' -e '}')
+
+          if [ -z "$NOTES" ]; then
+            NOTES="_(No changelog entry for $TAG)_"
+          fi
+
+          {
+            echo "notes<<CHANGELOG_EOF"
+            echo "$NOTES"
+            echo "CHANGELOG_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create tag (manual dispatch only)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag ${{ steps.meta.outputs.tag }} || true
+          git push origin ${{ steps.meta.outputs.tag }} || true
+
+      # Keeps version.properties in sync with every release, so local/dev
+      # builds report the right version too, not just CI-built releases
+      # where -PversionName already overrides it at build time.
+      - name: Sync version.properties and commit to master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ steps.meta.outputs.version }}"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Work from master's actual tip, not the tag's commit, so this always
+          # pushes a clean fast-forward regardless of what the tag points to.
+          git fetch origin master
+          git checkout master
+
+          sed -i "s/^VERSION_NAME=.*/VERSION_NAME=$VERSION/; s/^VERSION_CODE=.*/VERSION_CODE=${{ github.run_number }}/" version.properties
+
+          if git diff --quiet -- version.properties; then
+            echo "version.properties already up to date, nothing to commit."
+          else
+            git add version.properties
+            git commit -m "chore: bump version to $VERSION [skip ci]"
+            git push origin HEAD:master
+          fi
+
+  # The build runs in its own workflow file, receiving the resolved version
+  # so the compiled app shows/compares against it.
+  android:
+    needs: resolve
+    uses: ./.github/workflows/build-android.yml
+    with:
+      version: ${{ needs.resolve.outputs.version }}
+
+  # Once the build is done, gather the APKs and publish the release.
+  publish-release:
+    needs: [ resolve, android ]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Download all build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-assets/
+
+      # download-artifact creates one subfolder per artifact name.
+      # We flatten everything into one folder so the release page shows
+      # a clean flat file list.
+      - name: Flatten asset folder
+        run: |
+          mkdir -p flat-assets
+          find release-assets -type f -exec cp {} flat-assets/ \;
+          ls -la flat-assets
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag:                  ${{ needs.resolve.outputs.tag }}
+          name:                 "LastStats v${{ needs.resolve.outputs.version }}"
+          artifacts:            "flat-assets/*"
+          generateReleaseNotes: true
+          prerelease:           ${{ needs.resolve.outputs.prerelease }}
+          makeLatest:           ${{ needs.resolve.outputs.prerelease == 'false' }}
+          token:                ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            ## LastStats v${{ needs.resolve.outputs.version }}
+
+            ${{ needs.resolve.outputs.notes }}
+
+            ### Android
+            | File | Use case |
+            |------|----------|
+            | `app-universal-release.apk` | Works on any phone (biggest file) |
+            | `app-arm64-v8a-release.apk` | Most modern phones (2018+) |
+            | `app-armeabi-v7a-release.apk` | Older 32-bit phones |
+            | `app-x86_64-release.apk` | Emulators / x86 tablets |
+
+      # NOTE: publishing the update.json / update_beta.json file for the
+      # app's auto-update check is handled by a separate workflow:
+      # publish-update-metadata.yml. It triggers automatically once this
+      # release is published, no action needed here.
+
+      # Discord: same script as the news workflow (full changelog, bold, lists, tables)
+      - name: Send Discord Beta Notification
+        if: needs.resolve.outputs.prerelease == 'true'
+        continue-on-error: true
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_PRE_RELEASE_WEBHOOK }}
+          KIND:    beta
+          TITLE:   LastStats v${{ needs.resolve.outputs.version }} (beta)
+          BODY:    ${{ needs.resolve.outputs.notes }}
+          URL:     https://github.com/${{ github.repository }}/releases/tag/${{ needs.resolve.outputs.tag }}
+          ROLE_ID: '1518721692736688402'
+          PING_TEXT: A new pre-release build is available for testing! 🧪
+        run: python3 .github/scripts/discord_notify.py
+
+      - name: Send Discord Stable Notification
+        if: needs.resolve.outputs.prerelease == 'false'
+        continue-on-error: true
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          KIND:    stable
+          TITLE:   LastStats v${{ needs.resolve.outputs.version }}
+          BODY:    ${{ needs.resolve.outputs.notes }}
+          URL:     https://github.com/${{ github.repository }}/releases/tag/${{ needs.resolve.outputs.tag }}
+          ROLE_ID: '1518721608158679100'
+          PING_TEXT: A new update is officially live! 🚀
+        run: python3 .github/scripts/discord_notify.py

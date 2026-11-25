@@ -1,0 +1,39 @@
+# Keeps version.properties in sync with the newest heading of CHANGELOG.md
+# (e.g. "## v5.0.0" -> VERSION_NAME=5.0.0) on every push that changes the
+# changelog. The release workflow still sets the final version on release,
+# so the two never disagree.
+name: Sync app version
+
+on:
+  push:
+    branches: [ master ]
+    paths: [ 'CHANGELOG.md' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update version.properties from CHANGELOG.md
+        run: |
+          VER=$(grep -m1 -E '^## v[0-9]' CHANGELOG.md | tr -d '\r' | sed -E 's/^## v//; s/[[:space:]].*$//')
+          if [ -z "$VER" ]; then echo "No version heading found."; exit 0; fi
+          CUR=$(grep -m1 '^VERSION_NAME=' version.properties | tr -d '\r')
+          echo "version: '$CUR' -> 'VERSION_NAME=$VER'"
+          sed -i "s/^VERSION_NAME=.*/VERSION_NAME=$VER/" version.properties
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- version.properties; then
+            echo "Already up to date."; exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add version.properties
+          git commit -m "chore: sync app version with changelog [skip ci]"
+          git push

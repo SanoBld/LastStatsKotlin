@@ -1,0 +1,237 @@
+/* extra styles just for the help page (help.html) */
+/* loads after style.css and project.css, reuses the same M3 tokens */
+
+.help-header { padding-bottom: 3rem; }
+
+/* back-link (css/project.css already defines .back-link, this just centers it here) */
+.help-header .back-link { margin-bottom: 1.5rem; }
+
+.help-section { max-width: 900px; }
+
+/* plain info card, one per topic, readable text block on a soft surface */
+.help-card {
+  background: var(--md-surface-container-low);
+  border-radius: var(--shape-lg);
+  padding: 1.6rem 1.8rem;
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+.help-card h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.15rem;
+  margin-bottom: .6rem;
+  color: var(--md-on-surface);
+}
+.help-card p {
+  color: var(--md-on-surface-variant);
+  font-size: .98rem;
+  line-height: 1.6;
+}
+.help-card p + p { margin-top: .7rem; }
+.help-note {
+  margin-top: .9rem;
+  font-size: .88rem !important;
+  color: var(--md-on-tertiary-container) !important;
+  background: var(--md-tertiary-container);
+  border-radius: var(--shape-sm);
+  padding: .7rem .9rem;
+}
+
+/* numbered connection steps */
+.help-steps {
+  list-style: none;
+  counter-reset: help-step;
+  color: var(--md-on-surface-variant);
+  font-size: .98rem;
+  line-height: 1.6;
+}
+.help-steps li {
+  counter-increment: help-step;
+  position: relative;
+  padding-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+.help-steps li:last-child { margin-bottom: 0; }
+.help-steps li::before {
+  content: counter(help-step);
+  position: absolute;
+  left: 0; top: 0;
+  width: 1.7rem; height: 1.7rem;
+  border-radius: 50%;
+  background: var(--md-primary-container);
+  color: var(--md-on-primary-container);
+  font-family: var(--font-display);
+  font-size: .82rem; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+.help-external-link {
+  display: inline-flex;
+  margin-top: 1rem;
+  font-size: .9rem; font-weight: 500;
+  padding: .7rem 1.2rem;
+  border-radius: var(--shape-full);
+  background: var(--md-secondary-container);
+  color: var(--md-on-secondary-container);
+  transition: transform .2s var(--m3-standard);
+}
+.help-external-link:hover { transform: translateY(-2px); }
+
+/* FAQ accordion, built with plain <details>/<summary>, no JS needed */
+.faq-list {
+  background: var(--md-surface-container-low);
+  border-radius: var(--shape-lg);
+  overflow: hidden;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.faq-item { border-bottom: 1px solid var(--md-outline-variant); }
+.faq-item:last-child { border-bottom: none; }
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.4rem;
+  font-size: .96rem;
+  font-weight: 600;
+  color: var(--md-on-surface);
+  transition: background .2s var(--m3-standard);
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary:hover { background: var(--md-surface-container-high); }
+.faq-chevron { flex-shrink: 0; color: var(--md-on-surface-variant); transition: transform .25s var(--m3-standard); }
+.faq-item[open] .faq-chevron { transform: rotate(180deg); }
+.faq-item p {
+  padding: 0 1.4rem 1.3rem 1.4rem;
+  color: var(--md-on-surface-variant);
+  font-size: .92rem;
+  line-height: 1.6;
+}
+
+/* open-source badge, same look as the one in the app's FAQ screen */
+.help-badge {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  background: var(--md-primary-container);
+  color: var(--md-on-primary-container);
+  border-radius: var(--shape-md);
+  padding: .9rem 1.1rem;
+  font-size: .85rem;
+}
+.help-badge svg, .help-badge .ms { flex-shrink: 0; color: var(--md-primary); }
+
+.help-more {
+  text-align: center;
+  color: var(--md-on-surface-variant);
+  font-size: .92rem;
+  margin-top: 1.2rem;
+}
+.help-more a { color: var(--md-primary); font-weight: 600; }
+.help-more a:hover { text-decoration: underline; }
+
+@media (max-width: 640px) {
+  .help-card { padding: 1.3rem 1.4rem; }
+}
+
+/* Legal notice page */
+.legal-content { max-width: 760px; margin: 0 auto; padding: 0 1.5rem 4rem; display: flex; flex-direction: column; gap: 1.4rem; }
+.legal-block {
+  background: var(--md-surface-container-low); border: 1px solid var(--md-outline-variant);
+  border-radius: var(--shape-lg); padding: 1.5rem 1.7rem;
+}
+.legal-block h2 { font-family: var(--font-display); font-size: 1.05rem; margin-bottom: .6rem; color: var(--md-primary); }
+.legal-block p { color: var(--md-on-surface-variant); font-size: .92rem; line-height: 1.6; }
+.legal-block p + p { margin-top: .6rem; }
+
+/* legal page: connected M3 Expressive blocks (outer corners round, inner corners tight) */
+.legal-content { display: flex; flex-direction: column; gap: 2px; }
+.legal-block { border-radius: 6px; }
+.legal-block:first-child { border-radius: 28px 28px 6px 6px; }
+.legal-block:last-child  { border-radius: 6px 6px 28px 28px; }
+.legal-block ul { margin: .6rem 0 0 1.2rem; color: var(--md-on-surface-variant); font-size: .92rem; line-height: 1.6; }
+.legal-block li + li { margin-top: .3rem; }
+.legal-block p + p { margin-top: .6rem; }
+
+/* links inside legal blocks (contact, etc.) */
+.legal-block a { color: var(--md-primary); font-weight: 500; text-decoration: underline; text-underline-offset: 2px; transition: opacity .2s var(--m3-standard); }
+.legal-block a:hover { opacity: .8; }
+
+
+/* ==========================================================
+   Help page: theme hub (js/help-hub.js)
+   Pick a theme tile, only that theme is shown. Without JS everything is shown.
+   ========================================================== */
+.help-js .help-block { display: none; }
+.help-js .help-block.is-current { display: block; margin-bottom: 1rem; }
+.help-hub[hidden], .help-topic-bar[hidden], .help-hub-grid[hidden], .help-hub-results[hidden],
+.help-hub-empty[hidden], .rel-layout[hidden] { display: none !important; }
+
+.help-hub { max-width: 900px; margin: 0 auto; }
+.help-hub-title {
+  font-family: var(--font-display); font-weight: 500; font-size: clamp(1.3rem, 3vw, 1.7rem);
+  color: var(--md-on-background); margin: 0 0 1.1rem; text-align: left;
+}
+.help-hub-search { position: relative; margin-bottom: 1.2rem; }
+.help-hub-search .ms {
+  position: absolute; left: 1.1rem; top: 50%; transform: translateY(-50%);
+  font-size: 1.3rem; color: var(--md-on-surface-variant); pointer-events: none;
+}
+.help-hub-search .rel-search { min-height: 52px; margin: 0; padding: 0 1.3rem 0 3.1rem; border-radius: 26px; font-size: .95rem; }
+
+/* tiles */
+.help-hub-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; }
+.help-tile {
+  position: relative; overflow: hidden; display: flex; align-items: center; gap: 1rem;
+  padding: 1.2rem 1.3rem; border-radius: var(--r-tile); text-align: left; text-decoration: none;
+  background: var(--md-surface-container-low); color: var(--md-on-surface);
+  transition: transform .35s var(--spring-fast), background-color .2s var(--effects), border-radius .5s var(--spring-default);
+}
+.help-tile-icon {
+  flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: var(--r-chip);
+  background: var(--md-primary-container); color: var(--md-on-primary-container);
+}
+.help-tile-icon .ms { font-size: 26px; }
+.help-tile-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: .2rem; }
+.help-tile-title { font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; line-height: 1.25; }
+.help-tile-desc { font-size: .85rem; line-height: 1.45; color: var(--md-on-surface-variant); }
+.help-tile-count {
+  align-self: flex-start; margin-top: .35rem; padding: .15rem .6rem; border-radius: var(--r-chip);
+  font-size: .72rem; font-weight: 600; background: var(--md-secondary-container); color: var(--md-on-secondary-container);
+}
+.help-tile-arrow { flex: none; color: var(--md-on-surface-variant); transition: transform .35s var(--spring-fast); }
+@media (hover: hover) {
+  .help-tile:hover { background: var(--md-surface-container-high); transform: translateY(-4px); }
+  .help-tile:hover .help-tile-arrow { transform: translateX(4px); }
+}
+.help-tile:active { transform: scale(.98); border-radius: var(--r-card); }
+.help-tile:focus-visible, .help-result:focus-visible { outline: 2px solid var(--md-primary); outline-offset: 2px; }
+
+/* search results (flat list of cards / questions) */
+.help-hub-results { display: flex; flex-direction: column; gap: 2px; }
+.help-result {
+  position: relative; overflow: hidden; display: flex; flex-direction: column; gap: .15rem;
+  padding: 1rem 1.3rem; text-align: left; text-decoration: none; border-radius: var(--r-inner);
+  background: var(--md-surface-container-low); color: var(--md-on-surface);
+  transition: background-color .2s var(--effects), border-radius .5s var(--spring-default);
+}
+.help-result:first-child { border-radius: var(--r-card) var(--r-card) var(--r-inner) var(--r-inner); }
+.help-result:last-child { border-radius: var(--r-inner) var(--r-inner) var(--r-card) var(--r-card); }
+.help-result:only-child { border-radius: var(--r-card); }
+@media (hover: hover) { .help-result:hover { background: var(--md-surface-container-high); border-radius: var(--r-hover); } }
+.help-result-title { font-weight: 600; font-size: .95rem; }
+.help-result-theme { font-size: .78rem; color: var(--md-on-surface-variant); }
+.help-hub-empty { text-align: center; color: var(--md-on-surface-variant); padding: 2rem 0; }
+
+/* bar shown above an open theme */
+.help-topic-bar { max-width: 900px; margin: 0 auto 1.2rem; }
+.help-topic-bar .back-link { min-height: var(--btn-h, 44px); }
+.help-js .help-block > h2:first-child { margin-top: .2rem; }
+
+@media (max-width: 700px) {
+  .help-hub-grid { grid-template-columns: 1fr; }
+  .help-tile { padding: 1rem 1.1rem; }
+}

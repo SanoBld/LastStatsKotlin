@@ -1,0 +1,65 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build debug APK",
+      "type": "shell",
+      "command": ".\\gradlew.bat",
+      "args": [
+        ":app:assembleDebug"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Install debug on device",
+      "type": "shell",
+      "command": ".\\gradlew.bat",
+      "args": [
+        ":app:installDebug"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Build release APKs (all ABIs)",
+      "type": "shell",
+      "command": ".\\gradlew.bat",
+      "args": [
+        ":app:assembleRelease",
+        "-PabiSplits=true"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Unit tests",
+      "type": "shell",
+      "command": ".\\gradlew.bat",
+      "args": [
+        ":app:testDebugUnitTest"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Lint",
+      "type": "shell",
+      "command": ".\\gradlew.bat",
+      "args": [
+        ":app:lintDebug"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Clean",
+      "type": "shell",
+      "command": ".\\gradlew.bat",
+      "args": [
+        "clean"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
