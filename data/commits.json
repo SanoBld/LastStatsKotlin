@@ -1,0 +1,2721 @@
+{
+  "updated": "2026-11-25T07:41:56Z",
+  "commits": [
+    {
+      "sha": "31d1bcee07a82aa5b29c13afc25ccc8440ee6d99",
+      "message": "feat: améliorer le calcul des récapitulatifs annuels avec un traitement optimisé des artistes et titres",
+      "date": "2026-11-24T15:58:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/31d1bcee07a82aa5b29c13afc25ccc8440ee6d99",
+      "tags": []
+    },
+    {
+      "sha": "74c75a8314c9f2b2fc0d97595bd6f984b7c9d655",
+      "message": "feat: ajouter le décodage asynchrone des réponses API pour éviter le gel de l'interface",
+      "date": "2026-11-24T12:18:23Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/74c75a8314c9f2b2fc0d97595bd6f984b7c9d655",
+      "tags": []
+    },
+    {
+      "sha": "7460a9c691823ba7301c774de629e937e429d9b3",
+      "message": "feat: mise à jour du changelog pour la version 4.6.0 et amélioration des performances des graphiques",
+      "date": "2026-11-24T12:17:04Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/7460a9c691823ba7301c774de629e937e429d9b3",
+      "tags": []
+    },
+    {
+      "sha": "52a76d446e1657fa86a03a7833614d8aec8f4929",
+      "message": "Merge branch 'master' of https://github.com/SanoBld/LastStats",
+      "date": "2026-11-24T12:13:47Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/52a76d446e1657fa86a03a7833614d8aec8f4929",
+      "tags": []
+    },
+    {
+      "sha": "b946b312b0864943bc99b1ecd32ece54a30e739f",
+      "message": "feat: ajouter des options de redimensionnement des images de profil pour améliorer l'affichage sur différentes pages",
+      "date": "2026-11-24T12:13:35Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b946b312b0864943bc99b1ecd32ece54a30e739f",
+      "tags": []
+    },
+    {
+      "sha": "0d4ee7d542676b2130371e7a6ced716346062b73",
+      "message": "chore: bump version to 4.5.0 [skip ci]",
+      "date": "2026-11-22T21:47:17Z",
+      "author": "github-actions[bot]",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0d4ee7d542676b2130371e7a6ced716346062b73",
+      "tags": []
+    },
+    {
+      "sha": "0494ada591d48fca7acdfc8b2478b43768744647",
+      "message": "refactor: supprimer le code inutilisé et améliorer la lisibilité de l'écran de configuration et de la page de récapitulatif annuel",
+      "date": "2026-11-22T21:32:23Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0494ada591d48fca7acdfc8b2478b43768744647",
+      "tags": [
+        "v4.5.0"
+      ]
+    },
+    {
+      "sha": "7bf50e48b6bf243fcb7ac38ffdd143d22e4b3453",
+      "message": "feat: mettre à jour la page de connexion Spotify pour utiliser une identité de navigateur à jour et permettre les cookies, le stockage et les pop-ups",
+      "date": "2026-11-22T21:29:52Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/7bf50e48b6bf243fcb7ac38ffdd143d22e4b3453",
+      "tags": []
+    },
+    {
+      "sha": "1659d2c56005f76a535620cda1c17417605eb18c",
+      "message": "feat: réorganiser le changelog pour mettre en avant les nouvelles fonctionnalités et améliorations",
+      "date": "2026-11-22T20:44:22Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/1659d2c56005f76a535620cda1c17417605eb18c",
+      "tags": []
+    },
+    {
+      "sha": "a2597465dc18571a28aa5ac5513893ece2b23dc0",
+      "message": "feat: améliorer l'écran de récapitulatif annuel avec des options de couverture personnalisables et des mises à jour de style",
+      "date": "2026-11-22T20:42:42Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a2597465dc18571a28aa5ac5513893ece2b23dc0",
+      "tags": []
+    },
+    {
+      "sha": "c7de4c768df1a0de3a5cc4fd669bc3be5c0287ba",
+      "message": "feat: ajouter des options de couverture pour la récapitulation annuelle, y compris l'image en plein écran, en bandeau et sans image",
+      "date": "2026-11-22T20:25:13Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/c7de4c768df1a0de3a5cc4fd669bc3be5c0287ba",
+      "tags": []
+    },
+    {
+      "sha": "1b719abdf0ddc3dfddeb90387a4d45619d22e860",
+      "message": "Add contextual track information for year recap feature\n\n- Introduced new localized strings for Portuguese, Russian, and Chinese to support contextual track information such as most played track of the month, peak hours, top artist, and discoveries.\n- Enhanced the year recap page to include logic for determining the most played track in various contexts (month, artist, discoveries).\n- Updated UI components to display contextual track information prominently in the year recap slides.\n- Implemented hero slides that feature the cover art prominently, enhancing the visual appeal of the recap.",
+      "date": "2026-11-22T20:06:02Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/1b719abdf0ddc3dfddeb90387a4d45619d22e860",
+      "tags": []
+    },
+    {
+      "sha": "69abc24c9ddce5e12c734e590ef7140a285e2475",
+      "message": "fix: corriger l'icône du thème ListenBrainz dans le hub d'aide",
+      "date": "2026-11-22T15:16:04Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/69abc24c9ddce5e12c734e590ef7140a285e2475",
+      "tags": []
+    },
+    {
+      "sha": "5fb154a77a5e143b8e41c5187c46bc4690e3319e",
+      "message": "Update translations for help content in Portuguese, Russian, and Chinese; add ListenBrainz section to help hub",
+      "date": "2026-11-22T15:13:54Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5fb154a77a5e143b8e41c5187c46bc4690e3319e",
+      "tags": []
+    },
+    {
+      "sha": "06215a3474918593fbadefed394b10955afadb19",
+      "message": "Add FAQ sections for Last.fm and ListenBrainz in multiple languages\n\n- Updated Spanish, French, Italian, Japanese, Portuguese, Russian, and Chinese translations to include FAQs for Last.fm and ListenBrainz.\n- Enhanced help hub to include new FAQ sections for Last.fm and ListenBrainz with appropriate icons and descriptions.\n- Modified the counting function for FAQ items to accommodate the new sections.",
+      "date": "2026-11-22T15:07:25Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/06215a3474918593fbadefed394b10955afadb19",
+      "tags": []
+    },
+    {
+      "sha": "433f83e6a8ac2efa80ee1b08347e684096414f5b",
+      "message": "feat: mise à jour des messages d'alerte concernant l'API Last.fm pour inclure la date limite de 2026",
+      "date": "2026-11-22T13:22:36Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/433f83e6a8ac2efa80ee1b08347e684096414f5b",
+      "tags": []
+    },
+    {
+      "sha": "4f6eef2804a4db2ce3eed8fe881ba1b4c609db1b",
+      "message": "feat: refactor setup screen with _HeaderPill component and enhance tooltip styling",
+      "date": "2026-11-22T13:20:16Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4f6eef2804a4db2ce3eed8fe881ba1b4c609db1b",
+      "tags": []
+    },
+    {
+      "sha": "fae30a3d50725c866d96bb164e801f1555fc8f8c",
+      "message": "feat: update localization strings for multiple languages and improve error handling\n\n- Removed beta label from various language files (Spanish, French, Italian, Japanese, Portuguese, Russian, Chinese).\n- Enhanced network error messages in localization files to provide clearer instructions for users.\n- Added new localization strings for news functionality, including buttons and error messages.\n- Implemented a news fetching feature in the dashboard, allowing users to view outages, maintenance notices, and announcements.\n- Updated UI components to reflect changes in localization and new news functionality.\n- Refactored settings and onboarding screens to accommodate new data source logic for Last.fm and ListenBrainz.",
+      "date": "2026-11-22T10:11:26Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fae30a3d50725c866d96bb164e801f1555fc8f8c",
+      "tags": []
+    },
+    {
+      "sha": "f453e7e22d00c3c98509e30f3c785bf9a2f15884",
+      "message": "feat: mise à jour des liens QR pour prendre en charge ListenBrainz",
+      "date": "2026-11-21T21:42:38Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f453e7e22d00c3c98509e30f3c785bf9a2f15884",
+      "tags": []
+    },
+    {
+      "sha": "6dc4851d2bbd5aab4f0490a7ad107de077800919",
+      "message": "feat: encodage des noms d'utilisateur dans les liens QR pour une meilleure sécurité",
+      "date": "2026-11-21T21:39:49Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/6dc4851d2bbd5aab4f0490a7ad107de077800919",
+      "tags": []
+    },
+    {
+      "sha": "38371cc4efa9ed8cfd54567453318d67b0a6319e",
+      "message": "feat: ajout d'un mécanisme de circuit breaker pour gérer les erreurs de connexion réseau",
+      "date": "2026-11-21T21:22:35Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/38371cc4efa9ed8cfd54567453318d67b0a6319e",
+      "tags": []
+    },
+    {
+      "sha": "0db4d8f974ad606daa320b070f38e8c200a24b9a",
+      "message": "feat: amélioration de l'interface utilisateur avec des menus contextuels et un indicateur de chargement personnalisé",
+      "date": "2026-11-21T20:50:30Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0db4d8f974ad606daa320b070f38e8c200a24b9a",
+      "tags": []
+    },
+    {
+      "sha": "0c43ba6198b7ae07c92d3b859d2b7241728c257e",
+      "message": "feat: amélioration du chargement des données avec affichage instantané et rafraîchissement en arrière-plan",
+      "date": "2026-11-21T20:29:41Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0c43ba6198b7ae07c92d3b859d2b7241728c257e",
+      "tags": []
+    },
+    {
+      "sha": "cea4584a55de5761539d13f27e3f5d0ffbb4d7e5",
+      "message": "feat: ajout de la gestion des erreurs réseau et du cache d'images hors ligne",
+      "date": "2026-11-21T20:13:49Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cea4584a55de5761539d13f27e3f5d0ffbb4d7e5",
+      "tags": []
+    },
+    {
+      "sha": "207e6fdf8dd2eab00941b135e2bd980f6eb60113",
+      "message": "Merge branch 'master' of https://github.com/SanoBld/LastStats",
+      "date": "2026-11-21T10:25:00Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/207e6fdf8dd2eab00941b135e2bd980f6eb60113",
+      "tags": []
+    },
+    {
+      "sha": "260313819d4254ce8cca95a05eb34f83fc379e0c",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "date": "2026-11-21T10:24:53Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/260313819d4254ce8cca95a05eb34f83fc379e0c",
+      "tags": []
+    },
+    {
+      "sha": "7fd7d24ec2af0a0853099de60f551d9ace9d78b3",
+      "message": "chore: sync pubspec version with changelog [skip ci]",
+      "date": "2026-11-21T10:22:31Z",
+      "author": "github-actions[bot]",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/7fd7d24ec2af0a0853099de60f551d9ace9d78b3",
+      "tags": []
+    },
+    {
+      "sha": "7d0722ee5502035afc03a87bfe39f7ad3e29e702",
+      "message": "feat: mise à jour de la version dans le changelog pour passer à v4.5.0",
+      "date": "2026-11-21T10:22:21Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/7d0722ee5502035afc03a87bfe39f7ad3e29e702",
+      "tags": []
+    },
+    {
+      "sha": "141a5d48e4daf0ddc04848c0c455de5ac8c94449",
+      "message": "feat: mise à jour des messages d'interface pour ListenBrainz dans plusieurs langues",
+      "date": "2026-11-21T10:19:25Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/141a5d48e4daf0ddc04848c0c455de5ac8c94449",
+      "tags": []
+    },
+    {
+      "sha": "2a48003f21558bb45d976a11279a7ab4b5a34582",
+      "message": "feat: ajouter la prise en charge de ListenBrainz dans les traductions et les messages d'interface",
+      "date": "2026-11-21T10:04:21Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/2a48003f21558bb45d976a11279a7ab4b5a34582",
+      "tags": []
+    },
+    {
+      "sha": "b906e9bababc7d7efcf13174ea9b6195bc650d14",
+      "message": "feat: ajouter la prise en charge de la notification Discord pour les annonces et les versions",
+      "date": "2026-11-21T09:53:23Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b906e9bababc7d7efcf13174ea9b6195bc650d14",
+      "tags": []
+    },
+    {
+      "sha": "690f24f29fa61bbe52ad8b67714d847b47632b6e",
+      "message": "feat: add localized help and error messages for API responses\n\n- Added localized strings for help and error messages in Italian, Japanese, Portuguese, Russian, and Chinese.\n- Implemented user-friendly error handling in the dashboard page to display cached data when offline.\n- Enhanced the API service to decode JSON responses safely, throwing a readable error for invalid responses.\n- Updated the dashboard and detail sheet to include MusicBrainz branding and icons.\n- Improved the notification service to render markdown in notifications.\n- Introduced a new GitHub workflow for deleting news entries from the news.json file.\n- Added a MusicBrainz SVG icon asset for branding purposes.",
+      "date": "2026-11-21T09:20:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/690f24f29fa61bbe52ad8b67714d847b47632b6e",
+      "tags": []
+    },
+    {
+      "sha": "4e6ee3dcec503adddc54b89b26f72677019bdfa9",
+      "message": "Merge branch 'master' of https://github.com/SanoBld/LastStats",
+      "date": "2026-11-21T08:28:12Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4e6ee3dcec503adddc54b89b26f72677019bdfa9",
+      "tags": []
+    },
+    {
+      "sha": "bd5e8dd733ebd9247efe9447256702910176966e",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "date": "2026-11-21T08:28:04Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/bd5e8dd733ebd9247efe9447256702910176966e",
+      "tags": []
+    },
+    {
+      "sha": "e0c2148309a82cb7ec7dc9a44c852d9ecdd96030",
+      "message": "chore: sync pubspec version with changelog [skip ci]",
+      "date": "2026-11-21T08:25:02Z",
+      "author": "github-actions[bot]",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e0c2148309a82cb7ec7dc9a44c852d9ecdd96030",
+      "tags": []
+    },
+    {
+      "sha": "0a3bdd8eb1d39bfa418cd301bdefd14cc3824cec",
+      "message": "feat: Ajouter la prise en charge du classement des sources d'images et de vidéos dans les paramètres",
+      "date": "2026-11-21T08:24:46Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0a3bdd8eb1d39bfa418cd301bdefd14cc3824cec",
+      "tags": []
+    },
+    {
+      "sha": "1f001e93a6aaee8fde5b9695ef516aa7cbdbb136",
+      "message": "Add ListenBrainz integration and logo\n\n- Implemented fetching recent tracks from ListenBrainz API in notification_worker.dart.\n- Added logic to retrieve user statistics based on the fetched data.\n- Introduced a new SVG logo for ListenBrainz in assets/icons.",
+      "date": "2026-11-20T21:33:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/1f001e93a6aaee8fde5b9695ef516aa7cbdbb136",
+      "tags": []
+    },
+    {
+      "sha": "e411298826943f24eb05c3326f43c1cc36c93612",
+      "message": "Add ListenBrainz support and improve backup functionality\n\n- Implemented localization for Spanish and French languages for ListenBrainz integration.\n- Updated main.dart to set default text scale to 1.0.\n- Enhanced backup_page.dart to handle ListenBrainz tokens and navigate to home screen upon successful restore.\n- Modified setup_screen.dart to include clipboard token detection and improved UI for ListenBrainz login steps.\n- Created lb_auth.dart for handling ListenBrainz token validation and user management.\n- Updated backup_service.dart to support ListenBrainz backup and restore processes.",
+      "date": "2026-11-20T20:53:24Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e411298826943f24eb05c3326f43c1cc36c93612",
+      "tags": []
+    },
+    {
+      "sha": "6711f3fae3d22bb5cb6fa28605aa28a86f4d02ce",
+      "message": "feat: Ajouter la prise en charge de la popularité des artistes, albums et pistes via l'API ListenBrainz",
+      "date": "2026-11-20T20:26:19Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/6711f3fae3d22bb5cb6fa28605aa28a86f4d02ce",
+      "tags": []
+    },
+    {
+      "sha": "78a22c42ebb9c6f8cc35439a7bd88daa664c2faf",
+      "message": "feat: Ajouter la prise en charge de MusicBrainz dans les liens et les informations des artistes",
+      "date": "2026-11-20T20:21:34Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/78a22c42ebb9c6f8cc35439a7bd88daa664c2faf",
+      "tags": []
+    },
+    {
+      "sha": "e7edd64a38b94d82b5a23bcfeb99d88448b83e91",
+      "message": "feat: Update Chinese localization for ListenBrainz support\n\n- Modified strings in `strings_zh.dart` to conditionally display ListenBrainz or Last.fm based on the data source.\n- Updated `_detail_sheet.dart` to reflect the correct source in metadata.\n- Enhanced `all_scrobbles_service.dart` to fetch scrobbles from ListenBrainz when applicable.\n- Implemented a new method in `lb_adapter.dart` for fetching historical data from ListenBrainz.\n- Adjusted `scrobbles_file_cache.dart` to ensure proper year tracking from both sources.",
+      "date": "2026-11-20T20:19:44Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e7edd64a38b94d82b5a23bcfeb99d88448b83e91",
+      "tags": []
+    },
+    {
+      "sha": "86af94c5eab9920cd740e0ddc10d0e01baf328e5",
+      "message": "feat: Optimiser la récupération des écoutes récentes avec un meilleur contrôle de pagination et des limites ajustées",
+      "date": "2026-11-20T16:37:09Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/86af94c5eab9920cd740e0ddc10d0e01baf328e5",
+      "tags": []
+    },
+    {
+      "sha": "cab53b6c5a147a905e47d82e42a55e6d6561a33d",
+      "message": "feat: Améliorer la gestion des erreurs et des requêtes HTTP dans LbAdapter",
+      "date": "2026-11-20T16:10:58Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cab53b6c5a147a905e47d82e42a55e6d6561a33d",
+      "tags": []
+    },
+    {
+      "sha": "05e42d33d1739c2b528ffa715cd0854695addb39",
+      "message": "feat: Améliorer la gestion des requêtes API avec un cache et des délais d'attente pour ListenBrainz",
+      "date": "2026-11-20T15:55:26Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/05e42d33d1739c2b528ffa715cd0854695addb39",
+      "tags": []
+    },
+    {
+      "sha": "fc9ac172f76d5c580f4610fe754f9f9c2c825c9d",
+      "message": "feat: Ajouter la gestion des en-têtes d'authentification pour ListenBrainz et ajuster les délais d'attente",
+      "date": "2026-11-20T15:30:16Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fc9ac172f76d5c580f4610fe754f9f9c2c825c9d",
+      "tags": []
+    },
+    {
+      "sha": "5133c89bc0d321982c338857ea10bd88a2286508",
+      "message": "feat: Ajouter le besoin d'un User-Agent pour ListenBrainz et ajuster les délais d'attente pour MusicBrainz",
+      "date": "2026-11-19T20:56:46Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5133c89bc0d321982c338857ea10bd88a2286508",
+      "tags": []
+    },
+    {
+      "sha": "3df72d0126bccb487423e54828b9154047950255",
+      "message": "feat: Mettre à jour les runners Ubuntu pour les builds Linux",
+      "date": "2026-11-19T20:09:14Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/3df72d0126bccb487423e54828b9154047950255",
+      "tags": []
+    },
+    {
+      "sha": "219f4cfc2ee69d430e28cdd8bf41c4c5428a06d2",
+      "message": "Refactor account management and integration with ListenBrainz\n\n- Removed the add account functionality and associated dialog from the account page.\n- Updated connections page to remove Last.fm web login option.\n- Adjusted setup screen to ensure only the ListenBrainz account is saved.\n- Introduced setSingle method in AccountManager to manage single active account.\n- Enhanced API registry to support additional ListenBrainz hosts.\n- Improved LB adapter to handle user healing and similar artist retrieval.\n- Updated notification worker to adapt to ListenBrainz mode.\n- Modified widget service to prevent Last.fm queries in ListenBrainz mode.\n- Improved AppImage build script for better dependency management and error handling.",
+      "date": "2026-11-19T20:03:09Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/219f4cfc2ee69d430e28cdd8bf41c4c5428a06d2",
+      "tags": []
+    },
+    {
+      "sha": "69df36493c46fc9ffb78f110de9cdc32998a10bd",
+      "message": "feat: Ajouter un workflow pour synchroniser la version de pubspec.yaml avec CHANGELOG.md",
+      "date": "2026-11-19T19:24:58Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/69df36493c46fc9ffb78f110de9cdc32998a10bd",
+      "tags": []
+    },
+    {
+      "sha": "9cdf5f37051fb613011a4803e5c891968bdc4625",
+      "message": "Update localization strings for Last.fm and ListenBrainz integration\n\n- Revised English, Spanish, French, Italian, Japanese, Portuguese, Russian, and Chinese localization strings to reflect changes in Last.fm API requirements and ListenBrainz account creation.\n- Enhanced user instructions for creating accounts and managing tokens across multiple languages.\n- Added new strings for Last.fm account creation and ListenBrainz profile links.\n- Implemented UI updates in account and connections settings to accommodate ListenBrainz integration.\n- Improved error handling and retry logic for network requests in the ListenBrainz adapter.",
+      "date": "2026-11-19T19:24:27Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/9cdf5f37051fb613011a4803e5c891968bdc4625",
+      "tags": []
+    },
+    {
+      "sha": "0c6b1189ebe08736293380e4f93fe91dc36f3db0",
+      "message": "feat: Implement ListenBrainz support and data source switching\n\n- Added DataSource class to manage the current data source (Last.fm or ListenBrainz).\n- Integrated LbAdapter to handle API calls to ListenBrainz, mimicking Last.fm's JSON structure.\n- Updated LastFmService to conditionally call ListenBrainz API based on the selected data source.\n- Modified notification_worker and widget_service to load data source settings at runtime.\n- Introduced source_switch functionality to allow users to switch between Last.fm and ListenBrainz, with options to transfer, merge, or fresh start their scrobbles.\n- Implemented user prompts for data source switching decisions and progress indicators during data transfers.",
+      "date": "2026-11-19T19:00:40Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0c6b1189ebe08736293380e4f93fe91dc36f3db0",
+      "tags": []
+    },
+    {
+      "sha": "4bdd5ee30761e9085da0b214a1bc81f969963d35",
+      "message": "feat: suppression des liens \"Actus\" dans le pied de page des pages news et releases",
+      "date": "2026-11-19T08:24:51Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4bdd5ee30761e9085da0b214a1bc81f969963d35",
+      "tags": []
+    },
+    {
+      "sha": "b4eec3f1f0d7c7bd678ff16909f508145817d3b8",
+      "message": "Fix AppImage: bundle GStreamer, rename without 'linux'",
+      "date": "2026-11-19T07:16:00Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b4eec3f1f0d7c7bd678ff16909f508145817d3b8",
+      "tags": []
+    },
+    {
+      "sha": "437ac987c44e08659122dd3c699ab663e5742bb1",
+      "message": "Add news feature with dedicated page and data handling\n\n- Implemented a new news page (news.html) to display announcements from LastStats.\n- Added functionality to fetch and display news data from news.json.\n- Introduced filtering options for news items (all, features, fixes, updates, alerts, info).\n- Created a new CSS file (news.css) for styling the news page and its components.\n- Updated existing workflows to copy news data for the website.\n- Enhanced internationalization support for news-related texts in multiple languages.\n- Added navigation links to the news page across various site sections.",
+      "date": "2026-11-18T21:54:12Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/437ac987c44e08659122dd3c699ab663e5742bb1",
+      "tags": []
+    },
+    {
+      "sha": "0b5c0dfca4af02f5c324c2d6070a7a967dc0f217",
+      "message": "feat: restauration des icônes Nothing dans le sélecteur d'icônes de l'application",
+      "date": "2026-11-14T22:12:12Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0b5c0dfca4af02f5c324c2d6070a7a967dc0f217",
+      "tags": []
+    },
+    {
+      "sha": "abe2446e2402e4e126d07c0a58e46fbf068113fc",
+      "message": "feat: ajout de traductions pour la couleur de la musique en cours dans plusieurs langues",
+      "date": "2026-11-14T22:05:08Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/abe2446e2402e4e126d07c0a58e46fbf068113fc",
+      "tags": []
+    },
+    {
+      "sha": "717f6593b7cd4bbfcfd771ef9568005d067b93f0",
+      "message": "feat: amélioration de la gestion des transitions et ajout d'un événement personnalisé pour le changement de musique",
+      "date": "2026-11-14T22:04:15Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/717f6593b7cd4bbfcfd771ef9568005d067b93f0",
+      "tags": []
+    },
+    {
+      "sha": "2bfd33cdaa20de3140fbfd9b4fd5d3329f8debd5",
+      "message": "feat: ajout de la gestion des clés d'API via des variables d'environnement pour les builds Android et Web",
+      "date": "2026-11-14T22:02:37Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/2bfd33cdaa20de3140fbfd9b4fd5d3329f8debd5",
+      "tags": []
+    },
+    {
+      "sha": "cc63f0c7795d3f607e7994674de5a0c375572d7b",
+      "message": "feat: mise à jour des composants M3 et ajout d'une nouvelle icône SVG pour améliorer l'interface utilisateur",
+      "date": "2026-11-14T20:49:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cc63f0c7795d3f607e7994674de5a0c375572d7b",
+      "tags": []
+    },
+    {
+      "sha": "4d666a51547d48923f4ad2c2f71bba317472b028",
+      "message": "feat: refonte de l'animation de fond musical et mise à jour des chaînes de localisation pour une meilleure clarté",
+      "date": "2026-11-14T20:18:01Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4d666a51547d48923f4ad2c2f71bba317472b028",
+      "tags": []
+    },
+    {
+      "sha": "3ef33df201549185a701f3181377ec7eac451e18",
+      "message": "feat: ajout de la compatibilité de partage d'image pour la musique, amélioration de l'interface de récapitulatif annuel et mise à jour des libellés de période dans plusieurs langues",
+      "date": "2026-11-14T20:16:53Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/3ef33df201549185a701f3181377ec7eac451e18",
+      "tags": []
+    },
+    {
+      "sha": "813daefc8d79949f86a766a40a977beee303dd1b",
+      "message": "feat: mise à jour du changelog, amélioration de l'interface et ajout de nouvelles fonctionnalités",
+      "date": "2026-11-14T18:42:01Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/813daefc8d79949f86a766a40a977beee303dd1b",
+      "tags": []
+    },
+    {
+      "sha": "342e88f5573a2ed6f52a26159dc025c8747e9bef",
+      "message": "feat: supprimer la gestion de la densité de l'interface utilisateur et améliorer les sélecteurs de date",
+      "date": "2026-11-14T17:56:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/342e88f5573a2ed6f52a26159dc025c8747e9bef",
+      "tags": []
+    },
+    {
+      "sha": "fd359711876dc6ed55183e8e697fe36214233ce4",
+      "message": "Add new SVG icons and implement M3 widgets for enhanced UI features\n\n- Added SVG icons for GitHub, Instagram, Linux, Telegram, Windows, and YouTube.\n- Introduced M3Confetti widget for a confetti burst effect.\n- Created M3EqualizerBars widget for animated equalizer bars.\n- Implemented M3Marquee widget for scrolling text display.\n- Developed M3PopupMenu widget for a customizable options menu.",
+      "date": "2026-11-14T15:27:46Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fd359711876dc6ed55183e8e697fe36214233ce4",
+      "tags": []
+    },
+    {
+      "sha": "e54ae6cd2843a5c5de408c445277c42caef031f7",
+      "message": "Update localization strings for year recap feature in multiple languages\n\n- Enhanced Spanish, French, Italian, Japanese, Portuguese, Russian, and Chinese strings for better user engagement and clarity.\n- Improved phrasing in various sections including loading messages, error messages, and user statistics to create a more friendly and relatable tone.\n- Adjusted formatting for consistency in displaying labels based on locale in the year recap page.",
+      "date": "2026-11-14T13:59:45Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e54ae6cd2843a5c5de408c445277c42caef031f7",
+      "tags": []
+    },
+    {
+      "sha": "0a94bcaf1f134379d3cd750ebe6f0775aa2867fb",
+      "message": "feat: améliorer la gestion du clavier et dédupliquer les résultats de recherche pour une meilleure expérience utilisateur",
+      "date": "2026-11-14T09:32:55Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0a94bcaf1f134379d3cd750ebe6f0775aa2867fb",
+      "tags": []
+    },
+    {
+      "sha": "49bf031fdbfcfef26bc5b5c88b7594b89be4ee14",
+      "message": "feat: ajouter un écran de démarrage pour améliorer l'expérience de chargement des données sur PC",
+      "date": "2026-11-14T09:12:45Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/49bf031fdbfcfef26bc5b5c88b7594b89be4ee14",
+      "tags": []
+    },
+    {
+      "sha": "a5b0c956d74267ba2c3c41555e390735cfa7bc63",
+      "message": "feat: améliorer le calendrier avec un design GitHub et optimiser le rendu pour de meilleures performances",
+      "date": "2026-11-14T08:59:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a5b0c956d74267ba2c3c41555e390735cfa7bc63",
+      "tags": []
+    },
+    {
+      "sha": "c5d39baa3be41492f25a26335521691b6aea10eb",
+      "message": "feat: redesign calendar interface and improve loading indicators for better user experience",
+      "date": "2026-11-14T08:39:56Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/c5d39baa3be41492f25a26335521691b6aea10eb",
+      "tags": []
+    },
+    {
+      "sha": "d741f2f0e7de89b7cdddd879be500c6955f378e1",
+      "message": "feat: améliorer l'affichage des données avec un centrage et une mise à l'échelle des textes",
+      "date": "2026-11-13T23:35:09Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d741f2f0e7de89b7cdddd879be500c6955f378e1",
+      "tags": []
+    },
+    {
+      "sha": "bcfe9234c78ce1c09c143d65aa571979ccb1514f",
+      "message": "Update localization strings and enhance skeleton loading components\n\n- Updated Spanish, French, Italian, Japanese, Portuguese, Russian, and Chinese localization strings for onboarding and settings pages to improve clarity and consistency.\n- Introduced new layout options for SkeletonList to better represent different loading states across various screens (charts, rankings, history, search, favorites, detail).\n- Enhanced the _HeatmapCard and _CompactHeatmap components to dynamically adjust the display based on available screen width, improving usability.\n- Refactored loading indicators in multiple screens to utilize the new SkeletonList layout options for a more cohesive user experience during loading states.",
+      "date": "2026-11-13T23:11:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/bcfe9234c78ce1c09c143d65aa571979ccb1514f",
+      "tags": []
+    },
+    {
+      "sha": "b723b4219ea45b1cad0c1aae93b82eb98293431b",
+      "message": "Refactor appearance settings and remove Nothing OS style\n\n- Updated the appearance settings to remove references to the Nothing OS style, including the associated accent options.\n- Simplified the logo asset retrieval to use a single logo for both themes.\n- Adjusted the heatmap card layout to dynamically calculate cell sizes based on available width.\n- Replaced loading indicators with SkeletonList in history and detail sheets for improved user experience.\n- Cleaned up backup service to default to the standard theme style and removed unnecessary keys.\n- Updated widget service to use a constant theme style instead of reading from preferences.",
+      "date": "2026-11-13T22:51:37Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b723b4219ea45b1cad0c1aae93b82eb98293431b",
+      "tags": []
+    },
+    {
+      "sha": "0229c3e247ace08fff2828ca08416c56e352b9a2",
+      "message": "feat: mise à jour des indicateurs de chargement avec M3LinearProgress et M3Loader pour une cohérence visuelle",
+      "date": "2026-11-13T22:18:18Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0229c3e247ace08fff2828ca08416c56e352b9a2",
+      "tags": []
+    },
+    {
+      "sha": "2c1b8424824351f4e8c93898bc1ea4c0de35f023",
+      "message": "feat: ajouter des traductions pour le flou de mouvement et améliorer les éléments de l'interface utilisateur",
+      "date": "2026-11-13T22:00:52Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/2c1b8424824351f4e8c93898bc1ea4c0de35f023",
+      "tags": []
+    },
+    {
+      "sha": "06e004e16fa453b964747a8914b169e78d3b6889",
+      "message": "feat: améliorer l'animation des boutons avec des coins connectés et une pression plus douce",
+      "date": "2026-11-12T21:39:13Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/06e004e16fa453b964747a8914b169e78d3b6889",
+      "tags": []
+    },
+    {
+      "sha": "ad0483046ee3d594c1f2e7bad71c25fd90e1c10e",
+      "message": "feat: ajuster l'effet de vibration de la grille héro pour une meilleure réactivité et animation",
+      "date": "2026-11-12T20:18:57Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ad0483046ee3d594c1f2e7bad71c25fd90e1c10e",
+      "tags": []
+    },
+    {
+      "sha": "2594c18a79b86c2eb04fbef4d644dd5d2e8571f9",
+      "message": "feat: ajouter un effet de vibration local sur la grille héro lors du mouvement de la souris et de la pression",
+      "date": "2026-11-12T20:17:17Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/2594c18a79b86c2eb04fbef4d644dd5d2e8571f9",
+      "tags": []
+    },
+    {
+      "sha": "e72757952d9535e2eadf53f44d64603e0bc373e9",
+      "message": "feat: améliorer les animations et les effets de fond dans les styles de projet",
+      "date": "2026-11-12T20:15:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e72757952d9535e2eadf53f44d64603e0bc373e9",
+      "tags": []
+    },
+    {
+      "sha": "5683f75994a1487b5e9ba84e8bf179464f08a3be",
+      "message": "feat: enhance UI and functionality with new styles and animations\n\n- Added new styles for header buttons and project actions in expressive.css to improve visual appeal and interaction.\n- Updated project.css to refine layout and background effects for project detail pages.\n- Enhanced Arabic, German, English, Spanish, French, Italian, Japanese, Portuguese, Russian, and Chinese translations for better clarity and engagement.\n- Modified index.html to incorporate new features and improve user experience.\n- Implemented a new animation effect for the project hero grid in expressive.js to create a more dynamic interface.\n- Updated GitHub stats functionality in github-stats.js to include live download tracking, enhancing real-time data presentation.",
+      "date": "2026-11-12T19:13:42Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5683f75994a1487b5e9ba84e8bf179464f08a3be",
+      "tags": []
+    },
+    {
+      "sha": "55094b4c0946415a32c674f13acee710f19961a0",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "date": "2026-11-12T11:50:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/55094b4c0946415a32c674f13acee710f19961a0",
+      "tags": []
+    },
+    {
+      "sha": "ef518af06c13d42aeb19cd8685a47df9444025fe",
+      "message": "feat: mettre à jour la version de compileSdk à 36 pour les sous-projets",
+      "date": "2026-11-11T22:13:51Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ef518af06c13d42aeb19cd8685a47df9444025fe",
+      "tags": []
+    },
+    {
+      "sha": "b8b16eff9ed8e1b4273cd354cd0556ea604007d3",
+      "message": "feat: activer la désactivation de proguardAndroidTxt dans les propriétés Gradle",
+      "date": "2026-11-11T20:38:22Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b8b16eff9ed8e1b4273cd354cd0556ea604007d3",
+      "tags": []
+    },
+    {
+      "sha": "ea2d12bcabd456236c3186a72706ed7a7fe06178",
+      "message": "feat: supprimer les dépendances Kotlin inutilisées dans les fichiers Gradle",
+      "date": "2026-11-11T20:16:03Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ea2d12bcabd456236c3186a72706ed7a7fe06178",
+      "tags": []
+    },
+    {
+      "sha": "8c6a212e88d0189c56c10c371698d5eb7ed9eb61",
+      "message": "feat: mettre à jour la version de Gradle et des plugins Android",
+      "date": "2026-11-11T20:09:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8c6a212e88d0189c56c10c371698d5eb7ed9eb61",
+      "tags": []
+    },
+    {
+      "sha": "ec6e636e8da285893af9e743225fd583381b4fb7",
+      "message": "feat: mettre à jour la version de Gradle et des plugins Android",
+      "date": "2026-11-11T19:39:03Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ec6e636e8da285893af9e743225fd583381b4fb7",
+      "tags": []
+    },
+    {
+      "sha": "0648631483e31d50d0940ff2e4c7627131d8e68b",
+      "message": "feat: améliorer l'affichage des cartes d'accomplissement et ajuster le style des en-têtes",
+      "date": "2026-11-11T19:24:28Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0648631483e31d50d0940ff2e4c7627131d8e68b",
+      "tags": []
+    },
+    {
+      "sha": "6a521975283a482fb2cfd5e5b0f03ee675a9f992",
+      "message": "feat: améliorer les transitions de page avec un nouveau système de mouvement et ajouter des informations de grade sous les cartes",
+      "date": "2026-11-11T19:00:58Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/6a521975283a482fb2cfd5e5b0f03ee675a9f992",
+      "tags": []
+    },
+    {
+      "sha": "5164c58e4f2e9d296f923e38e06a37e74c8ffff4",
+      "message": "feat: add motion blur feature and enhance UI transitions\n\n- Introduced motion blur functionality with a new ValueNotifier for user preference.\n- Updated app state to persist motion blur setting in SharedPreferences.\n- Enhanced UI transitions with soft blur effects during page transitions and reveals.\n- Modified various screens to utilize motion blur settings, improving visual aesthetics.\n- Adjusted card and background decorations for a more dynamic appearance.\n- Implemented letter-by-letter blur reveal for titles in recap pages.",
+      "date": "2026-11-11T18:24:24Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5164c58e4f2e9d296f923e38e06a37e74c8ffff4",
+      "tags": []
+    },
+    {
+      "sha": "0eaf963147408894796c045432f2c90a553bb217",
+      "message": "feat: Remplacer les animations de transition par des effets de glissement et de révélation",
+      "date": "2026-11-11T14:34:32Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0eaf963147408894796c045432f2c90a553bb217",
+      "tags": []
+    },
+    {
+      "sha": "e4912192261b0b1d1c36b24e231473a728611aa8",
+      "message": "feat: Ajouter des animations de feuille pour les pages de récapitulatif et de classement",
+      "date": "2026-11-11T13:47:55Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e4912192261b0b1d1c36b24e231473a728611aa8",
+      "tags": []
+    },
+    {
+      "sha": "f69c5cba3164918aaade9f05edf04110eb4195a1",
+      "message": "Refactor: Remove chat settings and memory pages, along with related services\n\n- Deleted `chat_settings_page.dart` and `memory_page.dart` to streamline settings management.\n- Removed `backup.dart`, `chat_service.dart`, `core_prompt.dart`, `hf_service.dart`, `reset.dart`, and associated methods to simplify the codebase.\n- Cleaned up unused imports and methods across various services.\n- Adjusted `year_recap_page.dart` to remove an unused widget.\n- Updated `update_installer_native.dart` documentation for clarity.\n- Fixed a conditional check in `wiki_bio_service.dart` for better accuracy in artist name matching.",
+      "date": "2026-11-11T13:33:42Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f69c5cba3164918aaade9f05edf04110eb4195a1",
+      "tags": []
+    },
+    {
+      "sha": "3824bf6338101246efff3af43cbf1674031273d3",
+      "message": "feat: Ajouter le plugin AppLinks pour la gestion des liens dans l'application",
+      "date": "2026-11-11T13:25:58Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/3824bf6338101246efff3af43cbf1674031273d3",
+      "tags": []
+    },
+    {
+      "sha": "88fbdc502940bd4d2698ed2087c9e5a28a817c7d",
+      "message": "delete ia",
+      "date": "2026-11-11T13:24:01Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/88fbdc502940bd4d2698ed2087c9e5a28a817c7d",
+      "tags": []
+    },
+    {
+      "sha": "00c19e23d62709cef47f7b33386a615a050eaae3",
+      "message": "chore: bump version to 4.3.0 [skip ci]",
+      "date": "2026-10-31T22:34:37Z",
+      "author": "github-actions[bot]",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/00c19e23d62709cef47f7b33386a615a050eaae3",
+      "tags": []
+    },
+    {
+      "sha": "d1408b0cd25ed85b030d1a9d365eba26b5756a6f",
+      "message": "feat: Ajouter un message d'introduction pour le total des écoutes de l'année dans plusieurs langues",
+      "date": "2026-10-31T22:25:38Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d1408b0cd25ed85b030d1a9d365eba26b5756a6f",
+      "tags": [
+        "v4.3.0"
+      ]
+    },
+    {
+      "sha": "4cba33faecee3912ee63976dc0223bbab3069ebb",
+      "message": "feat(help-hub): implement interactive help hub with theme tiles and search functionality",
+      "date": "2026-10-31T22:15:04Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4cba33faecee3912ee63976dc0223bbab3069ebb",
+      "tags": []
+    },
+    {
+      "sha": "05698c706f191a3c2031965f2372b50d30c74401",
+      "message": "feat: Améliorer l'interface utilisateur en ajustant les espacements et les transitions des boutons",
+      "date": "2026-10-31T21:56:30Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/05698c706f191a3c2031965f2372b50d30c74401",
+      "tags": []
+    },
+    {
+      "sha": "ae1d799106842013e64c2d4504dbd48e5c1ed2b6",
+      "message": "Match Wikipedia music pages to artist and title\n\nRequire exact title matches for albums and tracks, and reject pages that don't mention the artist. Add music-related hints in more languages to improve page filtering.",
+      "date": "2026-10-31T21:21:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ae1d799106842013e64c2d4504dbd48e5c1ed2b6",
+      "tags": []
+    },
+    {
+      "sha": "63d22b49c63ab581c44664fcfa69dcb493bc1445",
+      "message": "feat: Améliorer la récupération des paroles avec des recherches plus robustes et un nettoyage des titres",
+      "date": "2026-10-31T21:02:26Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/63d22b49c63ab581c44664fcfa69dcb493bc1445",
+      "tags": []
+    },
+    {
+      "sha": "b6bbcb41dde0c20c95603b9e70cc7490bdc3fa23",
+      "message": "feat: Améliorer la gestion des images en cache avec une copie en mémoire pour éviter les flashes de placeholder",
+      "date": "2026-10-31T20:44:09Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b6bbcb41dde0c20c95603b9e70cc7490bdc3fa23",
+      "tags": []
+    },
+    {
+      "sha": "e46b31ebb6b953cc91bb9f45131f99033cc7a625",
+      "message": "feat: Améliorer la gestion des couleurs des widgets et des sauvegardes, incluant des options de restauration et de synchronisation",
+      "date": "2026-10-31T14:56:13Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e46b31ebb6b953cc91bb9f45131f99033cc7a625",
+      "tags": []
+    },
+    {
+      "sha": "88f0338d2099a563b5f4b62e81c66b314a86bf3b",
+      "message": "feat: Ajouter une option de fond de widget avec plusieurs thèmes et mise à jour instantanée des changements de thème",
+      "date": "2026-10-31T14:41:02Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/88f0338d2099a563b5f4b62e81c66b314a86bf3b",
+      "tags": []
+    },
+    {
+      "sha": "c3191c4d6ed66741f2c6bdc4c67383c444594466",
+      "message": "feat: Update changelog and enhance share card layout for better image sharing",
+      "date": "2026-10-31T14:16:58Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/c3191c4d6ed66741f2c6bdc4c67383c444594466",
+      "tags": []
+    },
+    {
+      "sha": "4d35f981333ca402f99b50256cb91d9fb47f3d73",
+      "message": "feat: add heatmap widget for daily listening calendar\n\n- Implemented HeatmapWidgetProvider to display a calendar-like heatmap of daily listening counts.\n- Added functionality to refresh heatmap data based on daily scrobble counts.\n- Updated WidgetRefresher to include logic for today's data.\n- Created layout for heatmap widget with appropriate dimensions and styling.\n- Introduced new strings for heatmap widget description and name.\n- Modified existing dashboard and notification services to accommodate heatmap data handling.\n- Cleaned up unused UI elements in various widget layouts for a more streamlined appearance.",
+      "date": "2026-10-31T14:06:42Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4d35f981333ca402f99b50256cb91d9fb47f3d73",
+      "tags": []
+    },
+    {
+      "sha": "fe75d076e97518ecb948a1cb83018177cd5f8404",
+      "message": "Add adaptive icons and custom font for widgets\n\n- Created adaptive icons for various themes (black, white, blue, red, and nothing) in mipmap-anydpi-v26.\n- Added a custom font family for widgets in widget_font.xml.\n- Defined widget styles in values and values-v26 for consistent text appearance.\n- Introduced color resources for icon backgrounds in ic_launcher_colors.xml.",
+      "date": "2026-10-31T13:36:47Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fe75d076e97518ecb948a1cb83018177cd5f8404",
+      "tags": []
+    },
+    {
+      "sha": "7923c15f396a7d08744afcc006e7d07d7d076ce0",
+      "message": "feat: Implement widget data refresh mechanism and enhance layout consistency",
+      "date": "2026-10-31T11:18:54Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/7923c15f396a7d08744afcc006e7d07d7d076ce0",
+      "tags": []
+    },
+    {
+      "sha": "db755fe8fc3ddca9072024c82fcd9f1f72b6bd5f",
+      "message": "Refactor widget providers to improve background rendering and layout consistency\n\n- Introduced a new `WidgetBackground` class to handle the rendering of widget backgrounds with a poster style.\n- Updated `RecapWidgetProvider`, `ScrobbleCountWidgetProvider`, and `WeeklyScrobblesWidgetProvider` to utilize the new background rendering logic.\n- Enhanced widget layouts to include image tiles for total, weekly, and loved scrobbles.\n- Added new color attributes to `WidgetPalette` for better theming options.\n- Updated XML layouts for various widgets to improve visual consistency and added scale type for images.\n- Localized new string resources for widget labels and descriptions in multiple languages.",
+      "date": "2026-10-31T11:01:08Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/db755fe8fc3ddca9072024c82fcd9f1f72b6bd5f",
+      "tags": []
+    },
+    {
+      "sha": "54b0a8a5d31a3ff8e7ec8ffae88f9c9bd6040a4d",
+      "message": "feat: Enhance widget functionality and app icon management\n\n- Redesigned Android widgets to support Material You dynamic colors, light/dark mode, and accent color options.\n- Fixed issues with small widgets displaying clipped numbers and empty spaces in the recap widget.\n- Improved app icon management by allowing users to pin app icons to the home screen.\n- Updated widget layouts to include new color filters and icon adjustments based on user preferences.\n- Added support for dynamic color usage in widgets and improved text visibility across different themes.\n- Enhanced localization strings for better user guidance on app icon changes and shortcuts.",
+      "date": "2026-10-31T10:56:37Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/54b0a8a5d31a3ff8e7ec8ffae88f9c9bd6040a4d",
+      "tags": []
+    },
+    {
+      "sha": "f323e047172534aadcc83c38c1b0f793f8afbf1b",
+      "message": "feat: Update widget layouts and strings for improved user experience\n\n- Replaced launcher icon with custom widget glyph in various widget layouts.\n- Added default text values for scrobble counts and labels in multiple widget layouts.\n- Updated widget descriptions in Arabic, German, Spanish, French, Italian, Japanese, Portuguese, Russian, and Chinese for better localization.\n- Modified widget info XML files to include new descriptions for scrobble, now playing, loved, weekly, and recap widgets.\n- Enhanced settings page to conditionally display options based on platform (mobile vs web).\n- Introduced new drawable resources for widget backgrounds and icons.\n- Added dimension resources for consistent widget styling across different screen sizes.",
+      "date": "2026-10-31T10:34:21Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f323e047172534aadcc83c38c1b0f793f8afbf1b",
+      "tags": []
+    },
+    {
+      "sha": "52afebc15b1d287d7323b00c153c143e3d6e1384",
+      "message": "feat: add app icon picker in settings and implement app icon service\n\n- Introduced AppIconSection widget for selecting app icons in the settings under Appearance (Android only).\n- Implemented AppIconService to manage selectable launcher icons with a method channel for Android.\n- Added new app icons: red.png and white.png to the assets/app_icons directory.",
+      "date": "2026-10-31T10:08:40Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/52afebc15b1d287d7323b00c153c143e3d6e1384",
+      "tags": []
+    },
+    {
+      "sha": "fb828c88b02b4af6962919ea48c27e7059d93ead",
+      "message": "feat: Enhance update installer functionality and cleanup\n\n- Added support for version tracking in installUpdate function.\n- Implemented SharedPreferences to store pending update version.\n- Introduced methods to install APKs and open the Downloads folder.\n- Added cleanupUpdateFiles to remove unnecessary update files after installation.\n- Updated update_installer_stub.dart to match new method signatures.\n- Modified update_startup.dart to call cleanupUpdateFiles on startup.\n- Enhanced update_install_sheet.dart to include a button for opening Downloads.\n- Added new drawable resources for notification icons across different densities.",
+      "date": "2026-10-31T10:03:05Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fb828c88b02b4af6962919ea48c27e7059d93ead",
+      "tags": []
+    },
+    {
+      "sha": "9a902263e7dd81cc73b14f38af34e767af67c932",
+      "message": "feat: ajout de la gestion des téléchargements en arrière-plan avec notifications et sauvegarde dans le dossier Téléchargements",
+      "date": "2026-10-30T23:07:51Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/9a902263e7dd81cc73b14f38af34e767af67c932",
+      "tags": []
+    },
+    {
+      "sha": "0608210b8529600ca890360dfe3d38e05824f7f0",
+      "message": "chore: bump version to 4.3.0-beta [skip ci]",
+      "date": "2026-10-30T22:38:44Z",
+      "author": "github-actions[bot]",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0608210b8529600ca890360dfe3d38e05824f7f0",
+      "tags": []
+    },
+    {
+      "sha": "17e2a0d73027537c19052b315154c6c0e0ef7369",
+      "message": "feat: mise à jour de la logique de correspondance des artistes dans le service d'images pour une précision accrue",
+      "date": "2026-10-30T22:37:37Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/17e2a0d73027537c19052b315154c6c0e0ef7369",
+      "tags": [
+        "v4.3.0-beta"
+      ]
+    },
+    {
+      "sha": "578437225a21acd8e1031fe826cae46a8aebb3c3",
+      "message": "feat: amélioration de la gestion des notifications et des mises à jour, ajout de la prise en charge des téléchargements et mise à jour des icônes",
+      "date": "2026-10-30T22:35:36Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/578437225a21acd8e1031fe826cae46a8aebb3c3",
+      "tags": []
+    },
+    {
+      "sha": "b4a73a50c7ea16549b6a01c38f143ecc920a9b94",
+      "message": "feat: ajout de la gestion des mises à jour avec téléchargement et installation intégrés, amélioration de l'interface utilisateur pour les mises à jour",
+      "date": "2026-10-30T22:14:24Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b4a73a50c7ea16549b6a01c38f143ecc920a9b94",
+      "tags": []
+    },
+    {
+      "sha": "30e1b9f579649fd581b76d9f2fadd58f14adf03f",
+      "message": "feat: amélioration de la vérification des artistes dans le service des pistes, ajout de la gestion des crédits pour une correspondance plus précise",
+      "date": "2026-10-30T22:04:35Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/30e1b9f579649fd581b76d9f2fadd58f14adf03f",
+      "tags": []
+    },
+    {
+      "sha": "2d9db92d2d55f0fc80086b82297346c46d78870b",
+      "message": "feat: amélioration de la correspondance des couvertures d'album et de piste, ajout de vérifications strictes des titres et des artistes, et mise à jour du cache des images",
+      "date": "2026-10-30T21:57:32Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/2d9db92d2d55f0fc80086b82297346c46d78870b",
+      "tags": []
+    },
+    {
+      "sha": "c3ac22f60c808cf3562f820da73780a44dfdb0cd",
+      "message": "feat: amélioration de l'exportation des cartes de partage avec des images basées sur les données du graphique, ajout de formes de fond arrondies et correction des photos d'artistes",
+      "date": "2026-10-30T21:53:34Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/c3ac22f60c808cf3562f820da73780a44dfdb0cd",
+      "tags": []
+    },
+    {
+      "sha": "81011c12e7ad8f881b28dfa181641115c0993c87",
+      "message": "feat: amélioration de l'affichage des cartes de partage avec des couleurs et des coins arrondis, et mise à jour de la taille de la marque",
+      "date": "2026-10-30T21:14:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/81011c12e7ad8f881b28dfa181641115c0993c87",
+      "tags": []
+    },
+    {
+      "sha": "46b342e6bcf7fc9ce7e6c6b598348f4141a157c0",
+      "message": "feat: ajout d'une image de partage au style poster avec des formes douces et un fond plat",
+      "date": "2026-10-30T20:44:28Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/46b342e6bcf7fc9ce7e6c6b598348f4141a157c0",
+      "tags": []
+    },
+    {
+      "sha": "bd95b9342075c8d7eb8f946aed7e808edad13434",
+      "message": "feat: ajout de nouveaux éléments de style pour le partage, y compris des formes Material, des logos agrandis et des animations de pression",
+      "date": "2026-10-30T14:05:57Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/bd95b9342075c8d7eb8f946aed7e808edad13434",
+      "tags": []
+    },
+    {
+      "sha": "362771ba5f97d28100eb2f9905e705fb2b051e6c",
+      "message": "feat: amélioration de l'affichage des cartes de partage avec un logo LastStats agrandi et repositionné, et uniformisation des tailles des tuiles de graphique",
+      "date": "2026-10-30T13:19:33Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/362771ba5f97d28100eb2f9905e705fb2b051e6c",
+      "tags": []
+    },
+    {
+      "sha": "21fb9e39dccab9efc599117921301f2b424e232c",
+      "message": "feat: amélioration de l'affichage des cartes de partage avec une police personnalisée et alignement des lignes",
+      "date": "2026-10-29T22:45:07Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/21fb9e39dccab9efc599117921301f2b424e232c",
+      "tags": []
+    },
+    {
+      "sha": "2e751b39c22ad674a34aadcbf3bd08a736b3b643",
+      "message": "feat: amélioration de la gestion des saisons pour les utilisateurs de l'hémisphère sud et mise à jour de l'affichage des cartes de partage",
+      "date": "2026-10-29T22:24:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/2e751b39c22ad674a34aadcbf3bd08a736b3b643",
+      "tags": []
+    },
+    {
+      "sha": "d7267a5a296ac10c397b2287c3e3889b020c069d",
+      "message": "update, dashboard",
+      "date": "2026-10-29T22:19:27Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d7267a5a296ac10c397b2287c3e3889b020c069d",
+      "tags": []
+    },
+    {
+      "sha": "a04e10895d35244631efcfcaf0b3d51fe953a8e5",
+      "message": "feat: ajout de nouveaux messages de salutation personnalisés selon l'heure, les habitudes d'écoute et l'anniversaire du compte, ainsi que des améliorations visuelles dans le tableau de bord",
+      "date": "2026-10-29T21:52:49Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a04e10895d35244631efcfcaf0b3d51fe953a8e5",
+      "tags": []
+    },
+    {
+      "sha": "1a0b7cac341485c323a72078c6ed2e6a2a3dcf90",
+      "message": "feat: ajout de la gestion de la concurrence pour les déploiements sur gh-pages et amélioration de l'interface utilisateur avec des animations et des comportements de pression cohérents",
+      "date": "2026-10-29T21:09:26Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/1a0b7cac341485c323a72078c6ed2e6a2a3dcf90",
+      "tags": []
+    },
+    {
+      "sha": "098af753d208bf6f1ec318000abb624794ff09ef",
+      "message": "feat: mise à jour du changelog et amélioration de la gestion des couleurs dans l'application",
+      "date": "2026-10-29T20:47:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/098af753d208bf6f1ec318000abb624794ff09ef",
+      "tags": []
+    },
+    {
+      "sha": "4b0e3a69d0a5f79f65b2532293c75820d018b76a",
+      "message": "feat: enhance appearance settings with new color harmony options and API data cache limits\n\n- Added new color harmony options: tinted, classic, vivid, and soft to the appearance settings.\n- Implemented user-defined API data cache limits with corresponding UI elements for setting and confirming cache clear actions.\n- Updated localization files for English, Spanish, French, Italian, Japanese, Portuguese, Russian, and Chinese to reflect new strings related to color harmony and cache management.\n- Refactored dashboard and year recap pages to incorporate new spinning shape component for visual enhancements.\n- Improved cache management logic to enforce size limits on API data and added relevant UI components for user interaction.",
+      "date": "2026-10-29T19:25:46Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4b0e3a69d0a5f79f65b2532293c75820d018b76a",
+      "tags": []
+    },
+    {
+      "sha": "f0e4f7544584c5e54e7eaf72f5a12bb5fe117124",
+      "message": "feat: ajout de la gestion du taux de rafraîchissement pour le mode éco et amélioration de la synchronisation des amis",
+      "date": "2026-10-29T13:00:47Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f0e4f7544584c5e54e7eaf72f5a12bb5fe117124",
+      "tags": []
+    },
+    {
+      "sha": "d09393c0be9b8420b1ff37fd601078d9ad975d49",
+      "message": "feat: amélioration de l'interface avec des animations et des comportements de pression cohérents pour les éléments interactifs",
+      "date": "2026-10-28T19:26:15Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d09393c0be9b8420b1ff37fd601078d9ad975d49",
+      "tags": []
+    },
+    {
+      "sha": "fdea1a9e6c6d9e1b5884b7ae1775403b8f79a332",
+      "message": "feat: mise à jour des styles d'interaction pour une cohérence dans l'application et ajustement du comportement des boutons",
+      "date": "2026-10-28T14:12:08Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fdea1a9e6c6d9e1b5884b7ae1775403b8f79a332",
+      "tags": []
+    },
+    {
+      "sha": "fbd8146270111a0e370835a8dd336d39ff919652",
+      "message": "feat: mise à jour de l'interface avec M3InkWell pour une interaction cohérente dans toute l'application",
+      "date": "2026-10-28T14:10:42Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fbd8146270111a0e370835a8dd336d39ff919652",
+      "tags": []
+    },
+    {
+      "sha": "f94edbaf0607b69e64ea70654cedfb53fadff63f",
+      "message": "feat: ajout de la gestion des interactions et mise à jour des styles de la barre supérieure",
+      "date": "2026-10-28T14:05:21Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f94edbaf0607b69e64ea70654cedfb53fadff63f",
+      "tags": []
+    },
+    {
+      "sha": "5b7992e5880256a73d68759f34268113aff4e7f3",
+      "message": "feat: mise à jour des chaînes de localisation avec des exemples de noms d'utilisateur et ajout d'un raccourci vers les connexions dans le tableau de bord",
+      "date": "2026-10-28T13:50:22Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5b7992e5880256a73d68759f34268113aff4e7f3",
+      "tags": []
+    },
+    {
+      "sha": "e40b9f7c331cd096500bafc4a2ba36d61c448664",
+      "message": "fix",
+      "date": "2026-10-28T13:30:06Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e40b9f7c331cd096500bafc4a2ba36d61c448664",
+      "tags": []
+    },
+    {
+      "sha": "d386db24e7318eca77efacbf3bd87aaf8a207f93",
+      "message": "feat: ajout d'une bulle centrée pour le profil sur le tableau de bord et mise à jour de l'affichage du nom d'utilisateur dans la page de récapitulatif annuel",
+      "date": "2026-10-28T13:29:52Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d386db24e7318eca77efacbf3bd87aaf8a207f93",
+      "tags": []
+    },
+    {
+      "sha": "8cafd43152f3047f649830f6335187827251ea80",
+      "message": "feat: mise à jour du changelog pour la version 4.3.0 avec de nouvelles fonctionnalités et corrections",
+      "date": "2026-10-27T23:19:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8cafd43152f3047f649830f6335187827251ea80",
+      "tags": []
+    },
+    {
+      "sha": "4a49135df6e25ffb814dc3241171039a3ac36f34",
+      "message": "feat: amélioration de la logique de lecture des diapositives et ajustement des affichages des statistiques",
+      "date": "2026-10-27T23:17:54Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4a49135df6e25ffb814dc3241171039a3ac36f34",
+      "tags": []
+    },
+    {
+      "sha": "0bfb81611efd0f57cba1383fa73e2c62844fdc30",
+      "message": "feat: ajout de la personnalisation des styles dans la page de récapitulatif annuel et mise à jour des chaînes de localisation",
+      "date": "2026-10-27T23:00:37Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0bfb81611efd0f57cba1383fa73e2c62844fdc30",
+      "tags": []
+    },
+    {
+      "sha": "c21ddd3016dbfc9ed30f8510852c1ee368b55f6d",
+      "message": "feat: ajout de nouvelles chaînes pour les statistiques de musique, y compris les titres en feu et les records journaliers",
+      "date": "2026-10-27T22:39:07Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/c21ddd3016dbfc9ed30f8510852c1ee368b55f6d",
+      "tags": []
+    },
+    {
+      "sha": "69f7f099ae0ac2aa00531c0a90b3565efdb5ad03",
+      "message": "feat: ajout de la prise en charge des aperçus audio Deezer avec gestion des pistes et des états de lecture",
+      "date": "2026-10-27T13:03:23Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/69f7f099ae0ac2aa00531c0a90b3565efdb5ad03",
+      "tags": []
+    },
+    {
+      "sha": "adff1c2082ae40c1a558c1850a156e1f682e0dd8",
+      "message": "feat: ajout de l'aperçu audio Deezer avec lecture automatique pour les diapositives",
+      "date": "2026-10-27T12:39:19Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/adff1c2082ae40c1a558c1850a156e1f682e0dd8",
+      "tags": []
+    },
+    {
+      "sha": "129ac0fa4d197e95d028c489d8965c6afb0a9d8b",
+      "message": "chore: bump version to 4.2.1 [skip ci]",
+      "date": "2026-10-20T20:41:03Z",
+      "author": "github-actions[bot]",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/129ac0fa4d197e95d028c489d8965c6afb0a9d8b",
+      "tags": []
+    },
+    {
+      "sha": "c7e8187702911116f5f4af254b68d2cf3a8499dd",
+      "message": "fix: corrige les paramètres de constructeur pour les widgets dans year_recap_page.dart",
+      "date": "2026-10-20T20:39:53Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/c7e8187702911116f5f4af254b68d2cf3a8499dd",
+      "tags": [
+        "v4.2.1"
+      ]
+    },
+    {
+      "sha": "f4407186f8ecb12d1412863ee88ce5954ee89ad0",
+      "message": "Merge branch 'master' of https://github.com/SanoBld/LastStats",
+      "date": "2026-10-20T20:20:40Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f4407186f8ecb12d1412863ee88ce5954ee89ad0",
+      "tags": []
+    },
+    {
+      "sha": "0d60a4b9d271604f51b2aea1c6eb36df8720025a",
+      "message": "Respect hidden favorites during stat migration\n\nAvoid restoring the favorites stat when the user has hidden it, and rebuild the dashboard stat grid when its visibility changes.",
+      "date": "2026-10-20T20:20:36Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/0d60a4b9d271604f51b2aea1c6eb36df8720025a",
+      "tags": []
+    },
+    {
+      "sha": "a6fe64f2f7ed0c56a4639be4ee5629af74cc193c",
+      "message": "chore: bump version to 4.2.0 [skip ci]",
+      "date": "2026-10-18T20:49:14Z",
+      "author": "github-actions[bot]",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a6fe64f2f7ed0c56a4639be4ee5629af74cc193c",
+      "tags": []
+    },
+    {
+      "sha": "365430259c7a2e1c1d01590c7119930e846a991d",
+      "message": "feat: mettre à jour le changelog et déclarer l'entitlement réseau pour l'application macOS",
+      "date": "2026-10-18T20:26:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/365430259c7a2e1c1d01590c7119930e846a991d",
+      "tags": [
+        "v4.2.0"
+      ]
+    },
+    {
+      "sha": "617841dbd97b77afa4b4d2acbf425496b254fcf2",
+      "message": "feat: améliorer la gestion de la connexion Spotify et ajouter des notes de performance",
+      "date": "2026-10-18T20:05:46Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/617841dbd97b77afa4b4d2acbf425496b254fcf2",
+      "tags": []
+    },
+    {
+      "sha": "1b5c43d7583b9d25e24955a91f8d0c078a1fa6b2",
+      "message": "feat: mettre à jour le changelog et améliorer la gestion des erreurs pour Spotify Canvas",
+      "date": "2026-10-18T19:44:32Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/1b5c43d7583b9d25e24955a91f8d0c078a1fa6b2",
+      "tags": []
+    },
+    {
+      "sha": "69beb7d21e7e078d10d86554a688db5cfa938fa8",
+      "message": "feat: ajouter cocoapods au Gemfile pour iOS et macOS",
+      "date": "2026-10-18T19:18:58Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/69beb7d21e7e078d10d86554a688db5cfa938fa8",
+      "tags": []
+    },
+    {
+      "sha": "5244c2563eac5aad3206343c5693ec857406e12d",
+      "message": "feat: refactor CI workflows for Android, iOS, Linux, macOS, and Windows; add Fastlane support and streamline build processes",
+      "date": "2026-10-18T19:05:14Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5244c2563eac5aad3206343c5693ec857406e12d",
+      "tags": []
+    },
+    {
+      "sha": "90c274d44acf1c0182b084434e91c2568ac90013",
+      "message": "feat: ajouter des sélecteurs de date localisés et améliorer l'interface utilisateur des dialogues de calendrier",
+      "date": "2026-10-18T18:45:50Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/90c274d44acf1c0182b084434e91c2568ac90013",
+      "tags": []
+    },
+    {
+      "sha": "4b64f7faf8a44ffd8b9170e0a2cc937101116876",
+      "message": "feat: améliorer la fonctionnalité de récapitulatif annuel avec des restrictions d'accès et un nouveau design d'image partagée",
+      "date": "2026-10-18T13:49:47Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4b64f7faf8a44ffd8b9170e0a2cc937101116876",
+      "tags": []
+    },
+    {
+      "sha": "ae1958a1c7efe906943d67549919e0d31a67ea59",
+      "message": "feat: ajuster la visibilité du récapitulatif annuel et permettre l'ouverture de l'année en cours",
+      "date": "2026-10-18T13:48:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ae1958a1c7efe906943d67549919e0d31a67ea59",
+      "tags": []
+    },
+    {
+      "sha": "30ab9b86aaab5caa4390a8f4c0a4402b2a579352",
+      "message": "feat: ajouter la fonctionnalité de récapitulatif annuel avec notifications et affichage",
+      "date": "2026-10-18T13:42:38Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/30ab9b86aaab5caa4390a8f4c0a4402b2a579352",
+      "tags": []
+    },
+    {
+      "sha": "e721ec5303abb796799e601e70cf3ada57d5d819",
+      "message": "feat: améliorer l'affichage du récapitulatif annuel avec des ajustements de taille et de mise en page",
+      "date": "2026-10-18T13:07:08Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e721ec5303abb796799e601e70cf3ada57d5d819",
+      "tags": []
+    },
+    {
+      "sha": "35cbcdacfa52ffbded196013e3fcbfabe591ac52",
+      "message": "feat: modifier le type de la photo de profil pour le partage et ajuster l'affichage",
+      "date": "2026-10-18T12:34:24Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/35cbcdacfa52ffbded196013e3fcbfabe591ac52",
+      "tags": []
+    },
+    {
+      "sha": "2156431e28e617546c784a7dd7010714c968aa20",
+      "message": "feat: ajouter la fonctionnalité de partage de diapositive avec un cadre 9:16",
+      "date": "2026-10-18T12:29:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/2156431e28e617546c784a7dd7010714c968aa20",
+      "tags": []
+    },
+    {
+      "sha": "d2a3c05bb565efb41a87405c3edbbbf126564c0d",
+      "message": "feat: ajuster la taille de la carte de partage et modifier l'affichage de l'image",
+      "date": "2026-10-18T09:45:28Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d2a3c05bb565efb41a87405c3edbbbf126564c0d",
+      "tags": []
+    },
+    {
+      "sha": "2d53599a6ab5905afbdfbabb9207d9e3c98cf751",
+      "message": "feat: mettre à jour les chaînes de localisation pour utiliser la photo de profil comme fond dans le récapitulatif de l'année",
+      "date": "2026-10-18T09:42:47Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/2d53599a6ab5905afbdfbabb9207d9e3c98cf751",
+      "tags": []
+    },
+    {
+      "sha": "74b76cad8a9520e2f03836071f9b366ce4f0b917",
+      "message": "feat: ajouter l'option d'utiliser les couleurs de la photo de profil pour le partage dans le récapitulatif de l'année",
+      "date": "2026-10-18T09:36:57Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/74b76cad8a9520e2f03836071f9b366ce4f0b917",
+      "tags": []
+    },
+    {
+      "sha": "e10d749672aee11f7fa7fdcfbecb9517f69ef06d",
+      "message": "Update localization strings for year recap feature across multiple languages\n\n- Enhanced English, Spanish, French, Italian, Japanese, Portuguese, Russian, and Chinese strings for better clarity and consistency.\n- Improved phrasing for music listening statistics, including hours, best month, and best day.\n- Added full month names and weekdays for better formatting in year recap.\n- Adjusted UI components in year recap page for improved user experience, including share button functionality and layout adjustments.",
+      "date": "2026-10-18T09:22:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e10d749672aee11f7fa7fdcfbecb9517f69ef06d",
+      "tags": []
+    },
+    {
+      "sha": "d84204c990e4cbbafc88eaa43ce7ddf426584d83",
+      "message": "feat: add Year in Review feature with detailed recap and sharing options\n\n- Introduced a new \"Year in Review\" section in the profile menu, providing a comprehensive recap of the user's listening habits over the year.\n- Added various metrics including total scrobbles, estimated listening hours, top artists, tracks, albums, monthly charts, and more.\n- Implemented a shareable summary card with visual elements and friend comparisons.\n- Updated localization files for multiple languages to support new strings related to the Year in Review feature.\n- Refactored related classes and methods to accommodate the new feature, ensuring a cohesive integration within the existing app structure.",
+      "date": "2026-10-18T09:04:23Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d84204c990e4cbbafc88eaa43ce7ddf426584d83",
+      "tags": []
+    },
+    {
+      "sha": "8d38f0f5a2de167585cfbac35889d4228d732fdf",
+      "message": "feat: améliorer la page de récapitulatif de l'année avec une présentation optimisée des artistes, titres et albums",
+      "date": "2026-10-18T08:56:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8d38f0f5a2de167585cfbac35889d4228d732fdf",
+      "tags": []
+    },
+    {
+      "sha": "95948eee36b819fb6ec3c2d2457fb611fa490afd",
+      "message": "feat: ajouter la fonctionnalité \"Récapitulatif de l'année\" avec classement des amis et jumeau musical",
+      "date": "2026-10-18T08:51:25Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/95948eee36b819fb6ec3c2d2457fb611fa490afd",
+      "tags": []
+    },
+    {
+      "sha": "a914b37f9fcb4d2e5716a3c3c8e6e5b401300911",
+      "message": "Add Year Recap feature with localization support\n\n- Implemented Year Recap page to display user's music statistics for the year.\n- Added localization strings for Portuguese, Russian, and Chinese languages.\n- Updated dashboard to include Year Recap option in the popup menu.\n- Created a new YearRecapPage that aggregates and displays yearly listening data.\n- Enhanced user experience with visual statistics including top artists, tracks, albums, and listening habits.",
+      "date": "2026-10-18T08:42:00Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a914b37f9fcb4d2e5716a3c3c8e6e5b401300911",
+      "tags": []
+    },
+    {
+      "sha": "29639be619914b9161c9e7f3c963ad7c734b99ac",
+      "message": "feat: permettre l'utilisation de YouTube pour la couverture animée sur le tableau de bord, même si ce n'est pas une source",
+      "date": "2026-10-17T10:16:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/29639be619914b9161c9e7f3c963ad7c734b99ac",
+      "tags": []
+    },
+    {
+      "sha": "3ff04b975e76cf555b30e202cf06a4a75893f8cd",
+      "message": "feat: ajouter la prise en charge de YouTube pour la couverture animée sur le tableau de bord et améliorer la gestion des requêtes Spotify",
+      "date": "2026-10-17T10:14:15Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/3ff04b975e76cf555b30e202cf06a4a75893f8cd",
+      "tags": []
+    },
+    {
+      "sha": "b138fd613bd2fa96e5e90f1a8fcf06e515dfe032",
+      "message": "feat: améliorer la sélection de langue pour la traduction des nouvelles avec retour haptique",
+      "date": "2026-10-17T09:51:47Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b138fd613bd2fa96e5e90f1a8fcf06e515dfe032",
+      "tags": []
+    },
+    {
+      "sha": "a4da275330854e3529e27d0bee0dfe7af7ee3c95",
+      "message": "feat: ajouter la sélection de langue pour la traduction des nouvelles via un appui long sur le bouton de traduction",
+      "date": "2026-10-17T09:32:16Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a4da275330854e3529e27d0bee0dfe7af7ee3c95",
+      "tags": []
+    },
+    {
+      "sha": "cc2c25d00953d7466499aeb652f7e853c2a03ecb",
+      "message": "feat: ajouter la traduction automatique des nouvelles et améliorer l'affichage des éléments traduits",
+      "date": "2026-10-17T09:19:19Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cc2c25d00953d7466499aeb652f7e853c2a03ecb",
+      "tags": []
+    },
+    {
+      "sha": "108bee502089795bdfa81e9b979449a3b6607e7d",
+      "message": "Refine legal text for clarity and accuracy in French translation",
+      "date": "2026-10-17T08:59:32Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/108bee502089795bdfa81e9b979449a3b6607e7d",
+      "tags": []
+    },
+    {
+      "sha": "f1ef1b1e71ab4adcce04bab01c9a77df9b55e8e1",
+      "message": "Refactor legal page content for clarity and conciseness in French translation",
+      "date": "2026-10-17T08:52:24Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f1ef1b1e71ab4adcce04bab01c9a77df9b55e8e1",
+      "tags": []
+    },
+    {
+      "sha": "c52370dcf11085ae846b25d4442d7a9d30f95576",
+      "message": "Add legal information regarding data usage and AI assistance in translations\n\n- Updated French, Italian, Japanese, Portuguese, Russian, and Chinese translations to include new legal statements about Spotify session data, app data usage, and AI involvement in translations.\n- Enhanced legal HTML page to reflect these updates, including new sections for AI and additional data sources.",
+      "date": "2026-10-16T20:26:17Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/c52370dcf11085ae846b25d4442d7a9d30f95576",
+      "tags": []
+    },
+    {
+      "sha": "560f32d3aef45326e480f4074f7da6d56eacf3a9",
+      "message": "feat: update website to show dynamic \"last updated\" date and improve web version messaging\n\n- Added a step in the GitHub Actions workflow to generate a JSON file with the last updated dates from git history.\n- Updated the legal page to display the last updated date dynamically.\n- Changed references from \"beta\" to \"preview\" in the web version messaging across multiple languages.\n- Updated README and CHANGELOG to reflect the new features and changes.\n- Modified translation files for various languages to align with the new preview terminology.",
+      "date": "2026-10-16T20:04:34Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/560f32d3aef45326e480f4074f7da6d56eacf3a9",
+      "tags": []
+    },
+    {
+      "sha": "5444b2fbbcc33fb8342d8e363cccb0f3faad29db",
+      "message": "Add legal notices and privacy information to the About page\n\n- Updated localization files for Portuguese, Russian, and Chinese to include legal notices, privacy information, and licenses.\n- Enhanced the About page with new sections for legal notices, licenses, and contact information.\n- Updated links to the GitHub repository and adjusted references to the LastStats project.\n- Improved the footer and navigation links across various site pages to reflect the new repository structure.",
+      "date": "2026-10-16T19:58:00Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5444b2fbbcc33fb8342d8e363cccb0f3faad29db",
+      "tags": []
+    },
+    {
+      "sha": "d7a75148fe06a1799d3302d15438d90de50e1b13",
+      "message": "feat: améliorer le flux d'onboarding et la gestion des apparences avec des options de forme d'image unifiées, corriger les erreurs de connexion et optimiser les notifications",
+      "date": "2026-10-15T19:37:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d7a75148fe06a1799d3302d15438d90de50e1b13",
+      "tags": [
+        "v4.1.0"
+      ]
+    },
+    {
+      "sha": "096cd261f4dd1f459677d509d4c7dfc79c6d1727",
+      "message": "feat: ajouter des composants de carte de partage et remplacer les icônes par le logo de l'application pour une cohérence visuelle",
+      "date": "2026-10-15T19:32:03Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/096cd261f4dd1f459677d509d4c7dfc79c6d1727",
+      "tags": []
+    },
+    {
+      "sha": "d753e27932b2df036757c8e3685d4bd9e307c1e4",
+      "message": "Refactor snack bar handling to use showAppSnackBar for consistency across settings pages. Update HTML files to remove unnecessary inline styles for better readability.",
+      "date": "2026-10-15T19:27:12Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d753e27932b2df036757c8e3685d4bd9e307c1e4",
+      "tags": []
+    },
+    {
+      "sha": "286405ca8ffb0d33b641c3e806f7f9a4c2c717d6",
+      "message": "Refactor localization strings for multiple languages, enhancing clarity and consistency in notifications and FAQs. Update Italian, Japanese, Portuguese, Russian, and Chinese translations. Improve source logo handling in the fullscreen image viewer and add Deezer icon asset. Adjust home screen imports to include brand icons.",
+      "date": "2026-10-14T20:35:09Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/286405ca8ffb0d33b641c3e806f7f9a4c2c717d6",
+      "tags": []
+    },
+    {
+      "sha": "ffa89e0061e456dc4984932991d80eda94f492d1",
+      "message": "Update localization strings for multiple languages:\n- Italian (strings_it.dart): Improved clarity and specificity in various phrases related to scrobbles, settings, and user prompts.\n- Japanese (strings_ja.dart): Enhanced descriptions for settings and user interactions, ensuring better understanding for users.\n- Portuguese (strings_pt.dart): Refined translations for music-related features and user guidance, improving overall user experience.\n- Russian (strings_ru.dart): Clarified phrases regarding music history and settings, making them more user-friendly.\n- Chinese (strings_zh.dart): Updated translations to provide clearer instructions and descriptions for app functionalities.",
+      "date": "2026-10-14T20:29:06Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ffa89e0061e456dc4984932991d80eda94f492d1",
+      "tags": []
+    },
+    {
+      "sha": "ae2afbba9884a95d54d0f409bdc2be37ceb053e7",
+      "message": "Update localization strings for Portuguese, Russian, and Chinese\n\n- Enhanced descriptions for Material You settings in Portuguese, Russian, and Chinese.\n- Clarified automatic update settings in all three languages.\n- Improved error messages for update checks and backup imports to provide better user guidance.\n- Updated various UI strings to enhance clarity and user experience across all languages.",
+      "date": "2026-10-14T20:26:25Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ae2afbba9884a95d54d0f409bdc2be37ceb053e7",
+      "tags": []
+    },
+    {
+      "sha": "63f0f9554f0c513077bd9dd288c8294dee8d4197",
+      "message": "fix: ajuster la taille et les couleurs des icônes pour une meilleure intégration visuelle",
+      "date": "2026-10-14T20:20:32Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/63f0f9554f0c513077bd9dd288c8294dee8d4197",
+      "tags": []
+    },
+    {
+      "sha": "cb2af379c355c71197872801c10889fe9fa16e06",
+      "message": "fix: mettre à jour les couleurs des icônes pour une meilleure cohérence visuelle",
+      "date": "2026-10-14T20:12:57Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cb2af379c355c71197872801c10889fe9fa16e06",
+      "tags": []
+    },
+    {
+      "sha": "ea5b04c39322a89c2cfc484427b354a5dc49aa34",
+      "message": "fix: ajouter une mention de remerciement pour la traduction des nouveaux textes dans le changelog",
+      "date": "2026-10-14T17:48:36Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ea5b04c39322a89c2cfc484427b354a5dc49aa34",
+      "tags": []
+    },
+    {
+      "sha": "b61bb1499d78d34a8de2ae4df952940e29effcc8",
+      "message": "fix: mettre à jour la police d'application par défaut à GoogleSansFlex",
+      "date": "2026-10-14T17:46:36Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b61bb1499d78d34a8de2ae4df952940e29effcc8",
+      "tags": []
+    },
+    {
+      "sha": "102bc402412f3f22777bcb043f5e301e0e3071e7",
+      "message": "fix: remplacer les emojis par des icônes Material pour les cartes de statistiques",
+      "date": "2026-10-14T17:22:15Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/102bc402412f3f22777bcb043f5e301e0e3071e7",
+      "tags": []
+    },
+    {
+      "sha": "a4e426ce0d5c2ec8f372ee47d7afc1f813a7aa2e",
+      "message": "fix: améliorer le style et la présentation des cartes de statistiques et des éléments de l'interface utilisateur",
+      "date": "2026-10-14T17:16:16Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a4e426ce0d5c2ec8f372ee47d7afc1f813a7aa2e",
+      "tags": []
+    },
+    {
+      "sha": "532e1ef00e8d2b4e3964121940079cb1ec05030e",
+      "message": "fix: ajuster la largeur maximale des colonnes pour une meilleure adaptabilité sur différents écrans",
+      "date": "2026-10-13T21:06:40Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/532e1ef00e8d2b4e3964121940079cb1ec05030e",
+      "tags": []
+    },
+    {
+      "sha": "af5fcb355580904c4a8a8e034e91f29e1a1ac95f",
+      "message": "fix: ajuster les contraintes et les espacements dans les pages de paramètres pour une meilleure présentation",
+      "date": "2026-10-13T21:01:45Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/af5fcb355580904c4a8a8e034e91f29e1a1ac95f",
+      "tags": []
+    },
+    {
+      "sha": "f50dd781b7298e423967b18e9f0001f19f41a4a6",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "date": "2026-10-13T18:27:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f50dd781b7298e423967b18e9f0001f19f41a4a6",
+      "tags": []
+    },
+    {
+      "sha": "790dad7b2512d4de8993969f33e4a6c6389bda03",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "date": "2026-10-13T15:37:18Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/790dad7b2512d4de8993969f33e4a6c6389bda03",
+      "tags": []
+    },
+    {
+      "sha": "a8400df1a966794ba4eac6bfd8d52aa27f3ffe12",
+      "message": "Refactor code structure and remove redundant sections for improved readability and maintainability",
+      "date": "2026-10-13T15:29:12Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a8400df1a966794ba4eac6bfd8d52aa27f3ffe12",
+      "tags": []
+    },
+    {
+      "sha": "26d539436f0499ff622b5a31b1447531189b3382",
+      "message": "feat: ajout d'un ValueListenableBuilder pour gérer dynamiquement l'affichage des étiquettes dans la barre de navigation",
+      "date": "2026-10-13T15:13:57Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/26d539436f0499ff622b5a31b1447531189b3382",
+      "tags": []
+    },
+    {
+      "sha": "64162219d24af1c7416b22897ba2e516cfb12c28",
+      "message": "feat: ajout d'une sélection aléatoire de couleur d'accent lors du premier lancement et amélioration des icônes dans le flux d'onboarding",
+      "date": "2026-10-13T15:06:05Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/64162219d24af1c7416b22897ba2e516cfb12c28",
+      "tags": []
+    },
+    {
+      "sha": "8c037f5f3218d0107257dafc2d0c16a2a39bc3ae",
+      "message": "Refactor onboarding flow and improve localization strings\n\n- Updated Russian and Chinese localization strings for clarity and accuracy in onboarding steps.\n- Enhanced the onboarding flow UI by replacing TextButton with M3LabelButton for a more consistent design.\n- Adjusted button styles and interactions in the onboarding process to improve user experience.\n- Refined appearance settings page layout for better visual alignment.\n- Introduced M3LabelButton component for consistent button styling across the app.\n- Improved setup screen button interactions and error handling.\n- Enhanced CSS for download button hover effects on the website.",
+      "date": "2026-10-13T14:54:52Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8c037f5f3218d0107257dafc2d0c16a2a39bc3ae",
+      "tags": []
+    },
+    {
+      "sha": "3010699c286bc6f0f3c19d11e216e4e95686d0f4",
+      "message": "feat: amélioration des styles des boutons sur mobile pour conserver la forme connectée des éléments",
+      "date": "2026-10-13T11:12:25Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/3010699c286bc6f0f3c19d11e216e4e95686d0f4",
+      "tags": []
+    },
+    {
+      "sha": "87f863ac6507a7a7cfd2bf976106cb5c5e63b8de",
+      "message": "feat: ajout de styles pour le bouton de téléchargement sur mobile avec des coins arrondis",
+      "date": "2026-10-13T11:06:55Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/87f863ac6507a7a7cfd2bf976106cb5c5e63b8de",
+      "tags": []
+    },
+    {
+      "sha": "33252c7680faedb72674ca3fb6603e93d77cecb4",
+      "message": "feat: amélioration de l'interface du pied de page avec des boutons proéminents et ajustements de style",
+      "date": "2026-10-12T20:53:13Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/33252c7680faedb72674ca3fb6603e93d77cecb4",
+      "tags": []
+    },
+    {
+      "sha": "698f012f01124466378b2f9b91a7325eef934692",
+      "message": "feat: amélioration de l'interface utilisateur avec des boutons proéminents dans le pied de page et ajustement de la largeur des éléments",
+      "date": "2026-10-12T20:34:30Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/698f012f01124466378b2f9b91a7325eef934692",
+      "tags": []
+    },
+    {
+      "sha": "44b781382fcf36d3e0e49ecd1efc7142c05a7094",
+      "message": "feat: remplacement de TabBar par M3TabSwitch pour une meilleure intégration Material You et ajout de composants M3",
+      "date": "2026-10-12T20:24:07Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/44b781382fcf36d3e0e49ecd1efc7142c05a7094",
+      "tags": []
+    },
+    {
+      "sha": "da0f4241e0316bbc0ec8ffe1910d938648b2ff3c",
+      "message": "feat: mise à jour des traductions pour \"aléatoire\" dans plusieurs langues et amélioration de la gestion des couleurs aléatoires",
+      "date": "2026-10-12T11:10:01Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/da0f4241e0316bbc0ec8ffe1910d938648b2ff3c",
+      "tags": []
+    },
+    {
+      "sha": "cbdd055dad800d0431ffc02095a91f71d25d17a2",
+      "message": "feat: amélioration du déploiement et de la gestion du README avec mise en cache et récupération des données",
+      "date": "2026-10-12T11:07:49Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cbdd055dad800d0431ffc02095a91f71d25d17a2",
+      "tags": []
+    },
+    {
+      "sha": "bdafcd096f0c89d892355df58fba4ac108495d38",
+      "message": "feat: ajout de la prise en charge des modes de couleur mono et multicolore avec interface utilisateur",
+      "date": "2026-10-12T11:02:45Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/bdafcd096f0c89d892355df58fba4ac108495d38",
+      "tags": []
+    },
+    {
+      "sha": "5b6b4a87dcbf4ced738a0ac109eaab9398698b6c",
+      "message": "feat: ajout d'un sélecteur de couleur avec options de mémorisation et aléatoire",
+      "date": "2026-10-12T11:00:02Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5b6b4a87dcbf4ced738a0ac109eaab9398698b6c",
+      "tags": []
+    },
+    {
+      "sha": "bea08c7e26785db68575110cb22fd9d2184ae5d4",
+      "message": "feat: ajout d'un script pour une palette de couleurs dynamique sur toutes les pages",
+      "date": "2026-10-12T10:56:16Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/bea08c7e26785db68575110cb22fd9d2184ae5d4",
+      "tags": []
+    },
+    {
+      "sha": "01f9a5e598d5ff8dbf116bdb2fe01ee9665a5cb2",
+      "message": "feat: amélioration de l'affichage des statistiques avec un nouveau design et animations pour les barres de progression",
+      "date": "2026-10-12T10:44:33Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/01f9a5e598d5ff8dbf116bdb2fe01ee9665a5cb2",
+      "tags": []
+    },
+    {
+      "sha": "fad7b586299922f43446be8be597b24dfd2972a3",
+      "message": "feat: ajout de la prise en charge de la répartition week-end vs semaine dans les graphiques",
+      "date": "2026-10-11T21:24:23Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fad7b586299922f43446be8be597b24dfd2972a3",
+      "tags": []
+    },
+    {
+      "sha": "de3d489928606d03cd3ee812086054b2d1fa4beb",
+      "message": "feat: ajout d'un cache pour les données annuelles et amélioration de l'interaction des graphiques hebdomadaires",
+      "date": "2026-10-11T21:14:17Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/de3d489928606d03cd3ee812086054b2d1fa4beb",
+      "tags": []
+    },
+    {
+      "sha": "28e84749fb0674fdb9449b7f3ffd53c7c9122b36",
+      "message": "feat: ajout de l'option \"Style des couleurs\" dans les paramètres d'apparence, prise en charge de plusieurs styles de couleurs et sauvegarde des préférences",
+      "date": "2026-10-11T19:20:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/28e84749fb0674fdb9449b7f3ffd53c7c9122b36",
+      "tags": []
+    },
+    {
+      "sha": "f936eb82d649bc17d17659027e71a9bb5459d3e2",
+      "message": "feat: ajout de nouveaux graphiques pour la répartition par moment de la journée et l'intensité des jours, amélioration des visuels des graphiques",
+      "date": "2026-10-11T19:06:52Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f936eb82d649bc17d17659027e71a9bb5459d3e2",
+      "tags": []
+    },
+    {
+      "sha": "dbe0bd9cea538c5e1a3414901426f48a6cd6ce48",
+      "message": "feat: ajout de la prise en charge de la répartition par artiste dans plusieurs langues, amélioration des graphiques et des interactions",
+      "date": "2026-10-11T18:49:06Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/dbe0bd9cea538c5e1a3414901426f48a6cd6ce48",
+      "tags": []
+    },
+    {
+      "sha": "492b31f8957fbcfffea841684ca60c18b33c6a2e",
+      "message": "Add charts visuals to home screen with new chart widgets\n\n- Introduced a new part file '_charts_visuals.dart' for organizing chart-related widgets.\n- Implemented various chart types including trend charts, clock charts, week charts, share donuts, and genre radar charts.\n- Enhanced visual representation of data with animations and interactive elements.\n- Updated home screen to include the new charts section.",
+      "date": "2026-10-11T18:26:14Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/492b31f8957fbcfffea841684ca60c18b33c6a2e",
+      "tags": []
+    },
+    {
+      "sha": "cfb89b68a0021dfdefa8357889596f5ee5123af6",
+      "message": "feat: refonte de l'onglet de recherche et de l'onglet des graphiques, ajout de nouvelles traductions et amélioration des widgets",
+      "date": "2026-10-11T18:15:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cfb89b68a0021dfdefa8357889596f5ee5123af6",
+      "tags": []
+    },
+    {
+      "sha": "98a9cb3367b7b38ba8dabb9985d75e9e368d2eec",
+      "message": "feat: ajout de la prise en charge des recherches récentes et des suggestions dans plusieurs langues, amélioration de l'affichage des résultats",
+      "date": "2026-10-11T17:41:28Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/98a9cb3367b7b38ba8dabb9985d75e9e368d2eec",
+      "tags": []
+    },
+    {
+      "sha": "d067e152da9128b7066ca32addcd237b3a4269ee",
+      "message": "feat: ajout de la gestion des recherches récentes et des suggestions, amélioration de l'affichage des résultats",
+      "date": "2026-10-11T17:20:23Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d067e152da9128b7066ca32addcd237b3a4269ee",
+      "tags": []
+    },
+    {
+      "sha": "fddfe9097b068c3523f8148912e1111b1ed0db5d",
+      "message": "feat: refonte de la barre de recherche et amélioration de l'affichage des résultats, ajout de la gestion des icônes de la barre d'état",
+      "date": "2026-10-11T16:05:11Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fddfe9097b068c3523f8148912e1111b1ed0db5d",
+      "tags": []
+    },
+    {
+      "sha": "42caf9f498b600b8ea44ad640d2d48d9939f03af",
+      "message": "feat: ajout de la prise en charge de la taille et de la police du texte, amélioration de l'affichage des artistes récents et mise à jour de l'historique",
+      "date": "2026-10-11T15:44:52Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/42caf9f498b600b8ea44ad640d2d48d9939f03af",
+      "tags": []
+    },
+    {
+      "sha": "f5a53c0000962b32b721d44935273af81116e0c8",
+      "message": "feat: ajout d'un service de secours pour les biographies via Wikipedia et mise à jour des chaînes de langue",
+      "date": "2026-10-11T15:18:52Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f5a53c0000962b32b721d44935273af81116e0c8",
+      "tags": []
+    },
+    {
+      "sha": "a09cf85af72b3175380c4ddfd680f318e7c5877e",
+      "message": "feat: ajout d'un bouton pour ouvrir le lien de biographie et amélioration de l'affichage des éléments",
+      "date": "2026-10-11T11:01:51Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a09cf85af72b3175380c4ddfd680f318e7c5877e",
+      "tags": []
+    },
+    {
+      "sha": "f0a461b7ec1a2237c60c16254be36dbfbcdce114",
+      "message": "feat: ajustement des couleurs des composants pour une meilleure intégration visuelle",
+      "date": "2026-10-11T10:43:14Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/f0a461b7ec1a2237c60c16254be36dbfbcdce114",
+      "tags": []
+    },
+    {
+      "sha": "06f75b12e8e0a3d5c4a1ce6496fe752df6d49c58",
+      "message": "feat: amélioration de l'interface utilisateur avec des cartes accentuées et des ajustements de couleurs pour une meilleure lisibilité",
+      "date": "2026-10-11T10:04:06Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/06f75b12e8e0a3d5c4a1ce6496fe752df6d49c58",
+      "tags": []
+    },
+    {
+      "sha": "fb9ddbd1f8357ba38aa18d686cf455f9e8f693a2",
+      "message": "feat: ajout d'une logique d'affichage conditionnel pour la bannière d'historique et mise à jour des icônes de services",
+      "date": "2026-10-11T09:42:42Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fb9ddbd1f8357ba38aa18d686cf455f9e8f693a2",
+      "tags": []
+    },
+    {
+      "sha": "632b6ddae4b8a11ffcf152c5562d8411387f4d23",
+      "message": "feat: mise à jour des formes du loader pour inclure uniquement le squircle et l'oval",
+      "date": "2026-10-10T21:37:33Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/632b6ddae4b8a11ffcf152c5562d8411387f4d23",
+      "tags": []
+    },
+    {
+      "sha": "1a7ecd69d34b08a4b457695d050d88e91214567f",
+      "message": "feat: mise à jour des barres de chargement avec de nouvelles formes et optimisation des imports",
+      "date": "2026-10-10T21:24:06Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/1a7ecd69d34b08a4b457695d050d88e91214567f",
+      "tags": []
+    },
+    {
+      "sha": "4d1bac288bf7c66a6ca24bf029c504bf67d1ed52",
+      "message": "feat: amélioration de la barre de progression avec affichage conditionnel pour les synchronisations importantes",
+      "date": "2026-10-10T21:19:09Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4d1bac288bf7c66a6ca24bf029c504bf67d1ed52",
+      "tags": []
+    },
+    {
+      "sha": "d6ca87fc272ba5703412e0d146955df9910cfac1",
+      "message": "feat: ajout d'une pochette animée sur le dashboard avec options de configuration",
+      "date": "2026-10-10T21:02:27Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d6ca87fc272ba5703412e0d146955df9910cfac1",
+      "tags": []
+    },
+    {
+      "sha": "e846ce4cc217bf90e854e054000cc0d755d7b2c2",
+      "message": "feat: amélioration des indicateurs de chargement avec de nouvelles animations et styles pour les pages de connexion et de synchronisation",
+      "date": "2026-10-10T20:44:26Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e846ce4cc217bf90e854e054000cc0d755d7b2c2",
+      "tags": []
+    },
+    {
+      "sha": "e997de2a5a1a48bc24e34e500944391cb0b57d9e",
+      "message": "feat: ajout de la synchronisation en arrière-plan et de nouvelles options de personnalisation pour l'onboarding",
+      "date": "2026-10-10T20:11:08Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e997de2a5a1a48bc24e34e500944391cb0b57d9e",
+      "tags": []
+    },
+    {
+      "sha": "00c5329fb168e72baa474b136e80cc3766de1e0e",
+      "message": "feat: mise à jour de la version à 4.1.0 et ajout de la synchronisation en arrière-plan pour le flux d'intégration",
+      "date": "2026-10-10T19:53:00Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/00c5329fb168e72baa474b136e80cc3766de1e0e",
+      "tags": []
+    },
+    {
+      "sha": "6d5990a575e0a62b3d6992a72131826c0785c760",
+      "message": "feat: ajout de chaînes de bienvenue pour l'interface de connexion dans plusieurs langues",
+      "date": "2026-10-10T19:32:03Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/6d5990a575e0a62b3d6992a72131826c0785c760",
+      "tags": []
+    },
+    {
+      "sha": "dda82e85736996ef876dd43607d024ed80b22a9f",
+      "message": "feat: ajout de nouvelles chaînes de localisation et amélioration de l'interface de connexion",
+      "date": "2026-10-10T19:18:07Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/dda82e85736996ef876dd43607d024ed80b22a9f",
+      "tags": []
+    },
+    {
+      "sha": "5e1fbb30cdb16c960fdaa82fcd90c717c1c137df",
+      "message": "feat: ajout de la prise en charge de la connexion Last.fm avec interface utilisateur pour la saisie manuelle du nom d'utilisateur et mise à jour des chaînes de localisation",
+      "date": "2026-10-10T18:55:56Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5e1fbb30cdb16c960fdaa82fcd90c717c1c137df",
+      "tags": []
+    },
+    {
+      "sha": "a6409e4de61c2e459c592f2c5d3b90c14bf8ddb5",
+      "message": "Add Last.fm login functionality and improve localization strings\n\n- Implemented Last.fm login page using InAppWebView to allow users to log in directly within the app.\n- Enhanced localization strings for English, Spanish, French, Italian, Japanese, Portuguese, Russian, and Chinese to improve clarity and consistency.\n- Updated SpotifyCanvasService to utilize a search template for better track searching without hitting API rate limits.\n- Added new keys for diagnostic messages related to login cookies, web tokens, and search results.\n- Improved user feedback in the connections page with snack bars for successful account additions.",
+      "date": "2026-10-10T18:34:42Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a6409e4de61c2e459c592f2c5d3b90c14bf8ddb5",
+      "tags": []
+    },
+    {
+      "sha": "1610130e3b3e9ba289e5a04d481e5f94863bf7b0",
+      "message": "feat: amélioration des appels API pour gérer les erreurs 429 et 401 dans SpotifyCanvasService",
+      "date": "2026-10-10T08:34:55Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/1610130e3b3e9ba289e5a04d481e5f94863bf7b0",
+      "tags": []
+    },
+    {
+      "sha": "3d2160c6563e319088dd28eb76e881caad7cba03",
+      "message": "feat: Add Spotify connection and management features\n\n- Implemented a new Connections page to manage Last.fm and Spotify accounts.\n- Added localization strings for Spotify login and connection status in multiple languages (DE, EN, ES, FR, IT, JA, PT, RU, ZH).\n- Created a BrandIcon widget to display brand logos with fallback support.\n- Enhanced account management with API key handling and connection testing for Spotify.\n- Updated settings UI to include connection options and improved user experience for managing Spotify connections.",
+      "date": "2026-10-10T08:13:50Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/3d2160c6563e319088dd28eb76e881caad7cba03",
+      "tags": []
+    },
+    {
+      "sha": "996a7d11a4308f7d2f68990a59932b76eb4899b4",
+      "message": "feat: ajout de la prise en charge de Spotify Canvas avec connexion intégrée et gestion des vidéos",
+      "date": "2026-10-10T07:45:47Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/996a7d11a4308f7d2f68990a59932b76eb4899b4",
+      "tags": []
+    },
+    {
+      "sha": "4eed272acf939e3481d58885eb405cda46aa815e",
+      "message": "Merge branch 'master' of https://github.com/SanoBld/LastStats",
+      "date": "2026-10-08T21:10:24Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4eed272acf939e3481d58885eb405cda46aa815e",
+      "tags": []
+    },
+    {
+      "sha": "d509f19b8f8bef1ceab7648bc6517220222a31d5",
+      "message": "feat: mise à jour du README pour refléter les nouvelles fonctionnalités et améliorations de l'application",
+      "date": "2026-10-08T21:10:18Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d509f19b8f8bef1ceab7648bc6517220222a31d5",
+      "tags": []
+    },
+    {
+      "sha": "83195a1bdd0f3c17d461485addd3121e358b075d",
+      "message": "chore: bump version to 4.0.0 [skip ci]",
+      "date": "2026-10-08T21:04:36Z",
+      "author": "github-actions[bot]",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/83195a1bdd0f3c17d461485addd3121e358b075d",
+      "tags": []
+    },
+    {
+      "sha": "67b0b84961763ae2b0de9227510c3af411268ddd",
+      "message": "feat: ajout de nouveaux éléments multimédias et amélioration de la galerie avec des vidéos animées et des GIFs",
+      "date": "2026-10-08T21:03:52Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/67b0b84961763ae2b0de9227510c3af411268ddd",
+      "tags": [
+        "v4.0.0"
+      ]
+    },
+    {
+      "sha": "61da058ca3d7c29941339b14a8da91e167dfebc2",
+      "message": "Add showcase video playback control based on visibility and user preferences\n\n- Implemented Intersection Observer to play videos only when they are visible in the viewport.\n- Added support for reduced motion preferences, disabling autoplay and enabling controls for users who prefer reduced motion.\n- Ensured videos pause when not in view to improve performance and user experience.",
+      "date": "2026-10-08T20:55:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/61da058ca3d7c29941339b14a8da91e167dfebc2",
+      "tags": []
+    },
+    {
+      "sha": "cb07c966e1e9d7d3a790ca7b7fcb897b8c82f6cc",
+      "message": "Add new images for LastStats project gallery\n\n- Added friend_profile.png to the gallery\n- Added weekly_recap.png to the gallery\n- Updated weekly_recap.png in the main LastStats directory",
+      "date": "2026-10-08T20:47:19Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cb07c966e1e9d7d3a790ca7b7fcb897b8c82f6cc",
+      "tags": []
+    },
+    {
+      "sha": "23644b4c4d0b7976afffdfc6b85d3d6d81161864",
+      "message": "Add translations for Portuguese, Russian, and Chinese languages in i18n files",
+      "date": "2026-10-08T20:18:34Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/23644b4c4d0b7976afffdfc6b85d3d6d81161864",
+      "tags": []
+    },
+    {
+      "sha": "acd66fa410c2eac628079d8769b1e89e4de1a2a9",
+      "message": "feat: mise à jour de la FAQ pour refléter l'absence de version iOS et réorganisation des questions par thème",
+      "date": "2026-10-08T18:57:44Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/acd66fa410c2eac628079d8769b1e89e4de1a2a9",
+      "tags": []
+    },
+    {
+      "sha": "59e0d5c1859f033106cc3213b7aa2384f3a15982",
+      "message": "feat: ajouter des textes et des messages pour le style Nothing OS en cours d'amélioration, et mise à jour des traductions pour le changement de clé API",
+      "date": "2026-10-08T18:49:15Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/59e0d5c1859f033106cc3213b7aa2384f3a15982",
+      "tags": []
+    },
+    {
+      "sha": "8f3229af4759557a6aecc3f1d951200b4763ea21",
+      "message": "feat: add functionality to change API key in account settings\n\n- Implemented a dialog for users to change their API key or switch to the app's internal key.\n- Updated FAQ section to include information about changing the API key.\n- Enhanced localization strings for Portuguese, Russian, and Chinese to reflect new features and instructions.\n- Added logic to validate the new API key and check its validity with Last.fm before saving.\n- Updated account manager to handle API key updates and synchronize preferences accordingly.",
+      "date": "2026-10-08T18:38:05Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8f3229af4759557a6aecc3f1d951200b4763ea21",
+      "tags": []
+    },
+    {
+      "sha": "351ca2c29d82ae8b7f9cba51056a6e6f9cd7a0d1",
+      "message": "Refactor strings to use localization in various screens and services\n\n- Updated friend card subtitle to use localized strings for online and offline status.\n- Changed tooltip messages in detail sheet and home screen to use localization.\n- Refactored appearance settings page to utilize localized strings for tooltips and titles.\n- Updated backup page to use localized dialog titles for folder selection.\n- Refactored notification service to use localized strings for channel names and notification messages.\n- Updated notification worker to load saved language preferences and use localization for update messages and sync notifications.\n- Refactored skeleton widget to use localized accessibility labels.",
+      "date": "2026-10-08T18:20:14Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/351ca2c29d82ae8b7f9cba51056a6e6f9cd7a0d1",
+      "tags": []
+    },
+    {
+      "sha": "d376801402a82f7945d6d17a01add96ec4421d2b",
+      "message": "feat: améliorer les animations des boutons sur la page des commits et des versions",
+      "date": "2026-10-08T12:41:25Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/d376801402a82f7945d6d17a01add96ec4421d2b",
+      "tags": []
+    },
+    {
+      "sha": "261627c01f60f4dd094296a9febfbba708dd97d2",
+      "message": "feat: ajouter une page \"Pushs\" avec liste des commits, options de filtrage et téléchargement ZIP",
+      "date": "2026-10-08T12:30:51Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/261627c01f60f4dd094296a9febfbba708dd97d2",
+      "tags": []
+    },
+    {
+      "sha": "393c7b59b7fddb85fb09d786a4fc4e0002a180a0",
+      "message": "Add Russian and Chinese localized strings for various app features and notifications",
+      "date": "2026-10-08T11:11:32Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/393c7b59b7fddb85fb09d786a4fc4e0002a180a0",
+      "tags": []
+    },
+    {
+      "sha": "8c01e127a9d5fdfaed090938451fb0254d08e532",
+      "message": "feat: ajouter des traductions pour les notifications de test et mettre à jour les outils de lecture",
+      "date": "2026-10-08T11:06:34Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8c01e127a9d5fdfaed090938451fb0254d08e532",
+      "tags": []
+    },
+    {
+      "sha": "a0ed6dcea873686e23490c0ddb9c681cf0ba4891",
+      "message": "feat: supprimer le service de redimensionnement des images",
+      "date": "2026-10-08T05:42:35Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a0ed6dcea873686e23490c0ddb9c681cf0ba4891",
+      "tags": []
+    },
+    {
+      "sha": "e3719cd8747b61dc11ed23978479e141f60fb80c",
+      "message": "Refactor OfflineImageCache: Simplify metadata handling, remove RAM cache, and streamline download logic\n\n- Removed unnecessary RAM cache and related methods to simplify memory management.\n- Streamlined metadata loading and saving processes for better performance.\n- Consolidated image download logic to reduce redundancy and improve clarity.\n- Enhanced error handling during image downloads and cache management.\n- Updated image retrieval methods to directly use cached data or download as needed.",
+      "date": "2026-10-08T05:41:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e3719cd8747b61dc11ed23978479e141f60fb80c",
+      "tags": []
+    },
+    {
+      "sha": "8fadc9e94ad5760c7bb62b99613871420e1415c6",
+      "message": "Enhance image sizing and offline caching mechanisms\n\n- Improved image URL resizing logic to ensure correct sizes are requested from various sources, including Deezer, Wikimedia, and YouTube.\n- Added a helper function to pick appropriate sizes based on target dimensions.\n- Implemented a mechanism to handle failed image loads by falling back to original URLs.\n- Introduced parallel download limits to prevent excessive socket usage during background downloads.\n- Enhanced image validation to ensure only valid image bytes are cached.\n- Updated the offline image cache to handle errors more gracefully and retry with original URLs when resized images fail to load.",
+      "date": "2026-10-08T04:57:35Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8fadc9e94ad5760c7bb62b99613871420e1415c6",
+      "tags": []
+    },
+    {
+      "sha": "fb8a8c235511008bfdfecdeb4fb379693d2eaab0",
+      "message": "feat: supprimer les références au mode hors ligne strict dans le code",
+      "date": "2026-10-07T18:03:36Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fb8a8c235511008bfdfecdeb4fb379693d2eaab0",
+      "tags": []
+    },
+    {
+      "sha": "3c7a1c44a44053aeaef9b9de34e299e36db92063",
+      "message": "feat: désactiver la sauvegarde de l'application dans le manifeste Android",
+      "date": "2026-10-07T18:01:06Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/3c7a1c44a44053aeaef9b9de34e299e36db92063",
+      "tags": []
+    },
+    {
+      "sha": "ed65827539bc47d047ff12fbf7c8434968385045",
+      "message": "feat: ajouter une FAQ sur les images manquantes et améliorer la gestion des tailles d'image pour les URL d'artwork",
+      "date": "2026-10-07T16:46:50Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/ed65827539bc47d047ff12fbf7c8434968385045",
+      "tags": []
+    },
+    {
+      "sha": "cf4717b45b321d6bedf1d15c5f64ea0411136179",
+      "message": "feat: ajouter une section de paramètres pour le limiteur d'API et améliorer la gestion des délais d'attente dans le service d'image",
+      "date": "2026-10-07T16:05:10Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cf4717b45b321d6bedf1d15c5f64ea0411136179",
+      "tags": []
+    },
+    {
+      "sha": "cb2cdda53bea5e85eb96f0b712f92484637dca64",
+      "message": "feat: ajouter une option de limitation des requêtes dans les paramètres API et mettre à jour les traductions",
+      "date": "2026-10-07T11:11:15Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cb2cdda53bea5e85eb96f0b712f92484637dca64",
+      "tags": []
+    },
+    {
+      "sha": "cd97bda45bbe7df4fb5517662923a6204e163199",
+      "message": "feat: désactiver le limiteur côté client et ajouter une logique de nouvelle tentative pour les erreurs de limite de taux Last.fm",
+      "date": "2026-10-07T09:44:08Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cd97bda45bbe7df4fb5517662923a6204e163199",
+      "tags": []
+    },
+    {
+      "sha": "4e04e3efef05a4db84fb149a0c5610d41f28c620",
+      "message": "feat: Implement API HTTP service with rate limiting and usage tracking\n\n- Added `ApiHttp` class for handling HTTP requests with automatic API identification, rate limiting, and usage tracking.\n- Introduced `ApiRegistry` to define external services, their rate limits, and usage ceilings.\n- Created `ApiUsage` for tracking API call statistics, including total calls, errors, throttled requests, and skipped calls.\n- Implemented `CacheOwner` to manage user-specific cache data and ensure proper cache clearing when switching accounts.",
+      "date": "2026-10-07T05:02:39Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4e04e3efef05a4db84fb149a0c5610d41f28c620",
+      "tags": []
+    },
+    {
+      "sha": "933aeebeb905937abfc72c89f0f2d62d8307497e",
+      "message": "Add French translations, enhance releases page with platform grouping, and improve legal section layout\n\n- Updated French translations in fr.js for tutorial and legal sections.\n- Enhanced releases.js to group downloadable files by platform, improving user experience.\n- Modified legal.html to include a table of contents and improved layout for better navigation.\n- Added toc.css for styling the table of contents and toc.js for its functionality.",
+      "date": "2026-10-06T21:10:27Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/933aeebeb905937abfc72c89f0f2d62d8307497e",
+      "tags": []
+    },
+    {
+      "sha": "5ae196bb5f08bc85bfaba32c0d8c8ba641282c57",
+      "message": "feat: mettre à jour le mode hors ligne avec des options strictes et améliorer la gestion des caches",
+      "date": "2026-10-06T16:18:12Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/5ae196bb5f08bc85bfaba32c0d8c8ba641282c57",
+      "tags": []
+    },
+    {
+      "sha": "8627d32bed3c72e0504b285dd1fa1d90636b06fd",
+      "message": "feat: ajuster le comportement de défilement de la barre de navigation et améliorer la réactivité des éléments collants",
+      "date": "2026-10-06T09:41:27Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8627d32bed3c72e0504b285dd1fa1d90636b06fd",
+      "tags": []
+    },
+    {
+      "sha": "28fdfd4cf19910f0e23a911027fe182c7c6754e1",
+      "message": "feat: améliorer la réactivité de la page des versions avec des ajustements CSS et une mise à jour du comportement de défilement",
+      "date": "2026-10-06T09:40:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/28fdfd4cf19910f0e23a911027fe182c7c6754e1",
+      "tags": []
+    },
+    {
+      "sha": "7e8cb4d585a65db4e2be7e11565a0b2c1ba7405a",
+      "message": "feat: ajouter un chargement infini sur la page des versions avec un indicateur de chargement",
+      "date": "2026-10-06T09:27:44Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/7e8cb4d585a65db4e2be7e11565a0b2c1ba7405a",
+      "tags": []
+    },
+    {
+      "sha": "54b523cbbf3adc64829cd026ed8192493a805d9c",
+      "message": "feat: ajouter une barre de recherche et améliorer la navigation sur la page des versions",
+      "date": "2026-10-06T09:19:53Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/54b523cbbf3adc64829cd026ed8192493a805d9c",
+      "tags": []
+    },
+    {
+      "sha": "67f24056b833bc2b19bd4a20171f6e474ca04c42",
+      "message": "feat: ajouter un système de chargement de données GitHub partagé et mettre à jour la page des versions avec des filtres pour les versions stables et bêta",
+      "date": "2026-10-06T09:04:33Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/67f24056b833bc2b19bd4a20171f6e474ca04c42",
+      "tags": []
+    },
+    {
+      "sha": "e1d87233c2c87ddaaa2497f21dc4a9b2b166a01c",
+      "message": "feat: améliorer la page des versions avec un rail de navigation et des liens vers les versions",
+      "date": "2026-10-06T08:48:46Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e1d87233c2c87ddaaa2497f21dc4a9b2b166a01c",
+      "tags": []
+    },
+    {
+      "sha": "28b09ba48260c80fa1f57ec8130f4ee2d67320ae",
+      "message": "feat: ajouter une page de versions avec styles et scripts associés",
+      "date": "2026-10-06T08:41:19Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/28b09ba48260c80fa1f57ec8130f4ee2d67320ae",
+      "tags": []
+    },
+    {
+      "sha": "2304a4f32288c403e898a16950d581d2e70bcf5d",
+      "message": "feat: ajouter des modes de lecture et améliorer la gestion des vidéos YouTube",
+      "date": "2026-10-05T21:45:31Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/2304a4f32288c403e898a16950d581d2e70bcf5d",
+      "tags": []
+    },
+    {
+      "sha": "03348bdf3daaf04caf5835c6a3a099c9a575d8e5",
+      "message": "test",
+      "date": "2026-10-05T21:26:25Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/03348bdf3daaf04caf5835c6a3a099c9a575d8e5",
+      "tags": []
+    },
+    {
+      "sha": "258a14ad1e85c87c03f43f01adadf34f9c28d49d",
+      "message": "test",
+      "date": "2026-10-05T21:07:06Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/258a14ad1e85c87c03f43f01adadf34f9c28d49d",
+      "tags": []
+    },
+    {
+      "sha": "014d4797d2abd89ded39d2aa04fcdfb8c7b94837",
+      "message": "fix: ajouter une nouvelle ligne à la fin du fichier image_cache_backend_stub.dart",
+      "date": "2026-10-05T20:51:05Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/014d4797d2abd89ded39d2aa04fcdfb8c7b94837",
+      "tags": []
+    },
+    {
+      "sha": "56c3117abdef26356edef73cd2f842a62e888f5e",
+      "message": "feat: améliorer la gestion des vidéos de couverture avec des corrections et des paramètres de configuration",
+      "date": "2026-10-05T20:45:29Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/56c3117abdef26356edef73cd2f842a62e888f5e",
+      "tags": []
+    },
+    {
+      "sha": "7ad890a1822dd878c3d614448496680041fd48bb",
+      "message": "feat: ajouter des chaînes de caractères pour la gestion des sources et qualités vidéo",
+      "date": "2026-10-05T16:43:48Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/7ad890a1822dd878c3d614448496680041fd48bb",
+      "tags": []
+    },
+    {
+      "sha": "a5a145d52e87ba068c0c18c79c0eeadb43f5201c",
+      "message": "feat: ajouter des paramètres de configuration pour les vidéos de couverture, y compris la source, la qualité et les types",
+      "date": "2026-10-05T16:41:18Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a5a145d52e87ba068c0c18c79c0eeadb43f5201c",
+      "tags": []
+    },
+    {
+      "sha": "06a100a44cbc7db01ccfffc7bf219ae1189f762c",
+      "message": "feat: ajouter un fallback YouTube pour les vidéos de piste et améliorer la gestion des vidéos",
+      "date": "2026-10-05T16:22:43Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/06a100a44cbc7db01ccfffc7bf219ae1189f762c",
+      "tags": []
+    },
+    {
+      "sha": "a343997cc3b11d602d669e41321b9d19668141a8",
+      "message": "fix: ajuster l'alignement du contenu dans la colonne PC pour éviter le centrage",
+      "date": "2026-10-05T16:03:58Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/a343997cc3b11d602d669e41321b9d19668141a8",
+      "tags": []
+    },
+    {
+      "sha": "8a5f6950bf2f37003e6c5b975adebc1efccb3fc5",
+      "message": "feat: améliorer la mise en page pour les écrans PC et ajouter des colonnes centrées",
+      "date": "2026-10-05T15:51:11Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8a5f6950bf2f37003e6c5b975adebc1efccb3fc5",
+      "tags": []
+    },
+    {
+      "sha": "c6b0c326c1b94c758e817f19e530cb782e41b265",
+      "message": "feat: améliorer la prise en charge de la mise en page de bureau et ajouter des éléments de navigation personnalisés",
+      "date": "2026-10-05T10:47:10Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/c6b0c326c1b94c758e817f19e530cb782e41b265",
+      "tags": []
+    },
+    {
+      "sha": "395e12d6087e319eb84206dde40ff84b216ca3ff",
+      "message": "fix: update French, Spanish, German, Italian, Chinese, and Japanese translations for consistency and formality\n\nfix: ensure modal opens with CSS transition on first open by forcing reflow\n\nfix: improve event listener management for button press effects in expressive.js\n\nfix: ensure modal opens with animation by forcing reflow in web-version.js",
+      "date": "2026-10-05T10:33:22Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/395e12d6087e319eb84206dde40ff84b216ca3ff",
+      "tags": []
+    },
+    {
+      "sha": "4c876ec200c3eec8f4a8c2177a9fc31195974c57",
+      "message": "feat: Ajouter un bouton pour la version web avec avertissement bêta et traductions",
+      "date": "2026-10-04T21:53:49Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4c876ec200c3eec8f4a8c2177a9fc31195974c57",
+      "tags": []
+    },
+    {
+      "sha": "fab1b25be80f78c6e325e8c7f73b096dbc13498f",
+      "message": "feat: Update deployment workflow and enhance ABI handling for platform detection",
+      "date": "2026-10-04T21:41:02Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/fab1b25be80f78c6e325e8c7f73b096dbc13498f",
+      "tags": []
+    },
+    {
+      "sha": "06e85ea80a613b7d94011b82d478abb5c1d59bce",
+      "message": "feat: Refactor sharing functionality and improve web support",
+      "date": "2026-10-04T21:23:12Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/06e85ea80a613b7d94011b82d478abb5c1d59bce",
+      "tags": []
+    },
+    {
+      "sha": "7d799f0324482e9df9b4a7776698050d7bc239ba",
+      "message": "update",
+      "date": "2026-10-04T21:02:37Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/7d799f0324482e9df9b4a7776698050d7bc239ba",
+      "tags": []
+    },
+    {
+      "sha": "b28109836f42b1135e89b42c5d80bc2d3fd749cd",
+      "message": "feat: Enhance motion artwork functionality and improve settings UI\n\n- Added support for fetching artist motion videos in MotionArtworkService.\n- Updated _pushFullscreen to include a new motionIsArtist parameter for better handling of motion artwork.\n- Improved motion loading logic in _ItemDetailSheetState to differentiate between artists and other types.\n- Introduced SettingsStatusCard for better visual representation of feature statuses in settings pages.\n- Integrated SettingsStatusCard into Backup, Notifications, and Sync pages for consistent UI.\n- Enhanced taste comparison logic to provide a breakdown of compatibility scores by category.\n- Refactored compatibility badge into a more dynamic hero component with animations.",
+      "date": "2026-10-04T19:41:54Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/b28109836f42b1135e89b42c5d80bc2d3fd749cd",
+      "tags": []
+    },
+    {
+      "sha": "8839c544a3a16d4e3f909d0ca925a2b7b6194220",
+      "message": "feat: Enhance battery saver functionality and improve UI strings\n\n- Updated Chinese localization for battery saver FAQs and UI strings.\n- Added a new system toggle for battery saver mode in settings.\n- Refactored battery saver logic to include system battery saver detection.\n- Improved haptic feedback across various UI components for better user experience.\n- Cleaned up unused code related to spinning artwork in the now playing card.\n- Enhanced settings UI with clearer descriptions and improved layout.",
+      "date": "2026-10-04T19:18:07Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/8839c544a3a16d4e3f909d0ca925a2b7b6194220",
+      "tags": []
+    },
+    {
+      "sha": "4803527850db1805f3433d630fbef61033fd6a83",
+      "message": "Add French translations and implement Material 3 carousel for screenshot gallery\n\n- Created a new French translation file (fr.js) with complete translations for various UI strings and help content.\n- Added a Material 3 hero carousel (carousel.js) for the screenshot gallery, featuring mouse dragging, keyboard support, and size/opacity falloff effects.",
+      "date": "2026-10-01T19:20:02Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/4803527850db1805f3433d630fbef61033fd6a83",
+      "tags": []
+    },
+    {
+      "sha": "434427d1b48fb23205a1147582585c5c6b143284",
+      "message": "Merge branch 'master' of https://github.com/SanoBld/LastStats",
+      "date": "2026-10-01T17:17:16Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/434427d1b48fb23205a1147582585c5c6b143284",
+      "tags": []
+    },
+    {
+      "sha": "1b343fab209df2cb06270fe60e29b779200a8035",
+      "message": "feat: améliorer le style des éléments d'interface et mettre à jour les mentions légales pour clarifier la gestion des données",
+      "date": "2026-10-01T17:17:08Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/1b343fab209df2cb06270fe60e29b779200a8035",
+      "tags": []
+    },
+    {
+      "sha": "cbfbc8c32e9f8a7362ce8d0fd7ef30fda090cc2c",
+      "message": "chore: bump version to 3.6.0-beta [skip ci]",
+      "date": "2026-09-30T20:15:59Z",
+      "author": "github-actions[bot]",
+      "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/cbfbc8c32e9f8a7362ce8d0fd7ef30fda090cc2c",
+      "tags": []
+    },
+    {
+      "sha": "7dfd47933d691e363d49f282f74bccbef89b27b1",
+      "message": "feat: mise à jour du changelog pour refléter les nouvelles fonctionnalités et améliorations de l'interface utilisateur",
+      "date": "2026-09-30T20:14:52Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/7dfd47933d691e363d49f282f74bccbef89b27b1",
+      "tags": [
+        "v3.6.0-beta"
+      ]
+    },
+    {
+      "sha": "1961ab5bae8db0f0be82c7a1c34142e0dc2ecf00",
+      "message": "feat: ajouter le support de l'installation iOS et mettre à jour les instructions de téléchargement pour toutes les plateformes",
+      "date": "2026-09-30T20:08:55Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/1961ab5bae8db0f0be82c7a1c34142e0dc2ecf00",
+      "tags": []
+    },
+    {
+      "sha": "c732179a92ffc2b7f1ddd8b737427dcc43b0f17f",
+      "message": "feat: améliorer les workflows de construction pour macOS et Android avec des cibles spécifiques par architecture",
+      "date": "2026-09-30T19:59:56Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/c732179a92ffc2b7f1ddd8b737427dcc43b0f17f",
+      "tags": []
+    },
+    {
+      "sha": "e3bfcd72ce5fc7b355348cb122f0cf26cde1dac9",
+      "message": "feat: ajouter le support de la construction iOS et mettre à jour les workflows pour inclure toutes les plateformes",
+      "date": "2026-09-30T19:32:39Z",
+      "author": "SanoBld",
+      "avatar": "https://avatars.githubusercontent.com/u/117576435?v=4",
+      "url": "https://github.com/SanoBld/LastStats/commit/e3bfcd72ce5fc7b355348cb122f0cf26cde1dac9",
+      "tags": []
+    }
+  ]
+}
