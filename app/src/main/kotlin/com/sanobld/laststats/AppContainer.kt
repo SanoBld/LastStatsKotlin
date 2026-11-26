@@ -1,6 +1,7 @@
 package com.sanobld.laststats
 
 import android.app.Application
+import com.sanobld.laststats.core.AppState
 import com.sanobld.laststats.data.local.SettingsStore
 import kotlinx.coroutines.CoroutineScope
 
@@ -9,6 +10,7 @@ class AppContainer(
     val app: Application,
     val appScope: CoroutineScope,
     val settings: SettingsStore,
+    val state: AppState,
 ) {
     companion object {
         @Volatile
