@@ -14,7 +14,7 @@
   <a href="https://discord.gg/JjqmkQgZBs"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
-LastStats is a free app that shows what you really listen to. It reads your Last.fm history and turns it into stats, rankings, recaps and animated artist pages. It is a native Android app written in Kotlin with Jetpack Compose and Material 3 Expressive.
+LastStats is a free app that shows what you really listen to. It reads your Last.fm history and turns it into stats, rankings, recaps and animated artist pages. It is written in Kotlin with Compose Multiplatform and Material 3 Expressive: one code base for Android, Windows, macOS, Linux and iPhone.
 
 🌐 [Website](https://sanobld.github.io/LastStats/) · 💬 [Discord](https://discord.gg/JjqmkQgZBs)
 
@@ -36,12 +36,15 @@ Everything comes from the Last.fm API (and ListenBrainz when you pick it as a so
 
 ## Install
 
-Download the `.apk` from the [releases page](https://github.com/SanoBld/LastStats/releases):
+Download from the [releases page](https://github.com/SanoBld/LastStats/releases):
 
-- `app-arm64-v8a-release.apk` for most phones (2018 and later)
-- `app-armeabi-v7a-release.apk` for older 32-bit phones
-- `app-x86_64-release.apk` for emulators
-- `app-universal-release.apk` if you are not sure
+| Platform | File |
+|---|---|
+| Android (most phones) | `app-arm64-v8a-release.apk` (or `app-universal-release.apk` if unsure) |
+| Windows | `LastStats-Setup.exe` or `laststats-windows.zip` (ARM64: `-arm64`) |
+| macOS | `LastStats-macos-arm64.dmg` (Apple silicon) or `LastStats-macos-x64.dmg` (Intel) |
+| Linux | `LastStats.AppImage`, `laststats-linux.deb`, `laststats-linux.rpm` or `laststats-linux.zip` |
+| iPhone / iPad | `LastStats.ipa` (unsigned: install it with AltStore or Sideloadly) |
 
 If Android blocks the install, allow "Install unknown apps" for the app you opened the file with, then try again.
 
@@ -49,18 +52,19 @@ If Android blocks the install, allow "Install unknown apps" for the app you open
 
 ## Build from source
 
-You need JDK 17 and the Android SDK (API 35).
+You need JDK 17 or newer. Android also needs the Android SDK (API 35). iOS needs a Mac with Xcode and XcodeGen.
 
 ```powershell
 git clone https://github.com/SanoBld/LastStats.git
 cd LastStats
-.\gradlew.bat :app:assembleDebug
-.\gradlew.bat :app:installDebug          # on a connected device
+.\gradlew.bat :app:assembleDebug          # Android APK
+.\gradlew.bat :desktop:run                # desktop app on this computer
+.\gradlew.bat :desktop:createDistributable # portable desktop app for this OS
 ```
 
-Release APKs for every CPU type: `.\gradlew.bat :app:assembleRelease -PabiSplits=true`
+iPhone (on a Mac): `cd iosApp && xcodegen generate`, then open `iosApp.xcodeproj` in Xcode.
 
-The optional secret `LS_KEYS` (Gradle property or environment variable) holds the built-in backup Last.fm keys.
+Project layout: `shared/` (all the UI and logic, common code), `app/` (Android), `desktop/` (Windows, macOS, Linux), `iosApp/` (iPhone). Translations live in `app/src/main/res/values*/strings_l10n.xml`; run `python tools/gen_strings.py` after changing them.
 
 ---
 

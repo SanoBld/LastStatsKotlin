@@ -18,3 +18,12 @@ key.properties
 *.jks
 *.keystore
 !debug.keystore
+
+# Kotlin Multiplatform / Compose
+.kotlin/
+shared/build/
+desktop/build/
+iosApp/build/
+iosApp/*.xcodeproj/
+iosApp/Sources/Info.plist
+*.ipa

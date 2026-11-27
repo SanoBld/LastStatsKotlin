@@ -34,17 +34,44 @@
       "problemMatcher": []
     },
     {
-      "label": "Unit tests",
+      "label": "Clean",
       "type": "shell",
       "command": ".\\gradlew.bat",
       "args": [
-        ":app:testDebugUnitTest"
+        "clean"
       ],
-      "group": "test",
       "problemMatcher": []
     },
     {
-      "label": "Lint",
+      "label": "Run desktop app",
+      "type": "shell",
+      "command": ".\\gradlew.bat",
+      "args": [
+        ":desktop:run"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Package desktop installer (this OS)",
+      "type": "shell",
+      "command": ".\\gradlew.bat",
+      "args": [
+        ":desktop:createDistributable"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Unit tests (shared)",
+      "type": "shell",
+      "command": ".\\gradlew.bat",
+      "args": [
+        ":shared:desktopTest"
+      ],
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "Lint (Android)",
       "type": "shell",
       "command": ".\\gradlew.bat",
       "args": [
@@ -53,11 +80,11 @@
       "problemMatcher": []
     },
     {
-      "label": "Clean",
+      "label": "Generate string tables",
       "type": "shell",
-      "command": ".\\gradlew.bat",
+      "command": "python",
       "args": [
-        "clean"
+        "tools/gen_strings.py"
       ],
       "problemMatcher": []
     }

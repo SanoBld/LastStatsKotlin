@@ -8,11 +8,16 @@ on:
     branches: [ main, master ]
     paths:
       - 'app/**'
+      - 'shared/**'
+      - 'desktop/**'
+      - 'iosApp/**'
       - 'gradle/**'
       - '*.kts'
       - 'gradle.properties'
       - 'version.properties'
       - '.github/workflows/build-android.yml'
+      - '.github/workflows/build-desktop.yml'
+      - '.github/workflows/build-ios.yml'
   workflow_dispatch: {}
 
 # Cancel an in-progress run if a newer push arrives, saves CI minutes.
@@ -44,3 +49,16 @@ jobs:
     needs: check-skip
     if: needs.check-skip.outputs.skip != 'true'
     uses: ./.github/workflows/build-android.yml
+    secrets: inherit
+
+  desktop:
+    needs: check-skip
+    if: needs.check-skip.outputs.skip != 'true'
+    uses: ./.github/workflows/build-desktop.yml
+    secrets: inherit
+
+  ios:
+    needs: check-skip
+    if: needs.check-skip.outputs.skip != 'true'
+    uses: ./.github/workflows/build-ios.yml
+    secrets: inherit

@@ -134,12 +134,27 @@ jobs:
   android:
     needs: resolve
     uses: ./.github/workflows/build-android.yml
+    secrets: inherit
     with:
       version: ${{ needs.resolve.outputs.version }}
 
-  # Once the build is done, gather the APKs and publish the release.
+  desktop:
+    needs: resolve
+    uses: ./.github/workflows/build-desktop.yml
+    secrets: inherit
+    with:
+      version: ${{ needs.resolve.outputs.version }}
+
+  ios:
+    needs: resolve
+    uses: ./.github/workflows/build-ios.yml
+    secrets: inherit
+    with:
+      version: ${{ needs.resolve.outputs.version }}
+
+  # Once the builds are done, gather every file and publish the release.
   publish-release:
-    needs: [ resolve, android ]
+    needs: [ resolve, android, desktop, ios ]
     runs-on: ubuntu-latest
     permissions:
       contents: write

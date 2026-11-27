@@ -15,4 +15,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "LastStats"
+include(":shared")
 include(":app")
+include(":desktop")

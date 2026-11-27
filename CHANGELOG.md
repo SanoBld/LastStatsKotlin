@@ -33,7 +33,7 @@
 ## v5.0.0
 
 ### Highlights
-- LastStats is now a native Android app written in Kotlin with Jetpack Compose
+- LastStats is now written in Kotlin with Compose Multiplatform: native Android, Windows, macOS, Linux and iPhone apps from one code base
 - Material 3 Expressive design with light, dark and pure black (AMOLED) themes
 
 ## v4.6.0

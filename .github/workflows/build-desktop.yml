@@ -1,0 +1,197 @@
+name: Build Desktop
+
+# Reusable: called by build-all.yml / release.yml, also runnable manually.
+# Builds Windows, Linux and macOS (Intel and Apple silicon) with Compose Desktop.
+# Each platform is built on a runner of its own CPU type (the app bundles a JRE).
+# File names are what the in-app updater looks for, so don't rename them.
+on:
+  workflow_call:
+    inputs:
+      version:
+        description: 'Version to build (e.g. 5.0.0). Empty = dev build'
+        required: false
+        type: string
+        default: ''
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to build (e.g. 5.0.0). Empty = dev build'
+        required: false
+        type: string
+        default: ''
+
+jobs:
+  windows:
+    name: windows-${{ matrix.arch }}
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { arch: x64,   runner: windows-latest,  suffix: '' }
+          - { arch: arm64, runner: windows-11-arm,  suffix: '-arm64' }
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Install WiX (needed for the installer)
+        shell: pwsh
+        continue-on-error: true
+        run: choco install wixtoolset -y --no-progress
+
+      - name: Build
+        shell: bash
+        env:
+          IN_VERSION: ${{ inputs.version }}
+          LS_KEYS: ${{ secrets.LS_KEYS }}
+        run: |
+          VERSION="${IN_VERSION:-0.0.0-dev.${{ github.run_number }}}"
+          ./gradlew :desktop:createDistributable -PversionName="$VERSION" -PversionCode=${{ github.run_number }} --no-daemon --stacktrace
+
+      # The installer is optional: the portable zip is always produced.
+      - name: Build installer
+        shell: bash
+        continue-on-error: true
+        env:
+          IN_VERSION: ${{ inputs.version }}
+          LS_KEYS: ${{ secrets.LS_KEYS }}
+        run: |
+          VERSION="${IN_VERSION:-0.0.0-dev.${{ github.run_number }}}"
+          ./gradlew :desktop:packageExe -PversionName="$VERSION" -PversionCode=${{ github.run_number }} --no-daemon --stacktrace
+
+      - name: Collect files
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force dist | Out-Null
+          Compress-Archive -Path "desktop/build/compose/binaries/main/app/LastStats" -DestinationPath "dist/laststats-windows${{ matrix.suffix }}.zip"
+          $exe = Get-ChildItem "desktop/build/compose/binaries/main/exe/*.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
+          if ($exe) { Copy-Item $exe.FullName "dist/LastStats-Setup${{ matrix.suffix }}.exe" } else { Write-Host "No installer built" }
+          Get-ChildItem dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-windows-${{ matrix.arch }}
+          path: dist/*
+
+  linux:
+    name: linux-${{ matrix.arch }}
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { arch: x64,   runner: ubuntu-latest,    suffix: '',       appimage: x86_64 }
+          - { arch: arm64, runner: ubuntu-24.04-arm, suffix: '-arm64', appimage: aarch64 }
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Install packaging tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fakeroot rpm binutils desktop-file-utils
+
+      - name: Build
+        env:
+          IN_VERSION: ${{ inputs.version }}
+          LS_KEYS: ${{ secrets.LS_KEYS }}
+        run: |
+          chmod +x gradlew
+          VERSION="${IN_VERSION:-0.0.0-dev.${{ github.run_number }}}"
+          ./gradlew :desktop:createDistributable :desktop:packageDeb :desktop:packageRpm \
+            -PversionName="$VERSION" -PversionCode=${{ github.run_number }} --no-daemon --stacktrace
+
+      - name: Collect files
+        run: |
+          mkdir -p dist
+          SRC=desktop/build/compose/binaries/main
+          (cd "$SRC/app" && zip -qr "$GITHUB_WORKSPACE/dist/laststats-linux${{ matrix.suffix }}.zip" LastStats)
+          cp "$SRC"/deb/*.deb "dist/laststats-linux${{ matrix.suffix }}.deb"
+          cp "$SRC"/rpm/*.rpm "dist/laststats-linux${{ matrix.suffix }}.rpm"
+
+      # AppImage: wrap the bundled app (it already carries its own Java).
+      - name: Build AppImage
+        run: |
+          APPDIR=LastStats.AppDir
+          mkdir -p "$APPDIR/usr"
+          cp -r desktop/build/compose/binaries/main/app/LastStats/* "$APPDIR/usr/"
+          cp desktop/icons/icon.png "$APPDIR/laststats.png"
+          cat > "$APPDIR/laststats.desktop" <<'DESK'
+          [Desktop Entry]
+          Type=Application
+          Name=LastStats
+          Exec=LastStats
+          Icon=laststats
+          Categories=AudioVideo;Audio;
+          DESK
+          sed -i 's/^ *//' "$APPDIR/laststats.desktop"
+          cat > "$APPDIR/AppRun" <<'RUN'
+          #!/bin/sh
+          HERE="$(dirname "$(readlink -f "$0")")"
+          exec "$HERE/usr/bin/LastStats" "$@"
+          RUN
+          sed -i 's/^ *//' "$APPDIR/AppRun"
+          chmod +x "$APPDIR/AppRun"
+          curl -fsSL -o appimagetool "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-${{ matrix.appimage }}.AppImage"
+          chmod +x appimagetool
+          ARCH=${{ matrix.appimage }} ./appimagetool --appimage-extract-and-run "$APPDIR" "dist/LastStats${{ matrix.suffix }}.AppImage"
+          ls -la dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-linux-${{ matrix.arch }}
+          path: dist/*
+
+  macos:
+    name: macos-${{ matrix.arch }}
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { arch: arm64, runner: macos-latest }
+          - { arch: x64,   runner: macos-15-intel }
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Build
+        env:
+          IN_VERSION: ${{ inputs.version }}
+          LS_KEYS: ${{ secrets.LS_KEYS }}
+        run: |
+          chmod +x gradlew
+          VERSION="${IN_VERSION:-0.0.0-dev.${{ github.run_number }}}"
+          ./gradlew :desktop:createDistributable :desktop:packageDmg \
+            -PversionName="$VERSION" -PversionCode=${{ github.run_number }} --no-daemon --stacktrace
+
+      - name: Collect files
+        run: |
+          mkdir -p dist
+          SRC=desktop/build/compose/binaries/main
+          ditto -c -k --keepParent "$SRC/app/LastStats.app" "dist/laststats-macos-${{ matrix.arch }}.zip"
+          cp "$SRC"/dmg/*.dmg "dist/LastStats-macos-${{ matrix.arch }}.dmg"
+          ls -la dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-macos-${{ matrix.arch }}
+          path: dist/*
