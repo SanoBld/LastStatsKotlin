@@ -2,6 +2,7 @@ package com.sanobld.laststats.core
 
 import android.os.Build
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -47,6 +48,7 @@ actual fun platformSystemLocaleChoice(): String? {
 
 actual fun platformDeviceLanguage(): String? = Locale.getDefault().language
 
+@OptIn(ExperimentalTextApi::class)
 actual fun fontFromBytes(identity: String, data: ByteArray, weight: FontWeight, style: FontStyle): Font {
     val dir = File(AndroidPlatform.app.cacheDir, "fonts").apply { mkdirs() }
     val file = File(dir, identity.replace(Regex("[^A-Za-z0-9._-]"), "_"))

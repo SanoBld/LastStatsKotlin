@@ -41,7 +41,7 @@ Download from the [releases page](https://github.com/SanoBld/LastStats/releases)
 | Platform | File |
 |---|---|
 | Android (most phones) | `app-arm64-v8a-release.apk` (or `app-universal-release.apk` if unsure) |
-| Windows | `LastStats-Setup.exe` or `laststats-windows.zip` (ARM64: `-arm64`) |
+| Windows | `LastStats-Setup.exe` or `laststats-windows.zip` (x64) |
 | macOS | `LastStats-macos-arm64.dmg` (Apple silicon) or `LastStats-macos-x64.dmg` (Intel) |
 | Linux | `LastStats.AppImage`, `laststats-linux.deb`, `laststats-linux.rpm` or `laststats-linux.zip` |
 | iPhone / iPad | `LastStats.ipa` (unsigned: install it with AltStore or Sideloadly) |

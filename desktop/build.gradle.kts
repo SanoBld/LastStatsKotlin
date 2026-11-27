@@ -19,6 +19,11 @@ val packageVersionName: String = appVersionName.substringBefore('-').let { v ->
     if (Regex("\\d+\\.\\d+\\.\\d+").matches(v) && !v.startsWith("0.")) v else "1.0.0"
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
 kotlin {
     compilerOptions { jvmTarget.set(JvmTarget.JVM_17) }
 }

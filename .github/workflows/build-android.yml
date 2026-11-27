@@ -45,9 +45,22 @@ jobs:
           LS_KEYS: ${{ secrets.LS_KEYS }}
         run: |
           VERSION="${IN_VERSION:-0.0.0-dev.${{ github.run_number }}}"
+          set -o pipefail
           gradle :app:assembleRelease -PabiSplits=true \
             -PversionName="$VERSION" -PversionCode=${{ github.run_number }} \
-            --no-daemon --stacktrace
+            --no-daemon 2>&1 | tee build.log
+
+      # Short list of the real errors, shown on the run summary page.
+      - name: Show errors
+        if: failure()
+        shell: bash
+        run: |
+          {
+            echo '### Build errors'
+            echo '```'
+            grep -E '^e: |What went wrong' -A3 build.log | head -60
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Collect APKs
         shell: bash

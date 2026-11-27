@@ -4,7 +4,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Album
 import androidx.compose.material.icons.rounded.Bolt
 import androidx.compose.material.icons.rounded.Cake
-import androidx.compose.material.icons.rounded.CompareArrows
+import androidx.compose.material.icons.automirrored.rounded.CompareArrows
 import androidx.compose.material.icons.rounded.Headphones
 import androidx.compose.material.icons.rounded.LocalFireDepartment
 import androidx.compose.material.icons.rounded.MicExternalOn
@@ -202,13 +202,13 @@ val Achievements: List<AchievementDef> = listOf(
         AchievementDef("so8", AchvCategory.Social, 50, CardTier.Chrome, Icons.Rounded.PeopleAlt),
         AchievementDef("so9", AchvCategory.Social, 100, CardTier.Iridescent, Icons.Rounded.PeopleAlt),
         // Comparisons
-        AchievementDef("c1", AchvCategory.Comparisons, 1, CardTier.Bronze, Icons.Rounded.CompareArrows),
-        AchievementDef("c2", AchvCategory.Comparisons, 5, CardTier.Silver, Icons.Rounded.CompareArrows),
-        AchievementDef("c3", AchvCategory.Comparisons, 10, CardTier.Gold, Icons.Rounded.CompareArrows),
-        AchievementDef("c4", AchvCategory.Comparisons, 25, CardTier.Platinum, Icons.Rounded.CompareArrows),
-        AchievementDef("c5", AchvCategory.Comparisons, 50, CardTier.Emerald, Icons.Rounded.CompareArrows),
-        AchievementDef("c6", AchvCategory.Comparisons, 75, CardTier.Sapphire, Icons.Rounded.CompareArrows),
-        AchievementDef("c7", AchvCategory.Comparisons, 100, CardTier.Diamond, Icons.Rounded.CompareArrows),
-        AchievementDef("c8", AchvCategory.Comparisons, 200, CardTier.Chrome, Icons.Rounded.CompareArrows),
-        AchievementDef("c9", AchvCategory.Comparisons, 500, CardTier.Iridescent, Icons.Rounded.CompareArrows),
+        AchievementDef("c1", AchvCategory.Comparisons, 1, CardTier.Bronze, Icons.AutoMirrored.Rounded.CompareArrows),
+        AchievementDef("c2", AchvCategory.Comparisons, 5, CardTier.Silver, Icons.AutoMirrored.Rounded.CompareArrows),
+        AchievementDef("c3", AchvCategory.Comparisons, 10, CardTier.Gold, Icons.AutoMirrored.Rounded.CompareArrows),
+        AchievementDef("c4", AchvCategory.Comparisons, 25, CardTier.Platinum, Icons.AutoMirrored.Rounded.CompareArrows),
+        AchievementDef("c5", AchvCategory.Comparisons, 50, CardTier.Emerald, Icons.AutoMirrored.Rounded.CompareArrows),
+        AchievementDef("c6", AchvCategory.Comparisons, 75, CardTier.Sapphire, Icons.AutoMirrored.Rounded.CompareArrows),
+        AchievementDef("c7", AchvCategory.Comparisons, 100, CardTier.Diamond, Icons.AutoMirrored.Rounded.CompareArrows),
+        AchievementDef("c8", AchvCategory.Comparisons, 200, CardTier.Chrome, Icons.AutoMirrored.Rounded.CompareArrows),
+        AchievementDef("c9", AchvCategory.Comparisons, 500, CardTier.Iridescent, Icons.AutoMirrored.Rounded.CompareArrows),
     )

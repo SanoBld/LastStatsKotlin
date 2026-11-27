@@ -28,8 +28,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          # Windows ARM64 is not available in Compose Desktop 1.7 (no native library).
           - { arch: x64,   runner: windows-latest,  suffix: '' }
-          - { arch: arm64, runner: windows-11-arm,  suffix: '-arm64' }
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
