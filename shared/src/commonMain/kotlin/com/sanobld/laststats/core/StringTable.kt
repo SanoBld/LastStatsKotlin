@@ -1,6 +1,9 @@
+@file:OptIn(ExperimentalResourceApi::class)
+
 package com.sanobld.laststats.core
 
 import com.sanobld.laststats.resources.Res
+import org.jetbrains.compose.resources.ExperimentalResourceApi
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.json.JsonObject
 import kotlin.math.abs

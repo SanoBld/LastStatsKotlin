@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalResourceApi::class)
+
 package com.sanobld.laststats.ui.theme
 
 import androidx.compose.ui.text.font.FontFamily
@@ -5,6 +7,7 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import com.sanobld.laststats.core.fontFromBytes
 import com.sanobld.laststats.resources.Res
+import org.jetbrains.compose.resources.ExperimentalResourceApi
 import kotlinx.coroutines.runBlocking
 
 enum class FontGroup { System, Sans, Handwriting, Custom }
