@@ -100,6 +100,18 @@ kotlin {
     }
 }
 
+// The shared code lives in :shared. Ignore any old copy that is still in this module.
+// Android-only code goes in the "system" package.
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
+    exclude(
+        "**/com/sanobld/laststats/core/**",
+        "**/com/sanobld/laststats/data/**",
+        "**/com/sanobld/laststats/domain/**",
+        "**/com/sanobld/laststats/ui/**",
+        "**/com/sanobld/laststats/AppContainer.kt",
+    )
+}
+
 dependencies {
     implementation(project(":shared"))
 
