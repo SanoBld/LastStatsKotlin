@@ -58,7 +58,7 @@ data class Track(
                 rank = o.path("@attr", "rank").long().toInt(),
                 durationSeconds = seconds,
                 image = ImageSet.fromJson(o["image"]),
-                loved = o["loved"].bool(),
+                loved = o["loved"].bool() || o["userloved"].bool(),
                 nowPlaying = o.path("@attr", "nowplaying").bool(),
                 playedAt = o.path("date", "uts").long(),
                 playedAtText = o.path("date", "#text").text(),

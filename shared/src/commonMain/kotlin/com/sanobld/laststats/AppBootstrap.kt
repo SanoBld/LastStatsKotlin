@@ -7,6 +7,8 @@ import com.sanobld.laststats.core.createSettingsDataStore
 import com.sanobld.laststats.data.local.CustomFontStore
 import com.sanobld.laststats.data.local.Prefs
 import com.sanobld.laststats.data.local.SettingsStore
+import com.sanobld.laststats.data.remote.ApiUsage
+import com.sanobld.laststats.data.remote.InternalKeys
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -34,5 +36,7 @@ object AppBootstrap {
         }
         LocaleManager.init(settings.get(Prefs.locale))
         CustomFontStore.load(settings)
+        ApiUsage.load(settings)
+        InternalKeys.loadFallback(settings)
     }
 }

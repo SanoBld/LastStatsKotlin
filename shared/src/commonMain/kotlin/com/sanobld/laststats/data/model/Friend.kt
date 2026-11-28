@@ -17,6 +17,8 @@ data class Friend(
     val country: String = "",
     val playCount: Long = 0,
     val registeredAt: Long = 0,
+    /** Latest or currently playing track, when the list was asked with recent tracks. */
+    val recentTrack: Track? = null,
 ) {
     val displayName: String
         get() = realName.ifEmpty { name }
@@ -32,6 +34,7 @@ data class Friend(
                 country = o["country"].text(),
                 playCount = o["playcount"].long(),
                 registeredAt = o.path("registered", "unixtime").long(),
+                recentTrack = o["recenttrack"].asObject()?.let { Track.fromJson(it) },
             )
         }
 

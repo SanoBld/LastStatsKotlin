@@ -77,6 +77,7 @@ kotlin {
                 implementation(libs.kotlinx.serialization.json)
                 implementation(libs.androidx.datastore.preferences)
                 implementation(libs.okio)
+                implementation(libs.ktor.client.core)
             }
         }
         commonTest.dependencies {
@@ -86,10 +87,15 @@ kotlin {
             api(libs.androidx.appcompat)
             api(libs.androidx.core.ktx)
             api(libs.kotlinx.coroutines.android)
+            implementation(libs.ktor.client.okhttp)
+        }
+        iosMain.dependencies {
+            implementation(libs.ktor.client.darwin)
         }
         val desktopMain by getting {
             dependencies {
                 api(libs.kotlinx.coroutines.swing)
+                implementation(libs.ktor.client.okhttp)
             }
         }
     }
